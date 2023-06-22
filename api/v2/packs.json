@@ -2838,8 +2838,8 @@
         },
         "executables":{
             "windows":"YDKJV1.exe",
-            "mac":"",
-            "linux":""
+            "mac":"Quiplash.app/Contents/MacOS/Quiplash",
+            "linux":"Launcher.sh"
         },
         "configuration":{
 	        "version_origin":"game_file",
@@ -2903,8 +2903,8 @@
         },
         "executables":{
             "windows":"YDKJVS.exe",
-            "mac":"",
-            "linux":""
+            "mac":"Quiplash.app/Contents/MacOS/Quiplash",
+            "linux":"Launcher.sh"
         },
         "configuration":{
 	        "version_origin":"game_file",
@@ -2968,8 +2968,8 @@
         },
         "executables":{
             "windows":"YDKJV2.exe",
-            "mac":"",
-            "linux":""
+            "mac":"Quiplash.app/Contents/MacOS/Quiplash",
+            "linux":"Launcher.sh"
         },
         "configuration":{
 	        "version_origin":"game_file",
@@ -3033,8 +3033,8 @@
         },
         "executables":{
             "windows":"YDKJVM.exe",
-            "mac":"",
-            "linux":""
+            "mac":"Quiplash.app/Contents/MacOS/Quiplash",
+            "linux":"Launcher.sh"
         },
         "configuration":{
 	        "version_origin":"game_file",
@@ -3098,8 +3098,8 @@
         },
         "executables":{
             "windows":"YDKJVT.exe",
-            "mac":"",
-            "linux":""
+            "mac":"Quiplash.app/Contents/MacOS/Quiplash",
+            "linux":"Launcher.sh"
         },
         "configuration":{
 	        "version_origin":"game_file",
@@ -3163,8 +3163,8 @@
         },
         "executables":{
             "windows":"YDKJV3.exe",
-            "mac":"",
-            "linux":""
+            "mac":"Quiplash.app/Contents/MacOS/Quiplash",
+            "linux":"Launcher.sh"
         },
         "configuration":{
 	        "version_origin":"game_file",
@@ -3228,8 +3228,8 @@
         },
         "executables":{
             "windows":"YDKJVH.exe",
-            "mac":"",
-            "linux":""
+            "mac":"Quiplash.app/Contents/MacOS/Quiplash",
+            "linux":"Launcher.sh"
         },
         "configuration":{
 	        "version_origin":"game_file",
@@ -3293,8 +3293,8 @@
         },
         "executables":{
             "windows":"YDKJV4.exe",
-            "mac":"",
-            "linux":""
+            "mac":"Quiplash.app/Contents/MacOS/Quiplash",
+            "linux":"Launcher.sh"
         },
         "configuration":{
 	        "version_origin":"game_file",
@@ -3358,8 +3358,8 @@
         },
         "executables":{
             "windows":"YDKJ6.exe",
-            "mac":"",
-            "linux":""
+            "mac":"Quiplash.app/Contents/MacOS/Quiplash",
+            "linux":"Launcher.sh"
         },
         "configuration":{
 	        "version_origin":"game_file",

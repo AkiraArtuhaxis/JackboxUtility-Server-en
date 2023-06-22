@@ -721,7 +721,7 @@
                     "audience":true,
                     "audience_description":"The audience tries to guess who the faker is along with the players.",
                     "stream_friendly":"MIDLY_PLAYABLE",
-                    "stream_friendly_description":"Players need to be able to see each other for the game to work properly. Therefore, if the game is played through streaming, players must have cameras to play. For the \"YOU GOTTA POINT\" category, it's recommended that players write each other's names on different pieces of paper and show them to the camera when prompted to do so. Alternatively, they can write each other's names in the chat when prompted to do so. If there are no cameras, the game can be played in an alternative way mentioned in the description.",
+                    "stream_friendly_description":"Players need to be able to see each other for the game to work properly. Therefore, if the game is played through streaming, players must have cameras to play. For the \"YOU GOTTA POINT\" category, it's recommended that players write each other's names on different pieces of paper and show them to the camera when prompted to do so. Alternatively, they can write each other's names in the chat when prompted to do so.",
                     "moderation":"CENSORING",
                     "moderation_description":"With the \"Manual Censoring\" option enabled, the VIP can censor the player's responses once they appear on screen in the final round.",
                     "subtitles":false,

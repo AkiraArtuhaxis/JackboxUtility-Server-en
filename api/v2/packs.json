@@ -126,7 +126,7 @@
                     "subtitles":false,
                     "type":"VERSUS",
                     "translation":"ENGLISH",
-                    "tagline":"The “what-the-heck-did-you-draw” party game",
+                    "tagline":"Draw badly with style!",
                     "small_description":"The \"what-the-heck-did-you-draw\" party game",
                     "description":"The drawing game that takes all other drawing games and draws little mustaches on them. Can’t draw? No problem! It’s funnier that way!",
                     "images":[
@@ -1986,8 +1986,8 @@
                     "subtitles":true,
                     "type":"VERSUS",
                     "translation":"ENGLISH",
-                    "tagline":"¿Serás el mejor empleado?",
-                    "small_description":"¿Serás el mejor empleado?",
+                    "tagline":"Will you be employed?",
+                    "small_description":"Will you be employed?",
                     "description":"A comedy game where your jokes must be built of words from other players in a mixed up take on a job interview.",
                     "images":[
 			            "game_images/JobJob/jobjob_1.webp",
@@ -3303,7 +3303,7 @@
         "games":[
             {
                 "id":"youdontknowjackvol4",
-                "name":"You Don't Know Jack Vol. 4 The Ride",
+                "name":"You Don't Know Jack Vol. 4",
                 "background":"game_backgrounds/YouDontKnowJackVol4.webp",
                 "path":"",
                 "game_info":{
@@ -3367,7 +3367,7 @@
         "patchs": [
             {
                 "id": "ydkjvol6_fix",
-                "name": "You Don't Know Jack Vol. 6 The Lost Gold",
+                "name": "You Don't Know Jack Vol. 6",
                 "small_description": "Fixes the game not working in Windows 10/11.",
                 "description": "",
                 "patch_path":"https://github.com/AkiraArtuhaxis/YOU-DONT-KNOW-JACK-Vol-6-Fix/releases/latest/download/YDKJVol6Fix.zip",
@@ -3380,7 +3380,7 @@
                     {
                         "id": "ydkjvol6_fix_patch",
                         "linked_game": "youdontknowjackvol6",
-                        "name": "You Don't Know Jack Vol. 6 The Lost Gold",
+                        "name": "You Don't Know Jack Vol. 6",
                         "description": "",
                         "authors": "* Pseudohalogen (Patch)\n* Prismisho (Steam Guide)",
                         "small_description": "Fixes the game not working in Windows 10/11.",
@@ -3398,7 +3398,7 @@
         "games":[
             {
                 "id":"youdontknowjackvol6",
-                "name":"You Don't Know Jack Vol. 6 The Lost Gold",
+                "name":"You Don't Know Jack Vol. 6",
                 "background":"game_backgrounds/YouDontKnowJackVol6.webp",
                 "path":"",
                 "game_info":{

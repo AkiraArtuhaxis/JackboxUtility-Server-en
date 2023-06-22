@@ -2800,8 +2800,8 @@
                     "subtitles":true,
                     "type":"VERSUS",
                     "translation":"NATIVELY_TRANSLATED",
-                    "tagline":"Draw badly in style!",
-                    "small_description":"Draw badly in style!",
+                    "tagline":"Draw badly with style!",
+                    "small_description":"Draw badly with style!",
                     "description":"Drawful is back to liven up your next party with Drawful 2, which challenges players to draw silly things on their smartphones and tablets.",
                     "images":[
 						"game_images/Drawful2/drawful2_1.webp",
@@ -2848,7 +2848,7 @@
         "games":[
             {
                 "id":"youdontknowjackvol1",
-                "name":"YOU DON'T KNOW JACK Vol. 1 XL",
+                "name":"You Don't Know Jack Vol. 1 XL",
                 "background":"game_backgrounds/YouDontKnowJackVol1.webp",
                 "path":"",
                 "game_info":{
@@ -2913,7 +2913,7 @@
         "games":[
             {
                 "id":"youdontknowjacksports",
-                "name":"YOU DON'T KNOW JACK SPORTS",
+                "name":"You Don't Know Jack Sports",
                 "background":"game_backgrounds/YouDontKnowJackSports.webp",
                 "path":"",
                 "game_info":{
@@ -2978,7 +2978,7 @@
         "games":[
             {
                 "id":"youdontknowjackvol2",
-                "name":"YOU DON'T KNOW JACK Vol. 2",
+                "name":"You Don't Know Jack Vol. 2",
                 "background":"game_backgrounds/YouDontKnowJackVol2.webp",
                 "path":"",
                 "game_info":{
@@ -3043,7 +3043,7 @@
         "games":[
             {
                 "id":"youdontknowjackmovies",
-                "name":"YOU DON'T KNOW JACK MOVIES",
+                "name":"You Don't Know Jack Movies",
                 "background":"game_backgrounds/YouDontKnowJackMovies.webp",
                 "path":"",
                 "game_info":{
@@ -3108,7 +3108,7 @@
         "games":[
             {
                 "id":"youdontknowjacktelevision",
-                "name":"YOU DON'T KNOW JACK TELEVISION",
+                "name":"You Don't Know Jack Television",
                 "background":"game_backgrounds/YouDontKnowJackTelevision.webp",
                 "path":"",
                 "game_info":{
@@ -3173,7 +3173,7 @@
         "games":[
             {
                 "id":"youdontknowjackvol3",
-                "name":"YOU DON'T KNOW JACK Vol. 3",
+                "name":"You Don't Know Jack Vol. 3",
                 "background":"game_backgrounds/YouDontKnowJackVol3.webp",
                 "path":"",
                 "game_info":{
@@ -3238,7 +3238,7 @@
         "games":[
             {
                 "id":"youdontknowjackheadrush",
-                "name":"YOU DON'T KNOW JACK HEADRUSH",
+                "name":"You Don't Know Jack Headrush",
                 "background":"game_backgrounds/YouDontKnowJackHeadrush.webp",
                 "path":"",
                 "game_info":{
@@ -3303,7 +3303,7 @@
         "games":[
             {
                 "id":"youdontknowjackvol4",
-                "name":"YOU DON'T KNOW JACK Vol. 4 The Ride",
+                "name":"You Don't Know Jack Vol. 4 The Ride",
                 "background":"game_backgrounds/YouDontKnowJackVol4.webp",
                 "path":"",
                 "game_info":{
@@ -3367,7 +3367,7 @@
         "patchs": [
             {
                 "id": "ydkjvol6_fix",
-                "name": "YOU DON'T KNOW JACK VOL. 6 The Lost Gold",
+                "name": "You Don't Know Jack Vol. 6 The Lost Gold",
                 "small_description": "Fixes the game not working in Windows 10/11.",
                 "description": "",
                 "patch_path":"https://github.com/AkiraArtuhaxis/YOU-DONT-KNOW-JACK-Vol-6-Fix/releases/latest/download/YDKJVol6Fix.zip",
@@ -3380,7 +3380,7 @@
                     {
                         "id": "ydkjvol6_fix_patch",
                         "linked_game": "youdontknowjackvol6",
-                        "name": "YOU DON'T KNOW JACK VOL. 6 The Lost Gold",
+                        "name": "You Don't Know Jack Vol. 6 The Lost Gold",
                         "description": "",
                         "authors": "* Pseudohalogen (Patch)\n* Prismisho (Steam Guide)",
                         "small_description": "Fixes the game not working in Windows 10/11.",
@@ -3398,7 +3398,7 @@
         "games":[
             {
                 "id":"youdontknowjackvol6",
-                "name":"YOU DON'T KNOW JACK Vol. 6 The Lost Gold",
+                "name":"You Don't Know Jack Vol. 6 The Lost Gold",
                 "background":"game_backgrounds/YouDontKnowJackVol6.webp",
                 "path":"",
                 "game_info":{

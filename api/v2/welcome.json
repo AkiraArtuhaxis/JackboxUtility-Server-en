@@ -1,0 +1,12 @@
+{
+    "news":[
+        {
+            "id":"2023-02-22 19:02:14",
+            "title":"Jackbox Utility",
+            "smallDescription":"Welcome to Jackbox Utility!",
+            "content":"# This is the new version of Jackbox Utility!\n\nIn this new version, the English language is added to the application.\n\nEnjoy!",
+            "image":"news_images/banner.png"
+        }
+    ]
+
+}

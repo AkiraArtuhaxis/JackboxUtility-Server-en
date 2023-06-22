@@ -1,0 +1,3644 @@
+{
+    "tags":[
+       {
+            "id":"talking",
+            "name":"Discussion",
+            "icon":"action_center",
+            "description":"Games that require or benefit from out loud discussion between players."
+       },
+       {
+       	    "id":"drawing",
+            "name":"Drawing",
+            "icon":"edit",
+            "description":"You'll have to draw in these games."
+       },
+       {
+       	    "id":"writing",
+            "name":"Writing",
+            "icon":"text_align_top",
+            "description":"You'll have to write in these games."
+       },
+       {
+       	    "id":"deduction",
+            "name":"Strategy",
+            "icon":"comment_urgent",
+            "description":"You'll have to think well of your actions in these games."
+       },
+       {
+       	    "id":"knowledge",
+            "name":"Trivia",
+            "icon":"knowledge_management_app",
+            "description":"These are trivia games."
+       }
+    ],
+    "patchsCategories":[],
+    "packs":[
+    {
+        "id":"jpp1",
+        "name":"The Jackbox Party Pack",
+        "description":"Year of release: 2014",
+        "launchers_id":{
+            "steam":"331670",
+            "epic":"Feverfew"
+        },
+        "executables":{
+            "windows":"The Jackbox Party Pack.exe",
+            "mac":"The Jackbox Party Pack.app/Contents/MacOS/The Jackbox Party Pack",
+            "linux":"Launcher.sh"
+        },
+        "loader":{
+            "path":"loaders/tjpp1/default.zip",
+            "version":"1.0.0"
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"config.jet",
+            "version_property":"buildVersion"
+        },
+            "patchs":[],
+        "games":[
+            {
+                "id":"ydkj2015",
+                "name":"You Don't Know Jack 2015",
+                "background":"game_backgrounds/YDKJ2015.webp",
+                "path":"games/YDKJ2015",
+                "game_info":{
+                    "players":{
+                        "min":1,
+                        "max":4
+                    },
+                    "length":"15 - 20 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":20
+                    },
+                    "family_friendly":"NOT_FAMILY_FRIENDLY",
+                    "audience":false,
+                    "stream_friendly":"NOT_PLAYABLE",
+                    "stream_friendly_description":"In the final round, the first player to see the correct answer on-screen and press the button will win points. Because of this, the player who is streaming their screen will have an unfair advantage over the other players.",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"This game doesn't require moderation.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"The irreverent quiz show party game",
+                    "small_description":"The irreverent quiz show party game",
+                    "description":"The smart-ass trivia show that started it all! Hundreds of all-new twisted trivia questions and everyone’s favorite host, Cookie Masterson!",
+                    "images":[
+						"game_images/YDKJ2015/ydkj2015_1.webp",
+                        "game_images/YDKJ2015/ydkj2015_2.webp",
+                        "game_images/YDKJ2015/ydkj2015_3.webp",
+                        "game_images/YDKJ2015/ydkj2015_4.webp"
+                    ],
+                    "tags":[
+                    	"knowledge"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp1/ydkj2015.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"drawful",
+                "name":"Drawful",
+                "background":"game_backgrounds/Drawful.webp",
+                "path":"games/Drawful",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "length":"20 - 25 minutes",
+                    "playtime":{
+                        "min":20,
+                        "max":25
+                    },
+                    "family_friendly":"NOT_FAMILY_FRIENDLY",
+                    "audience":false,
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"NO_MODERATION",
+                    "moderation_description":"Players can submit text and drawings.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"The “what-the-heck-did-you-draw” party game",
+                    "small_description":"The \"what-the-heck-did-you-draw\" party game",
+                    "description":"The drawing game that takes all other drawing games and draws little mustaches on them. Can’t draw? No problem! It’s funnier that way!",
+                    "images":[
+						"game_images/Drawful/drawful_1.webp",
+                        "game_images/Drawful/drawful_2.webp"
+                    ],
+                    "tags":[
+                    	"drawing",
+                        "writing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp1/drawful.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"wordspud",
+                "name":"Word Spud",
+                "background":"game_backgrounds/WordSpud.webp",
+                "path":"games/WordSpud",
+                "game_info":{
+                    "players":{
+                        "min":2,
+                        "max":8
+                    },
+                    "length":"10 - 15 minutes",
+                    "playtime":{
+                        "min":10,
+                        "max":15
+                    },
+                    "family_friendly":"FAMILY_FRIENDLY",
+                    "audience":false,
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"NO_MODERATION",
+                    "moderation_description":"Players can submit text.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"PASS IT AROUND",
+                    "small_description":"PASS IT AROUND",
+                    "description":"Keep the words rolling all night! Just finish the word coming toward you, like “Mail___.” Mail enhancement, you say? You nailed it.",
+                    "images":[
+						"game_images/WordSpud/wordspud_1.webp",
+                        "game_images/WordSpud/wordspud_2.webp"
+                    ],
+                    "tags":[
+                    	"writing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp1/wordspud.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"lieswatter",
+                "name":"Lie Swatter",
+                "background":"game_backgrounds/LieSwatter.webp",
+                "path":"games/LieSwatter",
+                "game_info":{
+                    "players":{
+                        "min":1,
+                        "max":100
+                    },
+                    "length":"10 - 15 minutes",
+                    "playtime":{
+                        "min":10,
+                        "max":15
+                    },
+                    "family_friendly":"NOT_FAMILY_FRIENDLY",
+                    "audience":false,
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"This game doesn't require moderation.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"Is it true or false?",
+                    "small_description":"Is it true or false?",
+                    "description":"Do lobsters pee out of their heads? Did Japan vote the instant noodle the top invention of the 20th century? Or are you calling BS?\nNOTE: Opening this game with the Utility will open the Party Pack menu, skipping the introduction. This is intentional, as the game freezes when trying to open it more efficiently like other games.",
+                    "images":[
+						"game_images/LieSwatter/lieswatter_1.webp",
+                        "game_images/LieSwatter/lieswatter_2.webp"
+                    ],
+                    "tags":[
+                    	"knowledge"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp1/lieswatter.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"fibbagexl",
+                "name":"Fibbage XL",
+                "background":"game_backgrounds/FibbageXL.webp",
+                "path":"games/FibbageXL",
+                "game_info":{
+                    "players":{
+                        "min":2,
+                        "max":8
+                    },
+                    "length":"15 - 20 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":20
+                    },
+                    "family_friendly":"NOT_FAMILY_FRIENDLY",
+                    "audience":false,
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"NO_MODERATION",
+                    "moderation_description":"Players can submit text.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"The hilarious bluffing party game",
+                    "small_description":"The hilarious bluffing party game",
+                    "description":"Fool your friends with your lies, avoid theirs, and find the (usually outrageous) truth. “The mayor of Rabbit Hash, Kentucky is a ____.” Go!",
+                    "images":[
+						"game_images/FibbageXL/fibbagexl_1.webp",
+                        "game_images/FibbageXL/fibbagexl_2.webp",
+                        "game_images/FibbageXL/fibbagexl_3.webp"
+                    ],
+                    "tags":[
+                    	"writing","knowledge"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp1/fibbagexl.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"jpp1.ico",
+        "background":"backgrounds/jpp1.jpg"
+    },
+    {
+        "id":"jpp2",
+        "name":"The Jackbox Party Pack 2",
+        "description":"Year of release: 2015",
+        "launchers_id":{
+            "steam":"397460",
+            "epic":"Lilac"
+        },
+        "executables":{
+            "windows":"The Jackbox Party Pack 2.exe",
+            "mac":"The Jackbox Party Pack 2.app/Contents/MacOS/The Jackbox Party Pack 2",
+            "linux":"Launcher.sh"
+        },
+        "loader":{
+            "path":"loaders/tjpp2/default.zip",
+            "version":"1.0.0"
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"config.jet",
+            "version_property":"buildVersion"
+        },
+            "patchs":[],
+        "games":[
+            {
+                "id":"fibbage2",
+                "name":"Fibbage 2",
+                "background":"game_backgrounds/Fibbage2.webp",
+                "path":"games/Fibbage2",
+                "game_info":{
+                    "players":{
+                        "min":2,
+                        "max":8
+                    },
+                    "length":"15 - 20 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":20
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience tries to guess the truth, without giving points to the players in case of choosing their lies, and gives likes to their favorite lies. If they guess all the truths, at the end of the game they'll receive an additional crazy fact.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"NO_MODERATION",
+                    "moderation_description":"Players can submit text.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"The hilarious bluffing party game",
+                    "small_description":"The hilarious bluffing party game",
+                    "description":"More Fibbage! Lie to your friends, avoid their lies, and spot the truth. “In Arizona, you must obtain a permit to feed ______ to pigs.” Go!",
+                    "images":[
+						"game_images/Fibbage2/fibbage2_1.webp",
+                        "game_images/Fibbage2/fibbage2_2.webp",
+                        "game_images/Fibbage2/fibbage2_3.webp",
+                        "game_images/Fibbage2/fibbage2_4.webp"
+                    ],
+                    "tags":[
+                    	"writing",
+                    	"knowledge"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp2/fibbage2.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"earwax",
+                "name":"Earwax",
+                "background":"game_backgrounds/Earwax.webp",
+                "path":"games/Earwax",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "length":"15 - 25 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":25
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience can give likes to their favorite responses.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"Since players can only input sounds provided by the game, this game doesn't require moderation. However, you cannot control the sound combinations that players submit.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"The game of sound strategy",
+                    "small_description":"The game of sound strategy",
+                    "description":"Cow moo? Huge explosion? Or tiny fart? Which to choose? It's the sound effects game that will leave you up to your ears in laughter!",
+                    "images":[
+						"game_images/Earwax/earwax_1.webp",
+                        "game_images/Earwax/earwax_2.webp",
+                        "game_images/Earwax/earwax_3.webp",
+                        "game_images/Earwax/earwax_4.webp"
+                    ],
+                    "tags":[
+                    
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp2/earwax.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"bidiots",
+                "name":"Bidiots",
+                "background":"game_backgrounds/Bidiots.webp",
+                "path":"games/Bidiots",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":6
+                    },
+                    "length":"20 - 25 minutes",
+                    "playtime":{
+                        "min":20,
+                        "max":25
+                    },
+                    "family_friendly":"FAMILY_FRIENDLY",
+                    "audience":false,
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"NO_MODERATION",
+                    "moderation_description":"Players can submit drawings.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"Time to bid",
+                    "small_description":"Time to bid",
+                    "description":"Outbid your opponents for absurd art – drawn by players themselves – and win this strangely competitive auction game! Don’t be a bidiot!",
+                    "images":[
+						"game_images/Bidiots/bidiots_1.webp",
+                        "game_images/Bidiots/bidiots_2.webp",
+                        "game_images/Bidiots/bidiots_3.webp",
+                        "game_images/Bidiots/bidiots_4.webp"
+                    ],
+                    "tags":[
+                    	"drawing",
+                    	"deduction"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp2/bidiots.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"quiplashxl",
+                "name":"Quiplash XL",
+                "background":"game_backgrounds/QuiplashXL.webp",
+                "path":"games/QuiplashXL",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "length":"15 - 20 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":20
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience can vote for their favorite answers.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"NO_MODERATION",
+                    "moderation_description":"Players can submit text.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"The Say-Anything Party Game",
+                    "small_description":"The Say-Anything Party Game",
+                    "description":"The laugh-a-minute battle of wits and wittiness in its HUGEST form! Come up with “the best name to give an ugly baby” and win!",
+                    "images":[
+						"game_images/QuiplashXL/quiplashxl_1.webp",
+                        "game_images/QuiplashXL/quiplashxl_2.webp",
+                        "game_images/QuiplashXL/quiplashxl_3.webp",
+                        "game_images/QuiplashXL/quiplashxl_4.webp"
+                    ],
+                    "tags":[
+                    	"writing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp2/quiplashxl.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },            {
+                "id":"bombcorp",
+                "name":"Bomb Corp.",
+                "game_info":{
+                    "players":{
+                        "min":1,
+                        "max":4
+                    },
+                    "length":"5 - 10 minutes",
+                    "playtime":{
+                        "min":5,
+                        "max":10
+                    },
+                    "family_friendly":"FAMILY_FRIENDLY",
+                    "audience":false,
+                    "stream_friendly":"MIDLY_PLAYABLE",
+                    "stream_friendly_description":"It's recommended for players to communicate out loud with each other to mention the rules and know which wires to cut.",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"This game doesn't require moderation.",
+                    "subtitles":false,
+                    "type":"COOP",
+                    "translation":"ENGLISH",
+                    "tagline":"This job blows",
+                    "small_description":"This job blows",
+                    "description":"Welcome to Bomb Corp. Interns of your kind must help defuse bombs in our office. It’s a weird office full of bombs. Just hit start.",
+                    "images":[
+                        "game_images/BombCorp/bombcorp_1.webp",
+                        "game_images/BombCorp/bombcorp_2.webp",
+                        "game_images/BombCorp/bombcorp_3.webp",
+                        "game_images/BombCorp/bombcorp_4.webp"
+                    ],
+                    "tags":[
+                        "talking"
+                    ]
+
+                },
+                "background":"game_backgrounds/BombCorp.webp",
+                "path":"games/BombInterns",
+                "loader":{
+                    "path":"loaders/tjpp2/bombcorp.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+                
+            }
+        ],
+        "icon":"jpp2.ico",
+        "background":"backgrounds/jpp2.jpg"
+    },
+    {
+        "id":"jpp3",
+        "name":"The Jackbox Party Pack 3",
+        "description":"Year of release: 2016",
+        "launchers_id":{
+            "steam":"434170",
+            "epic":"Orchid"
+        },
+        "executables":{
+            "windows":"The Jackbox Party Pack 3.exe",
+            "mac":"The Jackbox Party Pack 3.app/Contents/MacOS/The Jackbox Party Pack 3",
+            "linux":"Launcher.sh"
+        },
+        "loader":{
+            "path":"loaders/tjpp3/default.zip",
+            "version":"1.0.0"
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"config.jet",
+            "version_property":"buildVersion"
+        },
+            "patchs":[],
+        "games":[
+            {
+                "id":"quiplash2",
+                "name":"Quiplash 2",
+                "background":"game_backgrounds/Quiplash2.webp",
+                "path":"games/Quiplash2",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "length":"15 - 20 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":20
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience can vote for their favorite answers. In addition, they can submit responses that are displayed on-screen with the \"Audience Play-Along\" option turned on.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"CENSORING",
+                    "moderation_description":"With the \"Manual Censoring\" option enabled, the VIP can censor responses from players and the audience once they appear on-screen. If necessary, it's recommended to disable the \"Audience Play-Along\" option so that only players can submit text.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"The Say-Anything Party Game",
+                    "small_description":"The Say-Anything Party Game",
+                    "description":"The say-anything party game returns. Come up with \"a bad substitute for dental floss\" and win! Tired of our weird prompts? Try the new Make Your Own mode!",
+                    "images":[
+						"game_images/Quiplash2/quiplash2_1.webp",
+                        "game_images/Quiplash2/quiplash2_2.webp",
+                        "game_images/Quiplash2/quiplash2_3.webp",
+                        "game_images/Quiplash2/quiplash2_4.webp"
+                    ],
+                    "tags":[
+                    	"writing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp3/quiplash2.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"triviamurderparty",
+                "name":"Trivia Murder Party",
+                "background":"game_backgrounds/TriviaMurderParty.webp",
+                "path":"games/TriviaMurderParty",
+                "game_info":{
+                    "players":{
+                        "min":1,
+                        "max":8
+                    },
+                    "length":"15 - 20 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":20
+                    },
+                    "family_friendly":"NOT_FAMILY_FRIENDLY",
+                    "audience":true,
+                    "audience_description":"The audience can answer questions along with the players. If at the end of the game they have a higher score than the best player, they survive.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"CENSORING",
+                    "moderation_description":"If necessary, it's recommended to enable the \"No Writing and Drawing Mode\" option so that players cannot submit text or drawings.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"Will you survive this trivia?",
+                    "small_description":"Will you survive this trivia?",
+                    "description":"Be the last to survive a serial killer's absurd trivia game show. But it's fun!",
+                    "images":[
+						"game_images/TriviaMurderParty/triviamurderparty_1.webp",
+                        "game_images/TriviaMurderParty/triviamurderparty_2.webp",
+                        "game_images/TriviaMurderParty/triviamurderparty_3.webp",
+                        "game_images/TriviaMurderParty/triviamurderparty_4.webp"
+                    ],
+                    "tags":[
+                    	"knowledge"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp3/triviamurderparty.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"guesspionage",
+                "name":"Guesspionage",
+                "background":"game_backgrounds/Guesspionage.webp",
+                "path":"games/Guesspionage",
+                "game_info":{
+                    "players":{
+                        "min":2,
+                        "max":8
+                    },
+                    "length":"10 - 15 minutes",
+                    "playtime":{
+                        "min":10,
+                        "max":15
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience answers the given questions and the percentages of these answers are used in the game instead of the global ones provided by the game.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"This game doesn't require moderation.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"Data mining mayhem!",
+                    "small_description":"Data mining mayhem!",
+                    "description":"What percentage of people have buried something in the woods? Ridden in the back of a cop car? Have a crush on someone they work with? Guess right and win!",
+                    "images":[
+						"game_images/Guesspionage/guesspionage_1.webp",
+                        "game_images/Guesspionage/guesspionage_2.webp",
+                        "game_images/Guesspionage/guesspionage_3.webp",
+                        "game_images/Guesspionage/guesspionage_4.webp"
+                    ],
+                    "tags":[
+                    	"knowledge"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp3/guesspionage.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"fakinit",
+                "name":"Fakin' It!",
+                "background":"game_backgrounds/FakinIt.webp",
+                "path":"games/FakinIt",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":6
+                    },
+                    "length":"15 - 20 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":20
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience tries to guess who the faker is along with the players.",
+                    "stream_friendly":"MIDLY_PLAYABLE",
+                    "stream_friendly_description":"Players need to be able to see each other for the game to work properly. Therefore, if the game is played through streaming, players must have cameras to play. For the \"YOU GOTTA POINT\" category, it's recommended that players write each other's names on different pieces of paper and show them to the camera when prompted to do so. Alternatively, they can write each other's names in the chat when prompted to do so. If there are no cameras, the game can be played in an alternative way mentioned in the description.",
+                    "moderation":"CENSORING",
+                    "moderation_description":"With the \"Manual Censoring\" option enabled, the VIP can censor the player's responses once they appear on screen in the final round.",
+                    "subtitles":false,
+                    "type":"COOP",
+                    "translation":"ENGLISH",
+                    "tagline":"Catch the Sneaky Trickster!",
+                    "small_description":"Catch the Sneaky Trickster!",
+                    "description":"Everyone gives an answer, but not everyone knows the question. One of your friends has something to hide. Find the faker before it’s too late!",
+                    "images":[
+						"game_images/FakinIt/fakinit_1.webp",
+                        "game_images/FakinIt/fakinit_2.webp",
+                        "game_images/FakinIt/fakinit_3.webp",
+                        "game_images/FakinIt/fakinit_4.webp"
+                    ],
+                    "tags":[
+                    	"deduction",
+                    	"talking"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp3/fakinit.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"teeko",
+                "name":"Tee K.O.",
+                "background":"game_backgrounds/TeeKO.webp",
+                "path":"games/TeeKO",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "length":"20 - 25 minutes",
+                    "playtime":{
+                        "min":20,
+                        "max":25
+                    },
+                    "family_friendly":"FAMILY_FRIENDLY",
+                    "audience":true,
+                    "audience_description":"The audience can vote for their favorite shirts. In addition, they can submit writing and drawing suggestions that are displayed on the screen with the \"Audience Suggestions\" option turned on.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"CENSORING",
+                    "moderation_description":"With the \"Manual Censoring\" option enabled, the VIP can censor responses from players and the audience once they appear on-screen. If necessary, it's recommended to disable the \"Audience Suggestions\" option so that only players can send text.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"T-Shirt Knock Out",
+                    "small_description":"T-Shirt Knock Out",
+                    "description":"Draw pictures, write slogans, then swap them around to create your own custom t-shirt warriors. Only the most worthy novelty t-shirt will leave the tournament alive.",
+                    "images":[
+						"game_images/TeeKO/teeko_1.webp",
+                        "game_images/TeeKO/teeko_2.webp",
+                        "game_images/TeeKO/teeko_3.webp",
+                        "game_images/TeeKO/teeko_4.webp"
+                    ],
+                    "tags":[
+                    	"drawing",
+                    	"writing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp3/teeko.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"jpp3.ico",
+        "background":"backgrounds/jpp3.jpg"
+    },
+    {
+        "id":"jpp4",
+        "name":"The Jackbox Party Pack 4",
+        "description":"Year of release: 2017",
+        "launchers_id":{
+            "steam":"610180",
+            "epic":"Snowdrop"
+        },
+        "executables":{
+            "windows":"The Jackbox Party Pack 4.exe",
+            "mac":"The Jackbox Party Pack 4.app/Contents/MacOS/The Jackbox Party Pack 4",
+            "linux":"Launcher.sh"
+        },
+        "loader":{
+            "path":"loaders/tjpp4/default.zip",
+            "version":"1.0.0"
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"config.jet",
+            "version_property":"buildVersion"
+        },
+            "patchs":[],
+        "games":[
+            {
+                "id":"fibbage3",
+                "name":"Fibbage 3",
+                "background":"game_backgrounds/Fibbage3.webp",
+                "path":"games/Fibbage3",
+                "game_info":{
+                    "players":{
+                        "min":2,
+                        "max":8
+                    },
+                    "length":"15 - 20 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":20
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience can vote for a lie to appear on-screen along with the others. Then, they try to guess the truth, giving players points for choosing their lies, and giving likes to their favorite lies.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"CENSORING",
+                    "moderation_description":"With the \"Manual Censoring\" option enabled, the VIP can censor responses from players once they appear on-screen.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"The hilarious bluffing party game",
+                    "small_description":"The hilarious bluffing party game",
+                    "description":"Fib your way through all-new question types and the all-newer game mode Fibbage: Enough About You. Guess the weird facts about your fellow players!",
+                    "images":[
+			            "game_images/Fibbage3/fibbage3_1.webp",
+                        "game_images/Fibbage3/fibbage3_2.webp",
+                        "game_images/Fibbage3/fibbage3_3.webp",
+                        "game_images/Fibbage3/fibbage3_4.webp"
+                    ],
+                    "tags":[
+                    	"writing",
+                        "knowledge"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp4/fibbage3.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"survivetheinternet",
+                "name":"Survive the Internet",
+                "background":"game_backgrounds/SurviveTheInternet.webp",
+                "path":"games/SurviveTheInternet",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "length":"20 - 25 minutes",
+                    "playtime":{
+                        "min":20,
+                        "max":25
+                    },
+                    "family_friendly":"FAMILY_FRIENDLY",
+                    "audience":true,
+                    "audience_description":"The audience can vote for their favorite answers.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"CENSORING",
+                    "moderation_description":"With the \"Manual Censoring\" option enabled, the VIP can censor responses from players once they appear on-screen.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"Sign in for hours of play",
+                    "small_description":"Sign in for hours of play",
+                    "description":"Log on and strap in! It’s survival of the funniest as you playfully take your friends out of context across the World Wide Web.",
+                    "images":[
+			            "game_images/SurviveTheInternet/survivetheinternet_1.webp",
+                        "game_images/SurviveTheInternet/survivetheinternet_2.webp",
+                        "game_images/SurviveTheInternet/survivetheinternet_3.webp",
+                        "game_images/SurviveTheInternet/survivetheinternet_4.webp"
+                    ],
+                    "tags":[
+                        "writing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp4/survivetheinternet.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"monsterseekingmonster",
+                "name":"Monster Seeking Monster",
+                "background":"game_backgrounds/MonsterSeekingMonster.webp",
+                "path":"games/MonsterMingle",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":7
+                    },
+                    "length":"20 - 25 minutes",
+                    "playtime":{
+                        "min":20,
+                        "max":25
+                    },
+                    "family_friendly":"NOT_FAMILY_FRIENDLY",
+                    "audience":true,
+                    "audience_description":"El público controla a un jugador y puede salir con los demás jugadores. Para ello, puede votar entre varias respuestas predeterminadas que se envían a todos los jugadores. Debido a cómo funciona, solo en este juego la opción de público está deshabilitada por defecto. Recordar activarla en los Ajustes.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"CENSORING",
+                    "moderation_description":"If necessary, it's recommended to activate the \"Hide messages on screen\" option. You can't control what players send to each other.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"Even monsters can love",
+                    "small_description":"Even monsters can love",
+                    "description":"A dating-themed game where you send funny messages and try to hide your secret monster powers. Just like real dating!",
+                    "images":[
+			            "game_images/MonsterSeekingMonster/monsterseekingmonster_1.webp",
+                        "game_images/MonsterSeekingMonster/monsterseekingmonster_2.webp",
+                        "game_images/MonsterSeekingMonster/monsterseekingmonster_3.webp",
+                        "game_images/MonsterSeekingMonster/monsterseekingmonster_4.webp"
+                    ],
+                    "tags":[
+                        "writing",
+                        "deduction"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp4/monsterseekingmonster.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"bracketeering",
+                "name":"Bracketeering",
+                "background":"game_backgrounds/Bracketeering.webp",
+                "path":"games/Bracketeering",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":16
+                    },
+                    "length":"20 - 25 minutes",
+                    "playtime":{
+                        "min":20,
+                        "max":25
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience can vote for their favorite answers.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"CENSORING",
+                    "moderation_description":"With the \"Manual Censoring\" option enabled, the VIP can censor responses from players once they appear on-screen.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"Bet for the best",
+                    "small_description":"Bet for the best",
+                    "description":"The deranged debate tournament! “What’s the best vegetable for Benedict Cumberbatch to voice in a movie?” Place smart bets on what will win stupid arguments.",
+                    "images":[
+			            "game_images/Bracketeering/bracketeering_1.webp",
+                        "game_images/Bracketeering/bracketeering_2.webp",
+                        "game_images/Bracketeering/bracketeering_3.webp",
+                        "game_images/Bracketeering/bracketeering_4.webp"
+                    ],
+                    "tags":[
+                        "writing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp4/bracketeering.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"civicdoodle",
+                "name":"Civic Doodle",
+                "background":"game_backgrounds/CivicDoodle.webp",
+                "path":"games/CivicDoodle",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "length":"20 - 25 minutes",
+                    "playtime":{
+                        "min":20,
+                        "max":25
+                    },
+                    "family_friendly":"FAMILY_FRIENDLY",
+                    "audience":true,
+                    "audience_description":"The audience can vote for their favorite answers. They can also react to the drawings as the players draw.",
+                    "stream_friendly":"PLAYABLE",
+                    "stream_friendly_description":"The game works perfectly on streams. However, in the \"Password\" minigame, it's recommended for players to be able to hear each other to share their clues. In addition, the \"Dictation\" minigame requires the streamm to have sound in order to hear the dictation.",
+                    "moderation":"CENSORING",
+                    "moderation_description":"With the \"Manual Censoring\" option enabled, the VIP can censor responses from players once they appear on-screen.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"Combine your designs",
+                    "small_description":"Combine your designs",
+                    "description":"You’ve been hired to create murals all over Doodle Valley. Compete to see who can make the best additions in your attempt to “beautify” the city.",
+                    "images":[
+			            "game_images/CivicDoodle/civicdoodle_1.webp",
+                        "game_images/CivicDoodle/civicdoodle_2.webp",
+                        "game_images/CivicDoodle/civicdoodle_3.webp",
+                        "game_images/CivicDoodle/civicdoodle_4.webp"
+                    ],
+                    "tags":[
+                    	"drawing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp4/civicdoodle.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"jpp4.ico",
+        "background":"backgrounds/jpp4.jpg"
+    },
+    {
+        "id":"jpp5",
+        "name":"The Jackbox Party Pack 5",
+        "description":"Year of release: 2018",
+        "launchers_id":{
+            "steam":"774461",
+            "epic":"Geranium"
+        },
+        "executables":{
+            "windows":"The Jackbox Party Pack 5.exe",
+            "mac":"The Jackbox Party Pack 5.app/Contents/MacOS/The Jackbox Party Pack 5",
+            "linux":"Launcher.sh"
+        },
+        "loader":{
+            "path":"loaders/tjpp5/default.zip",
+            "version":"1.0.0"
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"config.jet",
+            "version_property":"buildVersion"
+        },
+            "patchs":[],
+        "games":[
+        	{
+                "id":"ydkj_fullstream",
+                "name":"You Don't Know Jack: Full Stream",
+                "background":"game_backgrounds/YDKJFullStream.webp",
+                "path":"games/YDKJ2018",
+                "game_info":{
+                    "players":{
+                        "min":1,
+                        "max":8
+                    },
+                    "length":"15 - 20 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":20
+                    },
+                    "family_friendly":"NOT_FAMILY_FRIENDLY",
+                    "audience":true,
+                    "audience_description":"The audience answers the questions along with the players. The number of points that players win or lose is based on the percentage of the audience that gets the questions right. If many in the audience guess correctly, players will earn fewer points and lose more. If they answer incorrectly, they will earn more points and lose fewer points.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"CENSORING",
+                    "moderation_description":"If necessary, it's recommended to enable the \"Hide Gibberish Responses\" option.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"The irreverent trivia is back",
+                    "small_description":"The irreverent trivia is back",
+                    "description":"YOU DON’T KNOW JACK: Full Stream brings the classic irreverent trivia phenomenon to the wildly popular and totally fictional streaming service Binjpipe! Their terms of service explicitly states you’ll love it!",
+                    "images":[
+						"game_images/YDKJFullStream/ydkjfullstream_1.webp",
+                        "game_images/YDKJFullStream/ydkjfullstream_2.webp",
+                        "game_images/YDKJFullStream/ydkjfullstream_3.webp",
+                        "game_images/YDKJFullStream/ydkjfullstream_4.webp"
+                    ],
+                    "tags":[
+                        "knowledge"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp5/ydkjfullstream.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"splittheroom",
+                "name":"Split the Room",
+                "background":"game_backgrounds/SplitTheRoom.webp",
+                "path":"games/SplitTheRoom",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "length":"15 - 20 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":20
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience controls a player. They answer prompts and vote just like the players. To answer, they can vote among several predetermined answers so that one appears on-screen.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"CENSORING",
+                    "moderation_description":"With the \"Manual Censoring\" option enabled, the VIP can censor responses from players once they appear on-screen.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"Create your best dilemmas",
+                    "small_description":"Create your best dilemmas",
+                    "description":"The what-if game where anything is possible! Create strange and divisive hypothetical situations.",
+                    "images":[
+			            "game_images/SplitTheRoom/splittheroom_1.webp",
+                        "game_images/SplitTheRoom/splittheroom_2.webp",
+                        "game_images/SplitTheRoom/splittheroom_3.webp",
+                        "game_images/SplitTheRoom/splittheroom_4.webp"
+                    ],
+                    "tags":[
+                        "writing",
+                        "deduction"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp5/splittheroom.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"mad_verse_city",
+                "name":"Mad Verse City",
+                "background":"game_backgrounds/MadVerseCity.webp",
+                "path":"games/RapBattle",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "length":"20 - 25 minutes",
+                    "playtime":{
+                        "min":20,
+                        "max":25
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience can vote for their favorite answers and cheer during the raps. Also, they can interact with the gags that happen while the players type.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"CENSORING",
+                    "moderation_description":"With the \"Manual Censoring\" option enabled, the VIP can censor responses from players once they appear on-screen.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"Robotic rapping fun!",
+                    "small_description":"Robotic rapping fun!",
+                    "description":"The robot rap battle game! Spit mad rhymes against your friends to see who’s the dopest MC and who’s the wackest cat.",
+                    "images":[
+						"game_images/MadVerseCity/madversecity_1.webp",
+                        "game_images/MadVerseCity/madversecity_2.webp",
+                        "game_images/MadVerseCity/madversecity_3.webp",
+                        "game_images/MadVerseCity/madversecity_4.webp"
+                    ],
+                    "tags":[
+                        "writing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp5/madversecity.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"zeeple_dome",
+                "name":"Zeeple Dome",
+                "background":"game_backgrounds/ZeepleDome.webp",
+                "path":"games/ZeepleDome",
+                "game_info":{
+                    "players":{
+                        "min":1,
+                        "max":6
+                    },
+                    "length":"10 - 15 minutes",
+                    "playtime":{
+                        "min":10,
+                        "max":15
+                    },
+                    "family_friendly":"FAMILY_FRIENDLY",
+                    "audience":false,
+                    "stream_friendly":"NOT_PLAYABLE",
+                    "stream_friendly_description":"In this game, players are required to perform actions in real time. As a result, when streaming the game, players watching the stream will experience high latency between their actions and what's on-screen.",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"This game doesn't require moderation.",
+                    "subtitles":false,
+                    "type":"COOP",
+                    "translation":"ENGLISH",
+                    "tagline":"Team earth must survive!",
+                    "small_description":"Team earth must survive!",
+                    "description":"The galaxy’s deadliest game show! Fling yourself and win fabulous prizes!!!",
+                    "images":[
+						"game_images/ZeepleDome/zeepledome_1.webp",
+                        "game_images/ZeepleDome/zeepledome_2.webp",
+                        "game_images/ZeepleDome/zeepledome_3.webp",
+                        "game_images/ZeepleDome/zeepledome_4.webp"
+                    ],
+                    "tags":[
+                    
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp5/zeepledome.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"patentlystupid",
+                "name":"Patently Stupid",
+                "background":"game_backgrounds/PatentlyStupid.webp",
+                "path":"games/PatentlyStupid",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "length":"20 - 25 minutes",
+                    "playtime":{
+                        "min":20,
+                        "max":25
+                    },
+                    "family_friendly":"FAMILY_FRIENDLY",
+                    "audience":true,
+                    "audience_description":"The audience can vote for their favorite answers.",
+                    "stream_friendly":"MIDLY_PLAYABLE",
+                    "stream_friendly_description":"Being a presentation game, it's recommended for players to be able to at least hear each other.",
+                    "moderation":"CENSORING",
+                    "moderation_description":"With the \"Manual Censoring\" option enabled, the VIP can censor responses from players once they appear on-screen.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"Create your own inventions!",
+                    "small_description":"Create your own inventions!",
+                    "description":"The inventive drawing game where you solve bizarre problems! Pitch your ideas to rake in the cash!",
+                    "images":[
+			            "game_images/PatentlyStupid/patentlystupid_1.webp",
+                        "game_images/PatentlyStupid/patentlystupid_2.webp",
+                        "game_images/PatentlyStupid/patentlystupid_3.webp",
+                        "game_images/PatentlyStupid/patentlystupid_4.webp"
+                    ],
+                    "tags":[
+                        "talking",
+                        "writing",
+                        "drawing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp5/patentlystupid.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"jpp5.ico",
+        "background":"backgrounds/jpp5.jpg"
+    },
+    {
+        "id":"jpp6",
+        "name":"The Jackbox Party Pack 6",
+        "description":"Year of release: 2019",
+        "launchers_id":{
+            "steam":"1005300",
+            "epic":"Astrapia"
+        },
+        "executables":{
+            "windows":"The Jackbox Party Pack 6.exe",
+            "mac":"The Jackbox Party Pack 6.app/Contents/MacOS/The Jackbox Party Pack 6",
+            "linux":"Launcher.sh"
+        },
+        "loader":{
+            "path":"loaders/tjpp6/default.zip",
+            "version":"1.0.0"
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"config.jet",
+            "version_property":"buildVersion"
+        },
+            "patchs":[],
+        "games":[
+        	{
+                "id":"trivia_murder_party_2",
+                "name":"Trivia Murder Party 2",
+                "background":"game_backgrounds/TriviaMurderParty2.webp",
+                "path":"games/TriviaMurderParty2",
+                "game_info":{
+                    "players":{
+                        "min":1,
+                        "max":8
+                    },
+                    "length":"15 - 20 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":20
+                    },
+                    "family_friendly":"NOT_FAMILY_FRIENDLY",
+                    "audience":true,
+                    "audience_description":"The audience controls a player, answering questions and voting on the bets of the minigames. In the final round, they try to escape along with the other players.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"CENSORING",
+                    "moderation_description":"If necessary, it's recommended to enable the \"No Writing/Drawing Onscreen Mode\" option so that players cannot send text or drawings.",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"Will you survive this trivia?",
+                    "small_description":"Will you survive this trivia?",
+                    "description":"A serial killer is running an absurd trivia game out of the family-run Murder Hotel he grew up in. Can you survive?",
+                    "images":[
+						"game_images/TriviaMurderParty2/triviamurderparty2_1.webp",
+                        "game_images/TriviaMurderParty2/triviamurderparty2_2.webp",
+                        "game_images/TriviaMurderParty2/triviamurderparty2_3.webp",
+                        "game_images/TriviaMurderParty2/triviamurderparty2_4.webp"
+                    ],
+                    "tags":[
+                        "knowledge"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp6/triviamurderparty2.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"role_models",
+                "name":"Role Models",
+                "background":"game_backgrounds/RoleModels.webp",
+                "path":"games/RoleModels",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":6
+                    },
+                    "length":"15 - 20 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":20
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience can vote for their favorite answers. Additionally, during role choices, they can answer like the players (although only about themselves) and will be given a bonus role at the end of the game based on their answers.",
+                    "stream_friendly":"MIDLY_PLAYABLE",
+                    "stream_friendly_description":"In \"Peer Assessment Tests\" players must complete tasks so that other players can then see them being performed and vote on who did it best. It is important to be able to see each other for these tasks.",
+                    "moderation":"CENSORING",
+                    "moderation_description":"With the \"Manual Censoring\" option enabled, the VIP can censor responses from players once they appear on-screen. If necessary, it's recommended to activate the option \"Disable Player Photos\" so that players cannot use a photo as an avatar.",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"Who are you?",
+                    "small_description":"Who are you?",
+                    "description":"Everybody’s somebody, so who are you? The planner? The flake? The sassy one? Step into the lab and find out.",
+                    "images":[
+						"game_images/RoleModels/rolemodels_1.webp",
+                        "game_images/RoleModels/rolemodels_2.webp",
+                        "game_images/RoleModels/rolemodels_3.webp",
+                        "game_images/RoleModels/rolemodels_4.webp"
+                    ],
+                    "tags":[
+                        "writing",
+                        "talking"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp6/rolemodels.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"jokeboat",
+                "name":"Joke Boat",
+                "background":"game_backgrounds/JokeBoat.webp",
+                "path":"games/JokeBoat",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "length":"20 - 25 minutes",
+                    "playtime":{
+                        "min":20,
+                        "max":25
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience can vote for their favorite answers.",
+                    "stream_friendly":"MIDLY_PLAYABLE",
+                    "stream_friendly_description":"Being a presentation game, it's recommended for players to be able to at least hear each other.",
+                    "moderation":"CENSORING",
+                    "moderation_description":"With the \"Manual Censoring\" option enabled, the VIP can censor responses from players once they appear on-screen.",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"Make your friends laugh",
+                    "small_description":"Make your friends laugh",
+                    "description":"Ahoy! You’re an amateur comic on a fourth-rate cruise ship. Do you have what it takes to win the talent show?",
+                    "images":[
+			            "game_images/JokeBoat/jokeboat_1.webp",
+                        "game_images/JokeBoat/jokeboat_2.webp",
+                        "game_images/JokeBoat/jokeboat_3.webp",
+                        "game_images/JokeBoat/jokeboat_4.webp"
+                    ],
+                    "tags":[
+                        "writing",
+                        "talking"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp6/jokeboat.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"dictionarium",
+                "name":"Dictionarium",
+                "background":"game_backgrounds/Dictionarium.webp",
+                "path":"games/Ridictionary",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "length":"10 - 15 minutes",
+                    "playtime":{
+                        "min":10,
+                        "max":15
+                    },
+                    "family_friendly":"FAMILY_FRIENDLY",
+                    "audience":true,
+                    "audience_description":"The audience can vote for their favorite answers.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"CENSORING",
+                    "moderation_description":"With the \"Manual Censoring\" option enabled, the VIP can censor responses from players once they appear on-screen.",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"Invent words",
+                    "small_description":"Invent words",
+                    "description":"Humans have been inventing words and phrases for centuries. Now it’s your turn to contribute an entry to the pages of the Dictionarium.",
+                    "images":[
+			            "game_images/Dictionarium/dictionarium_1.webp",
+                        "game_images/Dictionarium/dictionarium_2.webp",
+                        "game_images/Dictionarium/dictionarium_3.webp",
+                        "game_images/Dictionarium/dictionarium_4.webp"
+                    ],
+                    "tags":[
+                        "writing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp6/dictionarium.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"pushthebutton",
+                "name":"Push the Button",
+                "background":"game_backgrounds/PushTheButton.webp",
+                "path":"games/PushTheButton",
+                "game_info":{
+                    "players":{
+                        "min":4,
+                        "max":10
+                    },
+                    "length":"15 - 25 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":25
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":false,
+                    "stream_friendly":"MIDLY_PLAYABLE",
+                    "stream_friendly_description":"Being a social deduction game, it' recommended that players are able to speak out loud and discuss with each other, especially in the Bioscanner section (one player must describe various symbols to the others). If playing on streaming platforms, this section should be avoided entirely and if one of the humans is AFK it ends up being unbeatable for the humans.",
+                    "moderation":"CENSORING",
+                    "moderation_description":"With the \"Manual Censoring\" option enabled, the VIP can censor responses from players once they appear on-screen.",
+                    "subtitles":true,
+                    "type":"TEAM",
+                    "translation":"ENGLISH",
+                    "tagline":"Find the aliens",
+                    "small_description":"Find the aliens",
+                    "description":"Danger! Shapeshifting aliens have infiltrated your starship. Can you and your crew find them before time runs out?",
+                    "images":[
+			            "game_images/PushTheButton/pushthebutton_1.webp",
+                        "game_images/PushTheButton/pushthebutton_2.webp",
+                        "game_images/PushTheButton/pushthebutton_3.webp",
+                        "game_images/PushTheButton/pushthebutton_4.webp"
+                    ],
+                    "tags":[
+                        "talking",
+                        "writing",
+                        "drawing",
+                        "deduction"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp6/pushthebutton.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"jpp6.ico",
+        "background":"backgrounds/jpp6.jpg"
+    },
+    {
+        "id":"jpp7",
+        "name":"The Jackbox Party Pack 7",
+        "description":"Year of release: 2020",
+        "launchers_id":{
+            "steam":"1211630",
+            "epic":"7fb6ce95c6d04a44a55fef16ea0db4c9"
+        },
+        "executables":{
+            "windows":"The Jackbox Party Pack 7.exe",
+            "mac":"The Jackbox Party Pack 7.app/Contents/MacOS/The Jackbox Party Pack 7",
+            "linux":"Launcher.sh"
+        },
+        "loader":{
+            "path":"loaders/tjpp7/default.zip",
+            "version":"1.0.0"
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"config.jet",
+            "version_property":"buildVersion"
+        },
+            "patchs":[],
+        "games":[
+            {
+                "id":"quiplash3",
+                "name":"Quiplash 3",
+                "background":"game_backgrounds/Quiplash3.webp",
+                "path":"games/Quiplash3",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "length":"15 - 20 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":20
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience can vote for their favorite answers.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"The Say-Anything Party Game",
+                    "small_description":"The Say-Anything Party Game",
+                    "description":"The Threequel to the say-anything party game! Answer the prompts and make your friends laugh… hopefully.",
+                    "images":[
+			            "game_images/Quiplash3/quiplash3_1.webp",
+                        "game_images/Quiplash3/quiplash3_2.webp",
+                        "game_images/Quiplash3/quiplash3_3.webp",
+                        "game_images/Quiplash3/quiplash3_4.webp"
+                    ],
+                    "tags":[
+                        "writing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp7/quiplash3.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                ]
+            },
+            {
+                "id":"thedevilsandthedetails",
+                "name":"The Devils and the Details",
+                "background":"game_backgrounds/TheDevilsAndTheDetails.webp",
+                "path":"games/Everyday",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "length":"20 - 25 minutes",
+                    "playtime":{
+                        "min":20,
+                        "max":25
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience is the cat in the house and can cause problems for the rest of the players.",
+                    "stream_friendly":"MIDLY_PLAYABLE",
+                    "stream_friendly_description":"Being a strategy game, it is recommended that players can at least hear each other in order to perform team tasks.",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"This game doesn't require moderation.",
+                    "subtitles":true,
+                    "type":"COOP",
+                    "translation":"ENGLISH",
+                    "tagline":"Do your tasks!",
+                    "small_description":"Do your tasks!",
+                    "description":"You're a family of devils who've moved to an average suburb. Can you survive the daily torture of human life?",
+                    "images":[
+			            "game_images/TheDevilsAndTheDetails/thedevilsandthedetails_1.webp",
+                        "game_images/TheDevilsAndTheDetails/thedevilsandthedetails_2.webp",
+                        "game_images/TheDevilsAndTheDetails/thedevilsandthedetails_3.webp",
+                        "game_images/TheDevilsAndTheDetails/thedevilsandthedetails_4.webp"
+                    ],
+                    "tags":[
+                        "talking",
+                        "deduction"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp7/thedevilsandthedetails.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                ]
+            },
+            {
+                "id":"champdup",
+                "name":"Champ'd Up",
+                "background":"game_backgrounds/Champdup.webp",
+                "path":"games/WorldChampions",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "length":"20 - 25 minutes",
+                    "playtime":{
+                        "min":20,
+                        "max":25
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience can vote for their favorite answers. Además, pueden votar para mostrar diferentes carteles de aliento para los jugadores.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles":true,
+                    "translation":"ENGLISH",
+                    "type":"VERSUS",
+                    "tagline":"The ultimate doodling battle",
+                    "small_description":"The ultimate doodling battle",
+                    "description":"Enter the Scrawliseum, where characters fight over weird titles. Can you take down the heavy favorite?",
+                    "images":[
+			            "game_images/ChampdUp/champdup_1.webp",
+                        "game_images/ChampdUp/champdup_2.webp",
+                        "game_images/ChampdUp/champdup_3.webp",
+                        "game_images/ChampdUp/champdup_4.webp"
+                    ],
+                    "tags":[
+                        "drawing",
+                        "writing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp7/champdup.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                ]
+            },
+            {
+                "id":"talkingpoints",
+                "name":"Talking Points",
+                "background":"game_backgrounds/TalkingPoints.webp",
+                "path":"games/JackboxTalks",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "length":"20 - 25 minutes",
+                    "playtime":{
+                        "min":20,
+                        "max":25
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience can vote during the talks and give a prize at the end to their favorite talk.",
+                    "stream_friendly":"MIDLY_PLAYABLE",
+                    "stream_friendly_description":"Being a presentation game, it's recommended for players to be able to at least hear each other.",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"Crazy talks",
+                    "small_description":"Crazy talks",
+                    "description":"Give a speech about pictures you haven't seen before. It doesn’t matter if it makes sense, it’s more fun if it doesn’t!",
+                    "images":[
+			            "game_images/TalkingPoints/talkingpoints_1.webp",
+                        "game_images/TalkingPoints/talkingpoints_2.webp",
+                        "game_images/TalkingPoints/talkingpoints_3.webp",
+                        "game_images/TalkingPoints/talkingpoints_4.webp"
+                    ],
+                    "tags":[
+                        "talking",
+                        "writing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp7/talkingpoints.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[]
+            },
+            {
+                "id":"blatherround",
+                "name":"Blather 'Round",
+                "background":"game_backgrounds/BlatherRound.webp",
+                "path":"games/BlankyBlank",
+                "game_info":{
+                    "players":{
+                        "min":2,
+                        "max":6
+                    },
+                    "length":"15 - 20 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":20
+                    },
+                    "family_friendly":"FAMILY_FRIENDLY",
+                    "audience":true,
+                    "audience_description":"The audience tries to guess the correct answer along with the other players.",
+                    "stream_friendly":"PLAYABLE",
+                    "stream_friendly_description":"Being a discussion game, it's recommended for players to be able to at least hear each other. Unlike the other discussion games, however, this game works perfectly without discussions.",
+                    "moderation":"CENSORING",
+                    "moderation_description":"Due to how the game works, player responses cannot be censored. If necessary, it is recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles":true,
+                    "type":"COOP",
+                    "translation":"ENGLISH",
+                    "tagline":"Non-stop guesses",
+                    "small_description":"Non-stop guesses",
+                    "description":"A pop culture guessing game where nothing sounds quite right! It's a good fun time experience.",
+                    "images":[
+			            "game_images/BlatherRound/blatherround_1.webp",
+                        "game_images/BlatherRound/blatherround_2.webp",
+                        "game_images/BlatherRound/blatherround_3.webp",
+                        "game_images/BlatherRound/blatherround_4.webp"
+                    ],
+                    "tags":[
+                        "knowledge","writing","talking"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp7/blatherround.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                ]
+            }
+        ],
+        "icon":"jpp7.ico",
+        "background":"backgrounds/jpp7.jpg"
+    },
+    {
+        "id":"jpp8",
+        "name":"The Jackbox Party Pack 8",
+        "description":"Year of release: 2021",
+        "launchers_id":{
+            "steam":"1552350",
+            "epic":"67003fc4eaa444608acf083a08dc907e"
+        },
+        "executables":{
+            "windows":"The Jackbox Party Pack 8.exe",
+            "mac":"The Jackbox Party Pack 8.app/Contents/MacOS/The Jackbox Party Pack 8",
+            "linux":"Launcher.sh"
+        },
+        "loader":{
+            "path":"loaders/tjpp8/default.zip",
+            "version":"1.0.0"
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"config.jet",
+            "version_property":"buildVersion"
+        },
+            "patchs":[],
+        "games":[
+            {
+                "id":"drawful_animate",
+                "name":"Drawful: Animate",
+                "background":"game_backgrounds/DrawfulAnimate.webp",
+                "path":"games/DrawfulAnimate",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":10
+                    },
+                    "length":"20 - 25 minutes",
+                    "playtime":{
+                        "min":20,
+                        "max":25
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience tries to guess the correct answer along with the other players, giving points to the players in case they choose their titles, and gives likes to their favorite titles.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"Animate everything!",
+                    "small_description":"Animate everything!",
+                    "description":"The third game in the Drawful series allows players to create two corresponding images which leads to one dynamic pictorial guessing game.",
+                    "images":[
+						"game_images/DrawfulAnimate/drawfulanimate_1.webp",
+                        "game_images/DrawfulAnimate/drawfulanimate_2.webp",
+                        "game_images/DrawfulAnimate/drawfulanimate_3.webp",
+                        "game_images/DrawfulAnimate/drawfulanimate_4.webp"
+                    ],
+                    "tags":[
+                        "drawing",
+                        "writing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp8/drawfulanimate.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"the_wheel_of_enormous_proportions",
+                "name":"The Wheel of Enormous Proportions",
+                "background":"game_backgrounds/TheWheelOfEnormousProportions.webp",
+                "path":"games/TheWheel",
+                "game_info":{
+                    "players":{
+                        "min":2,
+                        "max":8
+                    },
+                    "length":"15 - 25 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":25
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience answers the questions along with the players and wins portions by guessing correctly. These are placed on the wheel and can trigger actions on the players when someone lands on it.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"This game doesn't require moderation. If necessary, it's recommended to enable the \"Profanity Filter\" option or disable the \"Allow Player Written Responses\" option.",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"Make it spin!",
+                    "small_description":"Make it spin!",
+                    "description":"General knowledge and random chance combine to create a trivia game where everybody has a chance to learn the ultimate answer.",
+                    "images":[
+						"game_images/TheWheelOfEnormousProportions/thewheelofenormousproportions_1.webp",
+                        "game_images/TheWheelOfEnormousProportions/thewheelofenormousproportions_2.webp",
+                        "game_images/TheWheelOfEnormousProportions/thewheelofenormousproportions_3.webp",
+                        "game_images/TheWheelOfEnormousProportions/thewheelofenormousproportions_4.webp"
+                    ],
+                    "tags":[
+                        "knowledge"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp8/thewheelofenormousproportions.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"jobjob",
+                "name":"Job Job",
+                "background":"game_backgrounds/JobJob.webp",
+                "path":"games/JobGame",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":10
+                    },
+                    "length":"20 - 25 minutes",
+                    "playtime":{
+                        "min":20,
+                        "max":25
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience can vote for their favorite answers. In addition, they can customize the posters that appear in the background while players make their answers.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"¿Serás el mejor empleado?",
+                    "small_description":"¿Serás el mejor empleado?",
+                    "description":"A comedy game where your jokes must be built of words from other players in a mixed up take on a job interview.",
+                    "images":[
+			            "game_images/JobJob/jobjob_1.webp",
+                        "game_images/JobJob/jobjob_2.webp",
+                        "game_images/JobJob/jobjob_3.webp",
+                        "game_images/JobJob/jobjob_4.webp"
+                    ],
+                    "tags":[
+                        "writing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp8/jobjob.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"thepollmine",
+                "name":"The Poll Mine",
+                "background":"game_backgrounds/ThePollMine.webp",
+                "path":"games/SurveyBomb",
+                "game_info":{
+                    "players":{
+                        "min":2,
+                        "max":10
+                    },
+                    "length":"15 - 20 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":20
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience can try to guess the correct doors together with the players. In addition, in \"Streamer Mode\", players play in a team against the entire audience.",
+                    "stream_friendly":"PLAYABLE",
+                    "stream_friendly_description":"Being a presentation game, it's recommended for players to be able to at least hear each other. When playing on streaming platforms, it's more recommended that the players team play against the audience team in \"Streamer Mode\".",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"This game doesn't require moderation.",
+                    "subtitles":true,
+                    "type":"TEAM",
+                    "translation":"ENGLISH",
+                    "tagline":"Answer the polls!",
+                    "small_description":"Answer the polls!",
+                    "description":"A survey game that's all about YOU! Split into teams and see who can escape from the witch's lair!",
+                    "images":[
+			            "game_images/PollMine/pollmine_1.webp",
+                        "game_images/PollMine/pollmine_2.webp",
+                        "game_images/PollMine/pollmine_3.webp",
+                        "game_images/PollMine/pollmine_4.webp"
+                    ],
+                    "tags":[
+                        "talking",
+                        "deduction"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp8/thepollmine.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"weaponsdrawn",
+                "name":"Weapons Drawn",
+                "background":"game_backgrounds/WeaponsDrawn.webp",
+                "path":"games/MurderDetectives",
+                "game_info":{
+                    "players":{
+                        "min":4,
+                        "max":8
+                    },
+                    "length":"20 - 30 minutes",
+                    "playtime":{
+                        "min":20,
+                        "max":30
+                    },
+                    "family_friendly":"NOT_FAMILY_FRIENDLY",
+                    "audience":true,
+                    "audience_description":"The audience can vote along with the players, both when deciding which case is going to be solved and who the murderer is. Also, they can cause lightnings to strike while players draw and can murder nothingness while players murder.",
+                    "stream_friendly":"MIDLY_PLAYABLE",
+                    "stream_friendly_description":"Being a social deduction game, it's recommended for players to be able to at least hear each other.",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles":true,
+                    "type":"COOP",
+                    "translation":"ENGLISH",
+                    "tagline":"Find the murderers",
+                    "small_description":"Find the murderers",
+                    "description":"This social-deduction game turns a fancy ball into a killer free-for-all where you are both artistic murderer and attentive detective.",
+                    "images":[
+			            "game_images/WeaponsDrawn/weaponsdrawn_1.webp",
+                        "game_images/WeaponsDrawn/weaponsdrawn_2.webp",
+                        "game_images/WeaponsDrawn/weaponsdrawn_3.webp",
+                        "game_images/WeaponsDrawn/weaponsdrawn_4.webp"
+                    ],
+                    "tags":[
+                        "talking","drawing","writing","deduction"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp8/weaponsdrawn.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"jpp8.ico",
+        "background":"backgrounds/jpp8.jpg"
+    },
+    {
+        "id":"jpp9",
+        "name":"The Jackbox Party Pack 9",
+        "description":"Year of release: 2022",
+        "launchers_id":{
+            "steam":"1850960",
+            "epic":"ec6f77d356b247dc8d210850de8a3e2f"
+        },
+        "executables":{
+            "windows":"The Jackbox Party Pack 9.exe",
+            "mac":"The Jackbox Party Pack 9.app/Contents/MacOS/The Jackbox Party Pack 9",
+            "linux":"Launcher.sh"
+        },
+        "loader":{
+            "path":"loaders/tjpp9/default.zip",
+            "version":"1.0.0"
+        },
+    "configuration":{
+        "version_origin":"game_file",
+        "version_file":"jbg.config.jet",
+        "version_property":"buildVersion"
+	},
+        "patchs":[],
+        "games":[
+            {
+                "id":"fibbage4",
+                "name":"Fibbage 4",
+                "background":"game_backgrounds/Fibbage4.webp",
+                "path":"games/Fibbage4",
+                "game_info":{
+                    "players":{
+                        "min":2,
+                        "max":8
+                    },
+                    "length":"15 - 20 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":20
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience can vote for a lie to appear on-screen along with the others. Then, they try to guess the truth, giving players points for choosing their lies, and giving likes to their favorite lies.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. They can also kick players off the game. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"NATIVELY_TRANSLATED",
+                    "tagline":"The hilarious bluffing party game",
+                    "small_description":"The hilarious bluffing party game",
+                    "description":"The hilarious bluffing party game returns with an all new Final Fibbage, video questions, fan-submitted questions, and Fibbage Enough About You mode!",
+                    "images":[
+			            "game_images/Fibbage4/fibbage4_1.jpg",
+                        "game_images/Fibbage4/fibbage4_2.jpg",
+                        "game_images/Fibbage4/fibbage4_3.jpg",
+                        "game_images/Fibbage4/fibbage4_4.jpg"
+                    ],
+                    "tags":[
+                        "writing","knowledge"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp9/fibbage4.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                ]
+            },
+            {
+                "id":"roomerang",
+                "name":"Roomerang",
+                "background":"game_backgrounds/Roomerang.webp",
+                "path":"games/MakeFriends",
+                "game_info":{
+                    "players":{
+                        "min":4,
+                        "max":9
+                    },
+                    "length":"25 - 30 minutes",
+                    "playtime":{
+                        "min":25,
+                        "max":30
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience can vote for their favorite answers. In addition, they answer different polls as the players type.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. They can also kick players off the game. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"NATIVELY_TRANSLATED",
+                    "tagline":"Will you stay in the house?",
+                    "small_description":"Will you stay in the house?",
+                    "description":"Channel your inner reality TV star in an attempt to come out on top! Respond to prompts, bring the competition and role-play to avoid being voted out. Never fear though, even when you’re out you’ll find yourself Roomerang-ed right back into the drama!",
+                    "images":[
+			            "game_images/Roomerang/roomerang_1.jpg",
+                        "game_images/Roomerang/roomerang_2.jpg",
+                        "game_images/Roomerang/roomerang_3.jpg",
+                        "game_images/Roomerang/roomerang_4.jpg"
+                    ],
+                    "tags":[
+                        "writing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp9/roomerang.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"junktopia",
+                "name":"Junktopia",
+                "background":"game_backgrounds/Junktopia.webp",
+                "path":"games/AntiqueGame",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "length":"20 - 25 minutes",
+                    "playtime":{
+                        "min":20,
+                        "max":25
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience can vote for their favorite answers.",
+                    "stream_friendly":"MIDLY_PLAYABLE",
+                    "stream_friendly_description":"Being a presentation game, it's recommended for players to be able to at least hear each other.",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. They can also kick players off the game. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"NATIVELY_TRANSLATED",
+                    "tagline":"Sell your items",
+                    "small_description":"Sell your items",
+                    "description":"A strange wizard has turned you into a frog! Create hilarious backstories for weird objects and then get them appraised. The player with the most valuable items becomes human again!",
+                    "images":[
+			            "game_images/Junktopia/junktopia_1.jpg",
+                        "game_images/Junktopia/junktopia_2.jpg",
+                        "game_images/Junktopia/junktopia_3.jpg",
+                        "game_images/Junktopia/junktopia_4.jpg"
+                    ],
+                    "tags":[
+                        "writing",
+                        "talking"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp9/junktopia.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"nonsensory",
+                "name":"Nonsensory",
+                "background":"game_backgrounds/Nonsensory.webp",
+                "path":"games/RangeGame",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "length":"20 - 25 minutes",
+                    "playtime":{
+                        "min":20,
+                        "max":25
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience tries to guess the correct answer along with the other players. They can win the game if they beat the score of the players.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. They can also kick players off the game. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"NATIVELY_TRANSLATED",
+                    "tagline":"Share your thoughts",
+                    "small_description":"Share your thoughts",
+                    "description":"Professor Nanners is here to test your NSP (Nonsensory Perception) in this drawing, writing, and guessing game! How close can you get to guessing where another player’s prompt ranks on the silliest of scales?",
+                    "images":[
+			            "game_images/Nonsensory/nonsensory_1.jpg",
+                        "game_images/Nonsensory/nonsensory_2.jpg",
+                        "game_images/Nonsensory/nonsensory_3.jpg",
+                        "game_images/Nonsensory/nonsensory_4.jpg"
+                    ],
+                    "tags":[
+                        "writing", "drawing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp9/nonsensory.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"quixort",
+                "name":"Quixort",
+                "background":"game_backgrounds/Quixort.webp",
+                "path":"games/Lineup",
+                "game_info":{
+                    "players":{
+                        "min":1,
+                        "max":10
+                    },
+                    "length":"20 - 25 minutes",
+                    "playtime":{
+                        "min":20,
+                        "max":25
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"El público se une a algún equipo y ordena los bloques al igual que los jugadores. El equipo de público que lo haga mejor gana al final de la partida.",
+                    "stream_friendly":"MIDLY_PLAYABLE",
+                    "stream_friendly_description":"Al ser un juego de discusión, se recomienda que los jugadores puedan al menos escucharse entre sí.",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to kick players off the game if necessary.",
+                    "subtitles":true,
+                    "type":"TEAM",
+                    "translation":"NATIVELY_TRANSLATED",
+                    "tagline":"Order the blocks",
+                    "small_description":"Order the blocks",
+                    "description":"In this trivia sorting factory, work with your team to sort falling answers into their proper order before they hit the floor! Or, play the single player mode and see how many blocks you can sort before topping out. It’s as easy as A, C, B!",
+                    "images":[
+			            "game_images/Quixort/quixort_1.jpg",
+                        "game_images/Quixort/quixort_2.jpg",
+                        "game_images/Quixort/quixort_3.jpg",
+                        "game_images/Quixort/quixort_4.jpg"
+                    ],
+                    "tags":[
+                        "talking","knowledge"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp9/quixort.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        
+        "icon":"jpp9.ico",
+        "background":"backgrounds/jpp9.jpg"
+    },
+    
+    {
+        "id":"jpstarter",
+        "name":"The Jackbox Party Starter",
+        "description":"Year of release: 2022",
+        "launchers_id":{
+            "steam":"1755580",
+            "epic":"dc6b83bf4b94436db882f770ed8d5257"
+        },
+        "executables":{
+            "windows":"The Jackbox Party Starter.exe",
+            "mac":"The Jackbox Party Starter.app/Contents/MacOS/The Jackbox Party Pack Starter",
+            "linux":"Launcher.sh"
+        },
+        "loader":{
+            "path":"loaders/tjpstarter/default.zip",
+            "version":"1.0.0"
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"config.jet",
+            "version_property":"buildVersion"
+        },
+            "patchs":[],
+        "games":[
+            {
+                "id":"quiplash3_starter",
+                "name":"Quiplash 3",
+                "background":"game_backgrounds/Quiplash3Starter.webp",
+                "path":"games/Quiplash3",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "length":"15 - 20 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":20
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience can vote for their favorite answers.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"NATIVELY_TRANSLATED",
+                    "tagline":"The Say-Anything Party Game",
+                    "small_description":"The Say-Anything Party Game",
+                    "description":"The Threequel to the say-anything party game! Answer the prompts and make your friends laugh… hopefully.",
+                    "images":[
+			            "game_images/Quiplash3/quiplash3_1.webp",
+                        "game_images/Quiplash3/quiplash3_2.webp",
+                        "game_images/Quiplash3/quiplash3_3.webp",
+                        "game_images/Quiplash3/quiplash3_4.webp"
+                    ],
+                    "tags":[
+                        "writing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpstarter/quiplash3.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                ]
+            },
+            {
+                "id":"teeko_starter",
+                "name":"Tee K.O.",
+                "background":"game_backgrounds/TeeKOStarter.webp",
+                "path":"games/AwShirt",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "length":"20 - 25 minutes",
+                    "playtime":{
+                        "min":20,
+                        "max":25
+                    },
+                    "family_friendly":"FAMILY_FRIENDLY",
+                    "audience":true,
+                    "audience_description":"The audience can vote for their favorite shirts. In addition, they can submit writing and drawing suggestions that are displayed on the screen with the \"Audience Suggestions\" option turned on.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. If necessary, it's recommended to enable the \"Profanity Filter\" option and disable the \"Audience Suggestions\" option so that only players can send text.",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"NATIVELY_TRANSLATED",
+                    "tagline":"T-Shirt Knock Out",
+                    "small_description":"T-Shirt Knock Out",
+                    "description":"Draw pictures, write slogans, then swap them around to create your own custom t-shirt warriors. Only the most worthy novelty t-shirt will leave the tournament alive.",
+                    "images":[
+			            "game_images/TeeKO/teeko_1.webp",
+                        "game_images/TeeKO/teeko_2.webp",
+                        "game_images/TeeKO/teeko_3.webp",
+                        "game_images/TeeKO/teeko_4.webp"
+                    ],
+                    "tags":[
+                    	"drawing",
+                    	"writing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpstarter/teeko.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                ]
+            },
+            {
+                "id":"trivia_murder_party_2_starter",
+                "name":"Trivia Murder Party 2",
+                "background":"game_backgrounds/TriviaMurderParty2Starter.webp",
+                "path":"games/triviadeath2",
+                "game_info":{
+                    "players":{
+                        "min":1,
+                        "max":8
+                    },
+                    "length":"15 - 20 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":20
+                    },
+                    "family_friendly":"NOT_FAMILY_FRIENDLY",
+                    "audience":true,
+                    "audience_description":"The audience controls a player, answering questions and voting on the bets of the minigames. In the final round, they try to escape along with the other players.",
+                    "stream_friendly":"PLAYABLE",
+                    "stream_friendly_description":"The game works perfectly on streams. However, in the \"Password\" minigame, it's recommended for players to be able to hear each other to share their clues. In addition, the \"Dictation\" minigame requires the streamm to have sound in order to hear the dictation.",
+                    "moderation":"CENSORING",
+                    "moderation_description":"If necessary, it's recommended to enable the \"No Writing/Drawing Onscreen Mode\" option so that players cannot send text or drawings.",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"NATIVELY_TRANSLATED",
+                    "tagline":"Will you survive this trivia?",
+                    "small_description":"Will you survive this trivia?",
+                    "description":"A serial killer is running an absurd trivia game out of the family-run Murder Hotel he grew up in. Can you survive?",
+                    "images":[
+						"game_images/TriviaMurderParty2/triviamurderparty2_1.webp",
+                        "game_images/TriviaMurderParty2/triviamurderparty2_2.webp",
+                        "game_images/TriviaMurderParty2/triviamurderparty2_3.webp",
+                        "game_images/TriviaMurderParty2/triviamurderparty2_4.webp"
+                    ],
+                    "tags":[
+                        "knowledge"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpstarter/triviamurderparty2.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"jpstarter.ico",
+        "background":"backgrounds/jpstarter.jpg"
+    },
+    {
+        "id":"fbxl",
+        "name":"Fibbage XL",
+        "description":"Year of release: 2016",
+        "launchers_id":{
+            "steam":"448080"
+        },
+        "executables":{
+            "windows":"Fibbage XL.exe",
+            "mac":"Fibbage XL.app/Contents/MacOS/Fibbage XL",
+            "linux":"Launcher.sh"
+        },
+        "loader":{
+            "path":"loaders/standalones/default.zip",
+            "version":"1.0.0"
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"jbg.config.jet",
+            "version_property":"buildVersion"
+        },
+            "patchs":[],
+        "games":[
+            {
+                "id":"fibbagexl_standalone",
+                "name":"Fibbage XL",
+                "background":"game_backgrounds/FibbageXLStandalone.webp",
+                "path":"",
+                "game_info":{
+                    "players":{
+                        "min":2,
+                        "max":8
+                    },
+                    "length":"15 - 20 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":20
+                    },
+                    "family_friendly":"NOT_FAMILY_FRIENDLY",
+                    "audience":false,
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"NO_MODERATION",
+                    "moderation_description":"Players can submit text.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"The hilarious bluffing party game",
+                    "small_description":"The hilarious bluffing party game",
+                    "description":"Fool your friends with your lies, avoid theirs, and find the (usually outrageous) truth. “The mayor of Rabbit Hash, Kentucky is a ____.” Go!",
+                    "images":[
+						"game_images/FibbageXL/fibbagexl_1.webp",
+                        "game_images/FibbageXL/fibbagexl_2.webp",
+                        "game_images/FibbageXL/fibbagexl_3.webp"
+                    ],
+                    "tags":[
+                        "knowledge","writing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/standalones/standalones.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"fbxl.ico",
+        "background":"backgrounds/fbxl.jpg"
+    },
+    {
+        "id":"quip",
+        "name":"Quiplash",
+        "description":"Year of release: 2015",
+        "launchers_id":{
+            "steam":"351510"
+        },
+        "executables":{
+            "windows":"Quiplash.exe",
+            "mac":"Quiplash.app/Contents/MacOS/Quiplash",
+            "linux":"Launcher.sh"
+        },
+        "loader":{
+            "path":"loaders/standalones/default.zip",
+            "version":"1.0.0"
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"jbg.config.jet",
+            "version_property":"buildVersion"
+        },
+            "patchs":[],
+        "games":[
+            {
+                "id":"quiplash",
+                "name":"Quiplash",
+                "background":"game_backgrounds/Quiplash.webp",
+                "path":"",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "length":"15 - 20 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":20
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience can vote for their favorite answers.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"NO_MODERATION",
+                    "moderation_description":"Players can submit text.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"The Say-Anything Party Game",
+                    "small_description":"The Say-Anything Party Game",
+                    "description":"The laugh-a-minute battle of wits and wittiness in its HUGEST form! Come up with “the best name to give an ugly baby” and win!",
+                    "images":[
+						"game_images/QuiplashXL/quiplashxl_1.webp",
+                        "game_images/QuiplashXL/quiplashxl_2.webp",
+                        "game_images/QuiplashXL/quiplashxl_3.webp",
+                        "game_images/QuiplashXL/quiplashxl_4.webp"
+                    ],
+                    "tags":[
+                    	"writing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/standalones/standalones.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"quip.ico",
+        "background":"backgrounds/quip.jpg"
+    },
+    {
+        "id":"quip2int",
+        "name":"Quiplash 2 InterLASHional",
+        "description":"Year of release: 2020",
+        "launchers_id":{
+            "steam":"1111940"
+        },
+        "executables":{
+            "windows":"Quiplash 2 InterLASHional.exe",
+            "mac":"Quiplash 2 InterLASHional.app/Contents/MacOS/Quiplash 2 InterLASHional",
+            "linux":"Launcher.sh"
+        },
+        "loader":{
+            "path":"loaders/standalones/default.zip",
+            "version":"1.0.0"
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"jbg.config.jet",
+            "version_property":"buildVersion"
+        },
+            "patchs":[],
+        "games":[
+            {
+                "id":"quiplash2interlashional",
+                "name":"Quiplash 2 InterLASHional",
+                "background":"game_backgrounds/Quiplash2InterLASHional.webp",
+                "path":"",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "length":"15 - 20 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":20
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience can vote for their favorite answers. Además, pueden enviar respuestas que se muestran en pantalla con la opción \"Participación del público\" activada.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"CENSORING",
+                    "moderation_description":"With the \"Manual Censoring\" option enabled, the VIP can censor responses from players and the audience once they appear on-screen. If necessary, it's recommended to disable the \"Audience Play-Along\" option so that only players can submit text.",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"NATIVELY_TRANSLATED",
+                    "tagline":"The Say-Anything Party Game",
+                    "small_description":"The Say-Anything Party Game",
+                    "description":"The \"say anything\" party game is going international! All the hilarious content from Quiplash 2, now in French, Italian, German, and Spanish! With 100 NEW prompts in each language! (And you can still play in boring old English.) Get this QUINTILINGUAL Quiplash now, and take your next party global!",
+                    "images":[
+						"game_images/Quiplash2InterLASHional/quiplash2interlashional_1.webp",
+                        "game_images/Quiplash2InterLASHional/quiplash2interlashional_2.webp",
+                        "game_images/Quiplash2InterLASHional/quiplash2interlashional_3.webp",
+                        "game_images/Quiplash2InterLASHional/quiplash2interlashional_4.webp"
+                    ],
+                    "tags":[
+                    	"writing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/standalones/standalones.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"quip2int.ico",
+        "background":"backgrounds/quip2int.jpg"
+    },
+    {
+        "id":"df2",
+        "name":"Drawful 2",
+        "description":"Year of release: 2016",
+        "launchers_id":{
+            "steam":"442070",
+            "epic":"Daisy"
+        },
+        "executables":{
+            "windows":"Drawful 2.exe",
+            "mac":"Drawful 2.app/Contents/MacOS/Drawful 2",
+            "linux":"Launcher.sh"
+        },
+        "loader":{
+            "path":"loaders/df2/default.zip",
+            "version":"1.0.0"
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"jbg.config.jet",
+            "version_property":"buildVersion"
+        },
+            "patchs":[],
+        "games":[
+            {
+                "id":"drawful_2",
+                "name":"Drawful 2",
+                "background":"game_backgrounds/Drawful2.webp",
+                "path":"",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "length":"20 - 25 minutes",
+                    "playtime":{
+                        "min":20,
+                        "max":25
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience tries to guess the correct answer along with the other players, giving points to the players in case they choose their titles, and gives likes to their favorite titles.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. If necessary, it's recommended to enable the \"Profanity Filter\" option. This game also has the \"Manual Censoring\" option, allowing the VIP to censor the player's responses once they appear on the screen.",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"NATIVELY_TRANSLATED",
+                    "tagline":"Draw badly in style!",
+                    "small_description":"Draw badly in style!",
+                    "description":"Drawful is back to liven up your next party with Drawful 2, which challenges players to draw silly things on their smartphones and tablets.",
+                    "images":[
+						"game_images/Drawful2/drawful2_1.webp",
+                        "game_images/Drawful2/drawful2_2.webp",
+                        "game_images/Drawful2/drawful2_3.webp",
+                        "game_images/Drawful2/drawful2_4.webp"
+                    ],
+                    "tags":[
+                    	"drawing",
+                        "writing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/df2/drawful2.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"df2.ico",
+        "background":"backgrounds/df2.jpg"
+    },
+        {
+        "id":"ydkjvol1",
+        "name":"YOU DON'T KNOW JACK Vol. 1 XL",
+        "description":"Year of release: 1995",
+        "launchers_id":{
+            "steam":"252730"
+        },
+        "executables":{
+            "windows":"YDKJV1.exe",
+            "mac":"",
+            "linux":""
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"config.dat",
+            "version_property":"buildVersion"
+        },
+            "patchs":[],
+        "games":[
+            {
+                "id":"youdontknowjackvol1",
+                "name":"YOU DON'T KNOW JACK Vol. 1 XL",
+                "background":"game_backgrounds/YouDontKnowJackVol1.webp",
+                "path":"",
+                "game_info":{
+                    "players":{
+                        "min":1,
+                        "max":3
+                    },
+                    "length":"15 - 30 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":30
+                    },
+                    "family_friendly":"NOT_FAMILY_FRIENDLY",
+                    "audience":false,
+                    "stream_friendly":"NOT_PLAYABLE",
+                    "stream_friendly_description":"This game can only be played locally.",
+                    "moderation":"NO_MODERATION",
+                    "moderation_description":"Players can submit text in the \"Gibberish Question\" sections.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"The irreverent quiz show party game",
+                    "small_description":"The irreverent quiz show party game",
+                    "description":"The world was a much simpler place in 1995. The kids were listening to the grunge, the first test-tube gorilla was born at the Cincinnati Zoo, and a little trivia game called YOU DON’T KNOW JACK took the interactive CD-ROM trivia game show world by storm. Play now and relive that crazy, mixed-up time all over again!",
+                    "images":[
+						"game_images/YouDontKnowJackVol1/youdontknowjackvol1_1.jpg",
+                        "game_images/YouDontKnowJackVol1/youdontknowjackvol1_2.jpg",
+                        "game_images/YouDontKnowJackVol1/youdontknowjackvol1_3.jpg",
+                        "game_images/YouDontKnowJackVol1/youdontknowjackvol1_4.jpg"
+                    ],
+                    "tags":[
+                    	"trivia"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"ydkjvol1.ico",
+        "background":"backgrounds/ydkjvol1.jpg"
+    },
+    {
+        "id":"ydkjsports",
+        "name":"YOU DON'T KNOW JACK SPORTS",
+        "description":"Year of release: 1996",
+        "launchers_id":{
+            "steam":"260020"
+        },
+        "executables":{
+            "windows":"YDKJVS.exe",
+            "mac":"",
+            "linux":""
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"config.dat",
+            "version_property":"buildVersion"
+        },
+            "patchs":[],
+        "games":[
+            {
+                "id":"youdontknowjacksports",
+                "name":"YOU DON'T KNOW JACK SPORTS",
+                "background":"game_backgrounds/YouDontKnowJackSports.webp",
+                "path":"",
+                "game_info":{
+                    "players":{
+                        "min":1,
+                        "max":3
+                    },
+                    "length":"15 - 30 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":30
+                    },
+                    "family_friendly":"NOT_FAMILY_FRIENDLY",
+                    "audience":false,
+                    "stream_friendly":"NOT_PLAYABLE",
+                    "stream_friendly_description":"This game can only be played locally.",
+                    "moderation":"NO_MODERATION",
+                    "moderation_description":"Players can submit text in the \"Gibberish Question\" sections.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"The irreverent quiz show party game",
+                    "small_description":"The irreverent quiz show party game",
+                    "description":"Think you know everything about football, basketball, baseball, or hockey? How about tennis, volleyball, golf, or lawn darts? Then light up the scoreboard with YOU DON’T KNOW JACK Sports – it’s YDKJ all hopped up on 'roids! So put in your mouthguard, adjust your cup, and get ready. Play ball… er, trivia!",
+                    "images":[
+						"game_images/YouDontKnowJackSports/youdontknowjacksports_1.jpg",
+                        "game_images/YouDontKnowJackSports/youdontknowjacksports_2.jpg",
+                        "game_images/YouDontKnowJackSports/youdontknowjacksports_3.jpg",
+                        "game_images/YouDontKnowJackSports/youdontknowjacksports_4.jpg"
+                    ],
+                    "tags":[
+                    	"trivia"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"ydkjsports.ico",
+        "background":"backgrounds/ydkjsports.jpg"
+    },
+    {
+        "id":"ydkjvol2",
+        "name":"YOU DON'T KNOW JACK Vol. 2",
+        "description":"Year of release: 1996",
+        "launchers_id":{
+            "steam":"259940"
+        },
+        "executables":{
+            "windows":"YDKJV2.exe",
+            "mac":"",
+            "linux":""
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"config.dat",
+            "version_property":"buildVersion"
+        },
+            "patchs":[],
+        "games":[
+            {
+                "id":"youdontknowjackvol2",
+                "name":"YOU DON'T KNOW JACK Vol. 2",
+                "background":"game_backgrounds/YouDontKnowJackVol2.webp",
+                "path":"",
+                "game_info":{
+                    "players":{
+                        "min":1,
+                        "max":3
+                    },
+                    "length":"15 - 30 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":30
+                    },
+                    "family_friendly":"NOT_FAMILY_FRIENDLY",
+                    "audience":false,
+                    "stream_friendly":"NOT_PLAYABLE",
+                    "stream_friendly_description":"This game can only be played locally.",
+                    "moderation":"NO_MODERATION",
+                    "moderation_description":"Players can submit text in the \"Gibberish Question\" sections.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"The irreverent quiz show party game",
+                    "small_description":"The irreverent quiz show party game",
+                    "description":"YOU DON’T KNOW JACK Volume 2 is the mutant offspring of the original award-winning, irreverent, fast-paced trivia game where you are a contestant on a manic game show. With all the excitement of the first game, lots of mind-blowing surprises, plus four additional question types, YOU DON’T KNOW JACK Volume 2 will scrape the trivia out of your cranium like the seedy pulp from a melon.",
+                    "images":[
+						"game_images/YouDontKnowJackVol2/youdontknowjackvol2_1.jpg",
+                        "game_images/YouDontKnowJackVol2/youdontknowjackvol2_2.jpg",
+                        "game_images/YouDontKnowJackVol2/youdontknowjackvol2_3.jpg",
+                        "game_images/YouDontKnowJackVol2/youdontknowjackvol2_4.jpg"
+                    ],
+                    "tags":[
+                    	"trivia"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"ydkjvol2.ico",
+        "background":"backgrounds/ydkjvol2.jpg"
+    },
+    {
+        "id":"ydkjmovies",
+        "name":"YOU DON'T KNOW JACK MOVIES",
+        "description":"Year of release: 1997",
+        "launchers_id":{
+            "steam":"260000"
+        },
+        "executables":{
+            "windows":"YDKJVM.exe",
+            "mac":"",
+            "linux":""
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"config.dat",
+            "version_property":"buildVersion"
+        },
+            "patchs":[],
+        "games":[
+            {
+                "id":"youdontknowjackmovies",
+                "name":"YOU DON'T KNOW JACK MOVIES",
+                "background":"game_backgrounds/YouDontKnowJackMovies.webp",
+                "path":"",
+                "game_info":{
+                    "players":{
+                        "min":1,
+                        "max":3
+                    },
+                    "length":"15 - 30 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":30
+                    },
+                    "family_friendly":"NOT_FAMILY_FRIENDLY",
+                    "audience":false,
+                    "stream_friendly":"NOT_PLAYABLE",
+                    "stream_friendly_description":"This game can only be played locally.",
+                    "moderation":"NO_MODERATION",
+                    "moderation_description":"Players can submit text in the \"Gibberish Question\" sections.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"The irreverent quiz show party game",
+                    "small_description":"The irreverent quiz show party game",
+                    "description":"If you've always wanted to see your name in lights, albeit lights from your computer monitor, then YOU DON’T KNOW JACK Movies is the trivia game for you! YDKJ Movies covers everything from Fred Astaire to Freddy Krueger, and all the Freds in between. With all the irreverence, humor and style of the original award-winning YOU DON’T KNOW JACK, YDKJ Movies will have moviegoers rolling in the sticky aisles.",
+                    "images":[
+						"game_images/YouDontKnowJackMovies/youdontknowjackmovies_1.jpg",
+                        "game_images/YouDontKnowJackMovies/youdontknowjackmovies_2.jpg",
+                        "game_images/YouDontKnowJackMovies/youdontknowjackmovies_3.jpg",
+                        "game_images/YouDontKnowJackMovies/youdontknowjackmovies_4.jpg"
+                    ],
+                    "tags":[
+                    	"trivia"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"ydkjmovies.ico",
+        "background":"backgrounds/ydkjmovies.jpg"
+    },
+    {
+        "id":"ydkjtv",
+        "name":"YOU DON'T KNOW JACK TELEVISION",
+        "description":"Year of release: 1997",
+        "launchers_id":{
+            "steam":"260040"
+        },
+        "executables":{
+            "windows":"YDKJVT.exe",
+            "mac":"",
+            "linux":""
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"config.dat",
+            "version_property":"buildVersion"
+        },
+            "patchs":[],
+        "games":[
+            {
+                "id":"youdontknowjacktelevision",
+                "name":"YOU DON'T KNOW JACK TELEVISION",
+                "background":"game_backgrounds/YouDontKnowJackTelevision.webp",
+                "path":"",
+                "game_info":{
+                    "players":{
+                        "min":1,
+                        "max":3
+                    },
+                    "length":"15 - 30 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":30
+                    },
+                    "family_friendly":"NOT_FAMILY_FRIENDLY",
+                    "audience":false,
+                    "stream_friendly":"NOT_PLAYABLE",
+                    "stream_friendly_description":"This game can only be played locally.",
+                    "moderation":"NO_MODERATION",
+                    "moderation_description":"Players can submit text in the \"Gibberish Question\" sections.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"The irreverent quiz show party game",
+                    "small_description":"The irreverent quiz show party game",
+                    "description":"If you thought all those hours of watching TV were good for nothing, then YOU DON’T KNOW JACK… Television! With more categories than your local cable provider, YOU DON’T KNOW JACK Television spans over 50 years of boob-tube trivia, from Ralph Kramden to the guy on “King of Queens” who looks like Ralph Kramden. So set down the remote and put your recliner in the upright and locked position… it’s YOU DON’T KNOW JACK Television!",
+                    "images":[
+						"game_images/YouDontKnowJackTelevision/youdontknowjacktelevision_1.jpg",
+                        "game_images/YouDontKnowJackTelevision/youdontknowjacktelevision_2.jpg",
+                        "game_images/YouDontKnowJackTelevision/youdontknowjacktelevision_3.jpg",
+                        "game_images/YouDontKnowJackTelevision/youdontknowjacktelevision_4.jpg"
+                    ],
+                    "tags":[
+                    	"trivia"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"ydkjtv.ico",
+        "background":"backgrounds/ydkjtv.jpg"
+    },
+    {
+        "id":"ydkjvol3",
+        "name":"YOU DON'T KNOW JACK Vol. 3",
+        "description":"Year of release: 1997",
+        "launchers_id":{
+            "steam":"259960"
+        },
+        "executables":{
+            "windows":"YDKJV3.exe",
+            "mac":"",
+            "linux":""
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"config.dat",
+            "version_property":"buildVersion"
+        },
+            "patchs":[],
+        "games":[
+            {
+                "id":"youdontknowjackvol3",
+                "name":"YOU DON'T KNOW JACK Vol. 3",
+                "background":"game_backgrounds/YouDontKnowJackVol3.webp",
+                "path":"",
+                "game_info":{
+                    "players":{
+                        "min":1,
+                        "max":3
+                    },
+                    "length":"15 - 30 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":30
+                    },
+                    "family_friendly":"NOT_FAMILY_FRIENDLY",
+                    "audience":false,
+                    "stream_friendly":"NOT_PLAYABLE",
+                    "stream_friendly_description":"This game can only be played locally.",
+                    "moderation":"NO_MODERATION",
+                    "moderation_description":"Players can submit text in the \"Gibberish Question\" sections.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"The irreverent quiz show party game",
+                    "small_description":"The irreverent quiz show party game",
+                    "description":"The spawning continues as the award-winning YOU DON’T KNOW JACK series pumps out YOU DON’T KNOW JACK Volume 3. Join your host Cookie as he takes you on a trivia Tilt-a-Whirl that’s a triple-dip of cheeky hip. YDKJ Volume 3 adds a whole slew of question types into a mind-bending mixture of smart-aleckiness and sassitude.",
+                    "images":[
+						"game_images/YouDontKnowJackVol3/youdontknowjackvol3_1.jpg",
+                        "game_images/YouDontKnowJackVol3/youdontknowjackvol3_2.jpg",
+                        "game_images/YouDontKnowJackVol3/youdontknowjackvol3_3.jpg",
+                        "game_images/YouDontKnowJackVol3/youdontknowjackvol3_4.jpg"
+                    ],
+                    "tags":[
+                    	"trivia"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"ydkjvol3.ico",
+        "background":"backgrounds/ydkjvol3.jpg"
+    },
+    {
+        "id":"ydkjheadrush",
+        "name":"YOU DON'T KNOW JACK HEADRUSH",
+        "description":"Year of release: 1998",
+        "launchers_id":{
+            "steam":"260060"
+        },
+        "executables":{
+            "windows":"YDKJVH.exe",
+            "mac":"",
+            "linux":""
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"config.dat",
+            "version_property":"buildVersion"
+        },
+            "patchs":[],
+        "games":[
+            {
+                "id":"youdontknowjackheadrush",
+                "name":"YOU DON'T KNOW JACK HEADRUSH",
+                "background":"game_backgrounds/YouDontKnowJackHeadrush.webp",
+                "path":"",
+                "game_info":{
+                    "players":{
+                        "min":1,
+                        "max":3
+                    },
+                    "length":"15 - 30 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":30
+                    },
+                    "family_friendly":"NOT_FAMILY_FRIENDLY",
+                    "audience":false,
+                    "stream_friendly":"NOT_PLAYABLE",
+                    "stream_friendly_description":"This game can only be played locally.",
+                    "moderation":"NO_MODERATION",
+                    "moderation_description":"Players can submit text in the \"Gibberish Question\" sections.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"The irreverent quiz show party game",
+                    "small_description":"The irreverent quiz show party game",
+                    "description":"Forget everything you know about a YOU DON’T KNOW JACK game because YDKJ’s horribly deformed, mutant offspring HEADRUSH has been birthed! Twisted animation, insane question types, and a bizarre appetite for all human excretory fluids and gassed add up to the most over-the-top YDKJ game ever! Fire this game up and stand back, because this is not your Mommy and Daddy’s YOU DON’T KNOW JACK!",
+                    "images":[
+						"game_images/YouDontKnowJackHeadrush/youdontknowjackheadrush_1.jpg",
+                        "game_images/YouDontKnowJackHeadrush/youdontknowjackheadrush_2.jpg",
+                        "game_images/YouDontKnowJackHeadrush/youdontknowjackheadrush_3.jpg",
+                        "game_images/YouDontKnowJackHeadrush/youdontknowjackheadrush_4.jpg"
+                    ],
+                    "tags":[
+                    	"trivia"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"ydkjheadrush.ico",
+        "background":"backgrounds/ydkjheadrush.jpg"
+    },
+    {
+        "id":"ydkjvol4",
+        "name":"YOU DON'T KNOW JACK Vol. 4 The Ride",
+        "description":"Year of release: 1998",
+        "launchers_id":{
+            "steam":"259980"
+        },
+        "executables":{
+            "windows":"YDKJV4.exe",
+            "mac":"",
+            "linux":""
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"config.dat",
+            "version_property":"buildVersion"
+        },
+            "patchs":[],
+        "games":[
+            {
+                "id":"youdontknowjackvol4",
+                "name":"YOU DON'T KNOW JACK Vol. 4 The Ride",
+                "background":"game_backgrounds/YouDontKnowJackVol4.webp",
+                "path":"",
+                "game_info":{
+                    "players":{
+                        "min":1,
+                        "max":3
+                    },
+                    "length":"15 - 30 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":30
+                    },
+                    "family_friendly":"NOT_FAMILY_FRIENDLY",
+                    "audience":false,
+                    "stream_friendly":"NOT_PLAYABLE",
+                    "stream_friendly_description":"This game can only be played locally.",
+                    "moderation":"NO_MODERATION",
+                    "moderation_description":"Players can submit text in the \"Gibberish Question\" sections.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"The irreverent quiz show party game",
+                    "small_description":"The irreverent quiz show party game",
+                    "description":"For the fourth volume of the mega-award-winning CD-ROM trivia game show, the YOU DON’T KNOW JACK crew decided to throw out the YDKJ rule book and start fresh! This ain't your daddy’s YOU DON’T KNOW JACK! Suffice to say, you can take any preconceived notions you've had about the YOU DON’T KNOW JACK series and chuck ’em down an open elevator shaft because YOU DON’T KNOW JACK Volume 4 is going to take you on The Ride of your life!",
+                    "images":[
+						"game_images/YouDontKnowJackVol4/youdontknowjackvol4_1.jpg",
+                        "game_images/YouDontKnowJackVol4/youdontknowjackvol4_2.jpg",
+                        "game_images/YouDontKnowJackVol4/youdontknowjackvol4_3.jpg",
+                        "game_images/YouDontKnowJackVol4/youdontknowjackvol4_4.jpg"
+                    ],
+                    "tags":[
+                    	"trivia"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"ydkjvol4.ico",
+        "background":"backgrounds/ydkjvol4.jpg"
+    },
+    {
+        "id":"ydkjvol6",
+        "name":"YOU DON'T KNOW JACK Vol. 6 The Lost Gold",
+        "description":"Year of release: 2003",
+        "launchers_id":{
+            "steam":"260080"
+        },
+        "executables":{
+            "windows":"YDKJ6.exe",
+            "mac":"",
+            "linux":""
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"config.dat",
+            "version_property":"buildVersion"
+        },
+        "patchs": [
+            {
+                "id": "ydkjvol6_fix",
+                "name": "YOU DON'T KNOW JACK VOL. 6 The Lost Gold",
+                "small_description": "Fixes the game not working in Windows 10/11.",
+                "description": "",
+                "patch_path":"https://github.com/AkiraArtuhaxis/YOU-DONT-KNOW-JACK-Vol-6-Fix/releases/latest/download/YDKJVol6Fix.zip",
+                "configuration": {
+                    "version_origin":"repo_file",
+                    "version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/YOU-DONT-KNOW-JACK-Vol-6-Fix/main/config.dat",
+                    "version_property":"buildVersion"
+                },
+                "components": [
+                    {
+                        "id": "ydkjvol6_fix_patch",
+                        "linked_game": "youdontknowjackvol6",
+                        "name": "YOU DON'T KNOW JACK VOL. 6 The Lost Gold",
+                        "description": "",
+                        "authors": "* Pseudohalogen (Patch)\n* Prismisho (Steam Guide)",
+                        "small_description": "Fixes the game not working in Windows 10/11.",
+                        "patch_type": {
+                            "game_text": false,
+                            "game_assets": false,
+                            "game_subtitles": false,
+                            "website": false,
+                            "audios": false
+                        }
+                    }
+                ]
+            }
+        ],
+        "games":[
+            {
+                "id":"youdontknowjackvol6",
+                "name":"YOU DON'T KNOW JACK Vol. 6 The Lost Gold",
+                "background":"game_backgrounds/YouDontKnowJackVol6.webp",
+                "path":"",
+                "game_info":{
+                    "players":{
+                        "min":1,
+                        "max":3
+                    },
+                    "length":"15 - 30 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":30
+                    },
+                    "family_friendly":"NOT_FAMILY_FRIENDLY",
+                    "audience":false,
+                    "stream_friendly":"NOT_PLAYABLE",
+                    "stream_friendly_description":"This game can only be played locally.",
+                    "moderation":"NO_MODERATION",
+                    "moderation_description":"Players can submit text in the \"Gibberish Question\" sections.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"The irreverent quiz show party game",
+                    "small_description":"The irreverent quiz show party game",
+                    "description":"YOU DON’T KNOW JACK, the trivia game that became a TV show that became a massage therapist (briefly) is hoisting her billowy sails once again! This multi-award-winningest juggernaut wants to party at your house with freshly mined nuggets of GOLD!\nNOTE: This game doesn't work on Windows 10/11. You'll need to install the fix in the \"Install Patches\" section.",
+                    "images":[
+						"game_images/YouDontKnowJackVol6/youdontknowjackvol6_1.jpg",
+                        "game_images/YouDontKnowJackVol6/youdontknowjackvol6_2.jpg",
+                        "game_images/YouDontKnowJackVol6/youdontknowjackvol6_3.jpg",
+                        "game_images/YouDontKnowJackVol6/youdontknowjackvol6_4.jpg"
+                    ],
+                    "tags":[
+                    	"trivia"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"ydkjvol6.ico",
+        "background":"backgrounds/ydkjvol6.jpg"
+    },
+    {
+        "id":"uyw",
+        "name":"Use Your Words",
+        "description":"Year of release: 2017",
+        "launchers_id":{
+            "steam":"521350"
+        },
+        "executables":{
+            "windows":"uyw.exe",
+            "mac":"Use Your Words.app/Contents/MacOS/Use Your Words",
+            "linux":"Launcher.sh"
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"config.dat",
+            "version_property":"buildVersion"
+        },
+            "patchs":[],
+        "games":[
+            {
+                "id":"use_your_words",
+                "name":"Use Your Words",
+                "background":"game_backgrounds/UseYourWords.webp",
+                "path":"",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":6
+                    },
+                    "length":"20 - 25 minutes",
+                    "playtime":{
+                        "min":20,
+                        "max":25
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience reacts to the responses of the players and at the end of the game prizes are awarded to the players based on these reactions.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"NO_MODERATION",
+                    "moderation_description":"Players can submit text.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"An amazing word party",
+                    "small_description":"An amazing word party",
+                    "description":"Use Your Words is the new party game for funny people and their unfunny friends! Laugh your way through four hilarious mini-games! Use your smartphone to fill in the blank, or try your luck using one of our answers to get laughs! No matter your strategy, Use Your Words brings comedy home!",
+                    "images":[
+						"game_images/UseYourWords/useyourwords_1.webp",
+                        "game_images/UseYourWords/useyourwords_2.webp",
+                        "game_images/UseYourWords/useyourwords_3.webp",
+                        "game_images/UseYourWords/useyourwords_4.webp"
+                    ],
+                    "tags":[
+                    	"writing"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"uyw.ico",
+        "background":"backgrounds/uyw.jpg"
+    },
+    {
+        "id":"wtd",
+        "name":"What The Dub?!",
+        "description":"Year of release: 2021",
+        "launchers_id":{
+            "steam":"1495860"
+        },
+        "executables":{
+            "windows":"WhatTheDub.exe",
+            "mac":"WhatTheDub.app/Contents/MacOS/WhatTheDub",
+            "linux":"Launcher.sh"
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"config.dat",
+            "version_property":"buildVersion"
+        },
+            "patchs":[],
+        "games":[
+            {
+                "id":"what_the_dub",
+                "name":"What The Dub?!",
+                "background":"game_backgrounds/WhatTheDub.webp",
+                "path":"",
+                "game_info":{
+                    "players":{
+                        "min":1,
+                        "max":6
+                    },
+                    "length":"15 - 20 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":20
+                    },
+                    "family_friendly":"FAMILY_FRIENDLY",
+                    "audience":true,
+                    "audience_description":"The audience can vote for their favorite answers.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter playwtd.com/mod will be able to decide what's displayed on-screen.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"Crazy dubbing",
+                    "small_description":"Crazy dubbing",
+                    "description":"What The Dub?! is a multiplayer party game where each player overdubs missing dialogue from hilariously awful B-movies, outdated PSAs, and bizarre industrial films, with their own witty (or just plain stupid) dubs!",
+                    "images":[
+						"game_images/WhatTheDub/whatthedub_1.webp",
+                        "game_images/WhatTheDub/whatthedub_2.webp",
+                        "game_images/WhatTheDub/whatthedub_3.webp",
+                        "game_images/WhatTheDub/whatthedub_4.webp"
+                    ],
+                    "tags":[
+                    	"writing"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"wtd.ico",
+        "background":"backgrounds/wtd.jpg"
+    },
+    {
+        "id":"rttg",
+        "name":"RiffTrax: The Game",
+        "description":"Year of release: 2022",
+        "launchers_id":{
+            "steam":"1707870"
+        },
+        "executables":{
+            "windows":"RiffTraxTheGame.exe",
+            "mac":"RiffTraxTheGame.app/Contents/MacOS/RiffTraxTheGame",
+            "linux":"Launcher.sh"
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"config.dat",
+            "version_property":"buildVersion"
+        },
+            "patchs":[],
+        "games":[
+            {
+                "id":"rifftrax_the_game",
+                "name":"RiffTrax: The Game",
+                "background":"game_backgrounds/RiffTraxTheGame.webp",
+                "path":"",
+                "game_info":{
+                    "players":{
+                        "min":1,
+                        "max":6
+                    },
+                    "length":"15 - 20 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":20
+                    },
+                    "family_friendly":"FAMILY_FRIENDLY",
+                    "audience":true,
+                    "audience_description":"The audience can vote for their favorite answers.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter rifftrax.games/mod will be able to decide what's displayed on-screen.",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"It's riff time!",
+                    "small_description":"It's riff time!",
+                    "description":"RiffTrax: The Game is a multiplayer party game where players compete to make bad movies funny. Do you have what it takes to be the next movie riffing genius? Grab your friends and make fun of some of the worst cinematic abominations ever created.",
+                    "images":[
+						"game_images/RiffTraxTheGame/rifftraxthegame_1.webp",
+                        "game_images/RiffTraxTheGame/rifftraxthegame_2.webp",
+                        "game_images/RiffTraxTheGame/rifftraxthegame_3.webp",
+                        "game_images/RiffTraxTheGame/rifftraxthegame_4.webp"
+                    ],
+                    "tags":[
+                    	"writing"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"rttg.ico",
+        "background":"backgrounds/rttg.jpg"
+    }
+
+]
+}

@@ -562,6 +562,11 @@
             "version_file":"config.jet",
             "version_property":"buildVersion"
         },
+        "store_links":{
+            "steam":"https://store.steampowered.com/app/434170/The_Jackbox_Party_Pack_3/",
+            "epic":"https://store.epicgames.com/fr/p/jackbox-party-pack-3",
+            "jackbox_games_store":"https://shop.jackboxgames.com/products/the-jackbox-party-pack-3-pc-mac-linux-code"
+        },
             "patchs":[],
         "games":[
             {

@@ -2904,7 +2904,7 @@
         "executables":{
             "windows":"YDKJV1.exe",
             "mac":"",
-            "linux":""
+            "linux":"YDKJV1.exe"
         },
         "configuration":{
 	        "version_origin":"game_file",
@@ -2973,7 +2973,7 @@
         "executables":{
             "windows":"YDKJVS.exe",
             "mac":"",
-            "linux":""
+            "linux":"YDKJVS.exe"
         },
         "configuration":{
 	        "version_origin":"game_file",
@@ -3042,7 +3042,7 @@
         "executables":{
             "windows":"YDKJV2.exe",
             "mac":"",
-            "linux":""
+            "linux":"YDKJV2.exe"
         },
         "configuration":{
 	        "version_origin":"game_file",
@@ -3111,7 +3111,7 @@
         "executables":{
             "windows":"YDKJVM.exe",
             "mac":"",
-            "linux":""
+            "linux":"YDKJVM.exe"
         },
         "configuration":{
 	        "version_origin":"game_file",
@@ -3180,7 +3180,7 @@
         "executables":{
             "windows":"YDKJVT.exe",
             "mac":"",
-            "linux":""
+            "linux":"YDKJVT.exe"
         },
         "configuration":{
 	        "version_origin":"game_file",
@@ -3249,7 +3249,7 @@
         "executables":{
             "windows":"YDKJV3.exe",
             "mac":"",
-            "linux":""
+            "linux":"YDKJV3.exe"
         },
         "configuration":{
 	        "version_origin":"game_file",
@@ -3318,7 +3318,7 @@
         "executables":{
             "windows":"YDKJVH.exe",
             "mac":"",
-            "linux":""
+            "linux":"YDKJVH.exe"
         },
         "configuration":{
 	        "version_origin":"game_file",
@@ -3387,7 +3387,7 @@
         "executables":{
             "windows":"YDKJV4.exe",
             "mac":"",
-            "linux":""
+            "linux":"YDKJV4.exe"
         },
         "configuration":{
 	        "version_origin":"game_file",
@@ -3456,7 +3456,7 @@
         "executables":{
             "windows":"YDKJ6.exe",
             "mac":"",
-            "linux":""
+            "linux":"YDKJ6.exe"
         },
         "configuration":{
 	        "version_origin":"game_file",
@@ -3554,8 +3554,8 @@
         },
         "executables":{
             "windows":"uyw.exe",
-            "mac":"Use Your Words.app/Contents/MacOS/Use Your Words",
-            "linux":"Launcher.sh"
+            "mac":"Use Your Words.app/Contents/MacOS/uyw",
+            "linux":"uyw.exe"
         },
         "configuration":{
 	        "version_origin":"game_file",
@@ -3623,7 +3623,7 @@
         "executables":{
             "windows":"WhatTheDub.exe",
             "mac":"WhatTheDub.app/Contents/MacOS/WhatTheDub",
-            "linux":"Launcher.sh"
+            "linux":"WhatTheDub.exe"
         },
         "configuration":{
 	        "version_origin":"game_file",
@@ -3691,7 +3691,7 @@
         "executables":{
             "windows":"RiffTraxTheGame.exe",
             "mac":"RiffTraxTheGame.app/Contents/MacOS/RiffTraxTheGame",
-            "linux":"Launcher.sh"
+            "linux":"RiffTraxTheGame.exe"
         },
         "configuration":{
 	        "version_origin":"game_file",

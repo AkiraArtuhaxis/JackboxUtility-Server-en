@@ -13,12 +13,6 @@
             "description":"You'll have to draw in these games."
        },
        {
-       	    "id":"writing",
-            "name":"Writing",
-            "icon":"text_align_top",
-            "description":"You'll have to write in these games."
-       },
-       {
        	    "id":"deduction",
             "name":"Strategy",
             "icon":"comment_urgent",
@@ -29,7 +23,13 @@
             "name":"Trivia",
             "icon":"knowledge_management_app",
             "description":"These are trivia games."
-       }
+       },
+       {
+            "id":"writing",
+            "name":"Writing",
+            "icon":"text_align_top",
+            "description":"You'll have to write in these games."
+        }
     ],
     "patchsCategories":[],
     "packs":[

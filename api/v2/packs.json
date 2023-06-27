@@ -3,7 +3,7 @@
        {
             "id":"talking",
             "name":"Discussion",
-            "icon":"action_center",
+            "icon":"megaphone",
             "description":"Games that require or benefit from out loud discussion between players."
        },
        {
@@ -21,7 +21,7 @@
        {
        	    "id":"knowledge",
             "name":"Trivia",
-            "icon":"knowledge_management_app",
+            "icon":"unknown",
             "description":"These are trivia games."
        },
        {

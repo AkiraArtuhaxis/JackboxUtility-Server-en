@@ -9,6 +9,13 @@
         },
         {
             "id":"2023-02-22 19:02:14",
+            "title":"Join our Discord server!",
+            "smallDescription":"Join our Discord community server!",
+            "content":"If you had a problem or want to suggest something for the Utility, join our Discord server!\n\nYou can also play games with others if you want.",
+            "image":"news_images/discord.png"
+        },
+        {
+            "id":"2023-02-22 19:02:14",
             "title":"Game codes on EU/Canada!",
             "smallDescription":"You can now buy game codes in EU and Canada!",
             "content":"# If you're looking to buy the Jackbox games in these locations, you're in luck!\n\nWhen buying game codes in jackboxgames.com, you now get exclusive discounts in Europe and Canada, as well as in the United States.\n\nHappy buying!",

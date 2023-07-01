@@ -3470,8 +3470,8 @@
 	"fixes":[
 	    {
                 "id": "ydkjvol6_fix",
-                "name": "You Don't Know Jack Vol. 6",
-                "small_description": "Fixes the game not working in Windows 10/11.",
+                "name": "YDKJ Vol. 6 Fix",
+                "small_description": "Fixes the game not working in Windows 10/11 and Linux.",
                 "description": "",
                 "patch_path":"https://github.com/AkiraArtuhaxis/YOU-DONT-KNOW-JACK-Vol-6-Fix/releases/latest/download/YDKJVol6Fix.zip",
                 "configuration": {

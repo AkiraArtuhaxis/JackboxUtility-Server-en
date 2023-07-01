@@ -3467,8 +3467,8 @@
             "steam":"https://store.steampowered.com/app/260080/YOU_DONT_KNOW_JACK_Vol_6_The_Lost_Gold/",
             "jackbox_games_store":"http://shrsl.com/44k24"
         },
-        "patchs": [
-            {
+	"fixes":[
+	    {
                 "id": "ydkjvol6_fix",
                 "name": "You Don't Know Jack Vol. 6",
                 "small_description": "Fixes the game not working in Windows 10/11.",
@@ -3497,6 +3497,9 @@
                     }
                 ]
             }
+	],
+        "patchs": [
+            
         ],
         "games":[
             {

@@ -3486,7 +3486,7 @@
                         "name": "You Don't Know Jack Vol. 6",
                         "description": "",
                         "authors": "* Pseudohalogen (Patch)\n* Prismisho (Steam Guide)",
-                        "small_description": "Fixes the game not working in Windows 10/11.",
+                        "small_description": "Fixes the game not working in Windows 10/11 and Linux.",
                         "patch_type": {
                             "game_text": false,
                             "game_assets": false,

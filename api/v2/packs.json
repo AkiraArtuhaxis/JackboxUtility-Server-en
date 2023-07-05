@@ -2206,7 +2206,7 @@
                     "description":"The hilarious bluffing party game returns with an all new Final Fibbage, video questions, fan-submitted questions, and Fibbage Enough About You mode!",
                     "images":[
                     	"game_images/PP9/PP9.mp4",
-			"game_images/Fibbage4/fibbage4_1.jpg",
+			            "game_images/Fibbage4/fibbage4_1.jpg",
                         "game_images/Fibbage4/fibbage4_2.jpg",
                         "game_images/Fibbage4/fibbage4_3.jpg",
                         "game_images/Fibbage4/fibbage4_4.jpg"
@@ -2392,7 +2392,8 @@
                     "small_description":"Order the blocks",
                     "description":"In this trivia sorting factory, work with your team to sort falling answers into their proper order before they hit the floor! Or, play the single player mode and see how many blocks you can sort before topping out. It’s as easy as A, C, B!",
                     "images":[
-			            "game_images/Quixort/quixort_1.jpg",
+                        "game_images/Quixort/quixort.mp4",
+                        "game_images/Quixort/quixort_1.jpg",
                         "game_images/Quixort/quixort_2.jpg",
                         "game_images/Quixort/quixort_3.jpg",
                         "game_images/Quixort/quixort_4.jpg"

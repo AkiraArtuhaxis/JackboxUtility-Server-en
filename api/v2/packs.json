@@ -90,7 +90,8 @@
                     "small_description":"The irreverent quiz show party game",
                     "description":"The smart-ass trivia show that started it all! Hundreds of all-new twisted trivia questions and everyone’s favorite host, Cookie Masterson!",
                     "images":[
-						"game_images/YDKJ2015/ydkj2015_1.webp",
+                        "game_images/YDKJ2015/ydkj2015.mp4",
+                        "game_images/YDKJ2015/ydkj2015_1.webp",
                         "game_images/YDKJ2015/ydkj2015_2.webp",
                         "game_images/YDKJ2015/ydkj2015_3.webp",
                         "game_images/YDKJ2015/ydkj2015_4.webp"
@@ -135,7 +136,8 @@
                     "small_description":"Draw badly with style!",
                     "description":"The drawing game that takes all other drawing games and draws little mustaches on them. Can’t draw? No problem! It’s funnier that way!",
                     "images":[
-						"game_images/Drawful/drawful_1.webp",
+                        "game_images/Drawful/drawful.mp4",
+                        "game_images/Drawful/drawful_1.webp",
                         "game_images/Drawful/drawful_2.webp"
                     ],
                     "tags":[
@@ -179,7 +181,8 @@
                     "small_description":"PASS IT AROUND",
                     "description":"Keep the words rolling all night! Just finish the word coming toward you, like “Mail___.” Mail enhancement, you say? You nailed it.",
                     "images":[
-						"game_images/WordSpud/wordspud_1.webp",
+                        "game_images/WordSpud/wordspud.mp4",
+                        "game_images/WordSpud/wordspud_1.webp",
                         "game_images/WordSpud/wordspud_2.webp"
                     ],
                     "tags":[
@@ -222,7 +225,8 @@
                     "small_description":"Is it true or false?",
                     "description":"Do lobsters pee out of their heads? Did Japan vote the instant noodle the top invention of the 20th century? Or are you calling BS?\n\nNOTE: Opening this game with the Utility will open the Party Pack menu, skipping the introduction. This is intentional, as the game freezes when trying to open it more efficiently like other games.",
                     "images":[
-						"game_images/LieSwatter/lieswatter_1.webp",
+                        "game_images/LieSwatter/lieswatter.mp4",
+                        "game_images/LieSwatter/lieswatter_1.webp",
                         "game_images/LieSwatter/lieswatter_2.webp"
                     ],
                     "tags":[
@@ -265,7 +269,8 @@
                     "small_description":"The hilarious bluffing party game",
                     "description":"Fool your friends with your lies, avoid theirs, and find the (usually outrageous) truth. “The mayor of Rabbit Hash, Kentucky is a ____.” Go!",
                     "images":[
-						"game_images/FibbageXL/fibbagexl_1.webp",
+                        "game_images/FibbageXL/fibbagexl.mp4",
+                        "game_images/FibbageXL/fibbagexl_1.webp",
                         "game_images/FibbageXL/fibbagexl_2.webp",
                         "game_images/FibbageXL/fibbagexl_3.webp"
                     ],
@@ -343,7 +348,8 @@
                     "small_description":"The hilarious bluffing party game",
                     "description":"More Fibbage! Lie to your friends, avoid their lies, and spot the truth. “In Arizona, you must obtain a permit to feed ______ to pigs.” Go!",
                     "images":[
-						"game_images/Fibbage2/fibbage2_1.webp",
+                        "game_images/Fibbage2/fibbage2.mp4",
+                        "game_images/Fibbage2/fibbage2_1.webp",
                         "game_images/Fibbage2/fibbage2_2.webp",
                         "game_images/Fibbage2/fibbage2_3.webp",
                         "game_images/Fibbage2/fibbage2_4.webp"
@@ -390,7 +396,8 @@
                     "small_description":"The game of sound strategy",
                     "description":"Cow moo? Huge explosion? Or tiny fart? Which to choose? It's the sound effects game that will leave you up to your ears in laughter!",
                     "images":[
-						"game_images/Earwax/earwax_1.webp",
+                        "game_images/Earwax/earwax.mp4",
+                        "game_images/Earwax/earwax_1.webp",
                         "game_images/Earwax/earwax_2.webp",
                         "game_images/Earwax/earwax_3.webp",
                         "game_images/Earwax/earwax_4.webp"
@@ -435,7 +442,8 @@
                     "small_description":"Time to bid",
                     "description":"Outbid your opponents for absurd art – drawn by players themselves – and win this strangely competitive auction game! Don’t be a bidiot!",
                     "images":[
-						"game_images/Bidiots/bidiots_1.webp",
+                        "game_images/Bidiots/bidiots.mp4",
+                        "game_images/Bidiots/bidiots_1.webp",
                         "game_images/Bidiots/bidiots_2.webp",
                         "game_images/Bidiots/bidiots_3.webp",
                         "game_images/Bidiots/bidiots_4.webp"
@@ -482,7 +490,8 @@
                     "small_description":"The Say-Anything Party Game",
                     "description":"The laugh-a-minute battle of wits and wittiness in its HUGEST form! Come up with “the best name to give an ugly baby” and win!",
                     "images":[
-						"game_images/QuiplashXL/quiplashxl_1.webp",
+                        "game_images/QuiplashXL/quiplashxl.mp4",
+                        "game_images/QuiplashXL/quiplashxl_1.webp",
                         "game_images/QuiplashXL/quiplashxl_2.webp",
                         "game_images/QuiplashXL/quiplashxl_3.webp",
                         "game_images/QuiplashXL/quiplashxl_4.webp"
@@ -525,6 +534,7 @@
                     "small_description":"This job blows",
                     "description":"Welcome to Bomb Corp. Interns of your kind must help defuse bombs in our office. It’s a weird office full of bombs. Just hit start.",
                     "images":[
+                        "game_images/BombCorp/bombcorp.mp4",
                         "game_images/BombCorp/bombcorp_1.webp",
                         "game_images/BombCorp/bombcorp_2.webp",
                         "game_images/BombCorp/bombcorp_3.webp",
@@ -607,7 +617,8 @@
                     "small_description":"The Say-Anything Party Game",
                     "description":"The say-anything party game returns. Come up with \"a bad substitute for dental floss\" and win! Tired of our weird prompts? Try the new Make Your Own mode!",
                     "images":[
-						"game_images/Quiplash2/quiplash2_1.webp",
+                        "game_images/Quiplash2/quiplash2.mp4",
+                        "game_images/Quiplash2/quiplash2_1.webp",
                         "game_images/Quiplash2/quiplash2_2.webp",
                         "game_images/Quiplash2/quiplash2_3.webp",
                         "game_images/Quiplash2/quiplash2_4.webp"
@@ -653,7 +664,8 @@
                     "small_description":"Will you survive this trivia?",
                     "description":"Be the last to survive a serial killer's absurd trivia game show. But it's fun!",
                     "images":[
-						"game_images/TriviaMurderParty/triviamurderparty_1.webp",
+                        "game_images/TriviaMurderParty/triviamurderparty.mp4",
+                        "game_images/TriviaMurderParty/triviamurderparty_1.webp",
                         "game_images/TriviaMurderParty/triviamurderparty_2.webp",
                         "game_images/TriviaMurderParty/triviamurderparty_3.webp",
                         "game_images/TriviaMurderParty/triviamurderparty_4.webp"
@@ -699,7 +711,8 @@
                     "small_description":"Data mining mayhem!",
                     "description":"What percentage of people have buried something in the woods? Ridden in the back of a cop car? Have a crush on someone they work with? Guess right and win!",
                     "images":[
-						"game_images/Guesspionage/guesspionage_1.webp",
+                        "game_images/Guesspionage/guesspionage.mp4",
+                        "game_images/Guesspionage/guesspionage_1.webp",
                         "game_images/Guesspionage/guesspionage_2.webp",
                         "game_images/Guesspionage/guesspionage_3.webp",
                         "game_images/Guesspionage/guesspionage_4.webp"
@@ -746,7 +759,8 @@
                     "small_description":"Catch the Sneaky Trickster!",
                     "description":"Everyone gives an answer, but not everyone knows the question. One of your friends has something to hide. Find the faker before it’s too late!",
                     "images":[
-						"game_images/FakinIt/fakinit_1.webp",
+                        "game_images/FakinIt/fakinit.mp4",
+                        "game_images/FakinIt/fakinit_1.webp",
                         "game_images/FakinIt/fakinit_2.webp",
                         "game_images/FakinIt/fakinit_3.webp",
                         "game_images/FakinIt/fakinit_4.webp"
@@ -793,7 +807,8 @@
                     "small_description":"T-Shirt Knock Out",
                     "description":"Draw pictures, write slogans, then swap them around to create your own custom t-shirt warriors. Only the most worthy novelty t-shirt will leave the tournament alive.",
                     "images":[
-						"game_images/TeeKO/teeko_1.webp",
+                        "game_images/TeeKO/teeko.mp4",
+                        "game_images/TeeKO/teeko_1.webp",
                         "game_images/TeeKO/teeko_2.webp",
                         "game_images/TeeKO/teeko_3.webp",
                         "game_images/TeeKO/teeko_4.webp"
@@ -873,7 +888,8 @@
                     "small_description":"The hilarious bluffing party game",
                     "description":"Fib your way through all-new question types and the all-newer game mode Fibbage: Enough About You. Guess the weird facts about your fellow players!",
                     "images":[
-			            "game_images/Fibbage3/fibbage3_1.webp",
+                        "game_images/Fibbage3/fibbage3.mp4",
+                        "game_images/Fibbage3/fibbage3_1.webp",
                         "game_images/Fibbage3/fibbage3_2.webp",
                         "game_images/Fibbage3/fibbage3_3.webp",
                         "game_images/Fibbage3/fibbage3_4.webp"
@@ -920,7 +936,8 @@
                     "small_description":"Sign in for hours of play",
                     "description":"Log on and strap in! It’s survival of the funniest as you playfully take your friends out of context across the World Wide Web.",
                     "images":[
-			            "game_images/SurviveTheInternet/survivetheinternet_1.webp",
+                        "game_images/SurviveTheInternet/survivetheinternet.mp4",
+                        "game_images/SurviveTheInternet/survivetheinternet_1.webp",
                         "game_images/SurviveTheInternet/survivetheinternet_2.webp",
                         "game_images/SurviveTheInternet/survivetheinternet_3.webp",
                         "game_images/SurviveTheInternet/survivetheinternet_4.webp"
@@ -966,7 +983,8 @@
                     "small_description":"Even monsters can love",
                     "description":"A dating-themed game where you send funny messages and try to hide your secret monster powers. Just like real dating!",
                     "images":[
-			            "game_images/MonsterSeekingMonster/monsterseekingmonster_1.webp",
+                        "game_images/MonsterSeekingMonster/monsterseekingmonster.mp4",
+                        "game_images/MonsterSeekingMonster/monsterseekingmonster_1.webp",
                         "game_images/MonsterSeekingMonster/monsterseekingmonster_2.webp",
                         "game_images/MonsterSeekingMonster/monsterseekingmonster_3.webp",
                         "game_images/MonsterSeekingMonster/monsterseekingmonster_4.webp"
@@ -1013,7 +1031,8 @@
                     "small_description":"Bet for the best",
                     "description":"The deranged debate tournament! “What’s the best vegetable for Benedict Cumberbatch to voice in a movie?” Place smart bets on what will win stupid arguments.",
                     "images":[
-			            "game_images/Bracketeering/bracketeering_1.webp",
+                        "game_images/Bracketeering/bracketeering.mp4",
+                        "game_images/Bracketeering/bracketeering_1.webp",
                         "game_images/Bracketeering/bracketeering_2.webp",
                         "game_images/Bracketeering/bracketeering_3.webp",
                         "game_images/Bracketeering/bracketeering_4.webp"
@@ -1059,7 +1078,8 @@
                     "small_description":"Combine your designs",
                     "description":"You’ve been hired to create murals all over Doodle Valley. Compete to see who can make the best additions in your attempt to “beautify” the city.",
                     "images":[
-			            "game_images/CivicDoodle/civicdoodle_1.webp",
+                        "game_images/CivicDoodle/civicdoodle.mp4",
+                        "game_images/CivicDoodle/civicdoodle_1.webp",
                         "game_images/CivicDoodle/civicdoodle_2.webp",
                         "game_images/CivicDoodle/civicdoodle_3.webp",
                         "game_images/CivicDoodle/civicdoodle_4.webp"
@@ -1138,7 +1158,8 @@
                     "small_description":"The irreverent trivia is back",
                     "description":"YOU DON’T KNOW JACK: Full Stream brings the classic irreverent trivia phenomenon to the wildly popular and totally fictional streaming service Binjpipe! Their terms of service explicitly states you’ll love it!",
                     "images":[
-						"game_images/YDKJFullStream/ydkjfullstream_1.webp",
+                        "game_images/YDKJFullStream/ydkjfullstream.mp4",
+                        "game_images/YDKJFullStream/ydkjfullstream_1.webp",
                         "game_images/YDKJFullStream/ydkjfullstream_2.webp",
                         "game_images/YDKJFullStream/ydkjfullstream_3.webp",
                         "game_images/YDKJFullStream/ydkjfullstream_4.webp"
@@ -1184,7 +1205,8 @@
                     "small_description":"Create your best dilemmas",
                     "description":"The what-if game where anything is possible! Create strange and divisive hypothetical situations.",
                     "images":[
-			            "game_images/SplitTheRoom/splittheroom_1.webp",
+                        "game_images/SplitTheRoom/splittheroom.mp4",
+                        "game_images/SplitTheRoom/splittheroom_1.webp",
                         "game_images/SplitTheRoom/splittheroom_2.webp",
                         "game_images/SplitTheRoom/splittheroom_3.webp",
                         "game_images/SplitTheRoom/splittheroom_4.webp"
@@ -1231,7 +1253,8 @@
                     "small_description":"Robotic rapping fun!",
                     "description":"The robot rap battle game! Spit mad rhymes against your friends to see who’s the dopest MC and who’s the wackest cat.",
                     "images":[
-						"game_images/MadVerseCity/madversecity_1.webp",
+                        "game_images/MadVerseCity/madversecity.mp4",
+                        "game_images/MadVerseCity/madversecity_1.webp",
                         "game_images/MadVerseCity/madversecity_2.webp",
                         "game_images/MadVerseCity/madversecity_3.webp",
                         "game_images/MadVerseCity/madversecity_4.webp"
@@ -1277,7 +1300,8 @@
                     "small_description":"Team earth must survive!",
                     "description":"The galaxy’s deadliest game show! Fling yourself and win fabulous prizes!!!",
                     "images":[
-						"game_images/ZeepleDome/zeepledome_1.webp",
+                        "game_images/ZeepleDome/zeepledome.mp4",
+                        "game_images/ZeepleDome/zeepledome_1.webp",
                         "game_images/ZeepleDome/zeepledome_2.webp",
                         "game_images/ZeepleDome/zeepledome_3.webp",
                         "game_images/ZeepleDome/zeepledome_4.webp"
@@ -1324,7 +1348,8 @@
                     "small_description":"Create your own inventions!",
                     "description":"The inventive drawing game where you solve bizarre problems! Pitch your ideas to rake in the cash!",
                     "images":[
-			            "game_images/PatentlyStupid/patentlystupid_1.webp",
+                        "game_images/PatentlyStupid/patentlystupid.mp4",
+                        "game_images/PatentlyStupid/patentlystupid_1.webp",
                         "game_images/PatentlyStupid/patentlystupid_2.webp",
                         "game_images/PatentlyStupid/patentlystupid_3.webp",
                         "game_images/PatentlyStupid/patentlystupid_4.webp"
@@ -1406,7 +1431,8 @@
                     "small_description":"Will you survive this trivia?",
                     "description":"A serial killer is running an absurd trivia game out of the family-run Murder Hotel he grew up in. Can you survive?",
                     "images":[
-						"game_images/TriviaMurderParty2/triviamurderparty2_1.webp",
+                        "game_images/TriviaMurderParty2/triviamurderparty2.mp4",
+                        "game_images/TriviaMurderParty2/triviamurderparty2_1.webp",
                         "game_images/TriviaMurderParty2/triviamurderparty2_2.webp",
                         "game_images/TriviaMurderParty2/triviamurderparty2_3.webp",
                         "game_images/TriviaMurderParty2/triviamurderparty2_4.webp"
@@ -1453,7 +1479,8 @@
                     "small_description":"Who are you?",
                     "description":"Everybody’s somebody, so who are you? The planner? The flake? The sassy one? Step into the lab and find out.",
                     "images":[
-						"game_images/RoleModels/rolemodels_1.webp",
+                        "game_images/RoleModels/rolemodels.mp4",
+                        "game_images/RoleModels/rolemodels_1.webp",
                         "game_images/RoleModels/rolemodels_2.webp",
                         "game_images/RoleModels/rolemodels_3.webp"
                     ],
@@ -1500,7 +1527,8 @@
                     "small_description":"Make your friends laugh",
                     "description":"Ahoy! You’re an amateur comic on a fourth-rate cruise ship. Do you have what it takes to win the talent show?",
                     "images":[
-			            "game_images/JokeBoat/jokeboat_1.webp",
+                        "game_images/JokeBoat/jokeboat.mp4",
+                        "game_images/JokeBoat/jokeboat_1.webp",
                         "game_images/JokeBoat/jokeboat_2.webp",
                         "game_images/JokeBoat/jokeboat_3.webp",
                         "game_images/JokeBoat/jokeboat_4.webp"
@@ -1547,7 +1575,8 @@
                     "small_description":"Invent words",
                     "description":"Humans have been inventing words and phrases for centuries. Now it’s your turn to contribute an entry to the pages of the Dictionarium.",
                     "images":[
-			            "game_images/Dictionarium/dictionarium_1.webp",
+                        "game_images/Dictionarium/dictionarium.mp4",
+                        "game_images/Dictionarium/dictionarium_1.webp",
                         "game_images/Dictionarium/dictionarium_2.webp",
                         "game_images/Dictionarium/dictionarium_3.webp",
                         "game_images/Dictionarium/dictionarium_4.webp"
@@ -1593,7 +1622,8 @@
                     "small_description":"Find the aliens",
                     "description":"Danger! Shapeshifting aliens have infiltrated your starship. Can you and your crew find them before time runs out?",
                     "images":[
-			            "game_images/PushTheButton/pushthebutton_1.webp",
+                        "game_images/PushTheButton/pushthebutton.mp4",
+                        "game_images/PushTheButton/pushthebutton_1.webp",
                         "game_images/PushTheButton/pushthebutton_2.webp",
                         "game_images/PushTheButton/pushthebutton_3.webp",
                         "game_images/PushTheButton/pushthebutton_4.webp"
@@ -1675,7 +1705,8 @@
                     "small_description":"The Say-Anything Party Game",
                     "description":"The Threequel to the say-anything party game! Answer the prompts and make your friends laugh… hopefully.",
                     "images":[
-			            "game_images/Quiplash3/quiplash3_1.webp",
+                        "game_images/Quiplash3/quiplash3.mp4",
+                        "game_images/Quiplash3/quiplash3_1.webp",
                         "game_images/Quiplash3/quiplash3_2.webp",
                         "game_images/Quiplash3/quiplash3_3.webp",
                         "game_images/Quiplash3/quiplash3_4.webp"
@@ -1721,7 +1752,8 @@
                     "small_description":"Do your tasks!",
                     "description":"You're a family of devils who've moved to an average suburb. Can you survive the daily torture of human life?",
                     "images":[
-			            "game_images/TheDevilsAndTheDetails/thedevilsandthedetails_1.webp",
+                        "game_images/TheDevilsAndTheDetails/thedevilsandthedetails.mp4",
+                        "game_images/TheDevilsAndTheDetails/thedevilsandthedetails_1.webp",
                         "game_images/TheDevilsAndTheDetails/thedevilsandthedetails_2.webp",
                         "game_images/TheDevilsAndTheDetails/thedevilsandthedetails_3.webp",
                         "game_images/TheDevilsAndTheDetails/thedevilsandthedetails_4.webp"
@@ -1767,7 +1799,8 @@
                     "small_description":"The ultimate doodling battle",
                     "description":"Enter the Scrawliseum, where characters fight over weird titles. Can you take down the heavy favorite?",
                     "images":[
-			            "game_images/ChampdUp/champdup_1.webp",
+                        "game_images/ChampdUp/champdup.mp4",
+                        "game_images/ChampdUp/champdup_1.webp",
                         "game_images/ChampdUp/champdup_2.webp",
                         "game_images/ChampdUp/champdup_3.webp",
                         "game_images/ChampdUp/champdup_4.webp"
@@ -1814,7 +1847,8 @@
                     "small_description":"Crazy talks",
                     "description":"Give a speech about pictures you haven't seen before. It doesn’t matter if it makes sense, it’s more fun if it doesn’t!",
                     "images":[
-			            "game_images/TalkingPoints/talkingpoints_1.webp",
+                        "game_images/TalkingPoints/talkingpoints.mp4",
+                        "game_images/TalkingPoints/talkingpoints_1.webp",
                         "game_images/TalkingPoints/talkingpoints_2.webp",
                         "game_images/TalkingPoints/talkingpoints_3.webp",
                         "game_images/TalkingPoints/talkingpoints_4.webp"
@@ -1860,7 +1894,8 @@
                     "small_description":"Non-stop guesses",
                     "description":"A pop culture guessing game where nothing sounds quite right! It's a good fun time experience.",
                     "images":[
-			            "game_images/BlatherRound/blatherround_1.webp",
+                        "game_images/BlatherRound/blatherround.mp4",
+                        "game_images/BlatherRound/blatherround_1.webp",
                         "game_images/BlatherRound/blatherround_2.webp",
                         "game_images/BlatherRound/blatherround_3.webp",
                         "game_images/BlatherRound/blatherround_4.webp"
@@ -1938,7 +1973,8 @@
                     "small_description":"Animate everything!",
                     "description":"The third game in the Drawful series allows players to create two corresponding images which leads to one dynamic pictorial guessing game.",
                     "images":[
-						"game_images/DrawfulAnimate/drawfulanimate_1.webp",
+                        "game_images/DrawfulAnimate/drawfulanimate.mp4",
+                        "game_images/DrawfulAnimate/drawfulanimate_1.webp",
                         "game_images/DrawfulAnimate/drawfulanimate_2.webp",
                         "game_images/DrawfulAnimate/drawfulanimate_3.webp",
                         "game_images/DrawfulAnimate/drawfulanimate_4.webp"
@@ -1985,7 +2021,8 @@
                     "small_description":"Make it spin!",
                     "description":"General knowledge and random chance combine to create a trivia game where everybody has a chance to learn the ultimate answer.",
                     "images":[
-						"game_images/TheWheelOfEnormousProportions/thewheelofenormousproportions_1.webp",
+                        "game_images/TheWheelOfEnormousProportions/thewheelofenormousproportions.mp4",
+                        "game_images/TheWheelOfEnormousProportions/thewheelofenormousproportions_1.webp",
                         "game_images/TheWheelOfEnormousProportions/thewheelofenormousproportions_2.webp",
                         "game_images/TheWheelOfEnormousProportions/thewheelofenormousproportions_3.webp",
                         "game_images/TheWheelOfEnormousProportions/thewheelofenormousproportions_4.webp"
@@ -2031,7 +2068,8 @@
                     "small_description":"Will you be employed?",
                     "description":"A comedy game where your jokes must be built of words from other players in a mixed up take on a job interview.",
                     "images":[
-			            "game_images/JobJob/jobjob_1.webp",
+                        "game_images/JobJob/jobjob.mp4",
+                        "game_images/JobJob/jobjob_1.webp",
                         "game_images/JobJob/jobjob_2.webp",
                         "game_images/JobJob/jobjob_3.webp",
                         "game_images/JobJob/jobjob_4.webp"
@@ -2078,7 +2116,8 @@
                     "small_description":"Answer the polls!",
                     "description":"A survey game that's all about YOU! Split into teams and see who can escape from the witch's lair!",
                     "images":[
-			            "game_images/PollMine/pollmine_1.webp",
+                        "game_images/PollMine/pollmine.mp4",
+                        "game_images/PollMine/pollmine_1.webp",
                         "game_images/PollMine/pollmine_2.webp",
                         "game_images/PollMine/pollmine_3.webp",
                         "game_images/PollMine/pollmine_4.webp"
@@ -2126,7 +2165,8 @@
                     "small_description":"Find the murderers",
                     "description":"This social-deduction game turns a fancy ball into a killer free-for-all where you are both artistic murderer and attentive detective.",
                     "images":[
-			            "game_images/WeaponsDrawn/weaponsdrawn_1.webp",
+                        "game_images/WeaponsDrawn/weaponsdrawn.mp4",
+                        "game_images/WeaponsDrawn/weaponsdrawn_1.webp",
                         "game_images/WeaponsDrawn/weaponsdrawn_2.webp",
                         "game_images/WeaponsDrawn/weaponsdrawn_3.webp",
                         "game_images/WeaponsDrawn/weaponsdrawn_4.webp"
@@ -2205,7 +2245,7 @@
                     "small_description":"The hilarious bluffing party game",
                     "description":"The hilarious bluffing party game returns with an all new Final Fibbage, video questions, fan-submitted questions, and Fibbage Enough About You mode!",
                     "images":[
-                    	"game_images/PP9/PP9.mp4",
+			            "game_images/Fibbage4/fibbage4.mp4",
 			            "game_images/Fibbage4/fibbage4_1.jpg",
                         "game_images/Fibbage4/fibbage4_2.jpg",
                         "game_images/Fibbage4/fibbage4_3.jpg",
@@ -2251,7 +2291,8 @@
                     "small_description":"Will you stay in the house?",
                     "description":"Channel your inner reality TV star in an attempt to come out on top! Respond to prompts, bring the competition and role-play to avoid being voted out. Never fear though, even when you’re out you’ll find yourself Roomerang-ed right back into the drama!",
                     "images":[
-			            "game_images/Roomerang/roomerang_1.jpg",
+                        "game_images/Roomerang/roomerang.mp4",
+                        "game_images/Roomerang/roomerang_1.jpg",
                         "game_images/Roomerang/roomerang_2.jpg",
                         "game_images/Roomerang/roomerang_3.jpg",
                         "game_images/Roomerang/roomerang_4.jpg"
@@ -2298,7 +2339,8 @@
                     "small_description":"Sell your items",
                     "description":"A strange wizard has turned you into a frog! Create hilarious backstories for weird objects and then get them appraised. The player with the most valuable items becomes human again!",
                     "images":[
-			            "game_images/Junktopia/junktopia_1.jpg",
+                        "game_images/Junktopia/junktopia.mp4",
+                        "game_images/Junktopia/junktopia_1.jpg",
                         "game_images/Junktopia/junktopia_2.jpg",
                         "game_images/Junktopia/junktopia_3.jpg",
                         "game_images/Junktopia/junktopia_4.jpg"
@@ -2345,7 +2387,8 @@
                     "small_description":"Share your thoughts",
                     "description":"Professor Nanners is here to test your NSP (Nonsensory Perception) in this drawing, writing, and guessing game! How close can you get to guessing where another player’s prompt ranks on the silliest of scales?",
                     "images":[
-			            "game_images/Nonsensory/nonsensory_1.jpg",
+                        "game_images/Nonsensory/nonsensory.mp4",
+                        "game_images/Nonsensory/nonsensory_1.jpg",
                         "game_images/Nonsensory/nonsensory_2.jpg",
                         "game_images/Nonsensory/nonsensory_3.jpg",
                         "game_images/Nonsensory/nonsensory_4.jpg"
@@ -2474,7 +2517,8 @@
                     "small_description":"The Say-Anything Party Game",
                     "description":"The Threequel to the say-anything party game! Answer the prompts and make your friends laugh… hopefully.",
                     "images":[
-			            "game_images/Quiplash3/quiplash3_1.webp",
+                        "game_images/Quiplash3/quiplash3starter.mp4",
+                        "game_images/Quiplash3/quiplash3_1.webp",
                         "game_images/Quiplash3/quiplash3_2.webp",
                         "game_images/Quiplash3/quiplash3_3.webp",
                         "game_images/Quiplash3/quiplash3_4.webp"
@@ -2519,7 +2563,8 @@
                     "small_description":"T-Shirt Knock Out",
                     "description":"Draw pictures, write slogans, then swap them around to create your own custom t-shirt warriors. Only the most worthy novelty t-shirt will leave the tournament alive.",
                     "images":[
-			            "game_images/TeeKO/teeko_1.webp",
+                        "game_images/TeeKO/teekostarter.mp4",
+                        "game_images/TeeKO/teeko_1.webp",
                         "game_images/TeeKO/teeko_2.webp",
                         "game_images/TeeKO/teeko_3.webp",
                         "game_images/TeeKO/teeko_4.webp"
@@ -2566,7 +2611,8 @@
                     "small_description":"Will you survive this trivia?",
                     "description":"A serial killer is running an absurd trivia game out of the family-run Murder Hotel he grew up in. Can you survive?",
                     "images":[
-						"game_images/TriviaMurderParty2/triviamurderparty2_1.webp",
+                        "game_images/TriviaMurderParty2/triviamurderparty2starter.mp4",
+                        "game_images/TriviaMurderParty2/triviamurderparty2_1.webp",
                         "game_images/TriviaMurderParty2/triviamurderparty2_2.webp",
                         "game_images/TriviaMurderParty2/triviamurderparty2_3.webp",
                         "game_images/TriviaMurderParty2/triviamurderparty2_4.webp"
@@ -2642,7 +2688,8 @@
                     "small_description":"The hilarious bluffing party game",
                     "description":"Fool your friends with your lies, avoid theirs, and find the (usually outrageous) truth. “The mayor of Rabbit Hash, Kentucky is a ____.” Go!",
                     "images":[
-						"game_images/FibbageXL/fibbagexl_1.webp",
+                        "game_images/FibbageXL/fibbagexl.mp4",
+                        "game_images/FibbageXL/fibbagexl_1.webp",
                         "game_images/FibbageXL/fibbagexl_2.webp",
                         "game_images/FibbageXL/fibbagexl_3.webp"
                     ],
@@ -2718,7 +2765,8 @@
                     "small_description":"The Say-Anything Party Game",
                     "description":"The laugh-a-minute battle of wits and wittiness in its HUGEST form! Come up with “the best name to give an ugly baby” and win!",
                     "images":[
-						"game_images/QuiplashXL/quiplashxl_1.webp",
+                        "game_images/QuiplashXL/quiplashxl.mp4",
+                        "game_images/QuiplashXL/quiplashxl_1.webp",
                         "game_images/QuiplashXL/quiplashxl_2.webp",
                         "game_images/QuiplashXL/quiplashxl_3.webp",
                         "game_images/QuiplashXL/quiplashxl_4.webp"

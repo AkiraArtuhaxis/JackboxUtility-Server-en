@@ -2995,7 +2995,8 @@
                     "small_description":"The irreverent quiz show party game",
                     "description":"The world was a much simpler place in 1995. The kids were listening to the grunge, the first test-tube gorilla was born at the Cincinnati Zoo, and a little trivia game called YOU DON’T KNOW JACK took the interactive CD-ROM trivia game show world by storm. Play now and relive that crazy, mixed-up time all over again!",
                     "images":[
-						"game_images/YouDontKnowJackVol1/youdontknowjackvol1_1.jpg",
+                        "game_images/YouDontKnowJackVol1/youdontknowjackvol1.mp4",
+                        "game_images/YouDontKnowJackVol1/youdontknowjackvol1_1.jpg",
                         "game_images/YouDontKnowJackVol1/youdontknowjackvol1_2.jpg",
                         "game_images/YouDontKnowJackVol1/youdontknowjackvol1_3.jpg",
                         "game_images/YouDontKnowJackVol1/youdontknowjackvol1_4.jpg"
@@ -3064,7 +3065,8 @@
                     "small_description":"The irreverent quiz show party game",
                     "description":"Think you know everything about football, basketball, baseball, or hockey? How about tennis, volleyball, golf, or lawn darts? Then light up the scoreboard with YOU DON’T KNOW JACK Sports – it’s YDKJ all hopped up on 'roids! So put in your mouthguard, adjust your cup, and get ready. Play ball… er, trivia!",
                     "images":[
-						"game_images/YouDontKnowJackSports/youdontknowjacksports_1.jpg",
+                        "game_images/YouDontKnowJackSports/youdontknowjacksports.mp4",
+                        "game_images/YouDontKnowJackSports/youdontknowjacksports_1.jpg",
                         "game_images/YouDontKnowJackSports/youdontknowjacksports_2.jpg",
                         "game_images/YouDontKnowJackSports/youdontknowjacksports_3.jpg",
                         "game_images/YouDontKnowJackSports/youdontknowjacksports_4.jpg"
@@ -3133,7 +3135,8 @@
                     "small_description":"The irreverent quiz show party game",
                     "description":"YOU DON’T KNOW JACK Volume 2 is the mutant offspring of the original award-winning, irreverent, fast-paced trivia game where you are a contestant on a manic game show. With all the excitement of the first game, lots of mind-blowing surprises, plus four additional question types, YOU DON’T KNOW JACK Volume 2 will scrape the trivia out of your cranium like the seedy pulp from a melon.",
                     "images":[
-						"game_images/YouDontKnowJackVol2/youdontknowjackvol2_1.jpg",
+                        "game_images/YouDontKnowJackVol2/youdontknowjackvol2.mp4",
+                        "game_images/YouDontKnowJackVol2/youdontknowjackvol2_1.jpg",
                         "game_images/YouDontKnowJackVol2/youdontknowjackvol2_2.jpg",
                         "game_images/YouDontKnowJackVol2/youdontknowjackvol2_3.jpg",
                         "game_images/YouDontKnowJackVol2/youdontknowjackvol2_4.jpg"
@@ -3202,7 +3205,8 @@
                     "small_description":"The irreverent quiz show party game",
                     "description":"If you've always wanted to see your name in lights, albeit lights from your computer monitor, then YOU DON’T KNOW JACK Movies is the trivia game for you! YDKJ Movies covers everything from Fred Astaire to Freddy Krueger, and all the Freds in between. With all the irreverence, humor and style of the original award-winning YOU DON’T KNOW JACK, YDKJ Movies will have moviegoers rolling in the sticky aisles.",
                     "images":[
-						"game_images/YouDontKnowJackMovies/youdontknowjackmovies_1.jpg",
+                        "game_images/YouDontKnowJackMovies/youdontknowjackmovies.mp4",
+                        "game_images/YouDontKnowJackMovies/youdontknowjackmovies_1.jpg",
                         "game_images/YouDontKnowJackMovies/youdontknowjackmovies_2.jpg",
                         "game_images/YouDontKnowJackMovies/youdontknowjackmovies_3.jpg",
                         "game_images/YouDontKnowJackMovies/youdontknowjackmovies_4.jpg"
@@ -3271,7 +3275,8 @@
                     "small_description":"The irreverent quiz show party game",
                     "description":"If you thought all those hours of watching TV were good for nothing, then YOU DON’T KNOW JACK… Television! With more categories than your local cable provider, YOU DON’T KNOW JACK Television spans over 50 years of boob-tube trivia, from Ralph Kramden to the guy on “King of Queens” who looks like Ralph Kramden. So set down the remote and put your recliner in the upright and locked position… it’s YOU DON’T KNOW JACK Television!",
                     "images":[
-						"game_images/YouDontKnowJackTelevision/youdontknowjacktelevision_1.jpg",
+                        "game_images/YouDontKnowJackTelevision/youdontknowjacktelevision.mp4",
+                        "game_images/YouDontKnowJackTelevision/youdontknowjacktelevision_1.jpg",
                         "game_images/YouDontKnowJackTelevision/youdontknowjacktelevision_2.jpg",
                         "game_images/YouDontKnowJackTelevision/youdontknowjacktelevision_3.jpg",
                         "game_images/YouDontKnowJackTelevision/youdontknowjacktelevision_4.jpg"
@@ -3340,7 +3345,8 @@
                     "small_description":"The irreverent quiz show party game",
                     "description":"The spawning continues as the award-winning YOU DON’T KNOW JACK series pumps out YOU DON’T KNOW JACK Volume 3. Join your host Cookie as he takes you on a trivia Tilt-a-Whirl that’s a triple-dip of cheeky hip. YDKJ Volume 3 adds a whole slew of question types into a mind-bending mixture of smart-aleckiness and sassitude.",
                     "images":[
-						"game_images/YouDontKnowJackVol3/youdontknowjackvol3_1.jpg",
+                        "game_images/YouDontKnowJackVol3/youdontknowjackvol3.mp4",
+                        "game_images/YouDontKnowJackVol3/youdontknowjackvol3_1.jpg",
                         "game_images/YouDontKnowJackVol3/youdontknowjackvol3_2.jpg",
                         "game_images/YouDontKnowJackVol3/youdontknowjackvol3_3.jpg",
                         "game_images/YouDontKnowJackVol3/youdontknowjackvol3_4.jpg"
@@ -3409,7 +3415,8 @@
                     "small_description":"The irreverent quiz show party game",
                     "description":"Forget everything you know about a YOU DON’T KNOW JACK game because YDKJ’s horribly deformed, mutant offspring HEADRUSH has been birthed! Twisted animation, insane question types, and a bizarre appetite for all human excretory fluids and gassed add up to the most over-the-top YDKJ game ever! Fire this game up and stand back, because this is not your Mommy and Daddy’s YOU DON’T KNOW JACK!",
                     "images":[
-						"game_images/YouDontKnowJackHeadrush/youdontknowjackheadrush_1.jpg",
+                        "game_images/YouDontKnowJackHeadrush/youdontknowjackheadrush.mp4",
+                        "game_images/YouDontKnowJackHeadrush/youdontknowjackheadrush_1.jpg",
                         "game_images/YouDontKnowJackHeadrush/youdontknowjackheadrush_2.jpg",
                         "game_images/YouDontKnowJackHeadrush/youdontknowjackheadrush_3.jpg",
                         "game_images/YouDontKnowJackHeadrush/youdontknowjackheadrush_4.jpg"
@@ -3478,7 +3485,8 @@
                     "small_description":"The irreverent quiz show party game",
                     "description":"For the fourth volume of the mega-award-winning CD-ROM trivia game show, the YOU DON’T KNOW JACK crew decided to throw out the YDKJ rule book and start fresh! This ain't your daddy’s YOU DON’T KNOW JACK! Suffice to say, you can take any preconceived notions you've had about the YOU DON’T KNOW JACK series and chuck ’em down an open elevator shaft because YOU DON’T KNOW JACK Volume 4 is going to take you on The Ride of your life!",
                     "images":[
-						"game_images/YouDontKnowJackVol4/youdontknowjackvol4_1.jpg",
+                        "game_images/YouDontKnowJackVol4/youdontknowjackvol4.mp4",
+                        "game_images/YouDontKnowJackVol4/youdontknowjackvol4_1.jpg",
                         "game_images/YouDontKnowJackVol4/youdontknowjackvol4_2.jpg",
                         "game_images/YouDontKnowJackVol4/youdontknowjackvol4_3.jpg",
                         "game_images/YouDontKnowJackVol4/youdontknowjackvol4_4.jpg"
@@ -3580,7 +3588,8 @@
                     "small_description":"The irreverent quiz show party game",
                     "description":"YOU DON’T KNOW JACK, the trivia game that became a TV show that became a massage therapist (briefly) is hoisting her billowy sails once again! This multi-award-winningest juggernaut wants to party at your house with freshly mined nuggets of GOLD!\n\nNOTE: This game doesn't work on Windows 10/11. You'll need to install the fix available on the right.",
                     "images":[
-						"game_images/YouDontKnowJackVol6/youdontknowjackvol6_1.jpg",
+                        "game_images/YouDontKnowJackVol6/youdontknowjackvol6.mp4",
+                        "game_images/YouDontKnowJackVol6/youdontknowjackvol6_1.jpg",
                         "game_images/YouDontKnowJackVol6/youdontknowjackvol6_2.jpg",
                         "game_images/YouDontKnowJackVol6/youdontknowjackvol6_3.jpg",
                         "game_images/YouDontKnowJackVol6/youdontknowjackvol6_4.jpg"

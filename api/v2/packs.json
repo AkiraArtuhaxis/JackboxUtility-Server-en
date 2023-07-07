@@ -3648,7 +3648,8 @@
                     "small_description":"An amazing word party",
                     "description":"Use Your Words is the new party game for funny people and their unfunny friends! Laugh your way through four hilarious mini-games! Use your smartphone to fill in the blank, or try your luck using one of our answers to get laughs! No matter your strategy, Use Your Words brings comedy home!",
                     "images":[
-						"game_images/UseYourWords/useyourwords_1.webp",
+                        "game_images/UseYourWords/useyourwords.mp4",
+                        "game_images/UseYourWords/useyourwords_1.webp",
                         "game_images/UseYourWords/useyourwords_2.webp",
                         "game_images/UseYourWords/useyourwords_3.webp",
                         "game_images/UseYourWords/useyourwords_4.webp"
@@ -3716,7 +3717,8 @@
                     "small_description":"Crazy dubbing",
                     "description":"What The Dub?! is a multiplayer party game where each player overdubs missing dialogue from hilariously awful B-movies, outdated PSAs, and bizarre industrial films, with their own witty (or just plain stupid) dubs!",
                     "images":[
-						"game_images/WhatTheDub/whatthedub_1.webp",
+                        "game_images/WhatTheDub/whatthedub.mp4",
+                        "game_images/WhatTheDub/whatthedub_1.webp",
                         "game_images/WhatTheDub/whatthedub_2.webp",
                         "game_images/WhatTheDub/whatthedub_3.webp",
                         "game_images/WhatTheDub/whatthedub_4.webp"
@@ -3784,7 +3786,8 @@
                     "small_description":"It's riff time!",
                     "description":"RiffTrax: The Game is a multiplayer party game where players compete to make bad movies funny. Do you have what it takes to be the next movie riffing genius? Grab your friends and make fun of some of the worst cinematic abominations ever created.",
                     "images":[
-						"game_images/RiffTraxTheGame/rifftraxthegame_1.webp",
+                        "game_images/RiffTraxTheGame/rifftraxthegame.mp4",
+                        "game_images/RiffTraxTheGame/rifftraxthegame_1.webp",
                         "game_images/RiffTraxTheGame/rifftraxthegame_2.webp",
                         "game_images/RiffTraxTheGame/rifftraxthegame_3.webp",
                         "game_images/RiffTraxTheGame/rifftraxthegame_4.webp"

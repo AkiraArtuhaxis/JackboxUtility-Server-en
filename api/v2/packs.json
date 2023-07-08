@@ -2842,7 +2842,8 @@
                     "small_description":"The Say-Anything Party Game",
                     "description":"The \"say anything\" party game is going international! All the hilarious content from Quiplash 2, now in French, Italian, German, and Spanish! With 100 NEW prompts in each language! (And you can still play in boring old English.) Get this QUINTILINGUAL Quiplash now, and take your next party global!",
                     "images":[
-						"game_images/Quiplash2InterLASHional/quiplash2interlashional_1.webp",
+                        "game_images/Quiplash2InterLASHional/quiplash2interlashional.mp4",
+                        "game_images/Quiplash2InterLASHional/quiplash2interlashional_1.webp",
                         "game_images/Quiplash2InterLASHional/quiplash2interlashional_2.webp",
                         "game_images/Quiplash2InterLASHional/quiplash2interlashional_3.webp",
                         "game_images/Quiplash2InterLASHional/quiplash2interlashional_4.webp"
@@ -2921,7 +2922,8 @@
                     "small_description":"Draw badly with style!",
                     "description":"Drawful is back to liven up your next party with Drawful 2, which challenges players to draw silly things on their smartphones and tablets.",
                     "images":[
-						"game_images/Drawful2/drawful2_1.webp",
+                        "game_images/Drawful2/drawful2.mp4",
+                        "game_images/Drawful2/drawful2_1.webp",
                         "game_images/Drawful2/drawful2_2.webp",
                         "game_images/Drawful2/drawful2_3.webp",
                         "game_images/Drawful2/drawful2_4.webp"

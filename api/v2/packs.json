@@ -22,7 +22,7 @@
        	    "id":"knowledge",
             "name":"Trivia",
             "icon":"unknown",
-            "description":"These are trivia games."
+            "description":"Test your knowledge with these games."
        },
        {
             "id":"writing",
@@ -3721,7 +3721,7 @@
                     "stream_friendly":"PLAYABLE",
                     "moderation":"FULL_MODERATION",
                     "moderation_description":"With the \"Moderation\" option enabled, the mods that enter playwtd.com/mod will be able to decide what's displayed on-screen.",
-                    "subtitles":false,
+                    "subtitles":true,
                     "type":"VERSUS",
                     "translation":"ENGLISH",
                     "tagline":"Crazy dubbing",
@@ -3790,7 +3790,7 @@
                     "stream_friendly":"PLAYABLE",
                     "moderation":"FULL_MODERATION",
                     "moderation_description":"With the \"Moderation\" option enabled, the mods that enter rifftrax.games/mod will be able to decide what's displayed on-screen.",
-                    "subtitles":false,
+                    "subtitles":true,
                     "type":"VERSUS",
                     "translation":"ENGLISH",
                     "tagline":"It's riff time!",

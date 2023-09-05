@@ -2676,7 +2676,7 @@
                         "min":15,
                         "max":20
                     },
-                    "family_friendly":"NOT_FAMILY_FRIENDLY",
+                    "family_friendly":"OPTIONAL",
                     "audience":false,
                     "stream_friendly":"PLAYABLE",
                     "moderation":"NO_MODERATION",

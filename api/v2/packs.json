@@ -2459,7 +2459,258 @@
         "icon":"jpp9.ico",
         "background":"backgrounds/jpp9.jpg"
     },
-    
+    {
+        "id": "jpp10",
+        "name": "The Jackbox Party Pack 10",
+        "description": "Year of release: 2023",
+        "launchers_id": {
+            "steam": "2216830"
+        },
+        "executables": {
+            "windows": "The Jackbox Party Pack 10.exe",
+            "mac": "The Jackbox Party Pack 10.app/Contents/MacOS/The Jackbox Party Pack 10",
+            "linux": "Launcher.sh"
+        },
+        "loader": {
+            "path": "loaders/tjpp10/default.zip",
+            "version": "1.0.0"
+        },
+        "configuration": {
+            "file": "jbg.config.jet",
+            "version_property": "buildVersion",
+            "version_origin": "game_file",
+            "version_file": "jbg.config.jet"
+        },
+        "store_links": {
+            "steam": "https://store.steampowered.com/app/2216830/The_Jackbox_Party_Pack_10/"
+        },
+        "patchs": [
+        ],
+        "games": [
+            {
+                "id": "teeko2",
+                "name": "Tee K.O. 2",
+                "background": "game_backgrounds/TeeKO2.webp",
+                "path": "games/AwShirt2",
+                "game_info": {
+                    "players": {
+                        "min": 3,
+                        "max": 8
+                    },
+                    "playtime": {
+                        "min": 20,
+                        "max": 25
+                    },
+                    "family_friendly": "OPTIONAL",
+                    "audience": true,
+                    "audience_description": "The audience can vote for their favorite shirts.",
+                    "stream_friendly": "PLAYABLE",
+                    "moderation": "FULL_MODERATION",
+                    "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles": true,
+                    "length": "20 - 25 minutes",
+                    "type": "VERSUS",
+                    "translation": "NATIVELY_TRANSLATED",
+                    "tagline":"T-Shirt Knock Out",
+                    "small_description":"T-Shirt Knock Out",
+                    "description":"In Tee K.O. 2, return to T-Shirt Island, where the most hardened warriors in the world compete in a deadly fighting tournament. The drawing finger–not the fist–decides the victory!",
+                    "images": [
+                        "game_images/TeeKO2/teeko2.mp4",
+                        "game_images/TeeKO2/teeko2_1.png",
+                        "game_images/TeeKO2/teeko2_2.png",
+                        "game_images/TeeKO2/teeko2_3.png",
+                        "game_images/TeeKO2/teeko2_4.png"
+                    ],
+                    "tags": [
+                        "writing",
+                        "drawing"
+                    ]
+                },
+                "loader": {
+                    "path": "loaders/tjpp10/teeko2.zip",
+                    "version": "1.0.0"
+                },
+                "patchs": []
+            },
+            {
+                "id": "timejinx",
+                "name": "Timejinx",
+                "background": "game_backgrounds/Timejinx.webp",
+                "path": "games/TimeTrivia",
+                "game_info": {
+                    "players": {
+                        "min": 1,
+                        "max": 8
+                    },
+                    "playtime": {
+                        "min": 15,
+                        "max": 20
+                    },
+                    "family_friendly": "OPTIONAL",
+                    "audience": true,
+                    "audience_description": "The audience can also answer the questions.",
+                    "stream_friendly": "PLAYABLE",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"This game doesn't require moderation.",
+                    "subtitles": true,
+                    "length": "15 - 20 minutes",
+                    "type": "VERSUS",
+                    "translation": "NATIVELY_TRANSLATED",
+                    "tagline": "Time to play",
+                    "small_description": "Time to play",
+                    "description": "In Timejinx, you’re a time traveler from the future competing in a high-stakes trivia night. Save your current timeline by answering questions about the past.",
+                    "images": [
+                        "game_images/TimeJinx/timejinx.mp4",
+                        "game_images/TimeJinx/timejinx_1.png",
+                        "game_images/TimeJinx/timejinx_2.png",
+                        "game_images/TimeJinx/timejinx_3.png",
+                        "game_images/TimeJinx/timejinx_4.png"
+                    ],
+                    "tags": [
+                        "knowledge"
+                    ]
+                },
+                "loader": {
+                    "path": "loaders/tjpp10/timejinx.zip",
+                    "version": "1.0.0"
+                },
+                "patchs": []
+            },
+            {
+                "id": "fixytext",
+                "name": "FixyText",
+                "background": "game_backgrounds/FixyText.webp",
+                "path": "games/RiskyText",
+                "game_info": {
+                    "players": {
+                        "min": 3,
+                        "max": 8
+                    },
+                    "playtime": {
+                        "min": 15,
+                        "max": 20
+                    },
+                    "family_friendly": "OPTIONAL",
+                    "audience": true,
+                    "audience_description": "The audience can vote for the funniest words.",
+                    "stream_friendly": "PLAYABLE",
+                    "moderation":"CENSORING",
+                    "moderation_description":"Due to how this game works, player responses cannot be censored. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles": true,
+                    "length": "15 - 20 minutes",
+                    "type": "VERSUS",
+                    "translation": "NATIVELY_TRANSLATED",
+                    "tagline": "A total word jumble",
+                    "small_description": "A total word jumble",
+                    "description": "FixyText is the Wild West of text-editing. In this chaotic game, everyone’s in group chat, typing all at once to make the most memorable statement. And there’s no delete key. Take that auto-correct!",
+                    "images": [
+                        "game_images/FixyText/fixytext.mp4",
+                        "game_images/FixyText/fixytext_1.png",
+                        "game_images/FixyText/fixytext_2.png",
+                        "game_images/FixyText/fixytext_3.png",
+                        "game_images/FixyText/fixytext_4.png"
+                    ],
+                    "tags": [
+                        "writing"
+                    ]
+                },
+                "loader": {
+                    "path": "loaders/tjpp10/fixytext.zip",
+                    "version": "1.0.0"
+                },
+                "patchs": []
+            },
+            {
+                "id": "dodoremi",
+                "name": "Dodo Re Mi",
+                "background": "game_backgrounds/DodoReMi.webp",
+                "path": "games/NopusOpus",
+                "game_info": {
+                    "players": {
+                        "min": 1,
+                        "max": 9
+                    },
+                    "playtime": {
+                        "min": 15,
+                        "max": 25
+                    },
+                    "family_friendly": "FAMILY_FRIENDLY",
+                    "audience": true,
+                    "audience_description": "The audience can also play the songs.",
+                    "stream_friendly": "PLAYABLE",
+                    "stream_friendly_description": "There is a sync at the beginning of each song, so streaming delay is automatically removed.",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"This game doesn't require moderation.",
+                    "subtitles": true,
+                    "length": "15 - 25 minutes",
+                    "type": "COOP",
+                    "translation": "NATIVELY_TRANSLATED",
+                    "tagline": "Unbridled music",
+                    "small_description": "Unbridled music",
+                    "description": "In Dodo Re Mi, your phone is your instrument. You and your flock must make music together to escape the hungry jungle plant.",
+                    "images": [
+                        "game_images/DodoReMi/dodoremi.mp4",
+                        "game_images/DodoReMi/dodoremi_1.png",
+                        "game_images/DodoReMi/dodoremi_2.png",
+                        "game_images/DodoReMi/dodoremi_3.png",
+                        "game_images/DodoReMi/dodoremi_4.png"
+                    ],
+                    "tags": []
+                },
+                "loader": {
+                    "path": "loaders/tjpp10/dodoremi.zip",
+                    "version": "1.0.0"
+                },
+                "patchs": []
+            },
+            {
+                "id": "hypnotorious",
+                "name": "Hypnotorious",
+                "background": "game_backgrounds/Hypnotorious.webp",
+                "path": "games/Strangers",
+                "game_info": {
+                    "players": {
+                        "min": 4,
+                        "max": 8
+                    },
+                    "playtime": {
+                        "min": 15,
+                        "max": 25
+                    },
+                    "family_friendly": "OPTIONAL",
+                    "audience": true,
+                    "stream_friendly": "PLAYABLE",
+                    "moderation": "FULL_MODERATION",
+                    "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles": true,
+                    "length": "15 - 25 minutes",
+                    "type": "COOP",
+                    "translation": "NATIVELY_TRANSLATED",
+                    "tagline": "Team hypnosis",
+                    "small_description": "Team hypnosis",
+                    "description": "Hypnotorious is a game with secret roles, tentative alliances and of course, silly answers to ridiculous questions. Who is on your side?",
+                    "images": [
+                        "game_images/Hypnotorious/hypnotorious.mp4",
+                        "game_images/Hypnotorious/hypnotorious_1.png",
+                        "game_images/Hypnotorious/hypnotorious_2.png",
+                        "game_images/Hypnotorious/hypnotorious_3.png",
+                        "game_images/Hypnotorious/hypnotorious_4.png"
+                    ],
+                    "tags": [
+                        "writing",
+                        "deduction"
+                    ]
+                },
+                "loader": {
+                    "path": "loaders/tjpp10/hypnotorious.zip",
+                    "version": "1.0.0"
+                },
+                "patchs": []
+            }
+        ],
+        "icon": "jpp10.ico",
+        "background": "backgrounds/jpp10.jpg"
+    },
     {
         "id":"jpstarter",
         "name":"The Jackbox Party Starter",

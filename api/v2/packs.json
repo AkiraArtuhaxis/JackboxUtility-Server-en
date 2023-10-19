@@ -2482,7 +2482,9 @@
             "version_file": "jbg.config.jet"
         },
         "store_links": {
-            "steam": "https://store.steampowered.com/app/2216830/The_Jackbox_Party_Pack_10/"
+            "steam": "https://store.steampowered.com/app/2216830/The_Jackbox_Party_Pack_10/",
+            "epic": "https://store.epicgames.com/p/the-jackbox-party-pack-10-c6f152",
+            "jackbox_games_store":"https://shop.jackboxgames.com/collections/staging-party-packs/products/the-jackbox-party-pack-10"
         },
         "patchs": [
         ],

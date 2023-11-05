@@ -2508,7 +2508,7 @@
                     "audience_description": "The audience can vote for their favorite shirts.",
                     "stream_friendly": "PLAYABLE",
                     "moderation": "FULL_MODERATION",
-                    "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. They can also kick players off the game. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
                     "subtitles": true,
                     "length": "20 - 25 minutes",
                     "type": "VERSUS",
@@ -2524,8 +2524,8 @@
                         "game_images/TeeKO2/teeko2_4.png"
                     ],
                     "tags": [
-                        "writing",
-                        "drawing"
+                        "drawing",
+                        "writing"
                     ]
                 },
                 "loader": {
@@ -2553,7 +2553,7 @@
                     "audience_description": "The audience acts as a player and can answer all the questions. Their score will not be on the scoreboard, but the average will be shown on-screen.",
                     "stream_friendly": "PLAYABLE",
                     "moderation":"FULL_MODERATION",
-                    "moderation_description":"This game doesn't require moderation.",
+                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to kick players off the game if necessary.",
                     "subtitles": true,
                     "length": "15 - 20 minutes",
                     "type": "VERSUS",
@@ -2562,11 +2562,11 @@
                     "small_description": "Time to play",
                     "description": "In Timejinx, you’re a time traveler from the future competing in a high-stakes trivia night. Save your current timeline by answering questions about the past.",
                     "images": [
-                        "game_images/TimeJinx/timejinx.mp4",
-                        "game_images/TimeJinx/timejinx_1.png",
-                        "game_images/TimeJinx/timejinx_2.png",
-                        "game_images/TimeJinx/timejinx_3.png",
-                        "game_images/TimeJinx/timejinx_4.png"
+                        "game_images/Timejinx/timejinx.mp4",
+                        "game_images/Timejinx/timejinx_1.png",
+                        "game_images/Timejinx/timejinx_2.png",
+                        "game_images/Timejinx/timejinx_3.png",
+                        "game_images/Timejinx/timejinx_4.png"
                     ],
                     "tags": [
                         "knowledge"
@@ -2597,7 +2597,7 @@
                     "audience_description": "The audience can vote for their favorite words.",
                     "stream_friendly": "PLAYABLE",
                     "moderation":"FULL_MODERATION",
-                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. They can also kick players off the game. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
                     "subtitles": true,
                     "length": "15 - 20 minutes",
                     "type": "VERSUS",
@@ -2642,7 +2642,7 @@
                     "stream_friendly": "PLAYABLE",
                     "stream_friendly_description": "This game consists of performing songs in real time. However, there is a sync at the beginning of each song, so streaming delay is automatically removed.",
                     "moderation":"FULL_MODERATION",
-                    "moderation_description":"This game doesn't require moderation.",
+                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to kick players off the game if necessary.",
                     "subtitles": true,
                     "length": "15 - 25 minutes",
                     "type": "COOP",
@@ -2682,9 +2682,10 @@
                     "family_friendly": "OPTIONAL",
                     "audience": true,
                     "audience_description": "The audience chooses which of the players answers they like the most.",
-                    "stream_friendly": "PLAYABLE",
+                    "stream_friendly":"MIDLY_PLAYABLE",
+                    "stream_friendly_description":"Being a discussion game, it's recommended for players to be able to at least hear each other.",
                     "moderation": "FULL_MODERATION",
-                    "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. They can also kick players off the game. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
                     "subtitles": true,
                     "length": "15 - 25 minutes",
                     "type": "COOP",
@@ -2701,7 +2702,8 @@
                     ],
                     "tags": [
                         "writing",
-                        "deduction"
+                        "deduction",
+                        "talking"
                     ]
                 },
                 "loader": {

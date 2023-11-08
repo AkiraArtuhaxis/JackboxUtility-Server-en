@@ -4072,6 +4072,74 @@
         ],
         "icon":"rttg.ico",
         "background":"backgrounds/rttg.jpg"
+    },
+    {
+        "id":"ppqz",
+        "name":"Papa's Quiz",
+        "description":"Year of release: 2020",
+        "launchers_id":{
+            "steam":"1484730"
+        },
+        "executables":{
+            "windows":"Papa’s Quiz.exe",
+            "mac":"Papa’s Quiz.app/Contents/MacOS/Papa’s Quiz.app",
+            "linux":"Papa’s Quiz.exe"
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"config.dat",
+            "version_property":"buildVersion"
+        },
+        "store_links":{
+            "steam":"https://store.steampowered.com/app/1484730/Papas_Quiz/"
+        },
+            "patchs":[],
+        "games":[
+            {
+                "id":"papas_quiz",
+                "name":"Papa's Quiz",
+                "background":"game_backgrounds/PapasQuiz.webp",
+                "path":"",
+                "game_info":{
+                    "players":{
+                        "min":1,
+                        "max":8
+                    },
+                    "length":"15 - 20 minutes",
+                    "playtime":{
+                        "min":15,
+                        "max":20
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":false,
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"This game doesn't require moderation.",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"Test your trivia skills!",
+                    "small_description":"Test your trivia skills!",
+                    "description":"Papa’s Quiz is a party game for 1-8 players. Use phones or tablets as controllers and compete in multiple question types, where the smartest and fastest player will be the last standing victor!",
+                    "images":[
+                        "game_images/PapasQuiz/papasquiz.mp4",
+                        "game_images/PapasQuiz/papasquiz_1.webp",
+                        "game_images/PapasQuiz/papasquiz_2.webp",
+                        "game_images/PapasQuiz/papasquiz_3.webp",
+                        "game_images/PapasQuiz/papasquiz_4.webp"
+                    ],
+                    "tags":[
+                    	"knowledge"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"ppqz.ico",
+        "background":"backgrounds/ppqz.jpg"
     }
 
 ]

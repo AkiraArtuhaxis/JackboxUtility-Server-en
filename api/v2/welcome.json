@@ -15,6 +15,13 @@
             "image":"news_images/discord.png"
         },
         {
+            "id":"2023-12-10 12:00:00",
+            "title":"Play SiIvaGunner rips!",
+            "smallDescription":"Enjoy your favorite SiIvaGunner Jackbox rips in-game!",
+            "content":"# Credits: \n\n<https://www.youtube.com/@SiIvaGunner>",
+            "image":"news_images/siiva.png"
+        },
+        {
             "id":"2023-02-22 19:02:14",
             "title":"Game codes on EU/Canada!",
             "smallDescription":"You can now buy game codes in EU and Canada!",

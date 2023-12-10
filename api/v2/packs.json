@@ -31,7 +31,21 @@
             "description":"You'll have to write in these games."
         }
     ],
-    "patchsCategories":[],
+    "patchsCategories": [
+        {
+            "id": "music_patch",
+            "name": "SiIvaGunner Music Patch",
+            "smallDescription": "Enjoy Jackbox with remixed audio from SiIvaGunner!",
+            "patchs": [
+                "jpp1_music",
+                "jpp3_music",
+                "jpp4_music",
+                "jpp5_music",
+                "jpp6_music",
+                "jpp7_music"
+            ]
+        }
+    ],
     "packs":[
     {
         "id":"jpp1",
@@ -60,7 +74,36 @@
             "epic":"https://store.epicgames.com/p/jackbox-party-pack-1",
             "jackbox_games_store":"http://shrsl.com/44k1h"
         },
-            "patchs":[],
+        "patchs": [
+            {
+                "id": "jpp1_music",
+                "name": "Music Pack",
+                "small_description": "SiIvaGunner Jackbox Music Pack",
+                "description": "SiIvaGunner Jackbox Music Pack",
+                "patch_path": "https://github.com/DerErizzle/Jackbox-Music-Pack/releases/latest/download/The.Jackbox.Party.Pack.zip",
+                "configuration": {
+                    "version_origin": "repo_file",
+                    "version_file": "https://raw.githubusercontent.com/DerErizzle/Jackbox-Music-Pack/main/The%20Jackbox%20Party%20Pack/config.jet",
+                    "version_property": "buildVersion"
+                },
+                "components": [
+                    {
+                        "id": "ydkj2015_music",
+                        "linked_game": "ydkj2015",
+                        "name": "You Don't Know Jack 2015",
+                        "authors": "SiIvaGunner",
+                        "small_description": "Includes Jackbox rips from SiIvaGunner",
+                        "patch_type": {
+                            "game_text": false,
+                            "game_assets": false,
+                            "game_subtitles": false,
+                            "website": false,
+                            "audios": true
+                        }
+                    }
+                ]
+            }
+        ],
         "games":[
             {
                 "id":"ydkj2015",
@@ -587,7 +630,50 @@
             "epic":"https://store.epicgames.com/p/jackbox-party-pack-3",
             "jackbox_games_store":"http://shrsl.com/44k1n"
         },
-            "patchs":[],
+        "patchs": [
+            {
+                "id": "jpp3_music",
+                "name": "Music Pack",
+                "small_description": "SiIvaGunner Jackbox Music Pack",
+                "description": "SiIvaGunner Jackbox Music Pack",
+                "patch_path": "https://github.com/DerErizzle/Jackbox-Music-Pack/releases/latest/download/The.Jackbox.Party.Pack.3.zip",
+                "configuration": {
+                    "version_origin": "repo_file",
+                    "version_file": "https://raw.githubusercontent.com/DerErizzle/Jackbox-Music-Pack/main/The%20Jackbox%20Party%20Pack%203/config.jet",
+                    "version_property": "buildVersion"
+                },
+                "components": [
+                    {
+                        "id": "teeko_music",
+                        "linked_game": "teeko",
+                        "name": "Tee K.O.",
+                        "authors": "SiIvaGunner",
+                        "small_description": "Includes Jackbox rips from SiIvaGunner",
+                        "patch_type": {
+                            "game_text": false,
+                            "game_assets": false,
+                            "game_subtitles": false,
+                            "website": false,
+                            "audios": true
+                        }
+                    },
+                    {
+                        "id": "triviamurderparty_music",
+                        "linked_game": "triviamurderparty",
+                        "name": "Trivia Murder Party",
+                        "authors": "SiIvaGunner",
+                        "small_description": "Includes Jackbox rips from SiIvaGunner",
+                        "patch_type": {
+                            "game_text": false,
+                            "game_assets": false,
+                            "game_subtitles": false,
+                            "website": false,
+                            "audios": true
+                        }
+                    }
+                ]
+            }
+        ],
         "games":[
             {
                 "id":"quiplash2",
@@ -858,7 +944,50 @@
             "epic":"https://store.epicgames.com/p/jackbox-party-pack-4",
             "jackbox_games_store":"http://shrsl.com/44k1o"
         },
-            "patchs":[],
+        "patchs": [
+            {
+                "id": "jpp4_music",
+                "name": "Music Pack",
+                "small_description": "SiIvaGunner Jackbox Music Pack",
+                "description": "SiIvaGunner Jackbox Music Pack",
+                "patch_path": "https://github.com/DerErizzle/Jackbox-Music-Pack/releases/latest/download/The.Jackbox.Party.Pack.4.zip",
+                "configuration": {
+                    "version_origin": "repo_file",
+                    "version_file": "https://raw.githubusercontent.com/DerErizzle/Jackbox-Music-Pack/main/The%20Jackbox%20Party%20Pack%204/config.jet",
+                    "version_property": "buildVersion"
+                },
+                "components": [
+                    {
+                        "id": "monsterseekingmonster_music",
+                        "linked_game": "monsterseekingmonster",
+                        "name": "Monster Seeking Monster",
+                        "authors": "SiIvaGunner",
+                        "small_description": "Includes Jackbox rips from SiIvaGunner",
+                        "patch_type": {
+                            "game_text": false,
+                            "game_assets": false,
+                            "game_subtitles": false,
+                            "website": false,
+                            "audios": true
+                        }
+                    },
+                    {
+                        "id": "survivetheinternet_music",
+                        "linked_game": "survivetheinternet",
+                        "name": "Survive the Internet",
+                        "authors": "SiIvaGunner",
+                        "small_description": "Includes Jackbox rips from SiIvaGunner",
+                        "patch_type": {
+                            "game_text": false,
+                            "game_assets": false,
+                            "game_subtitles": false,
+                            "website": false,
+                            "audios": true
+                        }
+                    }
+                ]
+            }
+        ],
         "games":[
             {
                 "id":"fibbage3",
@@ -1128,7 +1257,50 @@
             "epic":"https://store.epicgames.com/p/jackbox-party-pack-5",
             "jackbox_games_store":"http://shrsl.com/44k1p"
         },
-            "patchs":[],
+        "patchs": [
+            {
+                "id": "jpp5_music",
+                "name": "Music Pack",
+                "small_description": "SiIvaGunner Jackbox Music Pack",
+                "description": "SiIvaGunner Jackbox Music Pack",
+                "patch_path": "https://github.com/DerErizzle/Jackbox-Music-Pack/releases/latest/download/The.Jackbox.Party.Pack.5.zip",
+                "configuration": {
+                    "version_origin": "repo_file",
+                    "version_file": "https://raw.githubusercontent.com/DerErizzle/Jackbox-Music-Pack/main/The%20Jackbox%20Party%20Pack%205/config.jet",
+                    "version_property": "buildVersion"
+                },
+                "components": [
+                    {
+                        "id": "mad_verse_city_music",
+                        "linked_game": "mad_verse_city",
+                        "name": "Mad Verse City",
+                        "authors": "SiIvaGunner",
+                        "small_description": "Includes Jackbox rips from SiIvaGunner",
+                        "patch_type": {
+                            "game_text": false,
+                            "game_assets": false,
+                            "game_subtitles": false,
+                            "website": false,
+                            "audios": true
+                        }
+                    },
+                    {
+                        "id": "ydkj_fullstream_music",
+                        "linked_game": "ydkj_fullstream",
+                        "name": "You Don't Know Jack: Full Stream",
+                        "authors": "SiIvaGunner",
+                        "small_description": "Includes Jackbox rips from SiIvaGunner",
+                        "patch_type": {
+                            "game_text": false,
+                            "game_assets": false,
+                            "game_subtitles": false,
+                            "website": false,
+                            "audios": true
+                        }
+                    }
+                ]
+            }
+        ],
         "games":[
         	{
                 "id":"ydkj_fullstream",
@@ -1400,7 +1572,78 @@
             "epic":"https://store.epicgames.com/p/jackbox-party-pack-6",
             "jackbox_games_store":"http://shrsl.com/44k1q"
         },
-            "patchs":[],
+        "patchs": [
+            {
+                "id": "jpp6_music",
+                "name": "Music Pack",
+                "small_description": "SiIvaGunner Jackbox Music Pack",
+                "description": "SiIvaGunner Jackbox Music Pack",
+                "patch_path": "https://github.com/DerErizzle/Jackbox-Music-Pack/releases/latest/download/The.Jackbox.Party.Pack.6.zip",
+                "configuration": {
+                    "version_origin": "repo_file",
+                    "version_file": "https://raw.githubusercontent.com/DerErizzle/Jackbox-Music-Pack/main/The%20Jackbox%20Party%20Pack%206/config.jet",
+                    "version_property": "buildVersion"
+                },
+                "components": [
+                    {
+                        "id": "jokeboat_music",
+                        "linked_game": "jokeboat",
+                        "name": "Joke Boat",
+                        "authors": "SiIvaGunner",
+                        "small_description": "Includes Jackbox rips from SiIvaGunner",
+                        "patch_type": {
+                            "game_text": false,
+                            "game_assets": false,
+                            "game_subtitles": false,
+                            "website": false,
+                            "audios": true
+                        }
+                    },
+                    {
+                        "id": "pushthebutton_music",
+                        "linked_game": "pushthebutton",
+                        "name": "Push the Button",
+                        "authors": "SiIvaGunner",
+                        "small_description": "Includes Jackbox rips from SiIvaGunner",
+                        "patch_type": {
+                            "game_text": false,
+                            "game_assets": false,
+                            "game_subtitles": false,
+                            "website": false,
+                            "audios": true
+                        }
+                    },
+                    {
+                        "id": "dictionarium_music",
+                        "linked_game": "dictionarium",
+                        "name": "Dictionarium",
+                        "authors": "SiIvaGunner",
+                        "small_description": "Includes Jackbox rips from SiIvaGunner",
+                        "patch_type": {
+                            "game_text": false,
+                            "game_assets": false,
+                            "game_subtitles": false,
+                            "website": false,
+                            "audios": true
+                        }
+                    },
+                    {
+                        "id": "trivia_murder_party_2_music",
+                        "linked_game": "trivia_murder_party_2",
+                        "name": "Trivia Murder Party 2",
+                        "authors": "SiIvaGunner",
+                        "small_description": "Includes Jackbox rips from SiIvaGunner",
+                        "patch_type": {
+                            "game_text": false,
+                            "game_assets": false,
+                            "game_subtitles": false,
+                            "website": false,
+                            "audios": true
+                        }
+                    }
+                ]
+            }
+        ],
         "games":[
         	{
                 "id":"trivia_murder_party_2",
@@ -1675,7 +1918,64 @@
             "epic":"https://store.epicgames.com/p/jackbox-party-pack-7",
             "jackbox_games_store":"http://shrsl.com/44k1s"
         },
-            "patchs":[],
+        "patchs": [
+            {
+                "id": "jpp7_music",
+                "name": "Music Pack",
+                "small_description": "SiIvaGunner Jackbox Music Pack",
+                "description": "SiIvaGunner Jackbox Music Pack",
+                "patch_path": "https://github.com/DerErizzle/Jackbox-Music-Pack/releases/latest/download/The.Jackbox.Party.Pack.7.zip",
+                "configuration": {
+                    "version_origin": "repo_file",
+                    "version_file": "https://raw.githubusercontent.com/DerErizzle/Jackbox-Music-Pack/main/The%20Jackbox%20Party%20Pack%207/config.jet",
+                    "version_property": "buildVersion"
+                },
+                "components": [
+                    {
+                        "id": "blatherround_music",
+                        "linked_game": "blatherround",
+                        "name": "Blather 'Round",
+                        "authors": "SiIvaGunner",
+                        "small_description": "Includes Jackbox rips from SiIvaGunner",
+                        "patch_type": {
+                            "game_text": false,
+                            "game_assets": false,
+                            "game_subtitles": false,
+                            "website": false,
+                            "audios": true
+                        }
+                    },
+                    {
+                        "id": "thedevilsandthedetails_music",
+                        "linked_game": "thedevilsandthedetails",
+                        "name": "The Devils and the Details",
+                        "authors": "SiIvaGunner",
+                        "small_description": "Includes Jackbox rips from SiIvaGunner",
+                        "patch_type": {
+                            "game_text": false,
+                            "game_assets": false,
+                            "game_subtitles": false,
+                            "website": false,
+                            "audios": true
+                        }
+                    },
+                    {
+                        "id": "champdup_music",
+                        "linked_game": "champdup",
+                        "name": "Champ'd Up",
+                        "authors": "SiIvaGunner",
+                        "small_description": "Includes Jackbox rips from SiIvaGunner",
+                        "patch_type": {
+                            "game_text": false,
+                            "game_assets": false,
+                            "game_subtitles": false,
+                            "website": false,
+                            "audios": true
+                        }
+                    }
+                ]
+            }
+        ],
         "games":[
             {
                 "id":"quiplash3",

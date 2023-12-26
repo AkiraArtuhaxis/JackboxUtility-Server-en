@@ -4414,6 +4414,7 @@
                     "audience":true,
                     "audience_description":"The audience can vote to increase the chance certain events happen each day, and choose the pirate they think is a ghost to help the crew out.",
                     "stream_friendly":"PLAYABLE",
+                    "stream_friendly_description":"Being a discussion game, it's recommended for players to be able to at least hear each other. Unlike the other discussion games, however, this game works perfectly without out loud talking.",
                     "moderation":"FULL_MODERATION",
                     "moderation_description":"This game doesn't require moderation.",
                     "subtitles":false,
@@ -4430,7 +4431,8 @@
                         "game_images/PaperPirates/paperpirates_4.jpg"
                     ],
                     "tags":[
-                    	"knowledge"
+                    	"deduction",
+                        "talking"
                     ]
 
                 },

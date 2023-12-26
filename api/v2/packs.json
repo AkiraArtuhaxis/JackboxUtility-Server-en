@@ -3397,7 +3397,7 @@
                     "translation":"NATIVELY_TRANSLATED",
                     "tagline":"The Say-Anything Party Game",
                     "small_description":"The Say-Anything Party Game",
-                    "description":"The \"say anything\" party game is going international! All the hilarious content from Quiplash 2, now in French, Italian, German, and Spanish! With 100 NEW prompts in each language! (And you can still play in boring old English.) Get this QUINTILINGUAL Quiplash now, and take your next party global!",
+                    "description":"The \"say anything\" party game is going international! All the hilarious content from Quiplash 2, now in French, Italian, German, and Spanish! With 100 NEW prompts in each language!",
                     "images":[
                         "game_images/Quiplash2InterLASHional/quiplash2interlashional.mp4",
                         "game_images/Quiplash2InterLASHional/quiplash2interlashional_1.webp",
@@ -4373,6 +4373,75 @@
         "icon":"rttg.ico",
         "background":"backgrounds/rttg.jpg"
     },
+        {
+        "id":"pppts",
+        "name":"Paper Pirates",
+        "description":"Year of release: 2020",
+        "launchers_id":{
+            "steam":"1234220"
+        },
+        "executables":{
+            "windows":"Paper Pirates.exe",
+            "mac":"Paper Pirates.app/Contents/MacOS/Paper Pirates.app",
+            "linux":"Paper Pirates.exe"
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"config.dat",
+            "version_property":"buildVersion"
+        },
+        "store_links":{
+            "steam":"https://store.steampowered.com/app/1234220/Paper_Pirates/"
+        },
+            "patchs":[],
+        "games":[
+            {
+                "id":"paper_pirates",
+                "name":"Paper Pirates",
+                "background":"game_backgrounds/PaperPirates.webp",
+                "path":"",
+                "game_info":{
+                    "players":{
+                        "min":1,
+                        "max":10
+                    },
+                    "length":"20 - 30 minutes",
+                    "playtime":{
+                        "min":20,
+                        "max":30
+                    },
+                    "family_friendly":"FAMILY_FRIENDLY",
+                    "audience":true,
+                    "audience_description":"The audience can vote to increase the chance certain events happen each day, and choose the pirate they think is a ghost to help the crew out.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"This game doesn't require moderation.",
+                    "subtitles":false,
+                    "type":"COOP",
+                    "translation":"ENGLISH",
+                    "tagline":"Find the ghosts!",
+                    "small_description":"Find the ghosts!",
+                    "description":"Grab a crew and jump aboard a haunted pirate ship for a social deduction party game! Are you a human sailing home to shore or a ghost working against the crew? Throw your crewmates overboard, but fear not - nobody’s ever out of the game!",
+                    "images":[
+                        "game_images/PaperPirates/paperpirates.mp4",
+                        "game_images/PaperPirates/paperpirates_1.jpg",
+                        "game_images/PaperPirates/paperpirates_2.jpg",
+                        "game_images/PaperPirates/paperpirates_3.jpg",
+                        "game_images/PaperPirates/paperpirates_4.jpg"
+                    ],
+                    "tags":[
+                    	"knowledge"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"pppts.ico",
+        "background":"backgrounds/pppts.jpg"
+    },
     {
         "id":"ppqz",
         "name":"Papa's Quiz",
@@ -4423,10 +4492,10 @@
                     "description":"Papa’s Quiz is a party game for 1-8 players. Use phones or tablets as controllers and compete in multiple question types, where the smartest and fastest player will be the last standing victor!",
                     "images":[
                         "game_images/PapasQuiz/papasquiz.mp4",
-                        "game_images/PapasQuiz/papasquiz_1.webp",
-                        "game_images/PapasQuiz/papasquiz_2.webp",
-                        "game_images/PapasQuiz/papasquiz_3.webp",
-                        "game_images/PapasQuiz/papasquiz_4.webp"
+                        "game_images/PapasQuiz/papasquiz_1.jpg",
+                        "game_images/PapasQuiz/papasquiz_2.jpg",
+                        "game_images/PapasQuiz/papasquiz_3.jpg",
+                        "game_images/PapasQuiz/papasquiz_4.jpg"
                     ],
                     "tags":[
                     	"knowledge"

@@ -677,7 +677,7 @@
         "games":[
             {
                 "id":"quiplash2",
-                "name":"Quiplash 2",
+                "name":"Смехлыст 2",
                 "background":"game_backgrounds/Quiplash2.webp",
                 "path":"games/Quiplash2",
                 "game_info":{

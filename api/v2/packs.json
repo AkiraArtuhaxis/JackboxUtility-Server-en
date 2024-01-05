@@ -107,7 +107,7 @@
         "games":[
             {
                 "id":"ydkj2015",
-                "name":"You Don't Know Jack 2015",
+                "name":"А голову ты не забыл? 2015",
                 "background":"game_backgrounds/YDKJ2015.webp",
                 "path":"games/YDKJ2015",
                 "game_info":{
@@ -123,15 +123,15 @@
                     "family_friendly":"NOT_FAMILY_FRIENDLY",
                     "audience":false,
                     "stream_friendly":"NOT_PLAYABLE",
-                    "stream_friendly_description":"In the final round, the first player to see the correct answer on-screen and press the button will win points. Because of this, the player who is streaming their screen will have an unfair advantage over the other players.",
+                    "stream_friendly_description":"В финальном раунде тот игрок, который первым увидит правильный ответ на экране и нажмет кнопку, получит очки. Из-за этого игрок, транслирующий свой экран, будет иметь несправедливое преимущество перед другими игроками.",
                     "moderation":"FULL_MODERATION",
-                    "moderation_description":"This game doesn't require moderation.",
+                    "moderation_description":"Эта игра не требует модерации.",
                     "subtitles":false,
                     "type":"VERSUS",
                     "translation":"ENGLISH",
-                    "tagline":"The irreverent quiz show party game",
-                    "small_description":"The irreverent quiz show party game",
-                    "description":"The smart-ass trivia show that started it all! Hundreds of all-new twisted trivia questions and everyone’s favorite host, Cookie Masterson!",
+                    "tagline":"Неуважительная викторина в стиле вечеринки",
+                    "small_description":"Неуважительная викторина в стиле вечеринки",
+                    "description":"Старая добрая комическая викторинка с весёлыми рубриками. И звуками пердежа.",
                     "images":[
                         "game_images/YDKJ2015/ydkj2015.mp4",
                         "game_images/YDKJ2015/ydkj2015_1.webp",

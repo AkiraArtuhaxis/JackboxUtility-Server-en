@@ -337,7 +337,7 @@
     {
         "id":"jpp2",
         "name":"The Jackbox Party Pack 2",
-        "description":"Year of release: 2015",
+        "description":"Год выпуска: 2015",
         "launchers_id":{
             "steam":"397460",
             "epic":"Lilac"
@@ -365,7 +365,7 @@
         "games":[
             {
                 "id":"fibbage2",
-                "name":"Fibbage 2",
+                "name":"Бредовуха 2",
                 "background":"game_backgrounds/Fibbage2.webp",
                 "path":"games/Fibbage2",
                 "game_info":{
@@ -380,16 +380,16 @@
                     },
                     "family_friendly":"OPTIONAL",
                     "audience":true,
-                    "audience_description":"The audience tries to guess the truth, without giving points to the players in case of choosing their lies, and gives likes to their favorite lies. If they guess all the truths, at the end of the game they'll receive an additional crazy fact.",
+                    "audience_description":"Зрители пытаются угадать правду, не давая очков игрокам в случае выбора их лжи, и ставят лайки своим любимым лживым утверждениям. Если им удается угадать все правды, то в конце игры им предоставляется дополнительный безумный факт.",
                     "stream_friendly":"PLAYABLE",
                     "moderation":"NO_MODERATION",
-                    "moderation_description":"Players can submit text.",
+                    "moderation_description":"Игроки могут отправлять текст.",
                     "subtitles":false,
                     "type":"VERSUS",
                     "translation":"ENGLISH",
-                    "tagline":"The hilarious bluffing party game",
-                    "small_description":"The hilarious bluffing party game",
-                    "description":"More Fibbage! Lie to your friends, avoid their lies, and spot the truth. “In Arizona, you must obtain a permit to feed ______ to pigs.” Go!",
+                    "tagline":"Веселая игра для вечеринок с блефом",
+                    "small_description":"Веселая игра для вечеринок с блефом",
+                    "description":"Вторая часть игры, в которой надо придумывать ложные варианты ответа и одновременно искать правдивые. Теперь вопросов более 500, что более чем в 2 раза больше, чем в первой части. Плюс новая фишка — деФИБриллятор!",
                     "images":[
                         "game_images/Fibbage2/fibbage2.mp4",
                         "game_images/Fibbage2/fibbage2_1.webp",
@@ -413,7 +413,7 @@
             },
             {
                 "id":"earwax",
-                "name":"Earwax",
+                "name":"Звукварь",
                 "background":"game_backgrounds/Earwax.webp",
                 "path":"games/Earwax",
                 "game_info":{
@@ -428,16 +428,16 @@
                     },
                     "family_friendly":"OPTIONAL",
                     "audience":true,
-                    "audience_description":"The audience can give likes to their favorite responses.",
+                    "audience_description":"Аудитория может поставить лайк понравившимся ответам.",
                     "stream_friendly":"PLAYABLE",
                     "moderation":"FULL_MODERATION",
-                    "moderation_description":"Since players can only input sounds provided by the game, this game doesn't require moderation. However, you cannot control the sound combinations that players submit.",
+                    "moderation_description":"Поскольку игроки могут вводить только звуки, предоставляемые игрой, эта игра не требует модерации. Однако вы не можете контролировать звуковые комбинации, которые подаются игрокам.",
                     "subtitles":false,
                     "type":"VERSUS",
                     "translation":"ENGLISH",
-                    "tagline":"The game of sound strategy",
-                    "small_description":"The game of sound strategy",
-                    "description":"Cow moo? Huge explosion? Or tiny fart? Which to choose? It's the sound effects game that will leave you up to your ears in laughter!",
+                    "tagline":"Игра звуковой стратегии",
+                    "small_description":"Игра звуковой стратегии",
+                    "description":"Звуки «МУ»? Большой взрыв? Или яростный пердёж? Выбери самые весёлые звуки и одержи победу.",
                     "images":[
                         "game_images/Earwax/earwax.mp4",
                         "game_images/Earwax/earwax_1.webp",
@@ -460,7 +460,7 @@
             },
             {
                 "id":"bidiots",
-                "name":"Bidiots",
+                "name":"Дуракцион",
                 "background":"game_backgrounds/Bidiots.webp",
                 "path":"games/Bidiots",
                 "game_info":{
@@ -477,13 +477,13 @@
                     "audience":false,
                     "stream_friendly":"PLAYABLE",
                     "moderation":"NO_MODERATION",
-                    "moderation_description":"Players can submit drawings.",
+                    "moderation_description":"Игроки могут отправлять рисунки.",
                     "subtitles":false,
                     "type":"VERSUS",
                     "translation":"ENGLISH",
-                    "tagline":"Time to bid",
-                    "small_description":"Time to bid",
-                    "description":"Outbid your opponents for absurd art – drawn by players themselves – and win this strangely competitive auction game! Don’t be a bidiot!",
+                    "tagline":"Время делать ставки",
+                    "small_description":"Время делать ставки",
+                    "description":"Абсурдная игра-аукцион картинной галереи. Стоимость картин назначают секретные эксперты, а сами картины пишут… наши игроки! Купи по дешёвке самые ценные картины, но не дай другим переиграть тебя!",
                     "images":[
                         "game_images/Bidiots/bidiots.mp4",
                         "game_images/Bidiots/bidiots_1.webp",
@@ -507,7 +507,7 @@
             },
             {
                 "id":"quiplashxl",
-                "name":"Quiplash XL",
+                "name":"Смехлыст XL",
                 "background":"game_backgrounds/QuiplashXL.webp",
                 "path":"games/QuiplashXL",
                 "game_info":{
@@ -525,13 +525,13 @@
                     "audience_description":"The audience can vote for their favorite answers.",
                     "stream_friendly":"PLAYABLE",
                     "moderation":"NO_MODERATION",
-                    "moderation_description":"Players can submit text.",
+                    "moderation_description":"Игроки могут отправлять текст.",
                     "subtitles":false,
                     "type":"VERSUS",
                     "translation":"ENGLISH",
-                    "tagline":"The Say-Anything Party Game",
-                    "small_description":"The Say-Anything Party Game",
-                    "description":"The laugh-a-minute battle of wits and wittiness in its HUGEST form! Come up with “the best name to give an ugly baby” and win!",
+                    "tagline":"Игра Скажи-Что-Угодно для вечеринки",
+                    "small_description":"Игра Скажи-Что-Угодно для вечеринки",
+                    "description":"Шути, что хочешь, и поддерживай хорошие варианты. На 100 весёлых заданий больше, чем в оригинальной (не-XL и не 2) версии!",
                     "images":[
                         "game_images/QuiplashXL/quiplashxl.mp4",
                         "game_images/QuiplashXL/quiplashxl_1.webp",
@@ -553,7 +553,7 @@
                 ]
             },            {
                 "id":"bombcorp",
-                "name":"Bomb Corp.",
+                "name":"Бомб Корп.",
                 "game_info":{
                     "players":{
                         "min":1,
@@ -569,13 +569,13 @@
                     "stream_friendly":"MIDLY_PLAYABLE",
                     "stream_friendly_description":"It's recommended for players to communicate out loud with each other to mention the rules and know which wires to cut.",
                     "moderation":"FULL_MODERATION",
-                    "moderation_description":"This game doesn't require moderation.",
+                    "moderation_description":"Эта игра не требует модерации.",
                     "subtitles":false,
                     "type":"COOP",
                     "translation":"ENGLISH",
-                    "tagline":"This job blows",
-                    "small_description":"This job blows",
-                    "description":"Welcome to Bomb Corp. Interns of your kind must help defuse bombs in our office. It’s a weird office full of bombs. Just hit start.",
+                    "tagline":"Эта работа просто ужасна",
+                    "small_description":"Эта работа просто ужасна",
+                    "description":"Вы – стажёры корпорации, которые должны обезвреживать бомбы, чтобы поддерживать слаженную работу в офисе. Скорее всего, вы все подорвётесь, зато какое веселье!",
                     "images":[
                         "game_images/BombCorp/bombcorp.mp4",
                         "game_images/BombCorp/bombcorp_1.webp",

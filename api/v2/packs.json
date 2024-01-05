@@ -646,9 +646,9 @@
                     {
                         "id": "teeko_music",
                         "linked_game": "teeko",
-                        "name": "Футбол К.О.",
+                        "name": "Tee K.O.",
                         "authors": "SiIvaGunner",
-                        "small_description": "Содержит музыкальные треки из Jackbox, созданные SiIvaGunner",
+                        "small_description": "Includes Jackbox rips from SiIvaGunner",
                         "patch_type": {
                             "game_text": false,
                             "game_assets": false,
@@ -660,9 +660,9 @@
                     {
                         "id": "triviamurderparty_music",
                         "linked_game": "triviamurderparty",
-                        "name": "Смертельная вечеринка",
+                        "name": "Trivia Murder Party",
                         "authors": "SiIvaGunner",
-                        "small_description": "Содержит музыкальные треки из Jackbox, созданные SiIvaGunner",
+                        "small_description": "Includes Jackbox rips from SiIvaGunner",
                         "patch_type": {
                             "game_text": false,
                             "game_assets": false,

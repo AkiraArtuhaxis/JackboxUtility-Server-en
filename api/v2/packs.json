@@ -2,33 +2,33 @@
     "tags":[
        {
             "id":"talking",
-            "name":"Discussion",
+            "name":"Обсуждение",
             "icon":"megaphone",
-            "description":"Games that require or benefit from out loud discussion between players."
+            "description":"Игры, которые требуют или выигрывают от громкого обсуждения между игроками."
        },
        {
        	    "id":"drawing",
-            "name":"Drawing",
+            "name":"Рисование",
             "icon":"edit",
-            "description":"You'll have to draw in these games."
+            "description":"В этих играх надо рисовать."
        },
        {
        	    "id":"deduction",
-            "name":"Strategy",
+            "name":"Стратегия",
             "icon":"comment_urgent",
-            "description":"You'll have to think well of your actions in these games."
+            "description":"Вам придется хорошо подумать о своих действиях в этих играх.."
        },
        {
        	    "id":"knowledge",
-            "name":"Trivia",
+            "name":"Викторина",
             "icon":"unknown",
-            "description":"Test your knowledge with these games."
+            "description":"Это викторины."
        },
        {
             "id":"writing",
-            "name":"Writing",
+            "name":"Написание",
             "icon":"text_align_middle",
-            "description":"You'll have to write in these games."
+            "description":"Вам придется писать в этих играх."
         }
     ],
     "patchsCategories": [

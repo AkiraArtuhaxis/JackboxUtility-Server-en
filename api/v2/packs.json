@@ -16,7 +16,7 @@
        	    "id":"deduction",
             "name":"Стратегия",
             "icon":"comment_urgent",
-            "description":"Вам придется хорошо подумать о своих действиях в этих играх.."
+            "description":"Вам придется хорошо подумать о своих действиях в этих играх."
        },
        {
        	    "id":"knowledge",
@@ -34,8 +34,8 @@
     "patchsCategories": [
         {
             "id": "music_patch",
-            "name": "SiIvaGunner Music Patch",
-            "smallDescription": "Enjoy Jackbox with remixed audio from SiIvaGunner!",
+            "name": "Музыкальный патч SiIvaGunner",
+            "smallDescription": "Наслаждайтесь Jackbox с ремиксами музыки от SiIvaGunner!",
             "patchs": [
                 "jpp1_music",
                 "jpp3_music",
@@ -50,7 +50,7 @@
     {
         "id":"jpp1",
         "name":"The Jackbox Party Pack",
-        "description":"Year of release: 2014",
+        "description":"Год выпуска: 2014",
         "launchers_id":{
             "steam":"331670",
             "epic":"Feverfew"
@@ -77,9 +77,9 @@
         "patchs": [
             {
                 "id": "jpp1_music",
-                "name": "Music Pack",
-                "small_description": "SiIvaGunner Jackbox Music Pack",
-                "description": "SiIvaGunner Jackbox Music Pack",
+                "name": "Музыкальный Пак",
+                "small_description": "Музыкальный пакет SiIvaGunner Jackbox",
+                "description": "Музыкальный пакет SiIvaGunner Jackbox",
                 "patch_path": "https://github.com/DerErizzle/Jackbox-Music-Pack/releases/latest/download/The.Jackbox.Party.Pack.zip",
                 "configuration": {
                     "version_origin": "repo_file",
@@ -90,7 +90,7 @@
                     {
                         "id": "ydkj2015_music",
                         "linked_game": "ydkj2015",
-                        "name": "You Don't Know Jack 2015",
+                        "name": "А голову ты не забыл? 2015",
                         "authors": "SiIvaGunner",
                         "small_description": "Includes Jackbox rips from SiIvaGunner",
                         "patch_type": {

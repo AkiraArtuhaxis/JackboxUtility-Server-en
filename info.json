@@ -7,11 +7,11 @@
     "urls":[
         {
             "versions":["1.0.0"],
-            "api":"https://raw.githubusercontent.com/AkiraArtuhaxis/JackboxUtility-Server-en/main/api/v2/",
-            "assets":"https://raw.githubusercontent.com/AkiraArtuhaxis/JackboxUtility-Server-en/main/assets"
+            "api":"https://raw.githubusercontent.com/Bobuscd/JackboxUtility-Server-ru/patch-2/api/v2/",
+            "assets":"https://raw.githubusercontent.com/Bobuscd/JackboxUtility-Server-ru/patch-2/assets"
         }
     ],
-    "controller":"jackbox.tv",
+    "controller":"jackbox.fun",
     "languages":["en"],
     "links": [
         {

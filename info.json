@@ -16,22 +16,22 @@
     "links": [
         {
             "icon":"globe",
-            "url":"https://www.jackboxgames.com/",
+            "url":"https://jackboxgames.ru/",
             "text":"Website"
         },
         {
             "icon":"discord",
-            "url":"https://discord.com/invite/jackboxgames",
+            "url":"https://discord.com/invite/4VGXuUK",
             "text":"Discord"
         },
         {
             "icon":"twitter",
-            "url":"https://twitter.com/jackboxgames",
-            "text":"Twitter"
+            "url":"https://vk.com/jackboxru",
+            "text":"Вк"
         },
         {
             "icon":"youtube",
-            "url":"https://www.youtube.com/@Jackboxgames",
+            "url":"https://www.youtube.com/@WIFHAT",
             "text":"YouTube"
         }
      ]

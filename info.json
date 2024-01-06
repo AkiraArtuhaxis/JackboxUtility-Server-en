@@ -1,5 +1,5 @@
 {
-    "id":"jackbox-en",
+    "id":"jackbox-ru",
     "name":"Jackbox на Русском",
     "description":"Сервер сообщества Jackbox Games на русском языке!",
     "image":"https://raw.githubusercontent.com/AkiraArtuhaxis/JackboxUtility-Server-en/main/assets/news_images/logo.png",
@@ -12,7 +12,7 @@
         }
     ],
     "controller":"jackbox.fun",
-    "languages":["en"],
+    "languages":["ru"],
     "links": [
         {
             "icon":"globe",

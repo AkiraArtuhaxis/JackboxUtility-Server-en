@@ -867,7 +867,7 @@
             },
             {
                 "id":"teeko",
-                "name":"Tee K.O.",
+                "name":"Футбол К.О.",
                 "background":"game_backgrounds/TeeKO.webp",
                 "path":"games/TeeKO",
                 "game_info":{
@@ -882,16 +882,16 @@
                     },
                     "family_friendly":"FAMILY_FRIENDLY",
                     "audience":true,
-                    "audience_description":"The audience can vote for their favorite shirts. In addition, they can submit writing and drawing suggestions that are displayed on-screen with the \"Audience Suggestions\" option turned on.",
+                    "audience_description":"Зрители могут голосовать за свои любимые футболки. Кроме того, они могут предложить идеи для написания и рисования, которые отображаются на экране при включенной опции \"Предложения зрителей\".",
                     "stream_friendly":"PLAYABLE",
                     "moderation":"CENSORING",
-                    "moderation_description":"With the \"Manual Censoring\" option enabled, the VIP can censor responses from players and the audience once they appear on-screen. If necessary, it's recommended to disable the \"Audience Suggestions\" option so that only players can send text.",
+                    "moderation_description":"При включенной опции \"Ручная цензура\" VIP может цензурировать ответы от игроков и зрителей после их появления на экране. При необходимости рекомендуется отключить опцию \"Предложения зрителей\", чтобы только игроки могли отправлять текст.",
                     "subtitles":false,
                     "type":"VERSUS",
                     "translation":"ENGLISH",
-                    "tagline":"T-Shirt Knock Out",
-                    "small_description":"T-Shirt Knock Out",
-                    "description":"Draw pictures, write slogans, then swap them around to create your own custom t-shirt warriors. Only the most worthy novelty t-shirt will leave the tournament alive.",
+                    "tagline":"Битва футболок",
+                    "small_description":"Битва футболок",
+                    "description":"Фестиваль одежды, где придуманные игроками футболки сражаются не на жизнь, а на смерть.",
                     "images":[
                         "game_images/TeeKO/teeko.mp4",
                         "game_images/TeeKO/teeko_1.webp",
@@ -920,7 +920,7 @@
     {
         "id":"jpp4",
         "name":"The Jackbox Party Pack 4",
-        "description":"Year of release: 2017",
+        "description":"Год выпуска: 2017",
         "launchers_id":{
             "steam":"610180",
             "epic":"Snowdrop"

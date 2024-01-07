@@ -309,7 +309,7 @@
                     "type":"VERSUS",
                     "translation":"ENGLISH",
                     "tagline":"Веселая игра для вечеринок с блефом",
-                    "small_description":"Забавная игра в блеф в стиле вечеринки",
+                    "small_description":"Веселая игра для вечеринок с блефом",
                     "description":"Игра, в которой надо придумывать ложные варианты ответа и одновременно искать правдивые. В версии XL на 50% больше вопросов, чем в оригинальной версии!",
                     "images":[
                         "game_images/FibbageXL/fibbagexl.mp4",
@@ -573,8 +573,8 @@
                     "subtitles":false,
                     "type":"COOP",
                     "translation":"ENGLISH",
-                    "tagline":"Улётная работа",
-                    "small_description":"Улётная работа",
+                    "tagline":"Эта работа бомба!",
+                    "small_description":"Эта работа бомба!",
                     "description":"Вы – стажёры корпорации, которые должны обезвреживать бомбы, чтобы поддерживать слаженную работу в офисе. Скорее всего, вы все подорвётесь, зато какое веселье!",
                     "images":[
                         "game_images/BombCorp/bombcorp.mp4",
@@ -606,7 +606,7 @@
     {
         "id":"jpp3",
         "name":"The Jackbox Party Pack 3",
-        "description":"Year of release: 2016",
+        "description":"Год выпуска: 2016",
         "launchers_id":{
             "steam":"434170",
             "epic":"Orchid"
@@ -677,7 +677,7 @@
         "games":[
             {
                 "id":"quiplash2",
-                "name":"Quiplash 2",
+                "name":"Смехлыст 2",
                 "background":"game_backgrounds/Quiplash2.webp",
                 "path":"games/Quiplash2",
                 "game_info":{
@@ -692,16 +692,16 @@
                     },
                     "family_friendly":"OPTIONAL",
                     "audience":true,
-                    "audience_description":"The audience can vote for their favorite answers. In addition, they can submit responses that are displayed on-screen with the \"Audience Play-Along\" option turned on.",
+                    "audience_description":"Зрители могут голосовать за понравившиеся ответы. Кроме того, они могут отправлять ответы, которые отображаются на экране с включенной опцией \"Игра с зрителями\".",
                     "stream_friendly":"PLAYABLE",
                     "moderation":"CENSORING",
-                    "moderation_description":"With the \"Manual Censoring\" option enabled, the VIP can censor responses from players and the audience once they appear on-screen. If necessary, it's recommended to disable the \"Audience Play-Along\" option so that only players can submit text.",
+                    "moderation_description":"Если включена опция \"Ручная цензура\", VIP может подвергать цензуре ответы игроков и аудитории, как только они появляются на экране. При необходимости рекомендуется отключить опцию \"Игра с зрителями\", чтобы только игроки могли отправлять текст.",
                     "subtitles":false,
                     "type":"VERSUS",
                     "translation":"ENGLISH",
-                    "tagline":"The Say-Anything Party Game",
-                    "small_description":"The Say-Anything Party Game",
-                    "description":"The say-anything party game returns. Come up with \"a bad substitute for dental floss\" and win! Tired of our weird prompts? Try the new Make Your Own mode!",
+                    "tagline":"Игра Скажи-Что-Угодно для вечеринки",
+                    "small_description":"Игра Скажи-Что-Угодно для вечеринки",
+                    "description":"Сиквел, в котором ты можешь говорить всё, что хочешь. Играй с нашими новыми заданиями или придумай свои!",
                     "images":[
                         "game_images/Quiplash2/quiplash2.mp4",
                         "game_images/Quiplash2/quiplash2_1.webp",
@@ -724,7 +724,7 @@
             },
             {
                 "id":"triviamurderparty",
-                "name":"Trivia Murder Party",
+                "name":"Смертельная вечеринка",
                 "background":"game_backgrounds/TriviaMurderParty.webp",
                 "path":"games/TriviaMurderParty",
                 "game_info":{
@@ -739,16 +739,16 @@
                     },
                     "family_friendly":"NOT_FAMILY_FRIENDLY",
                     "audience":true,
-                    "audience_description":"The audience can answer questions along with the players. If at the end of the game they have a higher score than the best player, they survive.",
+                    "audience_description":"Зрители могут отвечать на вопросы вместе с игроками. Если в конце игры их счет выше, чем у лучшего игрока, они выживают.",
                     "stream_friendly":"PLAYABLE",
                     "moderation":"FULL_MODERATION",
-                    "moderation_description":"If necessary, it's recommended to enable the \"No Writing and Drawing Mode\" option so that players cannot submit text or drawings.",
+                    "moderation_description":"При необходимости рекомендуется включить опцию \"Режим без записи и рисования\", чтобы игроки не могли отправлять текст или рисунки.",
                     "subtitles":false,
                     "type":"VERSUS",
                     "translation":"ENGLISH",
-                    "tagline":"Will you survive this trivia?",
-                    "small_description":"Will you survive this trivia?",
-                    "description":"Be the last to survive a serial killer's absurd trivia game show. But it's fun!",
+                    "tagline":"Выживешь ли ты в этой викторине?",
+                    "small_description":"Выживешь ли ты в этой викторине?",
+                    "description":"Ужасно страшная викторина, где ты встретишься со свихнувшимся серийным убийцей, который любит проверять интеллект!",
                     "images":[
                         "game_images/TriviaMurderParty/triviamurderparty.mp4",
                         "game_images/TriviaMurderParty/triviamurderparty_1.webp",

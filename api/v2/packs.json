@@ -3069,6 +3069,9 @@
             "version_file":"config.jet",
             "version_property":"buildVersion"
         },
+        "resource_location":{
+            "mac":"The Jackbox Party Pack Starter.app/Contents/Resources/macos"
+        },
         "store_links":{
             "steam":"https://store.steampowered.com/app/1755580/The_Jackbox_Party_Starter/",
             "epic":"https://store.epicgames.com/p/jackbox-party-starter",
@@ -4224,7 +4227,7 @@
             "version_property":"buildVersion"
         },
         "resource_location":{
-            "mac":"uyw.app"
+            "mac":"uyw.app/Contents/Resources"
         },
         "store_links":{
             "steam":"https://store.steampowered.com/app/521350/Use_Your_Words/"
@@ -4296,7 +4299,7 @@
             "version_property":"buildVersion"
         },
         "resource_location":{
-            "mac":"WhatTheDub.app"
+            "mac":"WhatTheDub.app/Contents/Resources"
         },
         "store_links":{
             "steam":"https://store.steampowered.com/app/1495860/What_The_Dub/"
@@ -4368,7 +4371,7 @@
             "version_property":"buildVersion"
         },
         "resource_location":{
-            "mac":"RiffTraxTheGame.app"
+            "mac":"RiffTraxTheGame.app/Contents/Resources"
         },
         "store_links":{
             "steam":"https://store.steampowered.com/app/1707870/RiffTrax_The_Game/"

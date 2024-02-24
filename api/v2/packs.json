@@ -3387,7 +3387,7 @@
         "description":"Year of release: 2020",
         "launchers_id":{
             "steam":"1111940",
-            "jackbox_games_store":"https://shop.jackboxgames.com/collections/staging-standalone-titles/products/quiplash-2-interlashional-us-ca-eu"
+            "epic": "e912e6d9595b4ff3a7257bcdc82b6671"
         },
         "executables":{
             "windows":"Quiplash 2 InterLASHional.exe",
@@ -3407,7 +3407,9 @@
             "mac":"Quiplash 2 InterLASHional.app/Contents/Resources/macos"
         },
         "store_links":{
-            "steam":"https://store.steampowered.com/app/1111940/Quiplash_2_InterLASHional/"
+            "steam":"https://store.steampowered.com/app/1111940/Quiplash_2_InterLASHional/",
+            "epic": "https://store.epicgames.com/p/quiplash-2-interlashional-3c3888",
+            "jackbox_games_store":"https://shop.jackboxgames.com/collections/staging-standalone-titles/products/quiplash-2-interlashional-us-ca-eu"
         },
             "patchs":[],
         "games":[

@@ -149,7 +149,7 @@
                 },
                 "loader":{
                     "path":"loaders/tjpp1/ydkj2015.zip",
-                    "version":"1.0.0"
+                    "version":"1.0.1"
                 },
                 "patchs":[
                     
@@ -194,7 +194,7 @@
                 },
                 "loader":{
                     "path":"loaders/tjpp1/drawful.zip",
-                    "version":"1.0.0"
+                    "version":"1.0.1"
                 },
                 "patchs":[
                     
@@ -269,7 +269,7 @@
                     "translation":"ENGLISH",
                     "tagline":"Is it true or false?",
                     "small_description":"Is it true or false?",
-                    "description":"Do lobsters pee out of their heads? Did Japan vote the instant noodle the top invention of the 20th century? Or are you calling BS?\n\nNOTE: Opening this game with the Utility will open the Party Pack menu, skipping the introduction. This is intentional, as the game freezes when trying to open it more efficiently like other games.",
+                    "description":"Do lobsters pee out of their heads? Did Japan vote the instant noodle the top invention of the 20th century? Or are you calling BS?",
                     "images":[
                         "game_images/LieSwatter/lieswatter.mp4",
                         "game_images/LieSwatter/lieswatter_1.webp",
@@ -282,7 +282,7 @@
                 },
                 "loader":{
                     "path":"loaders/tjpp1/lieswatter.zip",
-                    "version":"1.0.0"
+                    "version":"1.0.1"
                 },
                 "patchs":[
                     
@@ -327,7 +327,7 @@
                 },
                 "loader":{
                     "path":"loaders/tjpp1/fibbagexl.zip",
-                    "version":"1.0.0"
+                    "version":"1.0.1"
                 },
                 "patchs":[
                     

@@ -1574,7 +1574,7 @@
         },
         "loader":{
             "path":"loaders/tjpp6/default.zip",
-            "version":"1.0.0"
+            "version":"1.0.1"
         },
         "configuration":{
 	        "version_origin":"game_file",
@@ -1703,7 +1703,7 @@
                 },
                 "loader":{
                     "path":"loaders/tjpp6/triviamurderparty2.zip",
-                    "version":"1.0.0"
+                    "version":"1.0.1"
                 },
                 "patchs":[
                     
@@ -1751,7 +1751,7 @@
                 },
                 "loader":{
                     "path":"loaders/tjpp6/rolemodels.zip",
-                    "version":"1.0.0"
+                    "version":"1.0.1"
                 },
                 "patchs":[
                     
@@ -1800,7 +1800,7 @@
                 },
                 "loader":{
                     "path":"loaders/tjpp6/jokeboat.zip",
-                    "version":"1.0.0"
+                    "version":"1.0.1"
                 },
                 "patchs":[
                     
@@ -1847,7 +1847,7 @@
                 },
                 "loader":{
                     "path":"loaders/tjpp6/dictionarium.zip",
-                    "version":"1.0.0"
+                    "version":"1.0.1"
                 },
                 "patchs":[
                     
@@ -1897,7 +1897,7 @@
                 },
                 "loader":{
                     "path":"loaders/tjpp6/pushthebutton.zip",
-                    "version":"1.0.0"
+                    "version":"1.0.1"
                 },
                 "patchs":[
                     

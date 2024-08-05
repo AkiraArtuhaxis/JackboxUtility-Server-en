@@ -111,6 +111,7 @@
             {
                 "id":"ydkj2015",
                 "name":"You Don't Know Jack 2015",
+                "internal_name": "YDKJ2015",
                 "background":"game_backgrounds/YDKJ2015.webp",
                 "path":"games/YDKJ2015",
                 "game_info":{
@@ -151,6 +152,11 @@
                     "path":"loaders/tjpp1/ydkj2015.zip",
                     "version":"1.0.1"
                 },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
                 "patchs":[
                     
                 ]
@@ -158,6 +164,7 @@
             {
                 "id":"drawful",
                 "name":"Drawful",
+                "internal_name":"Drawful",
                 "background":"game_backgrounds/Drawful.webp",
                 "path":"games/Drawful",
                 "game_info":{
@@ -196,6 +203,11 @@
                     "path":"loaders/tjpp1/drawful.zip",
                     "version":"1.0.1"
                 },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
                 "patchs":[
                     
                 ]
@@ -203,6 +215,7 @@
             {
                 "id":"wordspud",
                 "name":"Word Spud",
+                "internal_name":"WordSpud",
                 "background":"game_backgrounds/WordSpud.webp",
                 "path":"games/WordSpud",
                 "game_info":{
@@ -240,6 +253,11 @@
                     "path":"loaders/tjpp1/wordspud.zip",
                     "version":"1.0.0"
                 },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
                 "patchs":[
                     
                 ]
@@ -247,6 +265,7 @@
             {
                 "id":"lieswatter",
                 "name":"Lie Swatter",
+                "internal_name":"LieSwatterParty",
                 "background":"game_backgrounds/LieSwatter.webp",
                 "path":"games/LieSwatter",
                 "game_info":{
@@ -284,6 +303,11 @@
                     "path":"loaders/tjpp1/lieswatter.zip",
                     "version":"1.0.1"
                 },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
                 "patchs":[
                     
                 ]
@@ -291,6 +315,7 @@
             {
                 "id":"fibbagexl",
                 "name":"Fibbage XL",
+                "internal_name":"FibbageXL",
                 "background":"game_backgrounds/FibbageXL.webp",
                 "path":"games/FibbageXL",
                 "game_info":{
@@ -328,6 +353,11 @@
                 "loader":{
                     "path":"loaders/tjpp1/fibbagexl.zip",
                     "version":"1.0.1"
+                },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
                 },
                 "patchs":[
                     
@@ -372,6 +402,7 @@
             {
                 "id":"fibbage2",
                 "name":"Fibbage 2",
+                "internal_name":"Fibbage2",
                 "background":"game_backgrounds/Fibbage2.webp",
                 "path":"games/Fibbage2",
                 "game_info":{
@@ -413,6 +444,11 @@
                     "path":"loaders/tjpp2/fibbage2.zip",
                     "version":"1.0.0"
                 },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
                 "patchs":[
                     
                 ]
@@ -420,6 +456,7 @@
             {
                 "id":"earwax",
                 "name":"Earwax",
+                "internal_name":"Earwax",
                 "background":"game_backgrounds/Earwax.webp",
                 "path":"games/Earwax",
                 "game_info":{
@@ -460,6 +497,11 @@
                     "path":"loaders/tjpp2/earwax.zip",
                     "version":"1.0.0"
                 },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
                 "patchs":[
                     
                 ]
@@ -467,6 +509,7 @@
             {
                 "id":"bidiots",
                 "name":"Bidiots",
+                "internal_name":"Auction",
                 "background":"game_backgrounds/Bidiots.webp",
                 "path":"games/Bidiots",
                 "game_info":{
@@ -507,6 +550,11 @@
                     "path":"loaders/tjpp2/bidiots.zip",
                     "version":"1.0.0"
                 },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
                 "patchs":[
                     
                 ]
@@ -514,6 +562,7 @@
             {
                 "id":"quiplashxl",
                 "name":"Quiplash XL",
+                "internal_name":"QuiplashXL",
                 "background":"game_backgrounds/QuiplashXL.webp",
                 "path":"games/QuiplashXL",
                 "game_info":{
@@ -554,12 +603,18 @@
                     "path":"loaders/tjpp2/quiplashxl.zip",
                     "version":"1.0.0"
                 },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
                 "patchs":[
                     
                 ]
             },            {
                 "id":"bombcorp",
                 "name":"Bomb Corp.",
+                "internal_name":"BombInterns",
                 "game_info":{
                     "players":{
                         "min":1,
@@ -599,6 +654,11 @@
                 "loader":{
                     "path":"loaders/tjpp2/bombcorp.zip",
                     "version":"1.0.0"
+                },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
                 },
                 "patchs":[
                     
@@ -687,6 +747,7 @@
             {
                 "id":"quiplash2",
                 "name":"Quiplash 2",
+                "internal_name":"Quiplash2",
                 "background":"game_backgrounds/Quiplash2.webp",
                 "path":"games/Quiplash2",
                 "game_info":{
@@ -727,6 +788,11 @@
                     "path":"loaders/tjpp3/quiplash2.zip",
                     "version":"1.0.0"
                 },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
                 "patchs":[
                     
                 ]
@@ -734,6 +800,7 @@
             {
                 "id":"triviamurderparty",
                 "name":"Trivia Murder Party",
+                "internal_name":"triviadeath",
                 "background":"game_backgrounds/TriviaMurderParty.webp",
                 "path":"games/TriviaMurderParty",
                 "game_info":{
@@ -774,6 +841,11 @@
                     "path":"loaders/tjpp3/triviamurderparty.zip",
                     "version":"1.0.0"
                 },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
                 "patchs":[
                     
                 ]
@@ -781,6 +853,7 @@
             {
                 "id":"guesspionage",
                 "name":"Guesspionage",
+                "internal_name":"PollPosition",
                 "background":"game_backgrounds/Guesspionage.webp",
                 "path":"games/Guesspionage",
                 "game_info":{
@@ -821,6 +894,11 @@
                     "path":"loaders/tjpp3/guesspionage.zip",
                     "version":"1.0.0"
                 },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
                 "patchs":[
                     
                 ]
@@ -828,6 +906,7 @@
             {
                 "id":"fakinit",
                 "name":"Fakin' It!",
+                "internal_name":"FakinIt",
                 "background":"game_backgrounds/FakinIt.webp",
                 "path":"games/FakinIt",
                 "game_info":{
@@ -870,6 +949,11 @@
                     "path":"loaders/tjpp3/fakinit.zip",
                     "version":"1.0.0"
                 },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
                 "patchs":[
                     
                 ]
@@ -877,6 +961,7 @@
             {
                 "id":"teeko",
                 "name":"Tee K.O.",
+                "internal_name":"AwShirt",
                 "background":"game_backgrounds/TeeKO.webp",
                 "path":"games/TeeKO",
                 "game_info":{
@@ -917,6 +1002,11 @@
                 "loader":{
                     "path":"loaders/tjpp3/teeko.zip",
                     "version":"1.0.0"
+                },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
                 },
                 "patchs":[
                     
@@ -1004,6 +1094,7 @@
             {
                 "id":"fibbage3",
                 "name":"Fibbage 3",
+                "internal_name":"Fibbage3",
                 "background":"game_backgrounds/Fibbage3.webp",
                 "path":"games/Fibbage3",
                 "game_info":{
@@ -1045,6 +1136,11 @@
                     "path":"loaders/tjpp4/fibbage3.zip",
                     "version":"1.0.0"
                 },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
                 "patchs":[
                     
                 ]
@@ -1052,6 +1148,7 @@
             {
                 "id":"survivetheinternet",
                 "name":"Survive the Internet",
+                "internal_name":"SurviveTheInternet",
                 "background":"game_backgrounds/SurviveTheInternet.webp",
                 "path":"games/SurviveTheInternet",
                 "game_info":{
@@ -1092,6 +1189,11 @@
                     "path":"loaders/tjpp4/survivetheinternet.zip",
                     "version":"1.0.0"
                 },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
                 "patchs":[
                     
                 ]
@@ -1099,6 +1201,7 @@
             {
                 "id":"monsterseekingmonster",
                 "name":"Monster Seeking Monster",
+                "internal_name":"MonsterMingle",
                 "background":"game_backgrounds/MonsterSeekingMonster.webp",
                 "path":"games/MonsterMingle",
                 "game_info":{
@@ -1140,6 +1243,11 @@
                     "path":"loaders/tjpp4/monsterseekingmonster.zip",
                     "version":"1.0.0"
                 },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
                 "patchs":[
                     
                 ]
@@ -1147,6 +1255,7 @@
             {
                 "id":"bracketeering",
                 "name":"Bracketeering",
+                "internal_name":"Bracketeering",
                 "background":"game_backgrounds/Bracketeering.webp",
                 "path":"games/Bracketeering",
                 "game_info":{
@@ -1187,6 +1296,11 @@
                     "path":"loaders/tjpp4/bracketeering.zip",
                     "version":"1.0.0"
                 },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
                 "patchs":[
                     
                 ]
@@ -1194,6 +1308,7 @@
             {
                 "id":"civicdoodle",
                 "name":"Civic Doodle",
+                "internal_name":"Overdrawn",
                 "background":"game_backgrounds/CivicDoodle.webp",
                 "path":"games/CivicDoodle",
                 "game_info":{
@@ -1320,6 +1435,7 @@
         	{
                 "id":"ydkj_fullstream",
                 "name":"You Don't Know Jack: Full Stream",
+                "internal_name":"YDKJ2018",
                 "background":"game_backgrounds/YDKJFullStream.webp",
                 "path":"games/YDKJ2018",
                 "game_info":{
@@ -1367,6 +1483,7 @@
             {
                 "id":"splittheroom",
                 "name":"Split the Room",
+                "internal_name":"SplitTheRoom",
                 "background":"game_backgrounds/SplitTheRoom.webp",
                 "path":"games/SplitTheRoom",
                 "game_info":{
@@ -1415,6 +1532,7 @@
             {
                 "id":"mad_verse_city",
                 "name":"Mad Verse City",
+                "internal_name":"RapBattle",
                 "background":"game_backgrounds/MadVerseCity.webp",
                 "path":"games/RapBattle",
                 "game_info":{
@@ -1462,6 +1580,7 @@
             {
                 "id":"zeeple_dome",
                 "name":"Zeeple Dome",
+                "internal_name":"SlingShoot",
                 "background":"game_backgrounds/ZeepleDome.webp",
                 "path":"games/ZeepleDome",
                 "game_info":{
@@ -1509,6 +1628,7 @@
             {
                 "id":"patentlystupid",
                 "name":"Patently Stupid",
+                "internal_name":"PatentlyStupid",
                 "background":"game_backgrounds/PatentlyStupid.webp",
                 "path":"games/PatentlyStupid",
                 "game_info":{
@@ -1664,6 +1784,7 @@
         	{
                 "id":"trivia_murder_party_2",
                 "name":"Trivia Murder Party 2",
+                "internal_name":"TriviaDeath2",
                 "background":"game_backgrounds/TriviaMurderParty2.webp",
                 "path":"games/TriviaMurderParty2",
                 "game_info":{
@@ -1712,6 +1833,7 @@
             {
                 "id":"role_models",
                 "name":"Role Models",
+                "internal_name":"RoleModels",
                 "background":"game_backgrounds/RoleModels.webp",
                 "path":"games/RoleModels",
                 "game_info":{
@@ -1760,6 +1882,7 @@
             {
                 "id":"jokeboat",
                 "name":"Joke Boat",
+                "internal_name":"Jokeboat",
                 "background":"game_backgrounds/JokeBoat.webp",
                 "path":"games/JokeBoat",
                 "game_info":{
@@ -1809,6 +1932,7 @@
             {
                 "id":"dictionarium",
                 "name":"Dictionarium",
+                "internal_name":"Ridictionary",
                 "background":"game_backgrounds/Dictionarium.webp",
                 "path":"games/Ridictionary",
                 "game_info":{
@@ -1856,6 +1980,7 @@
             {
                 "id":"pushthebutton",
                 "name":"Push the Button",
+                "internal_name":"PushTheButton",
                 "background":"game_backgrounds/PushTheButton.webp",
                 "path":"games/PushTheButton",
                 "game_info":{
@@ -2010,6 +2135,7 @@
         	{
                 "id":"trivia_murder_party_2_egs",
                 "name":"Trivia Murder Party 2",
+                "internal_name":"TriviaDeath2",
                 "background":"game_backgrounds/TriviaMurderParty2.webp",
                 "path":"games/TriviaMurderParty2",
                 "game_info":{
@@ -2058,6 +2184,7 @@
             {
                 "id":"role_models_egs",
                 "name":"Role Models",
+                "internal_name":"RoleModels",
                 "background":"game_backgrounds/RoleModels.webp",
                 "path":"games/RoleModels",
                 "game_info":{
@@ -2106,6 +2233,7 @@
             {
                 "id":"jokeboat_egs",
                 "name":"Joke Boat",
+                "internal_name":"JokeBoat",
                 "background":"game_backgrounds/JokeBoat.webp",
                 "path":"games/JokeBoat",
                 "game_info":{
@@ -2155,6 +2283,7 @@
             {
                 "id":"dictionarium_egs",
                 "name":"Dictionarium",
+                "internal_name":"Ridictionary",
                 "background":"game_backgrounds/Dictionarium.webp",
                 "path":"games/Ridictionary",
                 "game_info":{
@@ -2202,6 +2331,7 @@
             {
                 "id":"pushthebutton_egs",
                 "name":"Push the Button",
+                "internal_name":"PushTheButton",
                 "background":"game_backgrounds/PushTheButton.webp",
                 "path":"games/PushTheButton",
                 "game_info":{
@@ -2345,6 +2475,7 @@
             {
                 "id":"quiplash3",
                 "name":"Quiplash 3",
+                "internal_name":"Quiplash3",
                 "background":"game_backgrounds/Quiplash3.webp",
                 "path":"games/Quiplash3",
                 "game_info":{
@@ -2391,6 +2522,7 @@
             {
                 "id":"thedevilsandthedetails",
                 "name":"The Devils and the Details",
+                "internal_name":"Everyday",
                 "background":"game_backgrounds/TheDevilsAndTheDetails.webp",
                 "path":"games/Everyday",
                 "game_info":{
@@ -2439,6 +2571,7 @@
             {
                 "id":"champdup",
                 "name":"Champ'd Up",
+                "internal_name":"WorldChampions",
                 "background":"game_backgrounds/Champdup.webp",
                 "path":"games/WorldChampions",
                 "game_info":{
@@ -2486,6 +2619,7 @@
             {
                 "id":"talkingpoints",
                 "name":"Talking Points",
+                "internal_name":"JackboxTalks",
                 "background":"game_backgrounds/TalkingPoints.webp",
                 "path":"games/JackboxTalks",
                 "game_info":{
@@ -2533,6 +2667,7 @@
             {
                 "id":"blatherround",
                 "name":"Blather 'Round",
+                "internal_name":"BlankyBlank",
                 "background":"game_backgrounds/BlatherRound.webp",
                 "path":"games/BlankyBlank",
                 "game_info":{
@@ -2616,6 +2751,7 @@
             {
                 "id":"drawful_animate",
                 "name":"Drawful: Animate",
+                "internal_name":"DrawfulAnimate",
                 "background":"game_backgrounds/DrawfulAnimate.webp",
                 "path":"games/DrawfulAnimate",
                 "game_info":{
@@ -2664,6 +2800,7 @@
             {
                 "id":"the_wheel_of_enormous_proportions",
                 "name":"The Wheel of Enormous Proportions",
+                "internal_name":"TheWheel",
                 "background":"game_backgrounds/TheWheelOfEnormousProportions.webp",
                 "path":"games/TheWheel",
                 "game_info":{
@@ -2711,6 +2848,7 @@
             {
                 "id":"jobjob",
                 "name":"Job Job",
+                "internal_name":"JobGame",
                 "background":"game_backgrounds/JobJob.webp",
                 "path":"games/JobGame",
                 "game_info":{
@@ -2758,6 +2896,7 @@
             {
                 "id":"thepollmine",
                 "name":"The Poll Mine",
+                "internal_name":"SurveyBomb",
                 "background":"game_backgrounds/ThePollMine.webp",
                 "path":"games/SurveyBomb",
                 "game_info":{
@@ -2807,6 +2946,7 @@
             {
                 "id":"weaponsdrawn",
                 "name":"Weapons Drawn",
+                "internal_name":"MurderDetectives",
                 "background":"game_backgrounds/WeaponsDrawn.webp",
                 "path":"games/MurderDetectives",
                 "game_info":{
@@ -2891,6 +3031,7 @@
             {
                 "id":"fibbage4",
                 "name":"Fibbage 4",
+                "internal_name":"Fibbage4",
                 "background":"game_backgrounds/Fibbage4.webp",
                 "path":"games/Fibbage4",
                 "game_info":{
@@ -2937,6 +3078,7 @@
             {
                 "id":"roomerang",
                 "name":"Roomerang",
+                "internal_name":"MakeFriends",
                 "background":"game_backgrounds/Roomerang.webp",
                 "path":"games/MakeFriends",
                 "game_info":{
@@ -2984,6 +3126,7 @@
             {
                 "id":"junktopia",
                 "name":"Junktopia",
+                "internal_name":"AntiqueGame",
                 "background":"game_backgrounds/Junktopia.webp",
                 "path":"games/AntiqueGame",
                 "game_info":{
@@ -3033,6 +3176,7 @@
             {
                 "id":"nonsensory",
                 "name":"Nonsensory",
+                "internal_name":"Nonsensory",
                 "background":"game_backgrounds/Nonsensory.webp",
                 "path":"games/RangeGame",
                 "game_info":{
@@ -3080,6 +3224,7 @@
             {
                 "id":"quixort",
                 "name":"Quixort",
+                "internal_name":"Lineup",
                 "background":"game_backgrounds/Quixort.webp",
                 "path":"games/Lineup",
                 "game_info":{
@@ -3426,6 +3571,7 @@
             {
                 "id":"quiplash3_starter",
                 "name":"Quiplash 3",
+                "internal_name":"Quiplash3",
                 "background":"game_backgrounds/Quiplash3Starter.webp",
                 "path":"games/Quiplash3",
                 "game_info":{
@@ -3472,6 +3618,7 @@
             {
                 "id":"teeko_starter",
                 "name":"Tee K.O.",
+                "internal_name":"AwShirt",
                 "background":"game_backgrounds/TeeKOStarter.webp",
                 "path":"games/AwShirt",
                 "game_info":{
@@ -3519,6 +3666,7 @@
             {
                 "id":"trivia_murder_party_2_starter",
                 "name":"Trivia Murder Party 2",
+                "internal_name":"triviadeath2",
                 "background":"game_backgrounds/TriviaMurderParty2Starter.webp",
                 "path":"games/triviadeath2",
                 "game_info":{

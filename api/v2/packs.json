@@ -3092,6 +3092,7 @@
             {
                 "id": "teeko2",
                 "name": "Tee K.O. 2",
+                "internal_name":"AwShirt2",
                 "background": "game_backgrounds/TeeKO2.webp",
                 "path": "games/AwShirt2",
                 "game_info": {
@@ -3142,6 +3143,7 @@
             {
                 "id": "timejinx",
                 "name": "Timejinx",
+                "internal_name":"TimeTrivia",
                 "background": "game_backgrounds/Timejinx.webp",
                 "path": "games/TimeTrivia",
                 "game_info": {
@@ -3191,6 +3193,7 @@
             {
                 "id": "fixytext",
                 "name": "FixyText",
+                "internal_name":"RiskyText",
                 "background": "game_backgrounds/FixyText.webp",
                 "path": "games/RiskyText",
                 "game_info": {
@@ -3240,6 +3243,7 @@
             {
                 "id": "dodoremi",
                 "name": "Dodo Re Mi",
+                "internal_name":"NopusOpus",
                 "background": "game_backgrounds/DodoReMi.webp",
                 "path": "games/NopusOpus",
                 "game_info": {
@@ -3288,6 +3292,7 @@
             {
                 "id": "hypnotorious",
                 "name": "Hypnotorious",
+                "internal_name":"Strangers",
                 "background": "game_backgrounds/Hypnotorious.webp",
                 "path": "games/Strangers",
                 "game_info": {

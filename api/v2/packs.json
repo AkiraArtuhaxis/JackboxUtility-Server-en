@@ -66,8 +66,13 @@
         },
         "configuration":{
 	        "version_origin":"game_file",
-            "version_file":"config.jet",
-            "version_property":"buildVersion"
+            "version_file":"jbg.config.jet",
+            "version_property":"buildVersion",
+            "launcher_version_file" : {
+                "steam": "jbg.config.jet",
+                "epic_games": "config.jet",
+                "native": "jbg.config.jet"
+                }
         },
         "resource_location":{
             "mac":"The Jackbox Party Pack.app/Contents/Resources/macos"
@@ -386,8 +391,13 @@
         },
         "configuration":{
 	        "version_origin":"game_file",
-            "version_file":"config.jet",
-            "version_property":"buildVersion"
+            "version_file":"jbg.config.jet",
+            "version_property":"buildVersion",
+            "launcher_version_file" : {
+                "steam": "jbg.config.jet",
+                "epic_games": "config.jet",
+                "native": "jbg.config.jet"
+                }
         },
         "resource_location":{
             "mac":"The Jackbox Party Pack 2.app/Contents/Resources/macos"
@@ -688,11 +698,16 @@
         },
         "configuration":{
 	        "version_origin":"game_file",
-            "version_file":"config.jet",
-            "version_property":"buildVersion"
+            "version_file":"jbg.config.jet",
+            "version_property":"buildVersion",
+            "launcher_version_file" : {
+                "steam": "jbg.config.jet",
+                "epic_games": "config.jet",
+                "native": "jbg.config.jet"
+                }
         },
         "resource_location":{
-            "mac":"The Jackbox Party Pack 3.app/Contents/Resources"
+            "mac":"The Jackbox Party Pack 3.app/Contents/Resources/macos"
         },
         "store_links":{
             "steam":"https://store.steampowered.com/app/434170/The_Jackbox_Party_Pack_3/",
@@ -1035,8 +1050,13 @@
         },
         "configuration":{
 	        "version_origin":"game_file",
-            "version_file":"config.jet",
-            "version_property":"buildVersion"
+            "version_file":"jbg.config.jet",
+            "version_property":"buildVersion",
+            "launcher_version_file" : {
+                "steam": "jbg.config.jet",
+                "epic_games": "config.jet",
+                "native": "jbg.config.jet"
+                }
         },
         "resource_location":{
             "mac":"The Jackbox Party Pack 4.app/Contents/Resources/macos"
@@ -1381,8 +1401,13 @@
         },
         "configuration":{
 	        "version_origin":"game_file",
-            "version_file":"config.jet",
-            "version_property":"buildVersion"
+            "version_file":"jbg.config.jet",
+            "version_property":"buildVersion",
+            "launcher_version_file" : {
+                "steam": "jbg.config.jet",
+                "epic_games": "config.jet",
+                "native": "jbg.config.jet"
+                }
         },
         "resource_location":{
             "mac":"The Jackbox Party Pack 5.app/Contents/Resources/macos"
@@ -1729,8 +1754,13 @@
         },
         "configuration":{
 	        "version_origin":"game_file",
-            "version_file":"config.jet",
-            "version_property":"buildVersion"
+            "version_file":"jbg.config.jet",
+            "version_property":"buildVersion",
+            "launcher_version_file" : {
+                "steam": "jbg.config.jet",
+                "epic_games": "config.jet",
+                "native": "jbg.config.jet"
+                }
         },
         "resource_location":{
             "mac":"The Jackbox Party Pack 6.app/Contents/Resources/macos"
@@ -2108,8 +2138,13 @@
         },
         "configuration":{
 	        "version_origin":"game_file",
-            "version_file":"config.jet",
-            "version_property":"buildVersion"
+            "version_file":"jbg.config.jet",
+            "version_property":"buildVersion",
+            "launcher_version_file" : {
+                "steam": "jbg.config.jet",
+                "epic_games": "config.jet",
+                "native": "jbg.config.jet"
+                }
         },
         "resource_location":{
             "mac":"The Jackbox Party Pack 7.app/Contents/Resources/macos"
@@ -2466,8 +2501,13 @@
         },
         "configuration":{
 	        "version_origin":"game_file",
-            "version_file":"config.jet",
-            "version_property":"buildVersion"
+            "version_file":"jbg.config.jet",
+            "version_property":"buildVersion",
+            "launcher_version_file" : {
+                "steam": "jbg.config.jet",
+                "epic_games": "config.jet",
+                "native": "jbg.config.jet"
+                }
         },
         "resource_location":{
             "mac":"The Jackbox Party Pack 8.app/Contents/Resources/macos"
@@ -2772,7 +2812,12 @@
     "configuration":{
         "version_origin":"game_file",
         "version_file":"jbg.config.jet",
-        "version_property":"buildVersion"
+        "version_property":"buildVersion",
+        "launcher_version_file" : {
+            "steam": "jbg.config.jet",
+            "epic_games": "config.jet",
+            "native": "jbg.config.jet"
+            }
 	},
     "resource_location":{
         "mac":"The Jackbox Party Pack 9.app/Contents/Resources/macos"
@@ -3077,7 +3122,12 @@
             "file": "jbg.config.jet",
             "version_property": "buildVersion",
             "version_origin": "game_file",
-            "version_file": "jbg.config.jet"
+            "version_file": "jbg.config.jet",
+            "launcher_version_file" : {
+                "steam": "jbg.config.jet",
+                "epic_games": "config.jet",
+                "native": "jbg.config.jet"
+                }
         },
         "resource_location":{
             "mac":"The Jackbox Party Pack 10.app/Contents/Resources/macos"
@@ -3367,7 +3417,12 @@
         "configuration":{
 	        "version_origin":"game_file",
             "version_file":"jbg.config.jet",
-            "version_property":"buildVersion"
+            "version_property":"buildVersion",
+            "launcher_version_file" : {
+                "steam": "jbg.config.jet",
+                "epic_games": "config.jet",
+                "native": "jbg.config.jet"
+                }
         },
         "resource_location":{
             "mac":"The Jackbox Party Pack Starter.app/Contents/Resources/macos"

@@ -1737,6 +1737,7 @@
         },
         "store_links":{
             "steam":"https://store.steampowered.com/app/1005300/The_Jackbox_Party_Pack_6/",
+            "epic":"https://store.epicgames.com/p/jackbox-party-pack-6",
             "jackbox_games_store":"https://shop.jackboxgames.com/collections/staging-party-packs/products/preorder-the-jackbox-party-pack-six-pc-mac-linux-steam-code"
         },
         "patchs": [

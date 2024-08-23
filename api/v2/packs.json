@@ -2992,7 +2992,7 @@
             {
                 "id":"nonsensory",
                 "name":"Nonsensory",
-                "internal_name":"Nonsensory",
+                "internal_name":"RangeGame",
                 "background":"game_backgrounds/Nonsensory.webp",
                 "path":"games/RangeGame",
                 "game_info":{

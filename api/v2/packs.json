@@ -4602,7 +4602,7 @@
             "version_property":"buildVersion"
         },
         "resource_location":{
-            "mac":"uyw.app/Contents/Resources"
+            "mac":"uyw.app/Contents/Resources/Data"
         },
         "store_links":{
             "steam":"https://store.steampowered.com/app/521350/Use_Your_Words/"
@@ -4674,7 +4674,7 @@
             "version_property":"buildVersion"
         },
         "resource_location":{
-            "mac":"WhatTheDub.app/Contents/Resources"
+            "mac":"WhatTheDub.app/Contents/Resources/Data"
         },
         "store_links":{
             "steam":"https://store.steampowered.com/app/1495860/What_The_Dub/"
@@ -4746,7 +4746,7 @@
             "version_property":"buildVersion"
         },
         "resource_location":{
-            "mac":"RiffTraxTheGame.app/Contents/Resources"
+            "mac":"RiffTraxTheGame.app/Contents/Resources/Data"
         },
         "store_links":{
             "steam":"https://store.steampowered.com/app/1707870/RiffTrax_The_Game/"
@@ -4889,7 +4889,7 @@
             "version_property":"buildVersion"
         },
         "resource_location":{
-            "mac":"Papa’s Quiz.app/Contents/Resources"
+            "mac":"Papa’s Quiz.app/Contents/Resources/Data"
         },
         "store_links":{
             "steam":"https://store.steampowered.com/app/1484730/Papas_Quiz/"

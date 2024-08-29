@@ -2544,8 +2544,8 @@
                     "subtitles":true,
                     "type":"VERSUS",
                     "translation":"ENGLISH",
-                    "tagline":"Animate everything!",
-                    "small_description":"Animate everything!",
+                    "tagline":"Animate badly with style!",
+                    "small_description":"Animate badly with style!",
                     "description":"The third game in the Drawful series allows players to create two corresponding images which leads to one dynamic pictorial guessing game.",
                     "images":[
                         "game_images/DrawfulAnimate/drawfulanimate.mp4",
@@ -2591,7 +2591,7 @@
                     },
                     "family_friendly":"OPTIONAL",
                     "audience":true,
-                    "audience_description":"The audience votes for which player they think will do best on the questions and wins portions by guessing correctly. These are placed on the wheel and can trigger actions on the players when someone lands on them.",
+                    "audience_description":"The audience can vote for which player they think will do best on the questions and wins portions by guessing correctly. These are placed on the wheel and can trigger actions on the players when someone lands on them.",
                     "stream_friendly":"PLAYABLE",
                     "moderation":"FULL_MODERATION",
                     "moderation_description":"This game doesn't require moderation. If necessary, it's recommended to enable the \"Profanity Filter\" option or disable the \"Allow Player Written Responses\" option.",
@@ -3119,7 +3119,6 @@
             "version": "1.0.0"
         },
         "configuration": {
-            "file": "jbg.config.jet",
             "version_property": "buildVersion",
             "version_origin": "game_file",
             "version_file": "jbg.config.jet",
@@ -3596,6 +3595,155 @@
         ],
         "icon":"jpstarter.ico",
         "background":"backgrounds/jpstarter.jpg"
+    },
+    {
+        "id": "jnp",
+        "name": "The Jackbox Naughty Pack",
+        "description": "Year of release: 2024",
+        "launchers_id": {
+            "steam": "2652000"
+        },
+        "executables": {
+            "windows": "The Jackbox Naughty Pack.exe",
+            "mac": "The Jackbox Naughty Pack.app/Contents/MacOS/The Jackbox Naughty Pack",
+            "linux": "Launcher.sh"
+        },
+        "configuration": {
+            "version_property": "buildVersion",
+            "version_origin": "game_file",
+            "version_file": "jbg.config.jet"
+        },
+        "store_links": {
+            "steam": "https://store.steampowered.com/app/2652000/The_Jackbox_Naughty_Pack/"
+        },
+        "patchs": [],
+        "games": [
+            {
+                "id": "fakinitanl",
+                "internal_name": "FakinIt2",
+                "name": "Fakin' It All Night Long",
+                "background": "game_backgrounds/FakinItANL.webp",
+                "path": "games/FakinIt2",
+                "game_info": {
+                    "players": {
+                        "min": 3,
+                        "max": 8
+                    },
+                    "playtime": {
+                        "min": 20,
+                        "max": 30
+                    },
+                    "family_friendly": "NOT_FAMILY_FRIENDLY",
+                    "audience": true,
+                    "audience_description": "The audience tries to guess who the faker is along with the players.",
+                    "stream_friendly": "PLAYABLE",
+                    "moderation": "FULL_MODERATION",
+                    "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles": true,
+                    "length": "15 - 20 minutes",
+                    "type": "VERSUS",
+                    "translation": "NATIVELY_TRANSLATED",
+                    "tagline": "Catch the Filthy Trickster!",
+                    "small_description": "Catch the Filthy Trickster!",
+                    "description": "Fakin’ It returns and this time we’re putting it all out there. Everyone gets a secret task except the Faker, who tries to blend in. Find out which of your friends is the best liar… and SO much more! Featuring new categories like “Finger Blast” and a brand new “remote play” mode. Who doesn’t like a good Finger Blast with their friends?",
+                    "images": [
+                        "game_images/FakinItANL/fakinitanl.mp4",
+                        "game_images/FakinItANL/fakinitanl_1.webp",
+                        "game_images/FakinItANL/fakinitanl_2.webp",
+                        "game_images/FakinItANL/fakinitanl_3.webp"
+                    ],
+                    "tags": [
+                        "deduction",
+                        "talking"
+                    ]
+                },
+                "patchs": []
+            },
+            {
+                "id": "dirtydrawful",
+                "internal_name": "Drawful3",
+                "name": "Dirty Drawful",
+                "background": "game_backgrounds/DirtyDrawful.webp",
+                "path": "games/Drawful3",
+                "game_info": {
+                    "players": {
+                        "min": 3,
+                        "max": 8
+                    },
+                    "playtime": {
+                        "min": 15,
+                        "max": 20
+                    },
+                    "family_friendly": "NOT_FAMILY_FRIENDLY",
+                    "audience": true,
+                    "audience_description": "The audience tries to guess the correct answer along with the other players, giving points to the players in case they choose their titles, and gives likes to their favorite titles.",
+                    "stream_friendly": "PLAYABLE",
+                    "moderation": "FULL_MODERATION",
+                    "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles": true,
+                    "length": "15 - 20 minutes",
+                    "type": "VERSUS",
+                    "translation": "NATIVELY_TRANSLATED",
+                    "tagline": "Draw nastily with style!",
+                    "small_description": "Draw nastily with style!",
+                    "description": "It’s Drawful, but dirty… It's Dirty Drawful. Hosted by the one and only Drawful Owl, as you’ve never seen her before. We’ve taken the game that you love and added prompts to ensure your drawings are both terrible and titillating. This game has everything:, sex, drugs, and other things that we absolutely cannot list here! Also, if you can’t commit to a relationship, or a drawing, we added an undo button just for you.",
+                    "images": [
+                        "game_images/DirtyDrawful/dirtydrawful.mp4",
+                        "game_images/DirtyDrawful/dirtydrawful_1.webp",
+                        "game_images/DirtyDrawful/dirtydrawful_2.webp",
+                        "game_images/DirtyDrawful/dirtydrawful_3.webp"
+                    ],
+                    "tags": [
+                        "drawing",
+                        "writing"
+                    ]
+                },
+                "patchs": []
+            },
+            {
+                "id": "letmefinish",
+                "internal_name": "CAPTCHA",
+                "name": "Let Me Finish",
+                "background": "game_backgrounds/LetMeFinish.webp",
+                "path": "games/CAPTCHA",
+                "game_info": {
+                    "players": {
+                        "min": 3,
+                        "max": 8
+                    },
+                    "playtime": {
+                        "min": 15,
+                        "max": 20
+                    },
+                    "family_friendly": "NOT_FAMILY_FRIENDLY",
+                    "audience": true,
+                    "audience_description": "The audience can vote for which player satisfied them the most and thereby award points.",
+                    "stream_friendly": "MIDLY_PLAYABLE",
+                    "stream_friendly_description": "Being a presentation game, it's recommended for players to be able to at least hear each other.",
+                    "moderation": "FULL_MODERATION",
+                    "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles": true,
+                    "length": "15 - 25 minutes",
+                    "type": "VERSUS",
+                    "translation": "NATIVELY_TRANSLATED",
+                    "tagline": "Answer outrageous questions!",
+                    "small_description": "Answer outrageous questions!",
+                    "description": "Let Me Finish is Jackbox’s new presentation game that examines life’s serious questions like, “Where is the mailbox’s butt?” or “How does this avocado get aroused?” Everyone gets a chance to speak their mind, but will others pick up what you’re putting down?",
+                    "images": [
+                        "game_images/LetMeFinish/letmefinish.mp4",
+                        "game_images/LetMeFinish/letmefinish_1.webp",
+                        "game_images/LetMeFinish/letmefinish_2.webp",
+                        "game_images/LetMeFinish/letmefinish_3.webp"
+                    ],
+                    "tags": [
+                        "talking"
+                    ]
+                },
+                "patchs": []
+            }
+        ],
+        "icon": "jnp.ico",
+        "background": "backgrounds/jnp.jpg"
     },
     {
         "id":"fbxl",

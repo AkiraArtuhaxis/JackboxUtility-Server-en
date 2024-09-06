@@ -3809,6 +3809,11 @@
                     ]
 
                 },
+                "launch_with_loaders":{
+                    "steam":true,
+                    "epic_games":true,
+                    "native":true
+                },
                 "loader":{
                     "path":"loaders/standalones/standalones.zip",
                     "version":"1.0.0"
@@ -3894,6 +3899,11 @@
                     "path":"loaders/standalones/standalones.zip",
                     "version":"1.0.0"
                 },
+                "launch_with_loaders":{
+                    "steam":true,
+                    "epic_games":true,
+                    "native":true
+                },
                 "patchs":[
                     
                 ]
@@ -3976,6 +3986,11 @@
                 "loader":{
                     "path":"loaders/standalones/standalones.zip",
                     "version":"1.0.0"
+                },
+                "launch_with_loaders":{
+                    "steam":true,
+                    "epic_games":true,
+                    "native":true
                 },
                 "patchs":[
                     
@@ -4060,6 +4075,11 @@
                 "loader":{
                     "path":"loaders/df2/drawful2.zip",
                     "version":"1.0.0"
+                },
+                "launch_with_loaders":{
+                    "steam":true,
+                    "epic_games":true,
+                    "native":true
                 },
                 "patchs":[
                     

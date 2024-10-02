@@ -3613,6 +3613,9 @@
             "version_origin": "game_file",
             "version_file": "jbg.config.jet"
         },
+        "resource_location":{
+            "mac":"The Jackbox Naughty Pack.app/Contents/Resources/macos"
+        },
         "store_links": {
             "steam": "https://store.steampowered.com/app/2652000/The_Jackbox_Naughty_Pack/"
         },

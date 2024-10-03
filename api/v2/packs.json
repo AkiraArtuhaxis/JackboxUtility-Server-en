@@ -31,21 +31,7 @@
             "description":"You'll have to write in these games."
         }
     ],
-    "patchsCategories": [
-        {
-            "id": "music_patch",
-            "name": "SiIvaGunner Music Patch",
-            "smallDescription": "Enjoy Jackbox with remixed audio from SiIvaGunner!",
-            "patchs": [
-                "jpp1_music",
-                "jpp3_music",
-                "jpp4_music",
-                "jpp5_music",
-                "jpp6_music",
-                "jpp7_music"
-            ]
-        }
-    ],
+    "patchsCategories": [],
     "packs":[
     {
         "id":"jpp1",
@@ -82,36 +68,7 @@
             "epic":"https://store.epicgames.com/p/jackbox-party-pack-1",
             "jackbox_games_store":"https://www.jackboxgames.com/games/packs/the-jackbox-party-pack-1"
         },
-        "patchs": [
-            {
-                "id": "jpp1_music",
-                "name": "Music Pack",
-                "small_description": "SiIvaGunner Jackbox Music Pack",
-                "description": "SiIvaGunner Jackbox Music Pack",
-                "patch_path": "https://github.com/DerErizzle/Jackbox-Music-Pack/releases/latest/download/The.Jackbox.Party.Pack.zip",
-                "configuration": {
-                    "version_origin": "repo_file",
-                    "version_file": "https://raw.githubusercontent.com/DerErizzle/Jackbox-Music-Pack/main/The%20Jackbox%20Party%20Pack/config.jet",
-                    "version_property": "buildVersion"
-                },
-                "components": [
-                    {
-                        "id": "ydkj2015_music",
-                        "linked_game": "ydkj2015",
-                        "name": "You Don't Know Jack 2015",
-                        "authors": "SiIvaGunner",
-                        "small_description": "Includes Jackbox rips from SiIvaGunner",
-                        "patch_type": {
-                            "game_text": false,
-                            "game_assets": false,
-                            "game_subtitles": false,
-                            "website": false,
-                            "audios": true
-                        }
-                    }
-                ]
-            }
-        ],
+        "patchs":[],
         "games":[
             {
                 "id":"ydkj2015",
@@ -124,7 +81,6 @@
                         "min":1,
                         "max":4
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -177,7 +133,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -228,7 +183,6 @@
                         "min":2,
                         "max":8
                     },
-                    "length":"10 - 15 minutes",
                     "playtime":{
                         "min":10,
                         "max":15
@@ -278,7 +232,6 @@
                         "min":1,
                         "max":100
                     },
-                    "length":"10 - 15 minutes",
                     "playtime":{
                         "min":10,
                         "max":15
@@ -328,7 +281,6 @@
                         "min":2,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -420,7 +372,6 @@
                         "min":2,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -474,7 +425,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 - 25 minutes",
                     "playtime":{
                         "min":15,
                         "max":25
@@ -527,7 +477,6 @@
                         "min":3,
                         "max":6
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -580,7 +529,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -630,7 +578,6 @@
                         "min":1,
                         "max":4
                     },
-                    "length":"5 - 10 minutes",
                     "playtime":{
                         "min":5,
                         "max":10
@@ -714,50 +661,7 @@
             "epic":"https://store.epicgames.com/p/jackbox-party-pack-3",
             "jackbox_games_store":"https://www.jackboxgames.com/games/packs/the-jackbox-party-pack-3"
         },
-        "patchs": [
-            {
-                "id": "jpp3_music",
-                "name": "Music Pack",
-                "small_description": "SiIvaGunner Jackbox Music Pack",
-                "description": "SiIvaGunner Jackbox Music Pack",
-                "patch_path": "https://github.com/DerErizzle/Jackbox-Music-Pack/releases/latest/download/The.Jackbox.Party.Pack.3.zip",
-                "configuration": {
-                    "version_origin": "repo_file",
-                    "version_file": "https://raw.githubusercontent.com/DerErizzle/Jackbox-Music-Pack/main/The%20Jackbox%20Party%20Pack%203/config.jet",
-                    "version_property": "buildVersion"
-                },
-                "components": [
-                    {
-                        "id": "teeko_music",
-                        "linked_game": "teeko",
-                        "name": "Tee K.O.",
-                        "authors": "SiIvaGunner",
-                        "small_description": "Includes Jackbox rips from SiIvaGunner",
-                        "patch_type": {
-                            "game_text": false,
-                            "game_assets": false,
-                            "game_subtitles": false,
-                            "website": false,
-                            "audios": true
-                        }
-                    },
-                    {
-                        "id": "triviamurderparty_music",
-                        "linked_game": "triviamurderparty",
-                        "name": "Trivia Murder Party",
-                        "authors": "SiIvaGunner",
-                        "small_description": "Includes Jackbox rips from SiIvaGunner",
-                        "patch_type": {
-                            "game_text": false,
-                            "game_assets": false,
-                            "game_subtitles": false,
-                            "website": false,
-                            "audios": true
-                        }
-                    }
-                ]
-            }
-        ],
+        "patchs":[],
         "games":[
             {
                 "id":"quiplash2",
@@ -770,7 +674,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -823,7 +726,6 @@
                         "min":1,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -876,7 +778,6 @@
                         "min":2,
                         "max":8
                     },
-                    "length":"10 - 15 minutes",
                     "playtime":{
                         "min":10,
                         "max":15
@@ -929,7 +830,6 @@
                         "min":3,
                         "max":6
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -984,7 +884,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -1066,50 +965,7 @@
             "epic":"https://store.epicgames.com/p/jackbox-party-pack-4",
             "jackbox_games_store":"https://www.jackboxgames.com/games/packs/the-jackbox-party-pack-4"
         },
-        "patchs": [
-            {
-                "id": "jpp4_music",
-                "name": "Music Pack",
-                "small_description": "SiIvaGunner Jackbox Music Pack",
-                "description": "SiIvaGunner Jackbox Music Pack",
-                "patch_path": "https://github.com/DerErizzle/Jackbox-Music-Pack/releases/latest/download/The.Jackbox.Party.Pack.4.zip",
-                "configuration": {
-                    "version_origin": "repo_file",
-                    "version_file": "https://raw.githubusercontent.com/DerErizzle/Jackbox-Music-Pack/main/The%20Jackbox%20Party%20Pack%204/config.jet",
-                    "version_property": "buildVersion"
-                },
-                "components": [
-                    {
-                        "id": "monsterseekingmonster_music",
-                        "linked_game": "monsterseekingmonster",
-                        "name": "Monster Seeking Monster",
-                        "authors": "SiIvaGunner",
-                        "small_description": "Includes Jackbox rips from SiIvaGunner",
-                        "patch_type": {
-                            "game_text": false,
-                            "game_assets": false,
-                            "game_subtitles": false,
-                            "website": false,
-                            "audios": true
-                        }
-                    },
-                    {
-                        "id": "survivetheinternet_music",
-                        "linked_game": "survivetheinternet",
-                        "name": "Survive the Internet",
-                        "authors": "SiIvaGunner",
-                        "small_description": "Includes Jackbox rips from SiIvaGunner",
-                        "patch_type": {
-                            "game_text": false,
-                            "game_assets": false,
-                            "game_subtitles": false,
-                            "website": false,
-                            "audios": true
-                        }
-                    }
-                ]
-            }
-        ],
+        "patchs":[],
         "games":[
             {
                 "id":"fibbage3",
@@ -1122,7 +978,6 @@
                         "min":2,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -1176,7 +1031,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -1229,7 +1083,6 @@
                         "min":3,
                         "max":7
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -1283,7 +1136,6 @@
                         "min":3,
                         "max":16
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -1336,7 +1188,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -1417,50 +1268,7 @@
             "epic":"https://store.epicgames.com/p/jackbox-party-pack-5",
             "jackbox_games_store":"https://www.jackboxgames.com/games/packs/the-jackbox-party-pack-5"
         },
-        "patchs": [
-            {
-                "id": "jpp5_music",
-                "name": "Music Pack",
-                "small_description": "SiIvaGunner Jackbox Music Pack",
-                "description": "SiIvaGunner Jackbox Music Pack",
-                "patch_path": "https://github.com/DerErizzle/Jackbox-Music-Pack/releases/latest/download/The.Jackbox.Party.Pack.5.zip",
-                "configuration": {
-                    "version_origin": "repo_file",
-                    "version_file": "https://raw.githubusercontent.com/DerErizzle/Jackbox-Music-Pack/main/The%20Jackbox%20Party%20Pack%205/config.jet",
-                    "version_property": "buildVersion"
-                },
-                "components": [
-                    {
-                        "id": "mad_verse_city_music",
-                        "linked_game": "mad_verse_city",
-                        "name": "Mad Verse City",
-                        "authors": "SiIvaGunner",
-                        "small_description": "Includes Jackbox rips from SiIvaGunner",
-                        "patch_type": {
-                            "game_text": false,
-                            "game_assets": false,
-                            "game_subtitles": false,
-                            "website": false,
-                            "audios": true
-                        }
-                    },
-                    {
-                        "id": "ydkj_fullstream_music",
-                        "linked_game": "ydkj_fullstream",
-                        "name": "You Don't Know Jack: Full Stream",
-                        "authors": "SiIvaGunner",
-                        "small_description": "Includes Jackbox rips from SiIvaGunner",
-                        "patch_type": {
-                            "game_text": false,
-                            "game_assets": false,
-                            "game_subtitles": false,
-                            "website": false,
-                            "audios": true
-                        }
-                    }
-                ]
-            }
-        ],
+        "patchs":[],
         "games":[
         	{
                 "id":"ydkj_fullstream",
@@ -1473,7 +1281,6 @@
                         "min":1,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -1526,7 +1333,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -1580,7 +1386,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -1633,7 +1438,6 @@
                         "min":1,
                         "max":6
                     },
-                    "length":"10 - 15 minutes",
                     "playtime":{
                         "min":10,
                         "max":15
@@ -1686,7 +1490,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -1770,78 +1573,7 @@
             "epic":"https://store.epicgames.com/p/jackbox-party-pack-6",
             "jackbox_games_store":"https://www.jackboxgames.com/games/packs/the-jackbox-party-pack-6"
         },
-        "patchs": [
-            {
-                "id": "jpp6_music",
-                "name": "Music Pack",
-                "small_description": "SiIvaGunner Jackbox Music Pack",
-                "description": "SiIvaGunner Jackbox Music Pack",
-                "patch_path": "https://github.com/DerErizzle/Jackbox-Music-Pack/releases/latest/download/The.Jackbox.Party.Pack.6.zip",
-                "configuration": {
-                    "version_origin": "repo_file",
-                    "version_file": "https://raw.githubusercontent.com/DerErizzle/Jackbox-Music-Pack/main/The%20Jackbox%20Party%20Pack%206/config.jet",
-                    "version_property": "buildVersion"
-                },
-                "components": [
-                    {
-                        "id": "jokeboat_music",
-                        "linked_game": "jokeboat",
-                        "name": "Joke Boat",
-                        "authors": "SiIvaGunner",
-                        "small_description": "Includes Jackbox rips from SiIvaGunner",
-                        "patch_type": {
-                            "game_text": false,
-                            "game_assets": false,
-                            "game_subtitles": false,
-                            "website": false,
-                            "audios": true
-                        }
-                    },
-                    {
-                        "id": "pushthebutton_music",
-                        "linked_game": "pushthebutton",
-                        "name": "Push the Button",
-                        "authors": "SiIvaGunner",
-                        "small_description": "Includes Jackbox rips from SiIvaGunner",
-                        "patch_type": {
-                            "game_text": false,
-                            "game_assets": false,
-                            "game_subtitles": false,
-                            "website": false,
-                            "audios": true
-                        }
-                    },
-                    {
-                        "id": "dictionarium_music",
-                        "linked_game": "dictionarium",
-                        "name": "Dictionarium",
-                        "authors": "SiIvaGunner",
-                        "small_description": "Includes Jackbox rips from SiIvaGunner",
-                        "patch_type": {
-                            "game_text": false,
-                            "game_assets": false,
-                            "game_subtitles": false,
-                            "website": false,
-                            "audios": true
-                        }
-                    },
-                    {
-                        "id": "trivia_murder_party_2_music",
-                        "linked_game": "trivia_murder_party_2",
-                        "name": "Trivia Murder Party 2",
-                        "authors": "SiIvaGunner",
-                        "small_description": "Includes Jackbox rips from SiIvaGunner",
-                        "patch_type": {
-                            "game_text": false,
-                            "game_assets": false,
-                            "game_subtitles": false,
-                            "website": false,
-                            "audios": true
-                        }
-                    }
-                ]
-            }
-        ],
+        "patchs":[],
         "games":[
         	{
                 "id":"trivia_murder_party_2",
@@ -1854,7 +1586,6 @@
                         "min":1,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -1908,7 +1639,6 @@
                         "min":3,
                         "max":6
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -1962,7 +1692,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -2017,7 +1746,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"10 - 15 minutes",
                     "playtime":{
                         "min":10,
                         "max":15
@@ -2070,7 +1798,6 @@
                         "min":4,
                         "max":10
                     },
-                    "length":"15 - 25 minutes",
                     "playtime":{
                         "min":15,
                         "max":25
@@ -2154,64 +1881,7 @@
             "epic":"https://store.epicgames.com/p/jackbox-party-pack-7",
             "jackbox_games_store":"https://www.jackboxgames.com/games/packs/the-jackbox-party-pack-7"
         },
-        "patchs": [
-            {
-                "id": "jpp7_music",
-                "name": "Music Pack",
-                "small_description": "SiIvaGunner Jackbox Music Pack",
-                "description": "SiIvaGunner Jackbox Music Pack",
-                "patch_path": "https://github.com/DerErizzle/Jackbox-Music-Pack/releases/latest/download/The.Jackbox.Party.Pack.7.zip",
-                "configuration": {
-                    "version_origin": "repo_file",
-                    "version_file": "https://raw.githubusercontent.com/DerErizzle/Jackbox-Music-Pack/main/The%20Jackbox%20Party%20Pack%207/config.jet",
-                    "version_property": "buildVersion"
-                },
-                "components": [
-                    {
-                        "id": "blatherround_music",
-                        "linked_game": "blatherround",
-                        "name": "Blather 'Round",
-                        "authors": "SiIvaGunner",
-                        "small_description": "Includes Jackbox rips from SiIvaGunner",
-                        "patch_type": {
-                            "game_text": false,
-                            "game_assets": false,
-                            "game_subtitles": false,
-                            "website": false,
-                            "audios": true
-                        }
-                    },
-                    {
-                        "id": "thedevilsandthedetails_music",
-                        "linked_game": "thedevilsandthedetails",
-                        "name": "The Devils and the Details",
-                        "authors": "SiIvaGunner",
-                        "small_description": "Includes Jackbox rips from SiIvaGunner",
-                        "patch_type": {
-                            "game_text": false,
-                            "game_assets": false,
-                            "game_subtitles": false,
-                            "website": false,
-                            "audios": true
-                        }
-                    },
-                    {
-                        "id": "champdup_music",
-                        "linked_game": "champdup",
-                        "name": "Champ'd Up",
-                        "authors": "SiIvaGunner",
-                        "small_description": "Includes Jackbox rips from SiIvaGunner",
-                        "patch_type": {
-                            "game_text": false,
-                            "game_assets": false,
-                            "game_subtitles": false,
-                            "website": false,
-                            "audios": true
-                        }
-                    }
-                ]
-            }
-        ],
+        "patchs":[],
         "games":[
             {
                 "id":"quiplash3",
@@ -2224,7 +1894,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -2276,7 +1945,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -2330,7 +1998,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -2383,7 +2050,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -2436,7 +2102,6 @@
                         "min":2,
                         "max":6
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -2530,7 +2195,6 @@
                         "min":3,
                         "max":10
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -2584,7 +2248,6 @@
                         "min":2,
                         "max":8
                     },
-                    "length":"15 - 25 minutes",
                     "playtime":{
                         "min":15,
                         "max":25
@@ -2637,7 +2300,6 @@
                         "min":3,
                         "max":10
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -2690,7 +2352,6 @@
                         "min":2,
                         "max":10
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -2745,7 +2406,6 @@
                         "min":4,
                         "max":8
                     },
-                    "length":"20 - 30 minutes",
                     "playtime":{
                         "min":20,
                         "max":30
@@ -2840,7 +2500,6 @@
                         "min":2,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -2892,7 +2551,6 @@
                         "min":4,
                         "max":9
                     },
-                    "length":"25 - 30 minutes",
                     "playtime":{
                         "min":25,
                         "max":30
@@ -2945,7 +2603,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -3000,7 +2657,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -3053,7 +2709,6 @@
                         "min":1,
                         "max":10
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -3161,7 +2816,6 @@
                     "moderation": "FULL_MODERATION",
                     "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. They can also kick players off the game. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
                     "subtitles": true,
-                    "length": "20 - 25 minutes",
                     "type": "VERSUS",
                     "translation": "NATIVELY_TRANSLATED",
                     "tagline":"T-Shirt Knock Out",
@@ -3212,7 +2866,6 @@
                     "moderation":"FULL_MODERATION",
                     "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to kick players off the game if necessary.",
                     "subtitles": true,
-                    "length": "15 - 20 minutes",
                     "type": "VERSUS",
                     "translation": "NATIVELY_TRANSLATED",
                     "tagline": "Time to play",
@@ -3262,7 +2915,6 @@
                     "moderation":"FULL_MODERATION",
                     "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. They can also kick players off the game. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
                     "subtitles": true,
-                    "length": "15 - 20 minutes",
                     "type": "VERSUS",
                     "translation": "NATIVELY_TRANSLATED",
                     "tagline": "A total word jumble",
@@ -3313,7 +2965,6 @@
                     "moderation":"FULL_MODERATION",
                     "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to kick players off the game if necessary.",
                     "subtitles": true,
-                    "length": "5 - 10 minutes",
                     "type": "COOP",
                     "translation": "NATIVELY_TRANSLATED",
                     "tagline": "Unbridled music",
@@ -3362,7 +3013,6 @@
                     "moderation": "FULL_MODERATION",
                     "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. They can also kick players off the game. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
                     "subtitles": true,
-                    "length": "20 - 30 minutes",
                     "type": "COOP",
                     "translation": "NATIVELY_TRANSLATED",
                     "tagline": "Team hypnosis",
@@ -3444,7 +3094,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -3496,7 +3145,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -3549,7 +3197,6 @@
                         "min":1,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -3650,7 +3297,6 @@
                     "moderation": "FULL_MODERATION",
                     "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
                     "subtitles": true,
-                    "length": "15 - 20 minutes",
                     "type": "VERSUS",
                     "translation": "NATIVELY_TRANSLATED",
                     "tagline": "Catch the Filthy Trickster!",
@@ -3700,7 +3346,6 @@
                     "moderation": "FULL_MODERATION",
                     "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
                     "subtitles": true,
-                    "length": "15 - 20 minutes",
                     "type": "VERSUS",
                     "translation": "NATIVELY_TRANSLATED",
                     "tagline": "Draw nastily with style!",
@@ -3751,7 +3396,6 @@
                     "moderation": "FULL_MODERATION",
                     "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
                     "subtitles": true,
-                    "length": "15 - 25 minutes",
                     "type": "VERSUS",
                     "translation": "NATIVELY_TRANSLATED",
                     "tagline": "Answer outrageous questions!",
@@ -3820,7 +3464,6 @@
                         "min":2,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -3904,7 +3547,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -3992,7 +3634,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -4080,7 +3721,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -4160,7 +3800,6 @@
                         "min":1,
                         "max":3
                     },
-                    "length":"15 - 30 minutes",
                     "playtime":{
                         "min":15,
                         "max":30
@@ -4230,7 +3869,6 @@
                         "min":1,
                         "max":3
                     },
-                    "length":"15 - 30 minutes",
                     "playtime":{
                         "min":15,
                         "max":30
@@ -4300,7 +3938,6 @@
                         "min":1,
                         "max":3
                     },
-                    "length":"15 - 30 minutes",
                     "playtime":{
                         "min":15,
                         "max":30
@@ -4370,7 +4007,6 @@
                         "min":1,
                         "max":3
                     },
-                    "length":"15 - 30 minutes",
                     "playtime":{
                         "min":15,
                         "max":30
@@ -4440,7 +4076,6 @@
                         "min":1,
                         "max":3
                     },
-                    "length":"15 - 30 minutes",
                     "playtime":{
                         "min":15,
                         "max":30
@@ -4510,7 +4145,6 @@
                         "min":1,
                         "max":3
                     },
-                    "length":"15 - 30 minutes",
                     "playtime":{
                         "min":15,
                         "max":30
@@ -4580,7 +4214,6 @@
                         "min":1,
                         "max":3
                     },
-                    "length":"15 - 30 minutes",
                     "playtime":{
                         "min":15,
                         "max":30
@@ -4650,7 +4283,6 @@
                         "min":1,
                         "max":3
                     },
-                    "length":"15 - 30 minutes",
                     "playtime":{
                         "min":15,
                         "max":30
@@ -4753,7 +4385,6 @@
                         "min":1,
                         "max":3
                     },
-                    "length":"15 - 30 minutes",
                     "playtime":{
                         "min":15,
                         "max":30
@@ -4825,7 +4456,6 @@
                         "min":3,
                         "max":6
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -4897,7 +4527,6 @@
                         "min":1,
                         "max":6
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -4969,7 +4598,6 @@
                         "min":1,
                         "max":6
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -5038,7 +4666,6 @@
                         "min":1,
                         "max":10
                     },
-                    "length":"20 - 30 minutes",
                     "playtime":{
                         "min":20,
                         "max":30
@@ -5112,7 +4739,6 @@
                         "min":1,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20

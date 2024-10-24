@@ -3456,7 +3456,7 @@
             {
                 "id": "surveyscramble",
                 "name": "The Jackbox Survey Sramble",
-                "background": "game_backgrounds/surveyscramble.webp",
+                "background": "game_backgrounds/SurveyScramble.webp",
                 "path": "",
                 "game_info": {
                     "players": {

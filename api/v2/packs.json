@@ -3428,6 +3428,88 @@
         "background": "backgrounds/jnp.jpg"
     },
     {
+        "id": "jss",
+        "name": "The Jackbox Survey Sramble",
+        "description": "Year of release: 2024",
+        "launchers_id": {
+            "steam": "2948640"
+        },
+        "executables": {
+            "windows": "The Jackbox Survey Scramble.exe",
+            "mac": "The Jackbox Survey Scramble.app/Contents/MacOS/The Jackbox Survey Scramble",
+            "linux": "Launcher.sh"
+        },
+        "configuration": {
+            "version_property": "buildVersion",
+            "version_origin": "game_file",
+            "version_file": "jbg.config.jet"
+        },
+        "resource_location": {
+            "mac": "The Jackbox Survey Scramble.app/Contents/Resources/macos"
+        },
+        "store_links": {
+            "steam": "https://store.steampowered.com/app/2948640/The_Jackbox_Survey_Scramble/",
+            "epic": "https://store.epicgames.com/de/p/the-jackbox-survey-scramble-8cfeb4"
+        },
+        "patchs": [],
+        "games": [
+            {
+                "id": "surveyscramble",
+                "name": "The Jackbox Survey Sramble",
+                "background": "game_backgrounds/surveyscramble.webp",
+                "path": "",
+                "game_info": {
+                    "players": {
+                        "min": 2,
+                        "max": 10
+                    },
+                    "playtime": {
+                        "min": 5,
+                        "max": 15
+                    },
+                    "family_friendly": "OPTIONAL",
+                    "audience": true,
+                    "audience_description": "The audience can vote for terms along with the players.",
+                    "stream_friendly": "PLAYABLE",
+                    "moderation": "FULL_MODERATION",
+                    "moderation_description":"This game doesn't require moderation. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles": true,
+                    "type": "VERSUS",
+                    "translation": "NATIVELY_TRANSLATED",
+                    "tagline": "Can you guess what everyone thinks?",
+                    "small_description": "Can you guess what everyone thinks?",
+                    "description": "Discover how people across the country think! The Jackbox Survey Scramble is a collection of hilarious survey-based game modes, using real one-word answers from real people. Really! Grab some friends and start guessing!",
+                    "images": [
+                        "game_images/SurveyScramble/surveyscramble.mp4",
+                        "game_images/SurveyScramble/surveyscramble_1.webp",
+                        "game_images/SurveyScramble/surveyscramble_2.webp",
+                        "game_images/SurveyScramble/surveyscramble_3.webp",
+                        "game_images/SurveyScramble/surveyscramble_4.webp",
+                        "game_images/SurveyScramble/surveyscramble_5.webp"
+                    ],
+                    "tags": [
+                        "deduction",
+                        "knowledge",
+                        "writing",
+                        "talking"
+                    ]
+                },
+                "loader":{
+                    "path":"loaders/standalones/standalones.zip",
+                    "version":"1.0.0"
+                },
+                "launch_with_loaders":{
+                    "steam":true,
+                    "epic_games":true,
+                    "native":true
+                },
+                "patchs": []
+            }
+        ],
+        "icon": "jss.ico",
+        "background": "backgrounds/jss.jpg"
+    },
+    {
         "id":"fbxl",
         "name":"Fibbage XL",
         "description":"Year of release: 2016",

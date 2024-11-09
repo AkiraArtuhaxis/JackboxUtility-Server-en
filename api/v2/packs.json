@@ -3432,7 +3432,8 @@
         "name": "The Jackbox Survey Sramble",
         "description": "Year of release: 2024",
         "launchers_id": {
-            "steam": "2948640"
+            "steam": "2948640",
+            "epic": "156c5141a8aa48a7ad46b20e1321ac8e"
         },
         "executables": {
             "windows": "The Jackbox Survey Scramble.exe",

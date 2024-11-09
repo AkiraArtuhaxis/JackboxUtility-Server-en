@@ -3440,6 +3440,10 @@
             "mac": "The Jackbox Survey Scramble.app/Contents/MacOS/The Jackbox Survey Scramble",
             "linux": "Launcher.sh"
         },
+        "loader":{
+            "path":"loaders/standalones/default.zip",
+            "version":"1.0.0"
+        },
         "configuration": {
             "version_property": "buildVersion",
             "version_origin": "game_file",

@@ -3429,7 +3429,7 @@
     },
     {
         "id": "jss",
-        "name": "The Jackbox Survey Sramble",
+        "name": "The Jackbox Survey Scramble",
         "description": "Year of release: 2024",
         "launchers_id": {
             "steam": "2948640",
@@ -3460,7 +3460,7 @@
         "games": [
             {
                 "id": "surveyscramble",
-                "name": "The Jackbox Survey Sramble",
+                "name": "The Jackbox Survey Scramble",
                 "background": "game_backgrounds/SurveyScramble.webp",
                 "path": "",
                 "game_info": {

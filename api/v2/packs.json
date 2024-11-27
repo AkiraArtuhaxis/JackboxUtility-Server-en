@@ -31,21 +31,7 @@
             "description":"You'll have to write in these games."
         }
     ],
-    "patchsCategories": [
-        {
-            "id": "music_patch",
-            "name": "SiIvaGunner Music Patch",
-            "smallDescription": "Enjoy Jackbox with remixed audio from SiIvaGunner!",
-            "patchs": [
-                "jpp1_music",
-                "jpp3_music",
-                "jpp4_music",
-                "jpp5_music",
-                "jpp6_music",
-                "jpp7_music"
-            ]
-        }
-    ],
+    "patchsCategories": [],
     "packs":[
     {
         "id":"jpp1",
@@ -80,38 +66,9 @@
         "store_links":{
             "steam":"https://store.steampowered.com/app/331670/The_Jackbox_Party_Pack/",
             "epic":"https://store.epicgames.com/p/jackbox-party-pack-1",
-            "jackbox_games_store":"https://shop.jackboxgames.com/collections/staging-party-packs/products/the-jackbox-party-pack-pc-mac-linux-code"
+            "jackbox_games_store":"https://www.jackboxgames.com/games/packs/the-jackbox-party-pack-1"
         },
-        "patchs": [
-            {
-                "id": "jpp1_music",
-                "name": "Music Pack",
-                "small_description": "SiIvaGunner Jackbox Music Pack",
-                "description": "SiIvaGunner Jackbox Music Pack",
-                "patch_path": "https://github.com/DerErizzle/Jackbox-Music-Pack/releases/latest/download/The.Jackbox.Party.Pack.zip",
-                "configuration": {
-                    "version_origin": "repo_file",
-                    "version_file": "https://raw.githubusercontent.com/DerErizzle/Jackbox-Music-Pack/main/The%20Jackbox%20Party%20Pack/config.jet",
-                    "version_property": "buildVersion"
-                },
-                "components": [
-                    {
-                        "id": "ydkj2015_music",
-                        "linked_game": "ydkj2015",
-                        "name": "You Don't Know Jack 2015",
-                        "authors": "SiIvaGunner",
-                        "small_description": "Includes Jackbox rips from SiIvaGunner",
-                        "patch_type": {
-                            "game_text": false,
-                            "game_assets": false,
-                            "game_subtitles": false,
-                            "website": false,
-                            "audios": true
-                        }
-                    }
-                ]
-            }
-        ],
+        "patchs":[],
         "games":[
             {
                 "id":"ydkj2015",
@@ -124,7 +81,6 @@
                         "min":1,
                         "max":4
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -177,7 +133,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -228,7 +183,6 @@
                         "min":2,
                         "max":8
                     },
-                    "length":"10 - 15 minutes",
                     "playtime":{
                         "min":10,
                         "max":15
@@ -278,7 +232,6 @@
                         "min":1,
                         "max":100
                     },
-                    "length":"10 - 15 minutes",
                     "playtime":{
                         "min":10,
                         "max":15
@@ -328,7 +281,6 @@
                         "min":2,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -405,7 +357,7 @@
         "store_links":{
             "steam":"https://store.steampowered.com/app/397460/The_Jackbox_Party_Pack_2/",
             "epic":"https://store.epicgames.com/p/jackbox-party-pack-2",
-            "jackbox_games_store":"https://shop.jackboxgames.com/collections/staging-party-packs/products/the-jackbox-party-pack-2-pc-mac-linux-code"
+            "jackbox_games_store":"https://www.jackboxgames.com/games/packs/the-jackbox-party-pack-2"
         },
             "patchs":[],
         "games":[
@@ -420,7 +372,6 @@
                         "min":2,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -474,7 +425,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 - 25 minutes",
                     "playtime":{
                         "min":15,
                         "max":25
@@ -527,7 +477,6 @@
                         "min":3,
                         "max":6
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -580,7 +529,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -630,7 +578,6 @@
                         "min":1,
                         "max":4
                     },
-                    "length":"5 - 10 minutes",
                     "playtime":{
                         "min":5,
                         "max":10
@@ -712,52 +659,9 @@
         "store_links":{
             "steam":"https://store.steampowered.com/app/434170/The_Jackbox_Party_Pack_3/",
             "epic":"https://store.epicgames.com/p/jackbox-party-pack-3",
-            "jackbox_games_store":"https://shop.jackboxgames.com/collections/staging-party-packs/products/the-jackbox-party-pack-3-pc-mac-linux-code"
+            "jackbox_games_store":"https://www.jackboxgames.com/games/packs/the-jackbox-party-pack-3"
         },
-        "patchs": [
-            {
-                "id": "jpp3_music",
-                "name": "Music Pack",
-                "small_description": "SiIvaGunner Jackbox Music Pack",
-                "description": "SiIvaGunner Jackbox Music Pack",
-                "patch_path": "https://github.com/DerErizzle/Jackbox-Music-Pack/releases/latest/download/The.Jackbox.Party.Pack.3.zip",
-                "configuration": {
-                    "version_origin": "repo_file",
-                    "version_file": "https://raw.githubusercontent.com/DerErizzle/Jackbox-Music-Pack/main/The%20Jackbox%20Party%20Pack%203/config.jet",
-                    "version_property": "buildVersion"
-                },
-                "components": [
-                    {
-                        "id": "teeko_music",
-                        "linked_game": "teeko",
-                        "name": "Tee K.O.",
-                        "authors": "SiIvaGunner",
-                        "small_description": "Includes Jackbox rips from SiIvaGunner",
-                        "patch_type": {
-                            "game_text": false,
-                            "game_assets": false,
-                            "game_subtitles": false,
-                            "website": false,
-                            "audios": true
-                        }
-                    },
-                    {
-                        "id": "triviamurderparty_music",
-                        "linked_game": "triviamurderparty",
-                        "name": "Trivia Murder Party",
-                        "authors": "SiIvaGunner",
-                        "small_description": "Includes Jackbox rips from SiIvaGunner",
-                        "patch_type": {
-                            "game_text": false,
-                            "game_assets": false,
-                            "game_subtitles": false,
-                            "website": false,
-                            "audios": true
-                        }
-                    }
-                ]
-            }
-        ],
+        "patchs":[],
         "games":[
             {
                 "id":"quiplash2",
@@ -770,7 +674,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -823,7 +726,6 @@
                         "min":1,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -876,7 +778,6 @@
                         "min":2,
                         "max":8
                     },
-                    "length":"10 - 15 minutes",
                     "playtime":{
                         "min":10,
                         "max":15
@@ -929,7 +830,6 @@
                         "min":3,
                         "max":6
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -984,7 +884,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -1064,52 +963,9 @@
         "store_links":{
             "steam":"https://store.steampowered.com/app/610180/The_Jackbox_Party_Pack_4/",
             "epic":"https://store.epicgames.com/p/jackbox-party-pack-4",
-            "jackbox_games_store":"https://shop.jackboxgames.com/collections/staging-party-packs/products/the-jackbox-party-pack-4-pc-mac-linux-code"
+            "jackbox_games_store":"https://www.jackboxgames.com/games/packs/the-jackbox-party-pack-4"
         },
-        "patchs": [
-            {
-                "id": "jpp4_music",
-                "name": "Music Pack",
-                "small_description": "SiIvaGunner Jackbox Music Pack",
-                "description": "SiIvaGunner Jackbox Music Pack",
-                "patch_path": "https://github.com/DerErizzle/Jackbox-Music-Pack/releases/latest/download/The.Jackbox.Party.Pack.4.zip",
-                "configuration": {
-                    "version_origin": "repo_file",
-                    "version_file": "https://raw.githubusercontent.com/DerErizzle/Jackbox-Music-Pack/main/The%20Jackbox%20Party%20Pack%204/config.jet",
-                    "version_property": "buildVersion"
-                },
-                "components": [
-                    {
-                        "id": "monsterseekingmonster_music",
-                        "linked_game": "monsterseekingmonster",
-                        "name": "Monster Seeking Monster",
-                        "authors": "SiIvaGunner",
-                        "small_description": "Includes Jackbox rips from SiIvaGunner",
-                        "patch_type": {
-                            "game_text": false,
-                            "game_assets": false,
-                            "game_subtitles": false,
-                            "website": false,
-                            "audios": true
-                        }
-                    },
-                    {
-                        "id": "survivetheinternet_music",
-                        "linked_game": "survivetheinternet",
-                        "name": "Survive the Internet",
-                        "authors": "SiIvaGunner",
-                        "small_description": "Includes Jackbox rips from SiIvaGunner",
-                        "patch_type": {
-                            "game_text": false,
-                            "game_assets": false,
-                            "game_subtitles": false,
-                            "website": false,
-                            "audios": true
-                        }
-                    }
-                ]
-            }
-        ],
+        "patchs":[],
         "games":[
             {
                 "id":"fibbage3",
@@ -1122,7 +978,6 @@
                         "min":2,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -1176,7 +1031,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -1229,7 +1083,6 @@
                         "min":3,
                         "max":7
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -1283,7 +1136,6 @@
                         "min":3,
                         "max":16
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -1336,7 +1188,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -1415,52 +1266,9 @@
         "store_links":{
             "steam":"https://store.steampowered.com/app/774461/The_Jackbox_Party_Pack_5/",
             "epic":"https://store.epicgames.com/p/jackbox-party-pack-5",
-            "jackbox_games_store":"https://shop.jackboxgames.com/collections/staging-party-packs/products/the-jackbox-party-pack-5"
+            "jackbox_games_store":"https://www.jackboxgames.com/games/packs/the-jackbox-party-pack-5"
         },
-        "patchs": [
-            {
-                "id": "jpp5_music",
-                "name": "Music Pack",
-                "small_description": "SiIvaGunner Jackbox Music Pack",
-                "description": "SiIvaGunner Jackbox Music Pack",
-                "patch_path": "https://github.com/DerErizzle/Jackbox-Music-Pack/releases/latest/download/The.Jackbox.Party.Pack.5.zip",
-                "configuration": {
-                    "version_origin": "repo_file",
-                    "version_file": "https://raw.githubusercontent.com/DerErizzle/Jackbox-Music-Pack/main/The%20Jackbox%20Party%20Pack%205/config.jet",
-                    "version_property": "buildVersion"
-                },
-                "components": [
-                    {
-                        "id": "mad_verse_city_music",
-                        "linked_game": "mad_verse_city",
-                        "name": "Mad Verse City",
-                        "authors": "SiIvaGunner",
-                        "small_description": "Includes Jackbox rips from SiIvaGunner",
-                        "patch_type": {
-                            "game_text": false,
-                            "game_assets": false,
-                            "game_subtitles": false,
-                            "website": false,
-                            "audios": true
-                        }
-                    },
-                    {
-                        "id": "ydkj_fullstream_music",
-                        "linked_game": "ydkj_fullstream",
-                        "name": "You Don't Know Jack: Full Stream",
-                        "authors": "SiIvaGunner",
-                        "small_description": "Includes Jackbox rips from SiIvaGunner",
-                        "patch_type": {
-                            "game_text": false,
-                            "game_assets": false,
-                            "game_subtitles": false,
-                            "website": false,
-                            "audios": true
-                        }
-                    }
-                ]
-            }
-        ],
+        "patchs":[],
         "games":[
         	{
                 "id":"ydkj_fullstream",
@@ -1473,7 +1281,6 @@
                         "min":1,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -1526,7 +1333,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -1580,7 +1386,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -1633,7 +1438,6 @@
                         "min":1,
                         "max":6
                     },
-                    "length":"10 - 15 minutes",
                     "playtime":{
                         "min":10,
                         "max":15
@@ -1686,7 +1490,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -1768,80 +1571,9 @@
         "store_links":{
             "steam":"https://store.steampowered.com/app/1005300/The_Jackbox_Party_Pack_6/",
             "epic":"https://store.epicgames.com/p/jackbox-party-pack-6",
-            "jackbox_games_store":"https://shop.jackboxgames.com/collections/staging-party-packs/products/preorder-the-jackbox-party-pack-six-pc-mac-linux-steam-code"
+            "jackbox_games_store":"https://www.jackboxgames.com/games/packs/the-jackbox-party-pack-6"
         },
-        "patchs": [
-            {
-                "id": "jpp6_music",
-                "name": "Music Pack",
-                "small_description": "SiIvaGunner Jackbox Music Pack",
-                "description": "SiIvaGunner Jackbox Music Pack",
-                "patch_path": "https://github.com/DerErizzle/Jackbox-Music-Pack/releases/latest/download/The.Jackbox.Party.Pack.6.zip",
-                "configuration": {
-                    "version_origin": "repo_file",
-                    "version_file": "https://raw.githubusercontent.com/DerErizzle/Jackbox-Music-Pack/main/The%20Jackbox%20Party%20Pack%206/config.jet",
-                    "version_property": "buildVersion"
-                },
-                "components": [
-                    {
-                        "id": "jokeboat_music",
-                        "linked_game": "jokeboat",
-                        "name": "Joke Boat",
-                        "authors": "SiIvaGunner",
-                        "small_description": "Includes Jackbox rips from SiIvaGunner",
-                        "patch_type": {
-                            "game_text": false,
-                            "game_assets": false,
-                            "game_subtitles": false,
-                            "website": false,
-                            "audios": true
-                        }
-                    },
-                    {
-                        "id": "pushthebutton_music",
-                        "linked_game": "pushthebutton",
-                        "name": "Push the Button",
-                        "authors": "SiIvaGunner",
-                        "small_description": "Includes Jackbox rips from SiIvaGunner",
-                        "patch_type": {
-                            "game_text": false,
-                            "game_assets": false,
-                            "game_subtitles": false,
-                            "website": false,
-                            "audios": true
-                        }
-                    },
-                    {
-                        "id": "dictionarium_music",
-                        "linked_game": "dictionarium",
-                        "name": "Dictionarium",
-                        "authors": "SiIvaGunner",
-                        "small_description": "Includes Jackbox rips from SiIvaGunner",
-                        "patch_type": {
-                            "game_text": false,
-                            "game_assets": false,
-                            "game_subtitles": false,
-                            "website": false,
-                            "audios": true
-                        }
-                    },
-                    {
-                        "id": "trivia_murder_party_2_music",
-                        "linked_game": "trivia_murder_party_2",
-                        "name": "Trivia Murder Party 2",
-                        "authors": "SiIvaGunner",
-                        "small_description": "Includes Jackbox rips from SiIvaGunner",
-                        "patch_type": {
-                            "game_text": false,
-                            "game_assets": false,
-                            "game_subtitles": false,
-                            "website": false,
-                            "audios": true
-                        }
-                    }
-                ]
-            }
-        ],
+        "patchs":[],
         "games":[
         	{
                 "id":"trivia_murder_party_2",
@@ -1854,7 +1586,6 @@
                         "min":1,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -1908,7 +1639,6 @@
                         "min":3,
                         "max":6
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -1962,7 +1692,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -2017,7 +1746,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"10 - 15 minutes",
                     "playtime":{
                         "min":10,
                         "max":15
@@ -2070,7 +1798,6 @@
                         "min":4,
                         "max":10
                     },
-                    "length":"15 - 25 minutes",
                     "playtime":{
                         "min":15,
                         "max":25
@@ -2152,66 +1879,9 @@
         "store_links":{
             "steam":"https://store.steampowered.com/app/1211630/The_Jackbox_Party_Pack_7/",
             "epic":"https://store.epicgames.com/p/jackbox-party-pack-7",
-            "jackbox_games_store":"https://shop.jackboxgames.com/collections/staging-party-packs/products/the-jackbox-party-pack-7-windows-mac-linux-steam-code"
+            "jackbox_games_store":"https://www.jackboxgames.com/games/packs/the-jackbox-party-pack-7"
         },
-        "patchs": [
-            {
-                "id": "jpp7_music",
-                "name": "Music Pack",
-                "small_description": "SiIvaGunner Jackbox Music Pack",
-                "description": "SiIvaGunner Jackbox Music Pack",
-                "patch_path": "https://github.com/DerErizzle/Jackbox-Music-Pack/releases/latest/download/The.Jackbox.Party.Pack.7.zip",
-                "configuration": {
-                    "version_origin": "repo_file",
-                    "version_file": "https://raw.githubusercontent.com/DerErizzle/Jackbox-Music-Pack/main/The%20Jackbox%20Party%20Pack%207/config.jet",
-                    "version_property": "buildVersion"
-                },
-                "components": [
-                    {
-                        "id": "blatherround_music",
-                        "linked_game": "blatherround",
-                        "name": "Blather 'Round",
-                        "authors": "SiIvaGunner",
-                        "small_description": "Includes Jackbox rips from SiIvaGunner",
-                        "patch_type": {
-                            "game_text": false,
-                            "game_assets": false,
-                            "game_subtitles": false,
-                            "website": false,
-                            "audios": true
-                        }
-                    },
-                    {
-                        "id": "thedevilsandthedetails_music",
-                        "linked_game": "thedevilsandthedetails",
-                        "name": "The Devils and the Details",
-                        "authors": "SiIvaGunner",
-                        "small_description": "Includes Jackbox rips from SiIvaGunner",
-                        "patch_type": {
-                            "game_text": false,
-                            "game_assets": false,
-                            "game_subtitles": false,
-                            "website": false,
-                            "audios": true
-                        }
-                    },
-                    {
-                        "id": "champdup_music",
-                        "linked_game": "champdup",
-                        "name": "Champ'd Up",
-                        "authors": "SiIvaGunner",
-                        "small_description": "Includes Jackbox rips from SiIvaGunner",
-                        "patch_type": {
-                            "game_text": false,
-                            "game_assets": false,
-                            "game_subtitles": false,
-                            "website": false,
-                            "audios": true
-                        }
-                    }
-                ]
-            }
-        ],
+        "patchs":[],
         "games":[
             {
                 "id":"quiplash3",
@@ -2224,7 +1894,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -2276,7 +1945,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -2330,7 +1998,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -2383,7 +2050,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -2436,7 +2102,6 @@
                         "min":2,
                         "max":6
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -2515,7 +2180,7 @@
         "store_links":{
             "steam":"https://store.steampowered.com/app/1552350/The_Jackbox_Party_Pack_8/",
             "epic":"https://store.epicgames.com/p/jackbox-party-pack-8",
-            "jackbox_games_store":"https://shop.jackboxgames.com/collections/staging-party-packs/products/the-jackbox-party-pack-eight-u-s-only-windows-mac-linux-steam-code"
+            "jackbox_games_store":"https://www.jackboxgames.com/games/packs/the-jackbox-party-pack-8"
         },
             "patchs":[],
         "games":[
@@ -2530,7 +2195,6 @@
                         "min":3,
                         "max":10
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -2544,8 +2208,8 @@
                     "subtitles":true,
                     "type":"VERSUS",
                     "translation":"ENGLISH",
-                    "tagline":"Animate everything!",
-                    "small_description":"Animate everything!",
+                    "tagline":"Animate badly with style!",
+                    "small_description":"Animate badly with style!",
                     "description":"The third game in the Drawful series allows players to create two corresponding images which leads to one dynamic pictorial guessing game.",
                     "images":[
                         "game_images/DrawfulAnimate/drawfulanimate.mp4",
@@ -2584,14 +2248,13 @@
                         "min":2,
                         "max":8
                     },
-                    "length":"15 - 25 minutes",
                     "playtime":{
                         "min":15,
                         "max":25
                     },
                     "family_friendly":"OPTIONAL",
                     "audience":true,
-                    "audience_description":"The audience votes for which player they think will do best on the questions and wins portions by guessing correctly. These are placed on the wheel and can trigger actions on the players when someone lands on them.",
+                    "audience_description":"The audience can vote for which player they think will do best on the questions and wins portions by guessing correctly. These are placed on the wheel and can trigger actions on the players when someone lands on them.",
                     "stream_friendly":"PLAYABLE",
                     "moderation":"FULL_MODERATION",
                     "moderation_description":"This game doesn't require moderation. If necessary, it's recommended to enable the \"Profanity Filter\" option or disable the \"Allow Player Written Responses\" option.",
@@ -2637,7 +2300,6 @@
                         "min":3,
                         "max":10
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -2690,7 +2352,6 @@
                         "min":2,
                         "max":10
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -2745,7 +2406,6 @@
                         "min":4,
                         "max":8
                     },
-                    "length":"20 - 30 minutes",
                     "playtime":{
                         "min":20,
                         "max":30
@@ -2825,7 +2485,7 @@
     "store_links":{
         "steam":"https://store.steampowered.com/app/1850960/The_Jackbox_Party_Pack_9/",
         "epic":"https://store.epicgames.com/p/jackbox-party-pack-9",
-        "jackbox_games_store":"https://shop.jackboxgames.com/collections/staging-party-packs/products/the-jackbox-party-pack-9-pre-order-u-s-only-windows-mac-linux-steam-code"
+        "jackbox_games_store":"https://www.jackboxgames.com/games/packs/the-jackbox-party-pack-9"
     },
         "patchs":[],
         "games":[
@@ -2840,7 +2500,6 @@
                         "min":2,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -2892,7 +2551,6 @@
                         "min":4,
                         "max":9
                     },
-                    "length":"25 - 30 minutes",
                     "playtime":{
                         "min":25,
                         "max":30
@@ -2945,7 +2603,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -2992,7 +2649,7 @@
             {
                 "id":"nonsensory",
                 "name":"Nonsensory",
-                "internal_name":"Nonsensory",
+                "internal_name":"RangeGame",
                 "background":"game_backgrounds/Nonsensory.webp",
                 "path":"games/RangeGame",
                 "game_info":{
@@ -3000,7 +2657,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -3053,7 +2709,6 @@
                         "min":1,
                         "max":10
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -3064,7 +2719,7 @@
                     "stream_friendly":"MIDLY_PLAYABLE",
                     "stream_friendly_description":"Being a discussion game, it's recommended for players to be able to at least hear each other.",
                     "moderation":"FULL_MODERATION",
-                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to kick players off the game if necessary.",
+                    "moderation_description":"This game doesn't require moderation. However, with the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to kick players off the game if necessary.",
                     "subtitles":true,
                     "type":"TEAM",
                     "translation":"NATIVELY_TRANSLATED",
@@ -3119,7 +2774,6 @@
             "version": "1.0.0"
         },
         "configuration": {
-            "file": "jbg.config.jet",
             "version_property": "buildVersion",
             "version_origin": "game_file",
             "version_file": "jbg.config.jet",
@@ -3135,7 +2789,7 @@
         "store_links": {
             "steam": "https://store.steampowered.com/app/2216830/The_Jackbox_Party_Pack_10/",
             "epic": "https://store.epicgames.com/p/the-jackbox-party-pack-10-c6f152",
-            "jackbox_games_store":"https://shop.jackboxgames.com/collections/staging-party-packs/products/the-jackbox-party-pack-10"
+            "jackbox_games_store":"https://www.jackboxgames.com/games/packs/the-jackbox-party-pack-10"
         },
         "patchs": [
         ],
@@ -3162,7 +2816,6 @@
                     "moderation": "FULL_MODERATION",
                     "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. They can also kick players off the game. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
                     "subtitles": true,
-                    "length": "20 - 25 minutes",
                     "type": "VERSUS",
                     "translation": "NATIVELY_TRANSLATED",
                     "tagline":"T-Shirt Knock Out",
@@ -3211,9 +2864,8 @@
                     "audience_description": "The audience acts as a player and can answer all the questions. Their score will be shown separately from the players.",
                     "stream_friendly": "PLAYABLE",
                     "moderation":"FULL_MODERATION",
-                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to kick players off the game if necessary.",
+                    "moderation_description":"This game doesn't require moderation. However, with the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to kick players off the game if necessary.",
                     "subtitles": true,
-                    "length": "15 - 20 minutes",
                     "type": "VERSUS",
                     "translation": "NATIVELY_TRANSLATED",
                     "tagline": "Time to play",
@@ -3263,7 +2915,6 @@
                     "moderation":"FULL_MODERATION",
                     "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. They can also kick players off the game. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
                     "subtitles": true,
-                    "length": "15 - 20 minutes",
                     "type": "VERSUS",
                     "translation": "NATIVELY_TRANSLATED",
                     "tagline": "A total word jumble",
@@ -3312,9 +2963,8 @@
                     "stream_friendly": "PLAYABLE",
                     "stream_friendly_description": "This game consists of performing songs in real time. However, there is a sync at the beginning of each song, so streaming delay is automatically removed.",
                     "moderation":"FULL_MODERATION",
-                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to kick players off the game if necessary.",
+                    "moderation_description":"This game doesn't require moderation. However, with the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to kick players off the game if necessary.",
                     "subtitles": true,
-                    "length": "5 - 10 minutes",
                     "type": "COOP",
                     "translation": "NATIVELY_TRANSLATED",
                     "tagline": "Unbridled music",
@@ -3363,7 +3013,6 @@
                     "moderation": "FULL_MODERATION",
                     "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. They can also kick players off the game. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
                     "subtitles": true,
-                    "length": "20 - 30 minutes",
                     "type": "COOP",
                     "translation": "NATIVELY_TRANSLATED",
                     "tagline": "Team hypnosis",
@@ -3407,7 +3056,7 @@
         },
         "executables":{
             "windows":"The Jackbox Party Starter.exe",
-            "mac":"The Jackbox Party Starter.app/Contents/MacOS/The Jackbox Party Pack Starter",
+            "mac":"The Jackbox Party Starter.app/Contents/MacOS/The Jackbox Party Starter",
             "linux":"Launcher.sh"
         },
         "loader":{
@@ -3425,12 +3074,12 @@
                 }
         },
         "resource_location":{
-            "mac":"The Jackbox Party Pack Starter.app/Contents/Resources/macos"
+            "mac":"The Jackbox Party Starter.app/Contents/Resources/macos"
         },
         "store_links":{
             "steam":"https://store.steampowered.com/app/1755580/The_Jackbox_Party_Starter/",
             "epic":"https://store.epicgames.com/p/jackbox-party-starter",
-            "jackbox_games_store":"https://shop.jackboxgames.com/collections/staging-party-packs/products/the-jackbox-party-starter-windows-mac-linux-steam-code"
+            "jackbox_games_store":"https://www.jackboxgames.com/games/packs/the-jackbox-party-starter"
         },
             "patchs":[],
         "games":[
@@ -3445,7 +3094,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -3497,7 +3145,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -3550,7 +3197,6 @@
                         "min":1,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -3598,6 +3244,278 @@
         "background":"backgrounds/jpstarter.jpg"
     },
     {
+        "id": "jnp",
+        "name": "The Jackbox Naughty Pack",
+        "description": "Year of release: 2024",
+        "launchers_id": {
+            "steam": "2652000",
+            "epic": "a0cb04062cfb4e38b79cb076003a2cfe"
+        },
+        "executables": {
+            "windows": "The Jackbox Naughty Pack.exe",
+            "mac": "The Jackbox Naughty Pack.app/Contents/MacOS/The Jackbox Naughty Pack",
+            "linux": "Launcher.sh"
+        },
+        "loader": {
+            "path": "loaders/tjnp/default.zip",
+            "version": "1.0.0"
+        },
+        "configuration": {
+            "version_property": "buildVersion",
+            "version_origin": "game_file",
+            "version_file": "jbg.config.jet"
+        },
+        "resource_location":{
+            "mac":"The Jackbox Naughty Pack.app/Contents/Resources/macos"
+        },
+        "store_links": {
+            "steam": "https://store.steampowered.com/app/2652000/The_Jackbox_Naughty_Pack/",
+            "epic": "https://store.epicgames.com/p/jackbox-naughty-pack-0bffd7",
+            "jackbox_games_store":"https://www.jackboxgames.com/games/packs/the-jackbox-naughty-pack"
+        },
+        "patchs": [],
+        "games": [
+            {
+                "id": "fakinitanl",
+                "internal_name": "FakinIt2",
+                "name": "Fakin' It All Night Long",
+                "background": "game_backgrounds/FakinItANL.webp",
+                "path": "games/FakinIt2",
+                "game_info": {
+                    "players": {
+                        "min": 3,
+                        "max": 8
+                    },
+                    "playtime": {
+                        "min": 20,
+                        "max": 30
+                    },
+                    "family_friendly": "NOT_FAMILY_FRIENDLY",
+                    "audience": true,
+                    "audience_description": "The audience tries to guess who the faker is along with the players.",
+                    "stream_friendly": "PLAYABLE",
+                    "moderation": "FULL_MODERATION",
+                    "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles": true,
+                    "type": "VERSUS",
+                    "translation": "NATIVELY_TRANSLATED",
+                    "tagline": "Catch the Filthy Trickster!",
+                    "small_description": "Catch the Filthy Trickster!",
+                    "description": "Fakin’ It returns and this time we’re putting it all out there. Everyone gets a secret task except the Faker, who tries to blend in. Find out which of your friends is the best liar… and SO much more! Featuring new categories like “Finger Blast” and a brand new “remote play” mode. Who doesn’t like a good Finger Blast with their friends?",
+                    "images": [
+                        "game_images/FakinItANL/fakinitanl.mp4",
+                        "game_images/FakinItANL/fakinitanl_1.webp",
+                        "game_images/FakinItANL/fakinitanl_2.webp",
+                        "game_images/FakinItANL/fakinitanl_3.webp"
+                    ],
+                    "tags": [
+                        "deduction",
+                        "talking"
+                    ]
+                },
+                "loader": {
+                    "path": "loaders/tjnp/fakinitanl.zip",
+                    "version": "1.0.0"
+                },
+                "launch_with_loaders": {
+                    "steam": false,
+                    "epic_games": true,
+                    "native": true
+                },
+                "patchs": []
+            },
+            {
+                "id": "dirtydrawful",
+                "internal_name": "Drawful3",
+                "name": "Dirty Drawful",
+                "background": "game_backgrounds/DirtyDrawful.webp",
+                "path": "games/Drawful3",
+                "game_info": {
+                    "players": {
+                        "min": 3,
+                        "max": 8
+                    },
+                    "playtime": {
+                        "min": 15,
+                        "max": 20
+                    },
+                    "family_friendly": "NOT_FAMILY_FRIENDLY",
+                    "audience": true,
+                    "audience_description": "The audience tries to guess the correct answer along with the other players, giving points to the players in case they choose their titles, and gives likes to their favorite titles.",
+                    "stream_friendly": "PLAYABLE",
+                    "moderation": "FULL_MODERATION",
+                    "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles": true,
+                    "type": "VERSUS",
+                    "translation": "NATIVELY_TRANSLATED",
+                    "tagline": "Draw nastily with style!",
+                    "small_description": "Draw nastily with style!",
+                    "description": "It’s Drawful, but dirty… It's Dirty Drawful. Hosted by the one and only Drawful Owl, as you’ve never seen her before. We’ve taken the game that you love and added prompts to ensure your drawings are both terrible and titillating. This game has everything:, sex, drugs, and other things that we absolutely cannot list here! Also, if you can’t commit to a relationship, or a drawing, we added an undo button just for you.",
+                    "images": [
+                        "game_images/DirtyDrawful/dirtydrawful.mp4",
+                        "game_images/DirtyDrawful/dirtydrawful_1.webp",
+                        "game_images/DirtyDrawful/dirtydrawful_2.webp",
+                        "game_images/DirtyDrawful/dirtydrawful_3.webp"
+                    ],
+                    "tags": [
+                        "drawing",
+                        "writing"
+                    ]
+                },
+                "loader": {
+                    "path": "loaders/tjnp/dirtydrawful.zip",
+                    "version": "1.0.0"
+                },
+                "launch_with_loaders": {
+                    "steam": false,
+                    "epic_games": true,
+                    "native": true
+                },
+                "patchs": []
+            },
+            {
+                "id": "letmefinish",
+                "internal_name": "CAPTCHA",
+                "name": "Let Me Finish",
+                "background": "game_backgrounds/LetMeFinish.webp",
+                "path": "games/CAPTCHA",
+                "game_info": {
+                    "players": {
+                        "min": 3,
+                        "max": 8
+                    },
+                    "playtime": {
+                        "min": 15,
+                        "max": 20
+                    },
+                    "family_friendly": "NOT_FAMILY_FRIENDLY",
+                    "audience": true,
+                    "audience_description": "The audience can vote for which player satisfied them the most and thereby award points.",
+                    "stream_friendly": "MIDLY_PLAYABLE",
+                    "stream_friendly_description": "Being a presentation game, it's recommended for players to be able to at least hear each other.",
+                    "moderation": "FULL_MODERATION",
+                    "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles": true,
+                    "type": "VERSUS",
+                    "translation": "NATIVELY_TRANSLATED",
+                    "tagline": "Answer outrageous questions!",
+                    "small_description": "Answer outrageous questions!",
+                    "description": "Let Me Finish is Jackbox’s new presentation game that examines life’s serious questions like, “Where is the mailbox’s butt?” or “How does this avocado get aroused?” Everyone gets a chance to speak their mind, but will others pick up what you’re putting down?",
+                    "images": [
+                        "game_images/LetMeFinish/letmefinish.mp4",
+                        "game_images/LetMeFinish/letmefinish_1.webp",
+                        "game_images/LetMeFinish/letmefinish_2.webp",
+                        "game_images/LetMeFinish/letmefinish_3.webp"
+                    ],
+                    "tags": [
+                        "talking",
+                        "drawing"
+                    ]
+                },
+                "loader": {
+                    "path": "loaders/tjnp/letmefinish.zip",
+                    "version": "1.0.0"
+                },
+                "launch_with_loaders": {
+                    "steam": false,
+                    "epic_games": true,
+                    "native": true
+                },
+                "patchs": []
+            }
+        ],
+        "icon": "jnp.ico",
+        "background": "backgrounds/jnp.jpg"
+    },
+    {
+        "id": "jss",
+        "name": "The Jackbox Survey Scramble",
+        "description": "Year of release: 2024",
+        "launchers_id": {
+            "steam": "2948640",
+            "epic": "6d2e6c642bf14068bad5388651538450"
+        },
+        "executables": {
+            "windows": "The Jackbox Survey Scramble.exe",
+            "mac": "The Jackbox Survey Scramble.app/Contents/MacOS/The Jackbox Survey Scramble",
+            "linux": "Launcher.sh"
+        },
+        "loader":{
+            "path":"loaders/standalones/default.zip",
+            "version":"1.0.0"
+        },
+        "configuration": {
+            "version_property": "buildVersion",
+            "version_origin": "game_file",
+            "version_file": "jbg.config.jet"
+        },
+        "resource_location": {
+            "mac": "The Jackbox Survey Scramble.app/Contents/Resources/macos"
+        },
+        "store_links": {
+            "steam": "https://store.steampowered.com/app/2948640/The_Jackbox_Survey_Scramble/",
+            "epic": "https://store.epicgames.com/de/p/the-jackbox-survey-scramble-8cfeb4"
+        },
+        "patchs": [],
+        "games": [
+            {
+                "id": "surveyscramble",
+                "name": "The Jackbox Survey Scramble",
+                "background": "game_backgrounds/SurveyScramble.webp",
+                "path": "",
+                "game_info": {
+                    "players": {
+                        "min": 2,
+                        "max": 10
+                    },
+                    "playtime": {
+                        "min": 5,
+                        "max": 15
+                    },
+                    "family_friendly": "OPTIONAL",
+                    "audience": true,
+                    "audience_description": "The audience can vote for terms along with the players.",
+                    "stream_friendly": "PLAYABLE",
+                    "stream_friendly_description": "In the \"Bounce\" mode, when the game is at a fast speed, whoever is streaming their screen will have a slightly unfair advantage over the others, although it is not very significant. All other modes work perfectly on streams.",
+                    "moderation": "FULL_MODERATION",
+                    "moderation_description":"This game doesn't require moderation. However, with the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to kick players off the game if necessary. The \"Profanity Filter\" option can also be enabled.",
+                    "subtitles": true,
+                    "type": "VERSUS",
+                    "translation": "NATIVELY_TRANSLATED",
+                    "tagline": "Can you guess what everyone thinks?",
+                    "small_description": "Can you guess what everyone thinks?",
+                    "description": "Discover how people across the country think! The Jackbox Survey Scramble is a collection of hilarious survey-based game modes, using real one-word answers from real people. Really! Grab some friends and start guessing!",
+                    "images": [
+                        "game_images/SurveyScramble/surveyscramble.mp4",
+                        "game_images/SurveyScramble/surveyscramble_1.webp",
+                        "game_images/SurveyScramble/surveyscramble_2.webp",
+                        "game_images/SurveyScramble/surveyscramble_3.webp",
+                        "game_images/SurveyScramble/surveyscramble_4.webp",
+                        "game_images/SurveyScramble/surveyscramble_5.webp"
+                    ],
+                    "tags": [
+                        "deduction",
+                        "knowledge",
+                        "writing",
+                        "talking"
+                    ]
+                },
+                "loader":{
+                    "path":"loaders/standalones/standalones.zip",
+                    "version":"1.0.0"
+                },
+                "launch_with_loaders":{
+                    "steam":true,
+                    "epic_games":true,
+                    "native":true
+                },
+                "patchs": []
+            }
+        ],
+        "icon": "jss.ico",
+        "background": "backgrounds/jss.jpg"
+    },
+    {
         "id":"fbxl",
         "name":"Fibbage XL",
         "description":"Year of release: 2016",
@@ -3620,7 +3538,7 @@
         },
         "store_links":{
             "steam":"https://store.steampowered.com/app/448080/Fibbage_XL/",
-            "jackbox_games_store":"https://shop.jackboxgames.com/collections/staging-standalone-titles/products/fibbage-xl-pc-mac-linux-code"
+            "jackbox_games_store":"https://www.jackboxgames.com/games/fibbage"
         },
             "patchs":[],
         "games":[
@@ -3634,7 +3552,6 @@
                         "min":2,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -3660,6 +3577,11 @@
                         "writing","knowledge"
                     ]
 
+                },
+                "launch_with_loaders":{
+                    "steam":true,
+                    "epic_games":true,
+                    "native":true
                 },
                 "loader":{
                     "path":"loaders/standalones/standalones.zip",
@@ -3699,7 +3621,7 @@
         },
         "store_links":{
             "steam":"https://store.steampowered.com/app/351510/Quiplash/",
-            "jackbox_games_store":"https://shop.jackboxgames.com/collections/staging-standalone-titles/products/quiplash"
+            "jackbox_games_store":"https://www.jackboxgames.com/games/quiplash"
         },
             "patchs":[],
         "games":[
@@ -3713,7 +3635,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -3745,6 +3666,11 @@
                 "loader":{
                     "path":"loaders/standalones/standalones.zip",
                     "version":"1.0.0"
+                },
+                "launch_with_loaders":{
+                    "steam":true,
+                    "epic_games":true,
+                    "native":true
                 },
                 "patchs":[
                     
@@ -3782,7 +3708,7 @@
         "store_links":{
             "steam":"https://store.steampowered.com/app/1111940/Quiplash_2_InterLASHional/",
             "epic": "https://store.epicgames.com/p/quiplash-2-interlashional-3c3888",
-            "jackbox_games_store":"https://shop.jackboxgames.com/collections/staging-standalone-titles/products/quiplash-2-interlashional-us-ca-eu"
+            "jackbox_games_store":"https://www.jackboxgames.com/games/quiplash-2-interlashional"
         },
             "patchs":[],
         "games":[
@@ -3796,7 +3722,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -3828,6 +3753,11 @@
                 "loader":{
                     "path":"loaders/standalones/standalones.zip",
                     "version":"1.0.0"
+                },
+                "launch_with_loaders":{
+                    "steam":true,
+                    "epic_games":true,
+                    "native":true
                 },
                 "patchs":[
                     
@@ -3865,7 +3795,7 @@
         "store_links":{
             "steam":"https://store.steampowered.com/app/442070/Drawful_2/",
             "epic":"https://store.epicgames.com/p/drawful-2",
-            "jackbox_games_store":"https://shop.jackboxgames.com/collections/staging-standalone-titles/products/drawful-2"
+            "jackbox_games_store":"https://www.jackboxgames.com/games/drawful-2"
         },
             "patchs":[],
         "games":[
@@ -3879,7 +3809,6 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -3913,6 +3842,11 @@
                     "path":"loaders/df2/drawful2.zip",
                     "version":"1.0.0"
                 },
+                "launch_with_loaders":{
+                    "steam":true,
+                    "epic_games":true,
+                    "native":true
+                },
                 "patchs":[
                     
                 ]
@@ -3940,7 +3874,7 @@
         },
         "store_links":{
             "steam":"https://store.steampowered.com/app/252730/YOU_DONT_KNOW_JACK_Vol_1_XL/",
-            "jackbox_games_store":"https://shop.jackboxgames.com/collections/staging-standalone-titles/products/you-dont-know-jack-classic-pack-pc"
+            "jackbox_games_store":"https://www.jackboxgames.com/games/ydkj-classic"
         },
             "patchs":[],
         "games":[
@@ -3954,7 +3888,6 @@
                         "min":1,
                         "max":3
                     },
-                    "length":"15 - 30 minutes",
                     "playtime":{
                         "min":15,
                         "max":30
@@ -4010,7 +3943,7 @@
         },
         "store_links":{
             "steam":"https://store.steampowered.com/app/260020/YOU_DONT_KNOW_JACK_SPORTS/",
-            "jackbox_games_store":"https://shop.jackboxgames.com/collections/staging-standalone-titles/products/you-dont-know-jack-classic-pack-pc"
+            "jackbox_games_store":"https://www.jackboxgames.com/games/ydkj-classic"
         },
             "patchs":[],
         "games":[
@@ -4024,7 +3957,6 @@
                         "min":1,
                         "max":3
                     },
-                    "length":"15 - 30 minutes",
                     "playtime":{
                         "min":15,
                         "max":30
@@ -4080,7 +4012,7 @@
         },
         "store_links":{
             "steam":"https://store.steampowered.com/app/259940/YOU_DONT_KNOW_JACK_Vol_2/",
-            "jackbox_games_store":"https://shop.jackboxgames.com/collections/staging-standalone-titles/products/you-dont-know-jack-classic-pack-pc"
+            "jackbox_games_store":"https://www.jackboxgames.com/games/ydkj-classic"
         },
             "patchs":[],
         "games":[
@@ -4094,7 +4026,6 @@
                         "min":1,
                         "max":3
                     },
-                    "length":"15 - 30 minutes",
                     "playtime":{
                         "min":15,
                         "max":30
@@ -4150,7 +4081,7 @@
         },
         "store_links":{
             "steam":"https://store.steampowered.com/app/260000/YOU_DONT_KNOW_JACK_MOVIES/",
-            "jackbox_games_store":"https://shop.jackboxgames.com/collections/staging-standalone-titles/products/you-dont-know-jack-classic-pack-pc"
+            "jackbox_games_store":"https://www.jackboxgames.com/games/ydkj-classic"
         },
             "patchs":[],
         "games":[
@@ -4164,7 +4095,6 @@
                         "min":1,
                         "max":3
                     },
-                    "length":"15 - 30 minutes",
                     "playtime":{
                         "min":15,
                         "max":30
@@ -4220,7 +4150,7 @@
         },
         "store_links":{
             "steam":"https://store.steampowered.com/app/260040/YOU_DONT_KNOW_JACK_TELEVISION/",
-            "jackbox_games_store":"https://shop.jackboxgames.com/collections/staging-standalone-titles/products/you-dont-know-jack-classic-pack-pc"
+            "jackbox_games_store":"https://www.jackboxgames.com/games/ydkj-classic"
         },
             "patchs":[],
         "games":[
@@ -4234,7 +4164,6 @@
                         "min":1,
                         "max":3
                     },
-                    "length":"15 - 30 minutes",
                     "playtime":{
                         "min":15,
                         "max":30
@@ -4290,7 +4219,7 @@
         },
         "store_links":{
             "steam":"https://store.steampowered.com/app/259960/YOU_DONT_KNOW_JACK_Vol_3/",
-            "jackbox_games_store":"https://shop.jackboxgames.com/collections/staging-standalone-titles/products/you-dont-know-jack-classic-pack-pc"
+            "jackbox_games_store":"https://www.jackboxgames.com/games/ydkj-classic"
         },
             "patchs":[],
         "games":[
@@ -4304,7 +4233,6 @@
                         "min":1,
                         "max":3
                     },
-                    "length":"15 - 30 minutes",
                     "playtime":{
                         "min":15,
                         "max":30
@@ -4360,7 +4288,7 @@
         },
         "store_links":{
             "steam":"https://store.steampowered.com/app/260060/YOU_DONT_KNOW_JACK_HEADRUSH/",
-            "jackbox_games_store":"https://shop.jackboxgames.com/collections/staging-standalone-titles/products/you-dont-know-jack-classic-pack-pc"
+            "jackbox_games_store":"https://www.jackboxgames.com/games/ydkj-classic"
         },
             "patchs":[],
         "games":[
@@ -4374,7 +4302,6 @@
                         "min":1,
                         "max":3
                     },
-                    "length":"15 - 30 minutes",
                     "playtime":{
                         "min":15,
                         "max":30
@@ -4430,7 +4357,7 @@
         },
         "store_links":{
             "steam":"https://store.steampowered.com/app/259980/YOU_DONT_KNOW_JACK_Vol_4_The_Ride/",
-            "jackbox_games_store":"https://shop.jackboxgames.com/collections/staging-standalone-titles/products/you-dont-know-jack-classic-pack-pc"
+            "jackbox_games_store":"https://www.jackboxgames.com/games/ydkj-classic"
         },
             "patchs":[],
         "games":[
@@ -4444,7 +4371,6 @@
                         "min":1,
                         "max":3
                     },
-                    "length":"15 - 30 minutes",
                     "playtime":{
                         "min":15,
                         "max":30
@@ -4500,7 +4426,7 @@
         },
         "store_links":{
             "steam":"https://store.steampowered.com/app/260080/YOU_DONT_KNOW_JACK_Vol_6_The_Lost_Gold/",
-            "jackbox_games_store":"https://shop.jackboxgames.com/collections/staging-standalone-titles/products/you-dont-know-jack-classic-pack-pc"
+            "jackbox_games_store":"https://www.jackboxgames.com/games/ydkj-classic"
         },
 	"fixes":[
 	    {
@@ -4547,7 +4473,6 @@
                         "min":1,
                         "max":3
                     },
-                    "length":"15 - 30 minutes",
                     "playtime":{
                         "min":15,
                         "max":30
@@ -4602,7 +4527,7 @@
             "version_property":"buildVersion"
         },
         "resource_location":{
-            "mac":"uyw.app/Contents/Resources"
+            "mac":"uyw.app/Contents/Resources/Data"
         },
         "store_links":{
             "steam":"https://store.steampowered.com/app/521350/Use_Your_Words/"
@@ -4619,7 +4544,6 @@
                         "min":3,
                         "max":6
                     },
-                    "length":"20 - 25 minutes",
                     "playtime":{
                         "min":20,
                         "max":25
@@ -4674,7 +4598,7 @@
             "version_property":"buildVersion"
         },
         "resource_location":{
-            "mac":"WhatTheDub.app/Contents/Resources"
+            "mac":"WhatTheDub.app/Contents/Resources/Data"
         },
         "store_links":{
             "steam":"https://store.steampowered.com/app/1495860/What_The_Dub/"
@@ -4691,7 +4615,6 @@
                         "min":1,
                         "max":6
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -4746,7 +4669,7 @@
             "version_property":"buildVersion"
         },
         "resource_location":{
-            "mac":"RiffTraxTheGame.app/Contents/Resources"
+            "mac":"RiffTraxTheGame.app/Contents/Resources/Data"
         },
         "store_links":{
             "steam":"https://store.steampowered.com/app/1707870/RiffTrax_The_Game/"
@@ -4763,7 +4686,6 @@
                         "min":1,
                         "max":6
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20
@@ -4832,7 +4754,6 @@
                         "min":1,
                         "max":10
                     },
-                    "length":"20 - 30 minutes",
                     "playtime":{
                         "min":20,
                         "max":30
@@ -4889,7 +4810,7 @@
             "version_property":"buildVersion"
         },
         "resource_location":{
-            "mac":"Papa’s Quiz.app/Contents/Resources"
+            "mac":"Papa’s Quiz.app/Contents/Resources/Data"
         },
         "store_links":{
             "steam":"https://store.steampowered.com/app/1484730/Papas_Quiz/"
@@ -4906,7 +4827,6 @@
                         "min":1,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
                     "playtime":{
                         "min":15,
                         "max":20

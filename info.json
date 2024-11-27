@@ -1,38 +1,26 @@
 {
-    "id":"jackbox-en",
-    "name":"Jackbox Utility",
-    "description":"The community server for Jackbox Games in English!",
-    "image":"https://raw.githubusercontent.com/AkiraArtuhaxis/JackboxUtility-Server-en/main/assets/news_images/logo.png",
-
-    "urls":[
+    "id": "jackbox-tr",
+    "name": "Jackbox Türkçe",
+    "description": "Jackbox Oyunlarının Türkçe Yamaları!",
+    "image": "https://izlence.jackbox.tv.tr/assets/news_images/logo.png",
+    "urls": [
         {
-            "versions":["1.0.0"],
-            "api":"https://raw.githubusercontent.com/AkiraArtuhaxis/JackboxUtility-Server-en/main/api/v2/",
-            "assets":"https://raw.githubusercontent.com/AkiraArtuhaxis/JackboxUtility-Server-en/main/assets"
+            "versions": [
+                "1.0.0"
+            ],
+            "api": "https://izlence.jackbox.tv.tr/api/v2/",
+            "assets": "https://izlence.jackbox.tv.tr/assets"
         }
     ],
-    "controller":"jackbox.tv",
-    "languages":["en"],
+    "controller": "jackbox.tv.tr",
+    "languages": [
+        "tr"
+    ],
     "links": [
         {
-            "icon":"globe",
-            "url":"https://www.jackboxgames.com/",
-            "text":"Website"
-        },
-        {
-            "icon":"discord",
-            "url":"https://discord.com/invite/jackboxgames",
-            "text":"Discord"
-        },
-        {
-            "icon":"twitter",
-            "url":"https://twitter.com/jackboxgames",
-            "text":"Twitter"
-        },
-        {
-            "icon":"youtube",
-            "url":"https://www.youtube.com/@Jackboxgames",
-            "text":"YouTube"
+            "icon": "globe",
+            "url": "https://proje.jackbox.tr/",
+            "text": "Proje Hakkında"
         }
-     ]
+    ]
 }

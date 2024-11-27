@@ -4,5 +4,10 @@
     },
     "LAUNCHER": {
         "HIDE_DUBBED": true
+    },
+    "SERVER_INFORMATION": {
+        "SHOW_PATREONS_SUBSCRIBERS": false,
+        "PATREONS_SUBSCRIBERS": [
+        ]
     }
 }

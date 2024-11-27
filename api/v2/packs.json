@@ -2835,6 +2835,12 @@
                             "writing"
                         ]
                     },
+                    "internal_name": "Quiplash3",
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
                     "loader": {
                         "path": "loaders/tjpstarter/quiplash3.zip",
                         "version": "1.0.0"
@@ -2880,6 +2886,12 @@
                             "writing"
                         ]
                     },
+                    "internal_name": "AwShirt",
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
                     "loader": {
                         "path": "loaders/tjpstarter/teeko.zip",
                         "version": "1.0.0"
@@ -2924,6 +2936,12 @@
                         "tags": [
                             "knowledge"
                         ]
+                    },
+                    "internal_name": "TriviaDeath2",
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
                     },
                     "loader": {
                         "path": "loaders/tjpstarter/triviamurderparty2.zip",

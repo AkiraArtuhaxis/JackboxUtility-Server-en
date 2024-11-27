@@ -1,3 +1,3 @@
-# JackboxUtility-Server
+# Jackbox Utility Turkish Server
 
-This folder contains an example of a server used by the JackboxUtility App
+Turkish Server used by the JackboxUtility App

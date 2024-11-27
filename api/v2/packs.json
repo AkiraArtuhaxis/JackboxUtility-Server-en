@@ -34,7 +34,7 @@
     "patchsCategories": [
         {
             "id": "turkish_patchs",
-            "name": "Türkçe Yamaları",
+            "name": "Türkçe Yamalar",
             "smallDescription": "",
             "patchs": [
                 "jpp9_tr",

@@ -2149,6 +2149,8 @@
                         "version_file": "https://izlence.jackbox.tr/assets/patchs/pp9.json",
                         "version_property": "TRModVersion"
                     },
+                    "supported_platforms": ["windows","linux","mac"],
+                    "supported_launchers": ["steam","native"],
                     "components": [
                         {
                             "id": "roomerang_patch",
@@ -2459,6 +2461,8 @@
                         "version_file": "https://izlence.jackbox.tr/assets/patchs/pp10.json",
                         "version_property": "TRModVersion"
                     },
+                    "supported_platforms": ["windows","linux","mac"],
+                    "supported_launchers": ["steam","native"],
                     "components": [
                         {
                             "id": "teeko2-patch",

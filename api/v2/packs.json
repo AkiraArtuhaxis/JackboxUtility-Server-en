@@ -63,7 +63,15 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.json",
-                "version_property": "buildVersion"
+                "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "config.jet",
+                    "native": "jbg.config.jet"
+                }
+            },
+            "resource_location": {
+                "mac": "The Jackbox Party Pack.app/Contents/Resources/macos"
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/331670/The_Jackbox_Party_Pack/",
@@ -307,7 +315,15 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.json",
-                "version_property": "buildVersion"
+                "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "config.jet",
+                    "native": "jbg.config.jet"
+                }
+            },
+            "resource_location": {
+                "mac": "The Jackbox Party Pack 2.app/Contents/Resources/macos"
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/397460/The_Jackbox_Party_Pack_2/",
@@ -559,7 +575,15 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.json",
-                "version_property": "buildVersion"
+                "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "config.jet",
+                    "native": "jbg.config.jet"
+                }
+            },
+            "resource_location": {
+                "mac": "The Jackbox Party Pack 3.app/Contents/Resources/macos"
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/434170/The_Jackbox_Party_Pack_3/",
@@ -815,7 +839,15 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.json",
-                "version_property": "buildVersion"
+                "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "config.jet",
+                    "native": "jbg.config.jet"
+                }
+            },
+            "resource_location": {
+                "mac": "The Jackbox Party Pack 4.app/Contents/Resources/macos"
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/610180/The_Jackbox_Party_Pack_4/",
@@ -1070,7 +1102,12 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.json",
-                "version_property": "buildVersion"
+                "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "config.jet",
+                    "native": "jbg.config.jet"
+                }
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/774461/The_Jackbox_Party_Pack_5/",
@@ -1325,7 +1362,15 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.json",
-                "version_property": "buildVersion"
+                "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "config.jet",
+                    "native": "jbg.config.jet"
+                }
+            },
+            "resource_location": {
+                "mac": "The Jackbox Party Pack 6.app/Contents/Resources/macos"
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/1005300/The_Jackbox_Party_Pack_6/",
@@ -1585,7 +1630,15 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.json",
-                "version_property": "buildVersion"
+                "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "config.jet",
+                    "native": "jbg.config.jet"
+                }
+            },
+            "resource_location": {
+                "mac": "The Jackbox Party Pack 7.app/Contents/Resources/macos"
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/1211630/The_Jackbox_Party_Pack_7/",
@@ -1852,7 +1905,15 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.json",
-                "version_property": "buildVersion"
+                "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "config.jet",
+                    "native": "jbg.config.jet"
+                }
+            },
+            "resource_location": {
+                "mac": "The Jackbox Party Pack 8.app/Contents/Resources/macos"
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/1552350/The_Jackbox_Party_Pack_8/",
@@ -2130,7 +2191,15 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "jbg.config.json",
-                "version_property": "buildVersion"
+                "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "config.jet",
+                    "native": "jbg.config.jet"
+                }
+            },
+            "resource_location": {
+                "mac": "The Jackbox Party Pack 9.app/Contents/Resources/macos"
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/1850960/The_Jackbox_Party_Pack_9/",
@@ -2149,8 +2218,15 @@
                         "version_file": "https://izlence.jackbox.tr/assets/patchs/pp9.json",
                         "version_property": "TRModVersion"
                     },
-                    "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers": ["steam","native"],
+                    "supported_platforms": [
+                        "windows",
+                        "linux",
+                        "mac"
+                    ],
+                    "supported_launchers": [
+                        "steam",
+                        "native"
+                    ],
                     "components": [
                         {
                             "id": "roomerang_patch",
@@ -2427,7 +2503,8 @@
             "name": "Jackbox Parti Paketi 10",
             "description": "Çıktığı yıl: 2023",
             "launchers_id": {
-                "steam": "2216830"
+                "steam": "2216830",
+                "epic": "fddfaf1422fb43b08d3ccc0fcc110a65"
             },
             "executables": {
                 "windows": "The Jackbox Party Pack 10.exe",
@@ -2441,8 +2518,16 @@
             "configuration": {
                 "file": "jbg.config.json",
                 "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "config.jet",
+                    "native": "jbg.config.jet"
+                },
                 "version_origin": "game_file",
                 "version_file": "jbg.config.json"
+            },
+            "resource_location": {
+                "mac": "The Jackbox Party Pack 10.app/Contents/Resources/macos"
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/2216830/The_Jackbox_Party_Pack_10/",
@@ -2461,8 +2546,15 @@
                         "version_file": "https://izlence.jackbox.tr/assets/patchs/pp10.json",
                         "version_property": "TRModVersion"
                     },
-                    "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers": ["steam","native"],
+                    "supported_platforms": [
+                        "windows",
+                        "linux",
+                        "mac"
+                    ],
+                    "supported_launchers": [
+                        "steam",
+                        "native"
+                    ],
                     "components": [
                         {
                             "id": "teeko2-patch",
@@ -2788,7 +2880,15 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.json",
-                "version_property": "buildVersion"
+                "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "config.jet",
+                    "native": "jbg.config.jet"
+                }
+            },
+            "resource_location": {
+                "mac": "The Jackbox Party Starter.app/Contents/Resources/macos"
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/1755580/The_Jackbox_Party_Starter/",
@@ -2972,6 +3072,11 @@
             },
             "configuration": {
                 "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "config.jet",
+                    "native": "jbg.config.jet"
+                },
                 "version_origin": "game_file",
                 "version_file": "jbg.config.jet"
             },
@@ -3156,6 +3261,11 @@
             },
             "configuration": {
                 "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "config.jet",
+                    "native": "jbg.config.jet"
+                },
                 "version_origin": "game_file",
                 "version_file": "jbg.config.jet"
             },
@@ -3244,7 +3354,12 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "jbg.config.json",
-                "version_property": "buildVersion"
+                "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "config.jet",
+                    "native": "jbg.config.jet"
+                }
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/448080/Fibbage_XL/",
@@ -3318,7 +3433,15 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "jbg.config.json",
-                "version_property": "buildVersion"
+                "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "config.jet",
+                    "native": "jbg.config.jet"
+                }
+            },
+            "resource_location": {
+                "mac": ""
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/351510/Quiplash/",
@@ -3393,7 +3516,15 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "jbg.config.json",
-                "version_property": "buildVersion"
+                "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "config.jet",
+                    "native": "jbg.config.jet"
+                }
+            },
+            "resource_location": {
+                "mac": "Quiplash 2 InterLASHional.app/Contents/Resources/macos"
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/1111940/Quiplash_2_InterLASHional/"
@@ -3468,7 +3599,15 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "jbg.config.json",
-                "version_property": "buildVersion"
+                "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "config.jet",
+                    "native": "jbg.config.jet"
+                }
+            },
+            "resource_location":{
+                "mac":"Drawful 2.app/Contents/Resources/macos"
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/442070/Drawful_2/",
@@ -3541,7 +3680,12 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.dat",
-                "version_property": "buildVersion"
+                "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "config.jet",
+                    "native": "jbg.config.jet"
+                }
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/252730/YOU_DONT_KNOW_JACK_Vol_1_XL/",
@@ -3608,7 +3752,12 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.dat",
-                "version_property": "buildVersion"
+                "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "config.jet",
+                    "native": "jbg.config.jet"
+                }
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/260020/YOU_DONT_KNOW_JACK_SPORTS/",
@@ -3675,7 +3824,12 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.dat",
-                "version_property": "buildVersion"
+                "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "config.jet",
+                    "native": "jbg.config.jet"
+                }
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/259940/YOU_DONT_KNOW_JACK_Vol_2/",
@@ -3742,7 +3896,12 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.dat",
-                "version_property": "buildVersion"
+                "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "config.jet",
+                    "native": "jbg.config.jet"
+                }
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/260000/YOU_DONT_KNOW_JACK_MOVIES/",
@@ -3809,7 +3968,12 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.dat",
-                "version_property": "buildVersion"
+                "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "config.jet",
+                    "native": "jbg.config.jet"
+                }
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/260040/YOU_DONT_KNOW_JACK_TELEVISION/",
@@ -3876,7 +4040,12 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.dat",
-                "version_property": "buildVersion"
+                "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "config.jet",
+                    "native": "jbg.config.jet"
+                }
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/259960/YOU_DONT_KNOW_JACK_Vol_3/",
@@ -3943,7 +4112,12 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.dat",
-                "version_property": "buildVersion"
+                "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "config.jet",
+                    "native": "jbg.config.jet"
+                }
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/260060/YOU_DONT_KNOW_JACK_HEADRUSH/",
@@ -4010,7 +4184,12 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.dat",
-                "version_property": "buildVersion"
+                "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "config.jet",
+                    "native": "jbg.config.jet"
+                }
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/259980/YOU_DONT_KNOW_JACK_Vol_4_The_Ride/",
@@ -4077,7 +4256,12 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.dat",
-                "version_property": "buildVersion"
+                "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "config.jet",
+                    "native": "jbg.config.jet"
+                }
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/260080/YOU_DONT_KNOW_JACK_Vol_6_The_Lost_Gold/",
@@ -4093,7 +4277,12 @@
                     "configuration": {
                         "version_origin": "repo_file",
                         "version_file": "https://raw.githubusercontent.com/AkiraArtuhaxis/YOU-DONT-KNOW-JACK-Vol-6-Fix/main/config.dat",
-                        "version_property": "buildVersion"
+                        "version_property": "buildVersion",
+                        "launcher_version_file": {
+                            "steam": "jbg.config.jet",
+                            "epic_games": "config.jet",
+                            "native": "jbg.config.jet"
+                        }
                     },
                     "components": [
                         {
@@ -4175,7 +4364,15 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.dat",
-                "version_property": "buildVersion"
+                "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "config.jet",
+                    "native": "jbg.config.jet"
+                }
+            },
+            "resource_location":{
+                "mac":"uyw.app/Contents/Resources/Data"
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/521350/Use_Your_Words/"
@@ -4241,7 +4438,15 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.dat",
-                "version_property": "buildVersion"
+                "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "config.jet",
+                    "native": "jbg.config.jet"
+                }
+            },
+            "resource_location":{
+                "mac":"WhatTheDub.app/Contents/Resources/Data"
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/1495860/What_The_Dub/"
@@ -4307,7 +4512,15 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.dat",
-                "version_property": "buildVersion"
+                "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "config.jet",
+                    "native": "jbg.config.jet"
+                }
+            },
+            "resource_location":{
+                "mac":"RiffTraxTheGame.app/Contents/Resources/Data"
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/1707870/RiffTrax_The_Game/"
@@ -4373,7 +4586,12 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.dat",
-                "version_property": "buildVersion"
+                "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "config.jet",
+                    "native": "jbg.config.jet"
+                }
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/1234220/Paper_Pirates/"
@@ -4440,7 +4658,12 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.dat",
-                "version_property": "buildVersion"
+                "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "config.jet",
+                    "native": "jbg.config.jet"
+                }
             },
             "resource_location": {
                 "mac": "Papa’s Quiz.app/Contents/Resources/Data"

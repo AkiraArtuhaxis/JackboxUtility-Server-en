@@ -4513,10 +4513,10 @@
         "name": "The Jackbox Naughty Pack [Microsoft Store]",
         "description": "Year of release: 2024",
         "launchers_id": {
-            "steam": "TJNP"
+            "steam": "JNP"
         },
         "executables": {
-            "windows": "TJNP.exe",
+            "windows": "JNP.exe",
             "mac": "The Jackbox Naughty Pack.app/Contents/MacOS/The Jackbox Naughty Pack",
             "linux": "Launcher.sh"
         },

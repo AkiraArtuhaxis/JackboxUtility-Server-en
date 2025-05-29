@@ -2148,6 +2148,304 @@
         "background":"backgrounds/jpp7.jpg"
     },
     {
+        "id":"jpp7_ms",
+        "name":"The Jackbox Party Pack 7 [Microsoft Store]",
+        "description":"Year of release: 2020",
+        "launchers_id":{
+            "steam":"TJPP7"
+        },
+        "executables":{
+            "windows":"TJPP7.exe",
+            "mac":"The Jackbox Party Pack 7.app/Contents/MacOS/The Jackbox Party Pack 7",
+            "linux":"Launcher.sh"
+        },
+        "loader":{
+            "path":"loaders/tjpp7_ms/default.zip",
+            "version":"1.0.0"
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"config.jet",
+            "version_property":"buildVersion",
+            "launcher_version_file" : {
+                "steam": "config.jet",
+                "epic_games": "config.jet",
+                "native": "config.jet"
+                }
+        },
+        "resource_location":{
+            "mac":"The Jackbox Party Pack 7.app/Contents/Resources/macos"
+        },
+        "store_links":{
+            "jackbox_games_store":"https://www.xbox.com/games/store/the-jackbox-party-pack-7/9nrvf2p89zlx"
+        },
+        "patchs":[],
+        "games":[
+            {
+                "id":"quiplash3_ms",
+                "name":"Quiplash 3",
+                "internal_name":"Quiplash3",
+                "background":"game_backgrounds/Quiplash3.webp",
+                "path":"games/Quiplash3",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "playtime":{
+                        "min":15,
+                        "max":20
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience can vote for their favorite answers.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"The Say-Anything Party Game",
+                    "small_description":"The Say-Anything Party Game",
+                    "description":"The Threequel to the say-anything party game! Answer the prompts and make your friends laugh… hopefully.",
+                    "images":[
+                        "game_images/Quiplash3/quiplash3.mp4",
+                        "game_images/Quiplash3/quiplash3_1.webp",
+                        "game_images/Quiplash3/quiplash3_2.webp",
+                        "game_images/Quiplash3/quiplash3_3.webp",
+                        "game_images/Quiplash3/quiplash3_4.webp"
+                    ],
+                    "tags":[
+                        "writing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp7_ms/quiplash3.zip",
+                    "version":"1.0.0"
+                },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
+                "patchs":[
+                ]
+            },
+            {
+                "id":"thedevilsandthedetails_ms",
+                "name":"The Devils and the Details",
+                "internal_name":"Everyday",
+                "background":"game_backgrounds/TheDevilsAndTheDetails.webp",
+                "path":"games/Everyday",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "playtime":{
+                        "min":20,
+                        "max":25
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience is the cat in the house and can cause problems for the rest of the players.",
+                    "stream_friendly":"MIDLY_PLAYABLE",
+                    "stream_friendly_description":"Being a discussion game, it's recommended for players to be able to at least hear each other in order to perform team tasks.",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"This game doesn't require moderation.",
+                    "subtitles":true,
+                    "type":"COOP",
+                    "translation":"ENGLISH",
+                    "tagline":"Do your tasks!",
+                    "small_description":"Do your tasks!",
+                    "description":"You're a family of devils who've moved to an average suburb. Can you survive the daily torture of human life?",
+                    "images":[
+                        "game_images/TheDevilsAndTheDetails/thedevilsandthedetails.mp4",
+                        "game_images/TheDevilsAndTheDetails/thedevilsandthedetails_1.webp",
+                        "game_images/TheDevilsAndTheDetails/thedevilsandthedetails_2.webp",
+                        "game_images/TheDevilsAndTheDetails/thedevilsandthedetails_3.webp",
+                        "game_images/TheDevilsAndTheDetails/thedevilsandthedetails_4.webp"
+                    ],
+                    "tags":[
+                        "talking",
+                        "deduction"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp7_ms/thedevilsandthedetails.zip",
+                    "version":"1.0.0"
+                },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
+                "patchs":[
+                ]
+            },
+            {
+                "id":"champdup_ms",
+                "name":"Champ'd Up",
+                "internal_name":"WorldChampions",
+                "background":"game_backgrounds/Champdup.webp",
+                "path":"games/WorldChampions",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "playtime":{
+                        "min":20,
+                        "max":25
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience can vote for their favorite answers. In addition, they can vote to display different encouragement banners for the players.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles":true,
+                    "translation":"ENGLISH",
+                    "type":"VERSUS",
+                    "tagline":"The ultimate doodling battle",
+                    "small_description":"The ultimate doodling battle",
+                    "description":"Enter the Scrawliseum, where characters fight over weird titles. Can you take down the heavy favorite?",
+                    "images":[
+                        "game_images/ChampdUp/champdup.mp4",
+                        "game_images/ChampdUp/champdup_1.webp",
+                        "game_images/ChampdUp/champdup_2.webp",
+                        "game_images/ChampdUp/champdup_3.webp",
+                        "game_images/ChampdUp/champdup_4.webp"
+                    ],
+                    "tags":[
+                        "drawing",
+                        "writing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp7_ms/champdup.zip",
+                    "version":"1.0.0"
+                },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
+                "patchs":[
+                ]
+            },
+            {
+                "id":"talkingpoints_ms",
+                "name":"Talking Points",
+                "internal_name":"JackboxTalks",
+                "background":"game_backgrounds/TalkingPoints.webp",
+                "path":"games/JackboxTalks",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "playtime":{
+                        "min":20,
+                        "max":25
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience can vote during the talks and give a prize at the end to their favorite talk.",
+                    "stream_friendly":"MIDLY_PLAYABLE",
+                    "stream_friendly_description":"Being a presentation game, it's recommended for players to be able to at least hear each other.",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. If necessary, it's recommended to enable the \"Profanity Filter\" option and the \"Disable Player Photos\" option so that players cannot use a photo as their avatar.",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"Crazy talks",
+                    "small_description":"Crazy talks",
+                    "description":"Give a speech about pictures you haven't seen before. It doesn’t matter if it makes sense, it’s more fun if it doesn’t!",
+                    "images":[
+                        "game_images/TalkingPoints/talkingpoints.mp4",
+                        "game_images/TalkingPoints/talkingpoints_1.webp",
+                        "game_images/TalkingPoints/talkingpoints_2.webp",
+                        "game_images/TalkingPoints/talkingpoints_3.webp",
+                        "game_images/TalkingPoints/talkingpoints_4.webp"
+                    ],
+                    "tags":[
+                        "talking",
+                        "writing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp7_ms/talkingpoints.zip",
+                    "version":"1.0.0"
+                },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
+                "patchs":[]
+            },
+            {
+                "id":"blatherround_ms",
+                "name":"Blather 'Round",
+                "internal_name":"BlankyBlank",
+                "background":"game_backgrounds/BlatherRound.webp",
+                "path":"games/BlankyBlank",
+                "game_info":{
+                    "players":{
+                        "min":2,
+                        "max":6
+                    },
+                    "playtime":{
+                        "min":15,
+                        "max":20
+                    },
+                    "family_friendly":"FAMILY_FRIENDLY",
+                    "audience":true,
+                    "audience_description":"The audience tries to guess the correct answer along with the other players.",
+                    "stream_friendly":"PLAYABLE",
+                    "stream_friendly_description":"Being a discussion game, it's recommended for players to be able to at least hear each other. Unlike the other discussion games, however, this game works perfectly without out loud talking.",
+                    "moderation":"CENSORING",
+                    "moderation_description":"Due to how this game works, player responses cannot be censored. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles":true,
+                    "type":"COOP",
+                    "translation":"ENGLISH",
+                    "tagline":"Non-stop guesses",
+                    "small_description":"Non-stop guesses",
+                    "description":"A pop culture guessing game where nothing sounds quite right! It's a good fun time experience.",
+                    "images":[
+                        "game_images/BlatherRound/blatherround.mp4",
+                        "game_images/BlatherRound/blatherround_1.webp",
+                        "game_images/BlatherRound/blatherround_2.webp",
+                        "game_images/BlatherRound/blatherround_3.webp",
+                        "game_images/BlatherRound/blatherround_4.webp"
+                    ],
+                    "tags":[
+                        "knowledge","writing","talking"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp7_ms/blatherround.zip",
+                    "version":"1.0.0"
+                },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
+                "patchs":[
+                ]
+            }
+        ],
+        "icon":"jpp7.ico",
+        "background":"backgrounds/jpp7.jpg"
+    },
+    {
         "id":"jpp8",
         "name":"The Jackbox Party Pack 8",
         "description":"Year of release: 2021",
@@ -2475,7 +2773,7 @@
         "version_property":"buildVersion",
         "launcher_version_file" : {
             "steam": "jbg.config.jet",
-            "epic_games": "config.jet",
+            "epic_games": "jbg.config.jet",
             "native": "jbg.config.jet"
             }
 	},
@@ -2757,6 +3055,307 @@
         "background":"backgrounds/jpp9.jpg"
     },
     {
+        "id":"jpp9_ms",
+        "name":"The Jackbox Party Pack 9 [Microsoft Store]",
+        "description":"Year of release: 2022",
+        "launchers_id":{
+            "steam":"TJPP9"
+        },
+        "executables":{
+            "windows":"TJPP9.exe",
+            "mac":"The Jackbox Party Pack 9.app/Contents/MacOS/The Jackbox Party Pack 9",
+            "linux":"Launcher.sh"
+        },
+        "loader":{
+            "path":"loaders/tjpp9_ms/default.zip",
+            "version":"1.0.0"
+        },
+    "configuration":{
+        "version_origin":"game_file",
+        "version_file":"jbg.config.jet",
+        "version_property":"buildVersion",
+        "launcher_version_file" : {
+            "steam": "jbg.config.jet",
+            "epic_games": "jbg.config.jet",
+            "native": "jbg.config.jet"
+            }
+	},
+    "resource_location":{
+        "mac":"The Jackbox Party Pack 9.app/Contents/Resources/macos"
+    },
+    "store_links":{
+        "jackbox_games_store":"https://www.xbox.com/games/store/the-jackbox-party-pack-9/9n1738c045fr"
+    },
+        "patchs":[],
+        "games":[
+            {
+                "id":"fibbage4_ms",
+                "name":"Fibbage 4",
+                "internal_name":"Fibbage4",
+                "background":"game_backgrounds/Fibbage4.webp",
+                "path":"games/Fibbage4",
+                "game_info":{
+                    "players":{
+                        "min":2,
+                        "max":8
+                    },
+                    "playtime":{
+                        "min":15,
+                        "max":20
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience can vote for a lie to appear on-screen along with the others. Then, they try to guess the truth, giving players points for choosing their lies, and giving likes to their favorite lies.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. They can also kick players off the game. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"NATIVELY_TRANSLATED",
+                    "tagline":"The hilarious bluffing party game",
+                    "small_description":"The hilarious bluffing party game",
+                    "description":"The hilarious bluffing party game returns with an all new Final Fibbage, video questions, fan-submitted questions, and Fibbage Enough About You mode!",
+                    "images":[
+			            "game_images/Fibbage4/fibbage4.mp4",
+			            "game_images/Fibbage4/fibbage4_1.jpg",
+                        "game_images/Fibbage4/fibbage4_2.jpg",
+                        "game_images/Fibbage4/fibbage4_3.jpg",
+                        "game_images/Fibbage4/fibbage4_4.jpg"
+                    ],
+                    "tags":[
+                        "writing","knowledge"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp9_ms/fibbage4.zip",
+                    "version":"1.0.0"
+                },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
+                "patchs":[
+                ]
+            },
+            {
+                "id":"roomerang_ms",
+                "name":"Roomerang",
+                "internal_name":"MakeFriends",
+                "background":"game_backgrounds/Roomerang.webp",
+                "path":"games/MakeFriends",
+                "game_info":{
+                    "players":{
+                        "min":4,
+                        "max":9
+                    },
+                    "playtime":{
+                        "min":25,
+                        "max":30
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience can vote for their favorite answers. In addition, they answer different polls as the players type.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. They can also kick players off the game. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"NATIVELY_TRANSLATED",
+                    "tagline":"Will you stay in the house?",
+                    "small_description":"Will you stay in the house?",
+                    "description":"Channel your inner reality TV star in an attempt to come out on top! Respond to prompts, bring the competition and role-play to avoid being voted out. Never fear though, even when you’re out you’ll find yourself Roomerang-ed right back into the drama!",
+                    "images":[
+                        "game_images/Roomerang/roomerang.mp4",
+                        "game_images/Roomerang/roomerang_1.jpg",
+                        "game_images/Roomerang/roomerang_2.jpg",
+                        "game_images/Roomerang/roomerang_3.jpg",
+                        "game_images/Roomerang/roomerang_4.jpg"
+                    ],
+                    "tags":[
+                        "writing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp9_ms/roomerang.zip",
+                    "version":"1.0.0"
+                },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"junktopia_ms",
+                "name":"Junktopia",
+                "internal_name":"AntiqueGame",
+                "background":"game_backgrounds/Junktopia.webp",
+                "path":"games/AntiqueGame",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "playtime":{
+                        "min":20,
+                        "max":25
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience can vote for their favorite answers.",
+                    "stream_friendly":"MIDLY_PLAYABLE",
+                    "stream_friendly_description":"Being a presentation game, it's recommended for players to be able to at least hear each other.",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. They can also kick players off the game. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"NATIVELY_TRANSLATED",
+                    "tagline":"Sell your items",
+                    "small_description":"Sell your items",
+                    "description":"A strange wizard has turned you into a frog! Create hilarious backstories for weird objects and then get them appraised. The player with the most valuable items becomes human again!",
+                    "images":[
+                        "game_images/Junktopia/junktopia.mp4",
+                        "game_images/Junktopia/junktopia_1.jpg",
+                        "game_images/Junktopia/junktopia_2.jpg",
+                        "game_images/Junktopia/junktopia_3.jpg",
+                        "game_images/Junktopia/junktopia_4.jpg"
+                    ],
+                    "tags":[
+                        "writing",
+                        "talking"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp9_ms/junktopia.zip",
+                    "version":"1.0.0"
+                },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"nonsensory_ms",
+                "name":"Nonsensory",
+                "internal_name":"RangeGame",
+                "background":"game_backgrounds/Nonsensory.webp",
+                "path":"games/RangeGame",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "playtime":{
+                        "min":20,
+                        "max":25
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience tries to guess the correct answer along with the other players. They can win the game if they beat the score of the players.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. They can also kick players off the game. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"NATIVELY_TRANSLATED",
+                    "tagline":"Share your thoughts",
+                    "small_description":"Share your thoughts",
+                    "description":"Professor Nanners is here to test your NSP (Nonsensory Perception) in this drawing, writing, and guessing game! How close can you get to guessing where another player’s prompt ranks on the silliest of scales?",
+                    "images":[
+                        "game_images/Nonsensory/nonsensory.mp4",
+                        "game_images/Nonsensory/nonsensory_1.jpg",
+                        "game_images/Nonsensory/nonsensory_2.jpg",
+                        "game_images/Nonsensory/nonsensory_3.jpg",
+                        "game_images/Nonsensory/nonsensory_4.jpg"
+                    ],
+                    "tags":[
+                        "writing", "drawing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp9_ms/nonsensory.zip",
+                    "version":"1.0.0"
+                },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"quixort_ms",
+                "name":"Quixort",
+                "internal_name":"Lineup",
+                "background":"game_backgrounds/Quixort.webp",
+                "path":"games/Lineup",
+                "game_info":{
+                    "players":{
+                        "min":1,
+                        "max":10
+                    },
+                    "playtime":{
+                        "min":20,
+                        "max":25
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience joins a team and orders the blocks just like the players. The audience team that does it best wins at the end of the game.",
+                    "stream_friendly":"MIDLY_PLAYABLE",
+                    "stream_friendly_description":"Being a discussion game, it's recommended for players to be able to at least hear each other.",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"This game doesn't require moderation. However, with the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to kick players off the game if necessary.",
+                    "subtitles":true,
+                    "type":"TEAM",
+                    "translation":"NATIVELY_TRANSLATED",
+                    "tagline":"Order the blocks",
+                    "small_description":"Order the blocks",
+                    "description":"In this trivia sorting factory, work with your team to sort falling answers into their proper order before they hit the floor! Or, play the single player mode and see how many blocks you can sort before topping out. It’s as easy as A, C, B!",
+                    "images":[
+                        "game_images/Quixort/quixort.mp4",
+                        "game_images/Quixort/quixort_1.jpg",
+                        "game_images/Quixort/quixort_2.jpg",
+                        "game_images/Quixort/quixort_3.jpg",
+                        "game_images/Quixort/quixort_4.jpg"
+                    ],
+                    "tags":[
+                        "talking","knowledge"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp9_ms/quixort.zip",
+                    "version":"1.0.0"
+                },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        
+        "icon":"jpp9.ico",
+        "background":"backgrounds/jpp9.jpg"
+    },
+    {
         "id": "jpp10",
         "name": "The Jackbox Party Pack 10",
         "description": "Year of release: 2023",
@@ -2779,7 +3378,7 @@
             "version_file": "jbg.config.jet",
             "launcher_version_file" : {
                 "steam": "jbg.config.jet",
-                "epic_games": "config.jet",
+                "epic_games": "jbg.config.jet",
                 "native": "jbg.config.jet"
                 }
         },
@@ -3047,6 +3646,293 @@
         "background": "backgrounds/jpp10.jpg"
     },
     {
+        "id": "jpp10_ms",
+        "name": "The Jackbox Party Pack 10 [Microsoft Store]",
+        "description": "Year of release: 2023",
+        "launchers_id": {
+            "steam": "TJPP10"
+        },
+        "executables": {
+            "windows": "TJPP10.exe",
+            "mac": "The Jackbox Party Pack 10.app/Contents/MacOS/The Jackbox Party Pack 10",
+            "linux": "Launcher.sh"
+        },
+        "loader": {
+            "path": "loaders/tjpp10_ms/default.zip",
+            "version": "1.0.0"
+        },
+        "configuration": {
+            "version_property": "buildVersion",
+            "version_origin": "game_file",
+            "version_file": "jbg.config.jet",
+            "launcher_version_file" : {
+                "steam": "jbg.config.jet",
+                "epic_games": "jbg.config.jet",
+                "native": "jbg.config.jet"
+                }
+        },
+        "resource_location":{
+            "mac":"The Jackbox Party Pack 10.app/Contents/Resources/macos"
+        },
+        "store_links": {
+            "jackbox_games_store":"https://www.xbox.com/games/store/the-jackbox-party-pack-10/9p558fw2w073"
+        },
+        "patchs": [
+        ],
+        "games": [
+            {
+                "id": "teeko2_ms",
+                "name": "Tee K.O. 2",
+                "internal_name":"AwShirt2",
+                "background": "game_backgrounds/TeeKO2.webp",
+                "path": "games/AwShirt2",
+                "game_info": {
+                    "players": {
+                        "min": 3,
+                        "max": 8
+                    },
+                    "playtime": {
+                        "min": 20,
+                        "max": 25
+                    },
+                    "family_friendly": "OPTIONAL",
+                    "audience": true,
+                    "audience_description": "The audience can vote for their favorite shirts.",
+                    "stream_friendly": "PLAYABLE",
+                    "moderation": "FULL_MODERATION",
+                    "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. They can also kick players off the game. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles": true,
+                    "type": "VERSUS",
+                    "translation": "NATIVELY_TRANSLATED",
+                    "tagline":"T-Shirt Knock Out",
+                    "small_description":"T-Shirt Knock Out",
+                    "description":"In Tee K.O. 2, return to T-Shirt Island, where the most hardened warriors in the world compete in a deadly fighting tournament. The drawing finger–not the fist–decides the victory!",
+                    "images": [
+                        "game_images/TeeKO2/teeko2.mp4",
+                        "game_images/TeeKO2/teeko2_1.png",
+                        "game_images/TeeKO2/teeko2_2.png",
+                        "game_images/TeeKO2/teeko2_3.png",
+                        "game_images/TeeKO2/teeko2_4.png"
+                    ],
+                    "tags": [
+                        "drawing",
+                        "writing"
+                    ]
+                },
+                "loader": {
+                    "path": "loaders/tjpp10_ms/teeko2.zip",
+                    "version": "1.0.0"
+                },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
+                "patchs": []
+            },
+            {
+                "id": "timejinx_ms",
+                "name": "Timejinx",
+                "internal_name":"TimeTrivia",
+                "background": "game_backgrounds/Timejinx.webp",
+                "path": "games/TimeTrivia",
+                "game_info": {
+                    "players": {
+                        "min": 1,
+                        "max": 8
+                    },
+                    "playtime": {
+                        "min": 15,
+                        "max": 20
+                    },
+                    "family_friendly": "OPTIONAL",
+                    "audience": true,
+                    "audience_description": "The audience acts as a player and can answer all the questions. Their score will be shown separately from the players.",
+                    "stream_friendly": "PLAYABLE",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"This game doesn't require moderation. However, with the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to kick players off the game if necessary.",
+                    "subtitles": true,
+                    "type": "VERSUS",
+                    "translation": "NATIVELY_TRANSLATED",
+                    "tagline": "Time to play",
+                    "small_description": "Time to play",
+                    "description": "In Timejinx, you’re a time traveler from the future competing in a high-stakes trivia night. Save your current timeline by answering questions about the past.",
+                    "images": [
+                        "game_images/Timejinx/timejinx.mp4",
+                        "game_images/Timejinx/timejinx_1.png",
+                        "game_images/Timejinx/timejinx_2.png",
+                        "game_images/Timejinx/timejinx_3.png",
+                        "game_images/Timejinx/timejinx_4.png"
+                    ],
+                    "tags": [
+                        "knowledge"
+                    ]
+                },
+                "loader": {
+                    "path": "loaders/tjpp10_ms/timejinx.zip",
+                    "version": "1.0.0"
+                },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
+                "patchs": []
+            },
+            {
+                "id": "fixytext_ms",
+                "name": "FixyText",
+                "internal_name":"RiskyText",
+                "background": "game_backgrounds/FixyText.webp",
+                "path": "games/RiskyText",
+                "game_info": {
+                    "players": {
+                        "min": 3,
+                        "max": 8
+                    },
+                    "playtime": {
+                        "min": 15,
+                        "max": 20
+                    },
+                    "family_friendly": "OPTIONAL",
+                    "audience": true,
+                    "audience_description": "The audience can vote for their favorite words.",
+                    "stream_friendly": "PLAYABLE",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. They can also kick players off the game. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles": true,
+                    "type": "VERSUS",
+                    "translation": "NATIVELY_TRANSLATED",
+                    "tagline": "A total word jumble",
+                    "small_description": "A total word jumble",
+                    "description": "FixyText is the Wild West of text-editing. In this chaotic game, everyone’s in group chat, typing all at once to make the most memorable statement. And there’s no delete key. Take that auto-correct!",
+                    "images": [
+                        "game_images/FixyText/fixytext.mp4",
+                        "game_images/FixyText/fixytext_1.png",
+                        "game_images/FixyText/fixytext_2.png",
+                        "game_images/FixyText/fixytext_3.png",
+                        "game_images/FixyText/fixytext_4.png"
+                    ],
+                    "tags": [
+                        "writing"
+                    ]
+                },
+                "loader": {
+                    "path": "loaders/tjpp10_ms/fixytext.zip",
+                    "version": "1.0.0"
+                },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
+                "patchs": []
+            },
+            {
+                "id": "dodoremi_ms",
+                "name": "Dodo Re Mi",
+                "internal_name":"NopusOpus",
+                "background": "game_backgrounds/DodoReMi.webp",
+                "path": "games/NopusOpus",
+                "game_info": {
+                    "players": {
+                        "min": 1,
+                        "max": 9
+                    },
+                    "playtime": {
+                        "min": 5,
+                        "max": 10
+                    },
+                    "family_friendly": "FAMILY_FRIENDLY",
+                    "audience": true,
+                    "audience_description": "The audience can also play the songs. Members of the audience will have individual points. If most survive, the audience will too.",
+                    "stream_friendly": "PLAYABLE",
+                    "stream_friendly_description": "This game consists of performing songs in real time. However, there is a sync at the beginning of each song, so streaming delay is automatically removed.",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"This game doesn't require moderation. However, with the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to kick players off the game if necessary.",
+                    "subtitles": true,
+                    "type": "COOP",
+                    "translation": "NATIVELY_TRANSLATED",
+                    "tagline": "Unbridled music",
+                    "small_description": "Unbridled music",
+                    "description": "In Dodo Re Mi, your phone is your instrument. You and your flock must make music together to escape the hungry jungle plant.",
+                    "images": [
+                        "game_images/DodoReMi/dodoremi.mp4",
+                        "game_images/DodoReMi/dodoremi_1.png",
+                        "game_images/DodoReMi/dodoremi_2.png",
+                        "game_images/DodoReMi/dodoremi_3.png",
+                        "game_images/DodoReMi/dodoremi_4.png"
+                    ],
+                    "tags": []
+                },
+                "loader": {
+                    "path": "loaders/tjpp10_ms/dodoremi.zip",
+                    "version": "1.0.0"
+                },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
+                "patchs": []
+            },
+            {
+                "id": "hypnotorious_ms",
+                "name": "Hypnotorious",
+                "internal_name":"Strangers",
+                "background": "game_backgrounds/Hypnotorious.webp",
+                "path": "games/Strangers",
+                "game_info": {
+                    "players": {
+                        "min": 4,
+                        "max": 8
+                    },
+                    "playtime": {
+                        "min": 20,
+                        "max": 30
+                    },
+                    "family_friendly": "OPTIONAL",
+                    "audience": true,
+                    "audience_description": "The audience chooses which of the answers they like the most, giving bonus points to the players at the end of each round.",
+                    "stream_friendly":"MIDLY_PLAYABLE",
+                    "stream_friendly_description":"Being a discussion game, it's recommended for players to be able to at least hear each other.",
+                    "moderation": "FULL_MODERATION",
+                    "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. They can also kick players off the game. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles": true,
+                    "type": "COOP",
+                    "translation": "NATIVELY_TRANSLATED",
+                    "tagline": "Team hypnosis",
+                    "small_description": "Team hypnosis",
+                    "description": "Hypnotorious is a game with secret roles, tentative alliances and of course, silly answers to ridiculous questions. Who is on your side?",
+                    "images": [
+                        "game_images/Hypnotorious/hypnotorious.mp4",
+                        "game_images/Hypnotorious/hypnotorious_1.png",
+                        "game_images/Hypnotorious/hypnotorious_2.png",
+                        "game_images/Hypnotorious/hypnotorious_3.png",
+                        "game_images/Hypnotorious/hypnotorious_4.png"
+                    ],
+                    "tags": [
+                        "writing",
+                        "deduction",
+                        "talking"
+                    ]
+                },
+                "loader": {
+                    "path": "loaders/tjpp10_ms/hypnotorious.zip",
+                    "version": "1.0.0"
+                },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
+                "patchs": []
+            }
+        ],
+        "icon": "jpp10.ico",
+        "background": "backgrounds/jpp10.jpg"
+    },
+    {
         "id":"jpstarter",
         "name":"The Jackbox Party Starter",
         "description":"Year of release: 2022",
@@ -3244,6 +4130,200 @@
         "background":"backgrounds/jpstarter.jpg"
     },
     {
+        "id":"jpstarter_ms",
+        "name":"The Jackbox Party Starter [Microsoft Store]",
+        "description":"Year of release: 2022",
+        "launchers_id":{
+            "steam":"TJPS"
+        },
+        "executables":{
+            "windows":"TJPS.exe",
+            "mac":"The Jackbox Party Starter.app/Contents/MacOS/The Jackbox Party Starter",
+            "linux":"Launcher.sh"
+        },
+        "loader":{
+            "path":"loaders/tjpstarter_ms/default.zip",
+            "version":"1.0.2"
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"jbg.config.jet",
+            "version_property":"buildVersion",
+            "launcher_version_file" : {
+                "steam": "jbg.config.jet",
+                "epic_games": "jbg.config.jet",
+                "native": "jbg.config.jet"
+                }
+        },
+        "resource_location":{
+            "mac":"The Jackbox Party Starter.app/Contents/Resources/macos"
+        },
+        "store_links":{
+            "jackbox_games_store":"https://www.xbox.com/games/store/the-jackbox-party-starter/9p59q5khc5dm"
+        },
+            "patchs":[],
+        "games":[
+            {
+                "id":"quiplash3_starter_ms",
+                "name":"Quiplash 3",
+                "internal_name":"Quiplash3",
+                "background":"game_backgrounds/Quiplash3Starter.webp",
+                "path":"games/Quiplash3",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "playtime":{
+                        "min":15,
+                        "max":20
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience can vote for their favorite answers.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"NATIVELY_TRANSLATED",
+                    "tagline":"The Say-Anything Party Game",
+                    "small_description":"The Say-Anything Party Game",
+                    "description":"The Threequel to the say-anything party game! Answer the prompts and make your friends laugh… hopefully.",
+                    "images":[
+                        "game_images/Quiplash3/quiplash3starter.mp4",
+                        "game_images/Quiplash3/quiplash3_1.webp",
+                        "game_images/Quiplash3/quiplash3_2.webp",
+                        "game_images/Quiplash3/quiplash3_3.webp",
+                        "game_images/Quiplash3/quiplash3_4.webp"
+                    ],
+                    "tags":[
+                        "writing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpstarter_ms/quiplash3.zip",
+                    "version":"1.0.2"
+                },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
+                "patchs":[
+                ]
+            },
+            {
+                "id":"teeko_starter_ms",
+                "name":"Tee K.O.",
+                "internal_name":"AwShirt",
+                "background":"game_backgrounds/TeeKOStarter.webp",
+                "path":"games/AwShirt",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "playtime":{
+                        "min":20,
+                        "max":25
+                    },
+                    "family_friendly":"FAMILY_FRIENDLY",
+                    "audience":true,
+                    "audience_description":"The audience can vote for their favorite shirts. In addition, they can submit writing and drawing suggestions that are displayed on-screen with the \"Audience Suggestions\" option turned on.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. If necessary, it's recommended to enable the \"Profanity Filter\" option and disable the \"Audience Suggestions\" option so that only players can send text.",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"NATIVELY_TRANSLATED",
+                    "tagline":"T-Shirt Knock Out",
+                    "small_description":"T-Shirt Knock Out",
+                    "description":"Draw pictures, write slogans, then swap them around to create your own custom t-shirt warriors. Only the most worthy novelty t-shirt will leave the tournament alive.",
+                    "images":[
+                        "game_images/TeeKO/teekostarter.mp4",
+                        "game_images/TeeKO/teeko_1.webp",
+                        "game_images/TeeKO/teeko_2.webp",
+                        "game_images/TeeKO/teeko_3.webp",
+                        "game_images/TeeKO/teeko_4.webp"
+                    ],
+                    "tags":[
+                    	"drawing",
+                    	"writing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpstarter_ms/teeko.zip",
+                    "version":"1.0.2"
+                },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
+                "patchs":[
+                ]
+            },
+            {
+                "id":"trivia_murder_party_2_starter_ms",
+                "name":"Trivia Murder Party 2",
+                "internal_name":"triviadeath2",
+                "background":"game_backgrounds/TriviaMurderParty2Starter.webp",
+                "path":"games/triviadeath2",
+                "game_info":{
+                    "players":{
+                        "min":1,
+                        "max":8
+                    },
+                    "playtime":{
+                        "min":15,
+                        "max":20
+                    },
+                    "family_friendly":"NOT_FAMILY_FRIENDLY",
+                    "audience":true,
+                    "audience_description":"The audience controls a player, answering questions and voting on the bets of the minigames. In the final round, they try to escape along with the other players.",
+                    "stream_friendly":"PLAYABLE",
+                    "stream_friendly_description":"This game works perfectly on streams. However, in the \"Password\" minigame, it's recommended for players to be able to hear each other to share their clues. In addition, the \"Dictation\" minigame requires the stream to have sound in order to hear the dictation.",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"If necessary, it's recommended to enable the \"No Writing/Drawing Onscreen Mode\" option so that players cannot send text or drawings.",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"NATIVELY_TRANSLATED",
+                    "tagline":"Will you survive this trivia?",
+                    "small_description":"Will you survive this trivia?",
+                    "description":"A serial killer is running an absurd trivia game out of the family-run Murder Hotel he grew up in. Can you survive?",
+                    "images":[
+                        "game_images/TriviaMurderParty2/triviamurderparty2starter.mp4",
+                        "game_images/TriviaMurderParty2/triviamurderparty2_1.webp",
+                        "game_images/TriviaMurderParty2/triviamurderparty2_2.webp",
+                        "game_images/TriviaMurderParty2/triviamurderparty2_3.webp",
+                        "game_images/TriviaMurderParty2/triviamurderparty2_4.webp"
+                    ],
+                    "tags":[
+                        "knowledge"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpstarter_ms/triviamurderparty2.zip",
+                    "version":"1.0.2"
+                },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"jpstarter.ico",
+        "background":"backgrounds/jpstarter.jpg"
+    },
+    {
         "id": "jnp",
         "name": "The Jackbox Naughty Pack",
         "description": "Year of release: 2024",
@@ -3385,7 +4465,7 @@
                         "max": 8
                     },
                     "playtime": {
-                        "min": 15,
+                        "min": 5,
                         "max": 20
                     },
                     "family_friendly": "NOT_FAMILY_FRIENDLY",
@@ -3408,12 +4488,195 @@
                         "game_images/LetMeFinish/letmefinish_3.webp"
                     ],
                     "tags": [
-                        "talking",
-                        "drawing"
+                        "writing",
+                        "drawing",
+                        "talking"
                     ]
                 },
                 "loader": {
                     "path": "loaders/tjnp/letmefinish.zip",
+                    "version": "1.0.0"
+                },
+                "launch_with_loaders": {
+                    "steam": false,
+                    "epic_games": true,
+                    "native": true
+                },
+                "patchs": []
+            }
+        ],
+        "icon": "jnp.ico",
+        "background": "backgrounds/jnp.jpg"
+    },
+    {
+        "id": "jnp_ms",
+        "name": "The Jackbox Naughty Pack [Microsoft Store]",
+        "description": "Year of release: 2024",
+        "launchers_id": {
+            "steam": "TJNP"
+        },
+        "executables": {
+            "windows": "TJNP.exe",
+            "mac": "The Jackbox Naughty Pack.app/Contents/MacOS/The Jackbox Naughty Pack",
+            "linux": "Launcher.sh"
+        },
+        "loader": {
+            "path": "loaders/tjnp_ms/default.zip",
+            "version": "1.0.0"
+        },
+        "configuration": {
+            "version_property": "buildVersion",
+            "version_origin": "game_file",
+            "version_file": "jbg.config.jet"
+        },
+        "resource_location":{
+            "mac":"The Jackbox Naughty Pack.app/Contents/Resources/macos"
+        },
+        "store_links": {
+            "jackbox_games_store":"https://www.xbox.com/games/store/the-jackbox-naughty-pack/9N1CXS3C4RLS/0010"
+        },
+        "patchs": [],
+        "games": [
+            {
+                "id": "fakinitanl_ms",
+                "internal_name": "FakinIt2",
+                "name": "Fakin' It All Night Long",
+                "background": "game_backgrounds/FakinItANL.webp",
+                "path": "games/FakinIt2",
+                "game_info": {
+                    "players": {
+                        "min": 3,
+                        "max": 8
+                    },
+                    "playtime": {
+                        "min": 20,
+                        "max": 30
+                    },
+                    "family_friendly": "NOT_FAMILY_FRIENDLY",
+                    "audience": true,
+                    "audience_description": "The audience tries to guess who the faker is along with the players.",
+                    "stream_friendly": "PLAYABLE",
+                    "moderation": "FULL_MODERATION",
+                    "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles": true,
+                    "type": "VERSUS",
+                    "translation": "NATIVELY_TRANSLATED",
+                    "tagline": "Catch the Filthy Trickster!",
+                    "small_description": "Catch the Filthy Trickster!",
+                    "description": "Fakin’ It returns and this time we’re putting it all out there. Everyone gets a secret task except the Faker, who tries to blend in. Find out which of your friends is the best liar… and SO much more! Featuring new categories like “Finger Blast” and a brand new “remote play” mode. Who doesn’t like a good Finger Blast with their friends?",
+                    "images": [
+                        "game_images/FakinItANL/fakinitanl.mp4",
+                        "game_images/FakinItANL/fakinitanl_1.webp",
+                        "game_images/FakinItANL/fakinitanl_2.webp",
+                        "game_images/FakinItANL/fakinitanl_3.webp"
+                    ],
+                    "tags": [
+                        "deduction",
+                        "talking"
+                    ]
+                },
+                "loader": {
+                    "path": "loaders/tjnp_ms/fakinitanl.zip",
+                    "version": "1.0.0"
+                },
+                "launch_with_loaders": {
+                    "steam": false,
+                    "epic_games": true,
+                    "native": true
+                },
+                "patchs": []
+            },
+            {
+                "id": "dirtydrawful_ms",
+                "internal_name": "Drawful3",
+                "name": "Dirty Drawful",
+                "background": "game_backgrounds/DirtyDrawful.webp",
+                "path": "games/Drawful3",
+                "game_info": {
+                    "players": {
+                        "min": 3,
+                        "max": 8
+                    },
+                    "playtime": {
+                        "min": 15,
+                        "max": 20
+                    },
+                    "family_friendly": "NOT_FAMILY_FRIENDLY",
+                    "audience": true,
+                    "audience_description": "The audience tries to guess the correct answer along with the other players, giving points to the players in case they choose their titles, and gives likes to their favorite titles.",
+                    "stream_friendly": "PLAYABLE",
+                    "moderation": "FULL_MODERATION",
+                    "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles": true,
+                    "type": "VERSUS",
+                    "translation": "NATIVELY_TRANSLATED",
+                    "tagline": "Draw nastily with style!",
+                    "small_description": "Draw nastily with style!",
+                    "description": "It’s Drawful, but dirty… It's Dirty Drawful. Hosted by the one and only Drawful Owl, as you’ve never seen her before. We’ve taken the game that you love and added prompts to ensure your drawings are both terrible and titillating. This game has everything:, sex, drugs, and other things that we absolutely cannot list here! Also, if you can’t commit to a relationship, or a drawing, we added an undo button just for you.",
+                    "images": [
+                        "game_images/DirtyDrawful/dirtydrawful.mp4",
+                        "game_images/DirtyDrawful/dirtydrawful_1.webp",
+                        "game_images/DirtyDrawful/dirtydrawful_2.webp",
+                        "game_images/DirtyDrawful/dirtydrawful_3.webp"
+                    ],
+                    "tags": [
+                        "drawing",
+                        "writing"
+                    ]
+                },
+                "loader": {
+                    "path": "loaders/tjnp_ms/dirtydrawful.zip",
+                    "version": "1.0.0"
+                },
+                "launch_with_loaders": {
+                    "steam": false,
+                    "epic_games": true,
+                    "native": true
+                },
+                "patchs": []
+            },
+            {
+                "id": "letmefinish_ms",
+                "internal_name": "CAPTCHA",
+                "name": "Let Me Finish",
+                "background": "game_backgrounds/LetMeFinish.webp",
+                "path": "games/CAPTCHA",
+                "game_info": {
+                    "players": {
+                        "min": 3,
+                        "max": 8
+                    },
+                    "playtime": {
+                        "min": 5,
+                        "max": 20
+                    },
+                    "family_friendly": "NOT_FAMILY_FRIENDLY",
+                    "audience": true,
+                    "audience_description": "The audience can vote for which player satisfied them the most and thereby award points.",
+                    "stream_friendly": "MIDLY_PLAYABLE",
+                    "stream_friendly_description": "Being a presentation game, it's recommended for players to be able to at least hear each other.",
+                    "moderation": "FULL_MODERATION",
+                    "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles": true,
+                    "type": "VERSUS",
+                    "translation": "NATIVELY_TRANSLATED",
+                    "tagline": "Answer outrageous questions!",
+                    "small_description": "Answer outrageous questions!",
+                    "description": "Let Me Finish is Jackbox’s new presentation game that examines life’s serious questions like, “Where is the mailbox’s butt?” or “How does this avocado get aroused?” Everyone gets a chance to speak their mind, but will others pick up what you’re putting down?",
+                    "images": [
+                        "game_images/LetMeFinish/letmefinish.mp4",
+                        "game_images/LetMeFinish/letmefinish_1.webp",
+                        "game_images/LetMeFinish/letmefinish_2.webp",
+                        "game_images/LetMeFinish/letmefinish_3.webp"
+                    ],
+                    "tags": [
+                        "writing",
+                        "drawing",
+                        "talking"
+                    ]
+                },
+                "loader": {
+                    "path": "loaders/tjnp_ms/letmefinish.zip",
                     "version": "1.0.0"
                 },
                 "launch_with_loaders": {
@@ -3460,6 +4723,92 @@
         "games": [
             {
                 "id": "surveyscramble",
+                "name": "The Jackbox Survey Scramble",
+                "background": "game_backgrounds/SurveyScramble.webp",
+                "path": "",
+                "game_info": {
+                    "players": {
+                        "min": 2,
+                        "max": 10
+                    },
+                    "playtime": {
+                        "min": 5,
+                        "max": 15
+                    },
+                    "family_friendly": "OPTIONAL",
+                    "audience": true,
+                    "audience_description": "The audience can vote for terms along with the players.",
+                    "stream_friendly": "PLAYABLE",
+                    "stream_friendly_description": "In the \"Bounce\" mode, when the game is at a fast speed, whoever is streaming their screen will have a slightly unfair advantage over the others, although it is not very significant. All other modes work perfectly on streams.",
+                    "moderation": "FULL_MODERATION",
+                    "moderation_description":"This game doesn't require moderation. However, with the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to kick players off the game if necessary. The \"Profanity Filter\" option can also be enabled.",
+                    "subtitles": true,
+                    "type": "VERSUS",
+                    "translation": "NATIVELY_TRANSLATED",
+                    "tagline": "Can you guess what everyone thinks?",
+                    "small_description": "Can you guess what everyone thinks?",
+                    "description": "Discover how people across the country think! The Jackbox Survey Scramble is a collection of hilarious survey-based game modes, using real one-word answers from real people. Really! Grab some friends and start guessing!",
+                    "images": [
+                        "game_images/SurveyScramble/surveyscramble.mp4",
+                        "game_images/SurveyScramble/surveyscramble_1.webp",
+                        "game_images/SurveyScramble/surveyscramble_2.webp",
+                        "game_images/SurveyScramble/surveyscramble_3.webp",
+                        "game_images/SurveyScramble/surveyscramble_4.webp",
+                        "game_images/SurveyScramble/surveyscramble_5.webp"
+                    ],
+                    "tags": [
+                        "deduction",
+                        "knowledge",
+                        "writing",
+                        "talking"
+                    ]
+                },
+                "loader":{
+                    "path":"loaders/standalones/standalones.zip",
+                    "version":"1.0.0"
+                },
+                "launch_with_loaders":{
+                    "steam":true,
+                    "epic_games":true,
+                    "native":true
+                },
+                "patchs": []
+            }
+        ],
+        "icon": "jss.ico",
+        "background": "backgrounds/jss.jpg"
+    },
+    {
+        "id": "jss_ms",
+        "name": "The Jackbox Survey Scramble [Microsoft Store]",
+        "description": "Year of release: 2024",
+        "launchers_id": {
+            "steam": "TJSS"
+        },
+        "executables": {
+            "windows": "TJSS.exe",
+            "mac": "The Jackbox Survey Scramble.app/Contents/MacOS/The Jackbox Survey Scramble",
+            "linux": "Launcher.sh"
+        },
+        "loader":{
+            "path":"loaders/standalones/default.zip",
+            "version":"1.0.0"
+        },
+        "configuration": {
+            "version_property": "buildVersion",
+            "version_origin": "game_file",
+            "version_file": "jbg.config.jet"
+        },
+        "resource_location": {
+            "mac": "The Jackbox Survey Scramble.app/Contents/Resources/macos"
+        },
+        "store_links": {
+            "jackbox_games_store": "https://www.xbox.com/games/store/the-jackbox-survey-scramble/9N0GR077VG2S/0010"
+        },
+        "patchs": [],
+        "games": [
+            {
+                "id": "surveyscramble_ms",
                 "name": "The Jackbox Survey Scramble",
                 "background": "game_backgrounds/SurveyScramble.webp",
                 "path": "",

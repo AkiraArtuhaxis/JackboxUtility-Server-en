@@ -3937,7 +3937,8 @@
             "name": "The Jackbox Party Pack 11",
             "description": "Year of release: 2025",
             "launchers_id": {
-                "steam": "3364070"
+                "steam": "3364070",
+                "epic": "2ee25702aebb4fae87bd2d95e92c1487"
             },
             "executables": {
                 "windows": "The Jackbox Party Pack 11.exe",

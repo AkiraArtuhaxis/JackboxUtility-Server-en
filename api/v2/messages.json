@@ -1,0 +1,26 @@
+{
+  "menuComponent" : {
+    "type":"column",
+    "children":[
+      {
+        "type":"text",
+        "text":""
+      },
+      {
+        "type":"text",
+        "text":"Microsoft Store Users:"
+      },
+            {
+        "type":"text",
+        "text":"These versions must be added manually from the \"Settings\" section."
+      },
+      {
+        "type":"text",
+        "text":"You must select the \"Content\" folder within each game's folder."
+      }
+    ]
+  },
+  "gamesComponent" : [],
+  "patchesComponent" : []
+}
+ 

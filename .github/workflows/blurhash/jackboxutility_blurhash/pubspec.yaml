@@ -10,7 +10,8 @@ environment:
 #   path: ^1.8.0
 dependencies:
   blurhash_dart: ^1.2.1
-  dio: ^5.1.1
+  dio: ^5.8.0+1
+  image: ^4.5.4
 
 dev_dependencies:
   lints: ^2.0.0

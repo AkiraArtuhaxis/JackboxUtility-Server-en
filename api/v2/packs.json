@@ -3997,6 +3997,7 @@
                         "small_description": "Ruin what's nice",
                         "description": "Take a perfectly lovely situation and destroy it in this head-to-head joke game where it feels so good to be so bad.",
                         "images": [
+                            "game_images/Doominate/doominate.mp4",
                             "game_images/Doominate/doominate_1.webp",
                             "game_images/Doominate/doominate_2.webp",
                             "game_images/Doominate/doominate_3.webp"
@@ -4046,6 +4047,7 @@
                         "small_description": "Your voice is key!",
                         "description": "Record sound effects and dialogue directly from your phone in a foley-inspired game where laughter is the soundtrack. Then, watch your voices come to life in a series of short movie clips!",
                         "images": [
+                            "game_images/HearSay/hearsay.mp4",
                             "game_images/HearSay/hearsay_1.webp",
                             "game_images/HearSay/hearsay_2.webp",
                             "game_images/HearSay/hearsay_3.webp"
@@ -4094,6 +4096,7 @@
                         "small_description": "Delicious drawings",
                         "description": "Play the coziest and kookiest drawing game yet by fulfilling cookie design orders for unusual clientele. Don’t play on an empty stomach!",
                         "images": [
+                            "game_images/CookieHaus/cookiehaus.mp4",
                             "game_images/CookieHaus/cookiehaus_1.webp",
                             "game_images/CookieHaus/cookiehaus_2.webp",
                             "game_images/CookieHaus/cookiehaus_3.webp"
@@ -4144,6 +4147,7 @@
                         "small_description": "Are you guilty?",
                         "description": "There’s been a crime, one player secretly did it, and the evidence comes from your own survey answers! Study the clues, defend your innocence (even if you’re lying), and put your friends on trial.",
                         "images": [
+                            "game_images/Suspectives/suspectives.mp4",
                             "game_images/Suspectives/suspectives_1.webp",
                             "game_images/Suspectives/suspectives_2.webp",
                             "game_images/Suspectives/suspectives_3.webp"
@@ -4194,6 +4198,7 @@
                         "small_description": "Adventure awaits!",
                         "description": "Assemble your team and put your trivia knowledge to the test in a fantastical world full of danger! Teamwork! Monsters! Do you dare take on one of the most challenging trivia games yet?",
                         "images": [
+                            "game_images/LegendsofTrivia/legendsoftrivia.mp4",
                             "game_images/LegendsofTrivia/legendsoftrivia_1.webp",
                             "game_images/LegendsofTrivia/legendsoftrivia_2.webp",
                             "game_images/LegendsofTrivia/legendsoftrivia_3.webp"
@@ -4281,6 +4286,7 @@
                         "small_description": "Ruin what's nice",
                         "description": "Take a perfectly lovely situation and destroy it in this head-to-head joke game where it feels so good to be so bad.",
                         "images": [
+                            "game_images/Doominate/doominate.mp4",
                             "game_images/Doominate/doominate_1.webp",
                             "game_images/Doominate/doominate_2.webp",
                             "game_images/Doominate/doominate_3.webp"
@@ -4330,6 +4336,7 @@
                         "small_description": "Your voice is key!",
                         "description": "Record sound effects and dialogue directly from your phone in a foley-inspired game where laughter is the soundtrack. Then, watch your voices come to life in a series of short movie clips!",
                         "images": [
+                            "game_images/HearSay/hearsay.mp4",
                             "game_images/HearSay/hearsay_1.webp",
                             "game_images/HearSay/hearsay_2.webp",
                             "game_images/HearSay/hearsay_3.webp"
@@ -4378,6 +4385,7 @@
                         "small_description": "Delicious drawings",
                         "description": "Play the coziest and kookiest drawing game yet by fulfilling cookie design orders for unusual clientele. Don’t play on an empty stomach!",
                         "images": [
+                            "game_images/CookieHaus/cookiehaus.mp4",
                             "game_images/CookieHaus/cookiehaus_1.webp",
                             "game_images/CookieHaus/cookiehaus_2.webp",
                             "game_images/CookieHaus/cookiehaus_3.webp"
@@ -4428,6 +4436,7 @@
                         "small_description": "Are you guilty?",
                         "description": "There’s been a crime, one player secretly did it, and the evidence comes from your own survey answers! Study the clues, defend your innocence (even if you’re lying), and put your friends on trial.",
                         "images": [
+                            "game_images/Suspectives/suspectives.mp4",
                             "game_images/Suspectives/suspectives_1.webp",
                             "game_images/Suspectives/suspectives_2.webp",
                             "game_images/Suspectives/suspectives_3.webp"
@@ -4478,9 +4487,10 @@
                         "small_description": "Adventure awaits!",
                         "description": "Assemble your team and put your trivia knowledge to the test in a fantastical world full of danger! Teamwork! Monsters! Do you dare take on one of the most challenging trivia games yet?",
                         "images": [
+                            "game_images/LegendsofTrivia/legendsoftrivia.mp4",
                             "game_images/LegendsofTrivia/legendsoftrivia_1.webp",
-                            "game_images/LegendsofTrivia/legendsoftrivia_1.webp",
-                            "game_images/LegendsofTrivia/legendsoftrivia_1.webp"
+                            "game_images/LegendsofTrivia/legendsoftrivia_2.webp",
+                            "game_images/LegendsofTrivia/legendsoftrivia_3.webp"
                         ],
                         "tags": [
                             "knowledge",

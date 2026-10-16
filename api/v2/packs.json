@@ -6980,6 +6980,73 @@
         ],
         "icon":"qq.ico",
         "background":"backgrounds/qq.jpg"
+    },
+    {
+        "id":"roj",
+        "name":"Republic of Jungle",
+        "description":"Year of release: 2025",
+        "launchers_id":{
+            "steam":"1413250"
+        },
+        "executables":{
+            "windows":"Republic of Jungle.exe",
+            "linux":"Republic of Jungle.x86_64",
+            "mac":"RoJ.app"
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"config.dat",
+            "version_property":"buildVersion"
+        },
+        "store_links":{
+            "steam":"https://store.steampowered.com/app/1413250/Republic_of_Jungle/"
+        },
+            "patchs":[],
+        "games":[
+            {
+                "id":"republic_of_jungle",
+                "name":"Republic of Jungle",
+                "background":"game_backgrounds/RepublicofJungle.webp",
+                "path":"",
+                "game_info":{
+                    "players":{
+                        "min":5,
+                        "max":10
+                    },
+                    "playtime":{
+                        "min":20,
+                        "max":30
+                    },
+                    "family_friendly":"FAMILY_FRIENDLY",
+                    "audience":false,
+                    "stream_friendly":"MIDLY_PLAYABLE",
+                    "stream_friendly_description":"Being a bluffing and deduction game, it's recommended for players to be able to at least hear each other",
+                    "moderation":"NO_MODERATION",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"Read the room and bluff your way to a political victory",
+                    "small_description":"Gather your friends (5 to 10 players) and play as advisors to President Puma",
+                    "description":"Gather your friends (5 to 10 players) and play as advisors to President Puma. His re-election depends on your loyalty. In a social deduction party game, Leakers try to sneak into missions to leak Puma's secrets- Loyalists try to suss them out. Read the room and bluff your way to a political victory.",
+                    "images":[
+						"game_images/RepublicofJungle/republicofjungle.mp4",
+                        "game_images/RepublicofJungle/republicofjungle_1.webp",
+                        "game_images/RepublicofJungle/republicofjungle_2.webp",
+                        "game_images/RepublicofJungle/republicofjungle_3.webp",
+                        "game_images/RepublicofJungle/republicofjungle_4.webp"
+                    ],
+                    "tags":[
+                    	"deduction"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"roj.ico",
+        "background":"backgrounds/roj.jpg"
     }
 
 ]

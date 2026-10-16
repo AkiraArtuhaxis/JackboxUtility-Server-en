@@ -6780,6 +6780,73 @@
         ],
         "icon":"ppqz.ico",
         "background":"backgrounds/ppqz.jpg"
+    },
+    {
+        "id":"fod",
+        "name":"Forest of Deceit",
+        "description":"Year of release: 2026",
+        "launchers_id":{
+            "steam":"2388580"
+        },
+        "executables":{
+            "windows":"Forest of Deceit.exe",
+            "linux":"Forest of Deceit.exe"
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"config.dat",
+            "version_property":"buildVersion"
+        },
+        "store_links":{
+            "steam":"https://store.steampowered.com/app/2388580/Forest_of_Deceit/"
+        },
+            "patchs":[],
+        "games":[
+            {
+                "id":"forest_of_deceit",
+                "name":"Forest of Deceit",
+                "background":"game_backgrounds/ForestofDeceit.webp",
+                "path":"",
+                "game_info":{
+                    "players":{
+                        "min":4,
+                        "max":8
+                    },
+                    "playtime":{
+                        "min":5,
+                        "max":15
+                    },
+                    "family_friendly":"FAMILY_FRIENDLY",
+                    "audience":false,
+                    "audience_description":"No audience feature",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"NO_MODERATION",
+                    "moderation_description":"No manual moderation on name text; however, there is a basic slur filter built-in",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"A STORM IS COMING",
+                    "small_description":"A social deduction game for 4 to 8 players",
+                    "description":"If you can`t build shelter in a matter of days your entire group will perish. But the forest is cursed, and is driving some of your friends mad - now they`re trying to get you all killed. Find the Traitors in Forest of Deceit, a social deduction Jackbox-esque game for 4-8 players.",
+                    "images":[
+						"game_images/ForestofDeceit/forestofdeceit.mp4",
+                        "game_images/ForestofDeceit/forestofdeceit_1.webp",
+                        "game_images/ForestofDeceit/forestofdeceit_2.webp",
+                        "game_images/ForestofDeceit/forestofdeceit_3.webp",
+                        "game_images/ForestofDeceit/forestofdeceit_4.webp"
+                    ],
+                    "tags":[
+                    	"deduction"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"fod.ico",
+        "background":"backgrounds/fod.jpg"
     }
 
 ]

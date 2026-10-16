@@ -6847,6 +6847,74 @@
         ],
         "icon":"fod.ico",
         "background":"backgrounds/fod.jpg"
+    },
+    {
+        "id":"kotc",
+        "name":"King Of The Castle",
+        "description":"Year of release: 2023",
+        "launchers_id":{
+            "steam":"1839880"
+        },
+        "executables":{
+            "windows":"KingOfTheCastle.exe",
+            "linux":"KingOfTheCastle.exe"
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"config.dat",
+            "version_property":"buildVersion"
+        },
+        "store_links":{
+            "steam":"https://store.steampowered.com/app/1839880/King_Of_The_Castle/"
+        },
+            "patchs":[],
+        "games":[
+            {
+                "id":"king_of_the_castle",
+                "name":"King of the Castle",
+                "background":"game_backgrounds/KingOfTheCastle.webp",
+                "path":"",
+                "game_info":{
+                    "players":{
+                        "min":4,
+                        "max":25
+                    },
+                    "playtime":{
+                        "min":60,
+                        "max":120
+                    },
+                    "family_friendly":"FAMILY_FRIENDLY",
+                    "audience":false,
+                    "audience_description":"People may join freely, but there is no dedicated audience mode. However, there is a twitch mode for up to 4000 players",
+                    "stream_friendly":"MIDLY_PLAYABLE",
+                    "stream_friendly_description":"Only the streamer will be able to control the Monarch; however, there are no time-sensitive prompts, so they can take instructions from another player if needed",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"There is no text input, so moderation is not required",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"Take your rightful place on the throne",
+                    "small_description":"A Twitch-integrated social narrative game for 4-4000 players.",
+                    "description":"Take your rightful place on the throne in this multiplayer-only party game for 4+ players. Rule the kingdom with an iron fist or silver tongue as you steer through bloodshed, intrigue & madcap disaster! Can you keep your crown when others plot your downfall?",
+                    "images":[
+						"game_images/KingOfTheCastle/kingofthecastle.mp4",
+                        "game_images/KingOfTheCastle/kingofthecastle_1.webp",
+                        "game_images/KingOfTheCastle/kingofthecastle_2.webp",
+                        "game_images/KingOfTheCastle/kingofthecastle_3.webp",
+                        "game_images/KingOfTheCastle/kingofthecastle_4.webp"
+                    ],
+                    "tags":[
+                    	"talking"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"kotc.ico",
+        "background":"backgrounds/kotc.jpg"
     }
 
 ]

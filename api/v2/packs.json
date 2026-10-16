@@ -6500,6 +6500,73 @@
         "background":"backgrounds/uyw.jpg"
     },
     {
+        "id":"uyw2",
+        "name":"Use Your Words 2",
+        "description":"Year of release: 2024",
+        "launchers_id":{
+            "steam":"3188960"
+        },
+        "executables":{
+            "windows":"UseYourWords2.exe",
+            "mac":"uyw2.app"
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"config.dat",
+            "version_property":"buildVersion"
+        },
+        "store_links":{
+            "steam":"https://store.steampowered.com/app/3188960/Use_Your_Words_2/"
+        },
+            "patchs":[],
+        "games":[
+            {
+                "id":"use_your_words_2",
+                "name":"Use Your Words 2",
+                "background":"game_backgrounds/UseYourWords2.webp",
+                "path":"",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":6
+                    },
+                    "playtime":{
+                        "min":30,
+                        "max":30
+                    },
+                    "family_friendly":"NOT_FAMILY_FRIENDLY",
+                    "audience":true,
+                    "audience_description":"You can choose to play as a “spectator” and join an interactive meta-game that includes changing the main players` scores, trivia questions, and even teasing players while they play! Use Your Words 2 supports up to 1,000 spectators who can play locally or remotely",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"NO_MODERATION",
+                    "moderation_description":"No manual moderation, but has a family mode filter",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"WARNING: This game might make you pee your pants!",
+                    "small_description":"The cult hit Use Your Words is back with all-new prompts and 2x as many mini-games where you compete to write the funniest punchline",
+                    "description":"WARNING: This game might make you pee your pants! The cult hit Use Your Words is back with all-new prompts and 2x as many mini-games where you compete to write the funniest punchline. You can customize your own playlist of mini-games, there's a new-and-improved spectator mode, and more!",
+                    "images":[
+						"game_images/UseYourWords2/useyourwords2.mp4",
+                        "game_images/UseYourWords2/useyourwords2_1.webp",
+                        "game_images/UseYourWords2/useyourwords2_2.webp",
+                        "game_images/UseYourWords2/useyourwords2_3.webp",
+                        "game_images/UseYourWords2/useyourwords2_4.webp"
+                    ],
+                    "tags":[
+                    	"writing"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"uyw2.ico",
+        "background":"backgrounds/uyw2.jpg"
+    },
+    {
         "id":"wtd",
         "name":"What The Dub",
         "description":"Year of release: 2021",

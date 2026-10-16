@@ -6916,6 +6916,70 @@
         ],
         "icon":"kotc.ico",
         "background":"backgrounds/kotc.jpg"
+    },
+    {
+        "id":"qq",
+        "name":"Quiz Quest",
+        "description":"Year of release: 2025",
+        "launchers_id":{
+            "steam":"2276840"
+        },
+        "executables":{
+            "windows":"Quiz_Quest.exe"
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"config.dat",
+            "version_property":"buildVersion"
+        },
+        "store_links":{
+            "steam":"https://store.steampowered.com/app/2276840/Quiz_Quest/"
+        },
+            "patchs":[],
+        "games":[
+            {
+                "id":"quiz_quest",
+                "name":"Quiz Quest",
+                "background":"game_backgrounds/QuizQuest.webp",
+                "path":"",
+                "game_info":{
+                    "players":{
+                        "min":2,
+                        "max":6
+                    },
+                    "playtime":{
+                        "min":45,
+                        "max":75
+                    },
+                    "family_friendly":"FAMILY_FRIENDLY",
+                    "audience":false,
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"NO_MODERATION",
+                    "subtitles":true,
+                    "type":"COOP",
+                    "translation":"ENGLISH",
+                    "tagline":"A mind-stretching, collaborative quizcapade!",
+                    "small_description":"A co-op quiz party game with an interactive fantasy story played through a desktop screen and smartphones.",
+                    "description":"A co-op quiz party game with an interactive fantasy story played through a desktop screen and smartphones.",
+                    "images":[
+						"game_images/QuizQuest/quizquest.mp4",
+                        "game_images/QuizQuest/quizquest_1.webp",
+                        "game_images/QuizQuest/quizquest_2.webp",
+                        "game_images/QuizQuest/quizquest_3.webp",
+                        "game_images/QuizQuest/quizquest_4.webp"
+                    ],
+                    "tags":[
+                    	"knowledge"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"qq.ico",
+        "background":"backgrounds/qq.jpg"
     }
 
 ]

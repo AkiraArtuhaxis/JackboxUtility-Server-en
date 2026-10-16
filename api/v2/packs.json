@@ -7047,6 +7047,72 @@
         ],
         "icon":"roj.ico",
         "background":"backgrounds/roj.jpg"
+    },
+    {
+        "id":"wh",
+        "name":"Wild Honesty: A party game for deeper conversations",
+        "description":"Year of release: 2020",
+        "launchers_id":{
+            "steam":"1354520"
+        },
+        "executables":{
+            "windows":"Wild Honesty.exe",
+            "mac":"Wild Honesty.app"
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"config.dat",
+            "version_property":"buildVersion"
+        },
+        "store_links":{
+            "steam":"https://store.steampowered.com/app/1354520/Wild_Honesty_A_party_game_for_deeper_conversations/"
+        },
+            "patchs":[],
+        "games":[
+            {
+                "id":"wild_honesty",
+                "name":"Wild Honesty",
+                "background":"game_backgrounds/WildHonesty.webp",
+                "path":"",
+                "game_info":{
+                    "players":{
+                        "min":2,
+                        "max":5
+                    },
+                    "playtime":{
+                        "min":12,
+                        "max":105
+                    },
+                    "family_friendly":"FAMILY_FRIENDLY",
+                    "audience":false,
+                    "stream_friendly":"MIDLY_PLAYABLE",
+                    "stream_friendly_description":"Being a discussion game, it's recommended for players to be able to at least hear each other",
+                    "moderation":"NO_MODERATION",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"A party game for deeper conversations",
+                    "small_description":"A party game for deeper conversations where you`ll push the boundaries of friendships to be more emotionally open and vulnerable",
+                    "description":"A party game for deeper conversations where you`ll push the boundaries of friendships to be more emotionally open and vulnerable. Share thoughts, opinions, and feelings in a more meaningful, challenging, and mindful way. Be seen and heard for who you truly are, and build closer relationships.",
+                    "images":[
+						"game_images/WildHonesty/wildhonesty.mp4",
+                        "game_images/WildHonesty/wildhonesty_1.webp",
+                        "game_images/WildHonesty/wildhonesty_2.webp",
+                        "game_images/WildHonesty/wildhonesty_3.webp",
+                        "game_images/WildHonesty/wildhonesty_4.webp"
+                    ],
+                    "tags":[
+                    	"talking"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"wh.ico",
+        "background":"backgrounds/wh.jpg"
     }
 
 ]

@@ -4502,6 +4502,217 @@
             "icon": "jpp11.ico",
             "background": "backgrounds/jpp11.jpg"
         },
+        {
+            "id": "jpp12",
+            "name": "The Jackbox Party Pack 12",
+            "description": "Year of release: 2026",
+            "launchers_id": {
+                "steam": "4199960",
+                "epic": "9294aad1dcf845d5a800f309facae1f1"
+            },
+            "executables": {
+                "windows": "The Jackbox Party Pack 12.exe",
+                "mac": "The Jackbox Party Pack 12.app/Contents/MacOS/The Jackbox Party Pack 12",
+                "linux": "Launcher.sh"
+            },
+            "configuration": {
+                "version_origin": "game_file",
+                "version_file": "jbg.config.jet",
+                "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "config.jet",
+                    "native": "jbg.config.jet"
+                }
+            },
+            "resource_location": {
+                "mac": "The Jackbox Party Pack 12.app/Contents/Resources/macos"
+            },
+            "store_links": {
+                "steam": "https://store.steampowered.com/app/4199960/The_Jackbox_Party_Pack_12/"
+            },
+            "patchs": [],
+            "games": [
+                {
+                    "id": "weforgotacard",
+                    "internal_name": "GratingCards",
+                    "name": "We Forgot a Card",
+                    "background": "game_backgrounds/WeforgotaCard.png",
+                    "path": "games/GratingCards",
+                    "game_info": {
+                        "players": {
+                            "min": 3,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 20,
+                            "max": 20
+                        },
+                        "family_friendly": "OPTIONAL",
+                        "audience": true,
+                        "stream_friendly": "PLAYABLE",
+                        "moderation": "FULL_MODERATION",
+                        "subtitles": true,
+                        "type": "VERSUS",
+                        "translation": "ENGLISH",
+                        "tagline": "Can you complete it?",
+                        "small_description": "Can you complete it?",
+                        "description": "In this game, you create ridiculous greeting cards for bizarre occasions—and if you like, you can even order physical copies to have in your hands. You’re running late for a big event and have stumbled upon a shop with a very limited selection. Time to get creative!",
+                        "images": [
+                            "game_images/WeforgotaCard/WeforgotaCard-0001.jpg",
+                            "game_images/WeforgotaCard/WeforgotaCard-0002.jpg",
+                            "game_images/WeforgotaCard/WeforgotaCard-0003.jpg"
+                        ],
+                        "tags": [
+                            "writing",
+                            "drawing"
+                        ]
+                    },
+                    "patchs": []
+                },
+                {
+                    "id": "megapals",
+                    "internal_name": "MegaFriends",
+                    "name": "MegaPals",
+                    "background": "game_backgrounds/MegaPals.png",
+                    "path": "games/MegaFriends",
+                    "game_info": {
+                        "players": {
+                            "min": 3,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 15,
+                            "max": 15
+                        },
+                        "family_friendly": "OPTIONAL",
+                        "audience": true,
+                        "stream_friendly": "PLAYABLE",
+                        "moderation": "FULL_MODERATION",
+                        "subtitles": true,
+                        "type": "VERSUS",
+                        "translation": "ENGLISH",
+                        "tagline": "Find your match",
+                        "small_description": "Find your match",
+                        "description": "A mind-melding game that celebrates both old and new friendships! Discover just how close you are to your friends through spontaneous word games and explosive duels. How well do you know what your fellow players are thinking?",
+                        "images": [
+                            "game_images/MegaPals/MegaPals.jpg"
+                        ],
+                        "tags": [
+                            "writing",
+                            "deduction"
+                        ]
+                    },
+                    "patchs": []
+                },
+                {
+                    "id": "debateandswitch",
+                    "internal_name": "Debate",
+                    "name": "Debate and Switch",
+                    "background": "game_backgrounds/DebateandSwitch.png",
+                    "path": "games/Debate",
+                    "game_info": {
+                        "players": {
+                            "min": 2,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 15,
+                            "max": 15
+                        },
+                        "family_friendly": "OPTIONAL",
+                        "audience": true,
+                        "stream_friendly": "PLAYABLE",
+                        "moderation": "FULL_MODERATION",
+                        "subtitles": true,
+                        "type": "VERSUS",
+                        "translation": "ENGLISH",
+                        "tagline": "Which side are you on?",
+                        "small_description": "Which side are you on?",
+                        "description": "Debate and Switch is all about bold opinions on bizarre scenarios. Players take part in a town hall meeting and begin by submitting a silly opinion for debate. For example, you might debate topics like Every menu should feature photos of the food or The school mascot should be truly, genuinely terrifying. Players go head-to-head, arguing for or against their assigned topic. Meanwhile, the other players move in real-time from one side of the town hall to the other, signaling which position they support. After the first round of debate, any player can shift the discussion by selecting and editing a single word within the topic. For instance, We need more spiders! could suddenly become We need hotter spiders! The debaters must think on their feet, adjust their arguments, and win over the crowd. When you aren't debating, you can also submit comments that appear in speech bubbles for all the spectators to see. The debaters can choose to ignore your barbs—or use them as ammunition for their own arguments.",
+                        "images": [
+                            "game_images/DebateandSwitch/DebateandSwitch-0001.jpg"
+                        ],
+                        "tags": [
+                            "talking",
+                            "writing"
+                        ]
+                    },
+                    "patchs": []
+                },
+                {
+                    "id": "hyperface",
+                    "internal_name": "ReactionGame",
+                    "name": "Hyperface",
+                    "background": "game_backgrounds/Hyperface.png",
+                    "path": "games/ReactionGame",
+                    "game_info": {
+                        "players": {
+                            "min": 3,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 15,
+                            "max": 15
+                        },
+                        "family_friendly": "OPTIONAL",
+                        "audience": true,
+                        "stream_friendly": "PLAYABLE",
+                        "moderation": "FULL_MODERATION",
+                        "subtitles": true,
+                        "type": "VERSUS",
+                        "translation": "ENGLISH",
+                        "tagline": "It's morphing time",
+                        "small_description": "It's morphing time",
+                        "description": "In this game, you take selfies—or use stock photos—and distort them in wild ways to respond to bizarre prompts like Your face when you’ve just seen a bear. Smear, stretch, and squash the photos, or draw on them, to create unique masterpieces that are just begging to be shared!",
+                        "images": [
+                            "game_images/Hyperface/Hyperface-0001.jpg"
+                        ],
+                        "tags": [
+                            "drawing"
+                        ]
+                    },
+                    "patchs": []
+                },
+                                {
+                    "id": "idolfactions",
+                    "internal_name": "WordProcessing",
+                    "name": "Idol Factions",
+                    "background": "game_backgrounds/IdolFactions.png",
+                    "path": "games/WordProcessing",
+                    "game_info": {
+                        "players": {
+                            "min": 2,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 15,
+                            "max": 15
+                        },
+                        "family_friendly": "OPTIONAL",
+                        "audience": true,
+                        "stream_friendly": "PLAYABLE",
+                        "moderation": "FULL_MODERATION",
+                        "subtitles": true,
+                        "type": "TEAM",
+                        "translation": "ENGLISH",
+                        "tagline": "Multiple choice madness",
+                        "small_description": "Multiple choice madness",
+                        "description": "An action-packed battle of facts where two teams compete to assign answers to the correct categories. You’ll need to think fast and shout out loud to sort the answers that come flying your way, one after another!",
+                        "images": [
+                            "game_images/IdolFactions/IdolFactions-0001.jpg"
+                        ],
+                        "tags": [
+                            "knowledge",
+                            "talking"
+                        ]
+                    },
+                    "patchs": []
+                }
+            ],
+            "icon": "jpp12.ico",
+            "background": "backgrounds/jpp12.jpg"
+        },
     {
         "id":"jpstarter",
         "name":"The Jackbox Party Starter",
@@ -5774,6 +5985,70 @@
         "icon":"df2.ico",
         "background":"backgrounds/df2.jpg"
     },
+    {
+            "id": "tmp3",
+            "name": "Trivia Murder Party 3",
+            "description": "Year of release: 2026",
+            "launchers_id": {
+                "steam": "3048060"
+            },
+            "executables": {
+                "windows": "TMP3.exe",
+                "mac": "Trivia Murder Party 3.app/Contents/MacOS/TMP3",
+                "linux": "Launcher.sh"
+            },
+            "configuration": {
+                "version_origin": "game_file",
+                "version_file": "config.dat",
+                "version_property": "buildVersion"
+            },
+            "store_links": {
+                "steam": "https://store.steampowered.com/app/3048060/Trivia_Murder_Party_3/",
+                "epic": "https://store.epicgames.com/en-US/p/trivia-murder-party-518ad2"
+            },
+            "patchs": [],
+            "games": [
+                {
+                    "id": "trivia_murder_party_3",
+                    "name": "Trivia Murder Party 3",
+                    "background": "game_backgrounds/TriviaMurderParty3.png",
+                    "path": "",
+                    "game_info": {
+                        "players": {
+                            "min": 2,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 15,
+                            "max": 20
+                        },
+                        "family_friendly": "NOT_FAMILY_FRIENDLY",
+                        "audience": true,
+                        "stream_friendly": "PLAYABLE",
+                        "moderation": "NO_MODERATION",
+                        "subtitles": true,
+                        "type": "VERSUS",
+                        "translation": "ENGLISH",
+                        "tagline": "Survive in Mass Acres!",
+                        "small_description": "Survive in Mass Acres!",
+                        "description": "our favorite trivia-obsessed serial killer is heading to summer camp to put you through a sinister new set of minigames and murder. Take a stab at answering questions correctly, engage in luck and skill-based activities, and sabotage your fellow campers in order to survive the summer.",
+                        "images": [
+                            "game_images/TriviaMurderParty3/TMP3-0001.jpg",
+                            "game_images/TriviaMurderParty3/TMP3-0002.jpg",
+                            "game_images/TriviaMurderParty3/TMP3-0003.jpg",
+                            "game_images/TriviaMurderParty3/TMP3-0004.jpg",
+                            "game_images/TriviaMurderParty3/TMP3-0005.jpg"
+                        ],
+                        "tags": [
+                            "knowledge"
+                        ]
+                    },
+                    "patchs": []
+                }
+            ],
+            "icon": "tmp3.ico",
+            "background": "backgrounds/tmp3.jpg"
+        },
         {
         "id":"ydkjvol1",
         "name":"YOU DON'T KNOW JACK Vol. 1 XL",

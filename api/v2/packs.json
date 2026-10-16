@@ -6781,16 +6781,16 @@
         "icon":"ppqz.ico",
         "background":"backgrounds/ppqz.jpg"
     },
-	{
-        "id":"kotc",
-        "name":"King Of The Castle",
-        "description":"Year of release: 2023",
+    {
+        "id":"fod",
+        "name":"Forest of Deceit",
+        "description":"Year of release: 2026",
         "launchers_id":{
-            "steam":"1839880"
+            "steam":"2388580"
         },
         "executables":{
-            "windows":"KingOfTheCastle.exe",
-            "linux":"KingOfTheCastle.exe"
+            "windows":"Forest of Deceit.exe",
+            "linux":"Forest of Deceit.exe"
         },
         "configuration":{
 	        "version_origin":"game_file",
@@ -6798,46 +6798,45 @@
             "version_property":"buildVersion"
         },
         "store_links":{
-            "steam":"https://store.steampowered.com/app/1839880/King_Of_The_Castle/"
+            "steam":"https://store.steampowered.com/app/2388580/Forest_of_Deceit/"
         },
             "patchs":[],
         "games":[
             {
-                "id":"king_of_the_castle",
-                "name":"King of the Castle",
-                "background":"game_backgrounds/KingOfTheCastle.webp",
+                "id":"forest_of_deceit",
+                "name":"Forest of Deceit",
+                "background":"game_backgrounds/ForestofDeceit.webp",
                 "path":"",
                 "game_info":{
                     "players":{
                         "min":4,
-                        "max":25
+                        "max":8
                     },
                     "playtime":{
-                        "min":60,
-                        "max":120
+                        "min":5,
+                        "max":15
                     },
                     "family_friendly":"FAMILY_FRIENDLY",
                     "audience":false,
-                    "audience_description":"People may join freely, but there is no dedicated audience mode. However, there is a twitch mode for up to 4000 players",
-                    "stream_friendly":"MIDLY_PLAYABLE",
-                    "stream_friendly_description":"Only the streamer will be able to control the Monarch; however, there are no time-sensitive prompts, so they can take instructions from another player if needed",
-                    "moderation":"FULL_MODERATION",
-                    "moderation_description":"There is no text input, so moderation is not required",
+                    "audience_description":"No audience feature",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"NO_MODERATION",
+                    "moderation_description":"No manual moderation on name text; however, there is a basic slur filter built-in",
                     "subtitles":true,
                     "type":"VERSUS",
                     "translation":"ENGLISH",
-                    "tagline":"Take your rightful place on the throne",
-                    "small_description":"A Twitch-integrated social narrative game for 4-4000 players.",
-                    "description":"Take your rightful place on the throne in this multiplayer-only party game for 4+ players. Rule the kingdom with an iron fist or silver tongue as you steer through bloodshed, intrigue & madcap disaster! Can you keep your crown when others plot your downfall?",
+                    "tagline":"A STORM IS COMING",
+                    "small_description":"A social deduction game for 4 to 8 players",
+                    "description":"If you can`t build shelter in a matter of days your entire group will perish. But the forest is cursed, and is driving some of your friends mad - now they`re trying to get you all killed. Find the Traitors in Forest of Deceit, a social deduction Jackbox-esque game for 4-8 players.",
                     "images":[
-						"game_images/KingOfTheCastle/kingofthecastle.mp4",
-                        "game_images/KingOfTheCastle/kingofthecastle_1.webp",
-                        "game_images/KingOfTheCastle/kingofthecastle_2.webp",
-                        "game_images/KingOfTheCastle/kingofthecastle_3.webp",
-                        "game_images/KingOfTheCastle/kingofthecastle_4.webp"
+						"game_images/ForestofDeceit/forestofdeceit.mp4",
+                        "game_images/ForestofDeceit/forestofdeceit_1.webp",
+                        "game_images/ForestofDeceit/forestofdeceit_2.webp",
+                        "game_images/ForestofDeceit/forestofdeceit_3.webp",
+                        "game_images/ForestofDeceit/forestofdeceit_4.webp"
                     ],
                     "tags":[
-                    	"talking"
+                    	"deduction"
                     ]
 
                 },
@@ -6846,8 +6845,8 @@
                 ]
             }
         ],
-        "icon":"kotc.ico",
-        "background":"backgrounds/kotc.jpg"
+        "icon":"fod.ico",
+        "background":"backgrounds/fod.jpg"
     }
 
 ]

@@ -7455,6 +7455,72 @@
         ],
         "icon":"wh.ico",
         "background":"backgrounds/wh.jpg"
+    },
+	{
+        "id":"wb",
+        "name":"Wordabeasts",
+        "description":"Year of release: 2017",
+        "launchers_id":{
+            "steam":"668190"
+        },
+        "executables":{
+            "windows":"Wordabeasts.exe",
+            "mac":"Wordabeasts.app"
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"config.dat",
+            "version_property":"buildVersion"
+        },
+        "store_links":{
+            "steam":"https://store.steampowered.com/app/668190/Wordabeasts/"
+        },
+            "patchs":[],
+        "games":[
+            {
+                "id":"wordabeasts",
+                "name":"Wordabeasts",
+                "background":"game_backgrounds/Wordabeasts.webp",
+                "path":"",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "playtime":{
+                        "min":10,
+                        "max":30
+                    },
+                    "family_friendly":"FAMILY_FRIENDLY",
+                    "audience":true,
+                    "stream_friendly":"PLAYABLE",
+                    "stream_friendly_description":"The game features twitch specific options, as well as audience specific features",
+                    "moderation":"NO_MODERATION",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"The multiplayer game of quick wit and fast-paced adventure",
+                    "small_description":"Give clues to connect words in a frantic and quick-witted expedition into the wilderness, earn pooints and team up to take down the creatures of the wild",
+                    "description":"After starting your adventure, all players will join the game with their mobile device. Then the hunt begins as all players receive words on their devices and try to quickly think of a single clue word that connects them together.",
+                    "images":[
+						"game_images/Wordabeasts/wordabeasts.mp4",
+                        "game_images/Wordabeasts/wordabeasts_1.jpg",
+                        "game_images/Wordabeasts/wordabeasts_2.jpg",
+                        "game_images/Wordabeasts/wordabeasts_3.jpg",
+                        "game_images/Wordabeasts/wordabeasts_4.jpg"
+                    ],
+                    "tags":[
+                    	"writing"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"wb.ico",
+        "background":"backgrounds/wb.jpg"
     }
 
 ]

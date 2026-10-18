@@ -7531,7 +7531,8 @@
         },
         "executables":{
             "windows":"verse.surf.exe",
-            "mac":"verse.surf.app"
+            "mac":"verse.surf.app",
+            "linux":"verse.surf.x64"
         },
         "configuration":{
 	        "version_origin":"game_file",
@@ -7587,6 +7588,71 @@
         ],
         "icon":"vs.ico",
         "background":"backgrounds/vs.jpg"
+    },
+	{
+        "id":"ttt",
+        "name":"Tic Tac Together",
+        "description":"Year of release: 2021",
+        "launchers_id":{
+            "steam":"1583910"
+        },
+        "executables":{
+            "windows":"Tic Tac Together.exe"
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"config.dat",
+            "version_property":"buildVersion"
+        },
+        "store_links":{
+            "steam":"https://store.steampowered.com/app/1583910/Tic_Tac_Together/"
+        },
+            "patchs":[],
+        "games":[
+            {
+                "id":"tictactogether",
+                "name":"Tic Tac Together",
+                "background":"game_backgrounds/TicTacTogether.webp",
+                "path":"",
+                "game_info":{
+                    "players":{
+                        "min":2,
+                        "max":12
+                    },
+                    "playtime":{
+                        "min":10,
+                        "max":60
+                    },
+                    "family_friendly":"FAMILY_FRIENDLY",
+                    "audience":false,
+                    "stream_friendly":"MIDLY_PLAYABLE",
+                    "stream_friendly_description":"The game can be played on teams of 12, and while it doesn't have audience features, there's nothing to exclude it from being streamable",
+                    "moderation":"NO_MODERATION",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"A team-based twist on Tic Tac Toe!",
+                    "small_description":"If X's and O's are placed in the same space, teams have to duke it out on a smaller board",
+                    "description":"Every round, all moves are placed on the board at the same time. If X's and O's are placed in the same space, teams have to duke it out on a smaller board to claim it.",
+                    "images":[
+						"game_images/TicTacTogether/tictactogether.mp4",
+                        "game_images/TicTacTogether/tictactogether_1.jpg",
+                        "game_images/TicTacTogether/tictactogether_2.jpg",
+                        "game_images/TicTacTogether/tictactogether_3.jpg",
+                        "game_images/TicTacTogether/tictactogether_4.jpg"
+                    ],
+                    "tags":[
+                    	"deduction"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"ttt.ico",
+        "background":"backgrounds/ttt.jpg"
     }
 
 ]

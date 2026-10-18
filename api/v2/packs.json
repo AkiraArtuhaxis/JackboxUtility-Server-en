@@ -7521,6 +7521,72 @@
         ],
         "icon":"wb.ico",
         "background":"backgrounds/wb.jpg"
+    },
+	{
+        "id":"vs",
+        "name":"Verse Surf",
+        "description":"Year of release: 2020",
+        "launchers_id":{
+            "steam":"1315390"
+        },
+        "executables":{
+            "windows":"verse.surf.exe",
+            "mac":"verse.surf.app"
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"config.dat",
+            "version_property":"buildVersion"
+        },
+        "store_links":{
+            "steam":"https://store.steampowered.com/app/1315390/Verse_Surf/"
+        },
+            "patchs":[],
+        "games":[
+            {
+                "id":"versesurf",
+                "name":"Verse Surf",
+                "background":"game_backgrounds/VerseSurf.webp",
+                "path":"",
+                "game_info":{
+                    "players":{
+                        "min":2,
+                        "max":8
+                    },
+                    "playtime":{
+                        "min":10,
+                        "max":30
+                    },
+                    "family_friendly":"FAMILY_FRIENDLY",
+                    "audience":true,
+                    "stream_friendly":"NOT_PLAYABLE",
+                    "stream_friendly_description":"The game doesn't feature audience settings",
+                    "moderation":"NO_MODERATION",
+                    "subtitles":false,
+                    "type":"VERSUS",
+                    "translation":"ENGLISH",
+                    "tagline":"Music trivia for real music fans",
+                    "small_description":"Players are given a short snipped of a song and are asked to give their own version of the lyrics to fool the other players",
+                    "description":"At the beginning of a game, players will choose a music playlist. They will then listen to a sample from one of the songs in the playlist and will choose a fake lyric to fool other players and fit the snippet. People will vote for their favorite lyric, you get bonus points if your answer is the real lyrics.",
+                    "images":[
+						"game_images/VerseSurf/versesurf.mp4",
+                        "game_images/VerseSurf/versesurf_1.jpg",
+                        "game_images/VerseSurf/versesurf_2.jpg",
+                        "game_images/VerseSurf/versesurf_3.jpg",
+                        "game_images/VerseSurf/versesurf_4.jpg"
+                    ],
+                    "tags":[
+                    	"trivia"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"vs.ico",
+        "background":"backgrounds/vs.jpg"
     }
 
 ]

@@ -5495,7 +5495,7 @@
             {
                 "id": "fakinitanl",
                 "internal_name": "FakinIt2",
-                "name": "Fakin' It All Night Long",
+                "name": "Fakin' It! All Night Long",
                 "background": "game_backgrounds/FakinItANL.webp",
                 "path": "games/FakinIt2",
                 "game_info": {
@@ -6476,7 +6476,8 @@
                             "game_images/FakinItXL/fakinitxl_8.webp"
                         ],
                         "tags": [
-                            "deduction"
+                            "deduction",
+                            "talking"
                         ]
                     },
                     "loader":{

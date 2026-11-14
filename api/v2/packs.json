@@ -4654,7 +4654,7 @@
                         },
                         "family_friendly": "OPTIONAL",
                         "audience": true,
-                        "audience_description": "The audience can vote alongside the other players during the debates. They can also vote on the next debate twist that a player should choose (though the final decision still rests with that player). They also take part in the \"Audience Debate\"—essentially just lighthearted, nonsensical polls that the audience answers for fun before the actual debates begin.",
+                        "audience_description": "The audience can vote alongside the other players during the debates. They can also vote on the next debate twist that a player should choose (though the final decision still rests with that player). They also take part in the \"Audience Debate\"—essentially just polls that the audience answers for fun before the actual debates begin.",
                         "stream_friendly": "MIDLY_PLAYABLE",
                         "stream_friendly_description":"Being a discussion game, it's recommended for players to be able to at least hear each other.",
                         "moderation": "FULL_MODERATION",
@@ -5677,7 +5677,7 @@
             {
                 "id": "fakinitanl_ms",
                 "internal_name": "FakinIt2",
-                "name": "Fakin' It All Night Long",
+                "name": "Fakin' It! All Night Long",
                 "background": "game_backgrounds/FakinItANL.webp",
                 "path": "games/FakinIt2",
                 "game_info": {
@@ -6457,7 +6457,7 @@
                         "stream_friendly": "PLAYABLE",
                         "stream_friendly_description": "This game works perfectly on streams with the Remote mode. The categories are adapted for play via stream or video call.",
                         "moderation": "FULL_MODERATION",
-                        "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                        "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. They can also kick players off the game. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
                         "subtitles": true,
                         "type": "VERSUS",
                         "translation": "ENGLISH",

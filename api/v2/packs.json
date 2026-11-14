@@ -837,8 +837,8 @@
                     "family_friendly":"OPTIONAL",
                     "audience":true,
                     "audience_description":"The audience tries to guess who the faker is along with the players.",
-                    "stream_friendly":"MIDLY_PLAYABLE",
-                    "stream_friendly_description":"Players need to be able to see each other for the game to work properly. Therefore, if the game is played through streaming, players must have cameras to play. For the \"YOU GOTTA POINT\" category, it's recommended that players write each other's names on different pieces of paper and show them to the camera when prompted to do so. Alternatively, they can write each other's names in the chat.",
+                    "stream_friendly":"NOT_PLAYABLE",
+                    "stream_friendly_description":"Players need to be able to see each other for the game to work properly. It's recommended to play the \"Remote Mode\" featured in the standalone game Fakin' It XL. For the entry in this Pack, if played through streaming platforms players must have cameras to play. For the \"YOU GOTTA POINT\" category, it's recommended that players write each other's names on different pieces of paper and show them to the camera when prompted to do so. Alternatively, they can write each other's names in the chat.",
                     "moderation":"CENSORING",
                     "moderation_description":"With the \"Manual Censoring\" option enabled, the VIP can censor the player's responses once they appear on screen in the final round.",
                     "subtitles":false,
@@ -4033,7 +4033,7 @@
                         },
                         "family_friendly": "OPTIONAL",
                         "audience": true,
-                        "audience_description": "The audience can vote and participate in mini-games during intermissions.",
+                        "audience_description": "The audience can vote and participate in mini-games during intermissions. They can also influence the background visuals with their voices while the players record their own sounds.",
                         "stream_friendly": "PLAYABLE",
                         "stream_friendly_description": "Since this is a game where players record sounds, if you play with strangers it's recommended to play with the \"Moderation\" option enabled.",
                         "moderation": "FULL_MODERATION",
@@ -4131,9 +4131,9 @@
                         },
                         "family_friendly": "FAMILY_FRIENDLY",
                         "audience": true,
-                        "audience_description": "The audience can also vote.",
+                        "audience_description": "The audience can also vote. They can also suggest whom to question and what to disclose during a lie detector test.",
                         "stream_friendly": "MIDLY_PLAYABLE",
-                        "stream_friendly_description": "Being a social deduction game, it's recommended for players to be able to at least hear each other.",
+                        "stream_friendly_description": "Being a social deduction game, it's recommended for players to be able to at least hear each other. They can also harm players or monsters. Additionally, when playing with strangers, it is recommended to change the \"Player Familiarity\" setting to \"Strangers\" so that the survey questions are adjusted accordingly.",
                         "moderation": "FULL_MODERATION",
                         "moderation_description": "This game doesn't require moderation. However, with the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to kick players off the game if necessary.",
                         "subtitles": true,
@@ -4181,9 +4181,9 @@
                         },
                         "family_friendly": "OPTIONAL",
                         "audience": true,
-                        "audience_description": "The audience can heal players or opponents by rolling dice.",
+                        "audience_description": "The audience can heal players or opponents by rolling dice. They can also damage the players or the monsters.",
                         "stream_friendly": "PLAYABLE",
-                        "stream_friendly_description": "Being a cooperative game, it's recommended for players to be able to at least hear each other to discuss the questions. However, the game works perfectly even if the players can't hear each other.",
+                        "stream_friendly_description": "Being a cooperative game, it's recommended for players to be able to at least hear each other to discuss the questions. However, the game works perfectly even if the players can't hear each other. ",
                         "moderation": "FULL_MODERATION",
                         "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. They can also kick players off the game. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
                         "subtitles": true,
@@ -4221,7 +4221,7 @@
         {
             "id": "jpp11_ms",
             "name": "The Jackbox Party Pack 11 [Microsoft Store]",
-            "description": "Año de lanzamiento: 2025",
+            "description": "Year of release: 2025",
             "launchers_id": {
                 "steam": "TJPP11"
             },
@@ -4317,7 +4317,7 @@
                         },
                         "family_friendly": "OPTIONAL",
                         "audience": true,
-                        "audience_description": "The audience can vote and participate in mini-games during intermissions.",
+                        "audience_description": "The audience can vote and participate in mini-games during intermissions. They can also influence the background visuals with their voices while the players record their own sounds.",
                         "stream_friendly": "PLAYABLE",
                         "stream_friendly_description": "Since this is a game where players record sounds, if you play with strangers it's recommended to play with the \"Moderation\" option enabled.",
                         "moderation": "FULL_MODERATION",
@@ -4415,9 +4415,9 @@
                         },
                         "family_friendly": "FAMILY_FRIENDLY",
                         "audience": true,
-                        "audience_description": "The audience can also vote.",
+                        "audience_description": "The audience can also vote. They can also suggest whom to question and what to disclose during a lie detector test.",
                         "stream_friendly": "MIDLY_PLAYABLE",
-                        "stream_friendly_description": "Being a social deduction game, it's recommended for players to be able to at least hear each other.",
+                        "stream_friendly_description": "Being a social deduction game, it's recommended for players to be able to at least hear each other. Additionally, when playing with strangers, it is recommended to change the \"Player Familiarity\" setting to \"Strangers\" so that the survey questions are adjusted accordingly.",
                         "moderation": "FULL_MODERATION",
                         "moderation_description": "This game doesn't require moderation. However, with the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to kick players off the game if necessary.",
                         "subtitles": true,
@@ -4465,7 +4465,7 @@
                         },
                         "family_friendly": "OPTIONAL",
                         "audience": true,
-                        "audience_description": "The audience can heal players or opponents by rolling dice.",
+                        "audience_description": "The audience can heal players or opponents by rolling dice. They can also damage the players or the monsters.",
                         "stream_friendly": "PLAYABLE",
                         "stream_friendly_description": "Being a cooperative game, it's recommended for players to be able to at least hear each other to discuss the questions. However, the game works perfectly even if the players can't hear each other.",
                         "moderation": "FULL_MODERATION",
@@ -4508,12 +4508,16 @@
             "description": "Year of release: 2026",
             "launchers_id": {
                 "steam": "4199960",
-                "epic": "9294aad1dcf845d5a800f309facae1f1"
+                "epic": "5f897d541f524009a2086f1dceb88fb9"
             },
             "executables": {
                 "windows": "The Jackbox Party Pack 12.exe",
                 "mac": "The Jackbox Party Pack 12.app/Contents/MacOS/The Jackbox Party Pack 12",
                 "linux": "Launcher.sh"
+            },
+            "loader": {
+                "path": "loaders/tjpp12/default.zip",
+                "version": "1.0.0"
             },
             "configuration": {
                 "version_origin": "game_file",
@@ -4521,7 +4525,7 @@
                 "version_property": "buildVersion",
                 "launcher_version_file": {
                     "steam": "jbg.config.jet",
-                    "epic_games": "config.jet",
+                    "epic_games": "jbg.config.jet",
                     "native": "jbg.config.jet"
                 }
             },
@@ -4529,7 +4533,9 @@
                 "mac": "The Jackbox Party Pack 12.app/Contents/Resources/macos"
             },
             "store_links": {
-                "steam": "https://store.steampowered.com/app/4199960/The_Jackbox_Party_Pack_12/"
+                "steam": "https://store.steampowered.com/app/4199960/The_Jackbox_Party_Pack_12/",
+                "epic": "https://store.epicgames.com/p/the-jackbox-party-pack-12-ecd7c0",
+                "jackbox_games_store":"https://www.jackboxgames.com/es/games/packs/the-jackbox-party-pack-12"
             },
             "patchs": [],
             "games": [
@@ -4537,7 +4543,7 @@
                     "id": "weforgotacard",
                     "internal_name": "GratingCards",
                     "name": "We Forgot a Card",
-                    "background": "game_backgrounds/WeforgotaCard.png",
+                    "background": "game_backgrounds/WeForgotaCard.webp",
                     "path": "games/GratingCards",
                     "game_info": {
                         "players": {
@@ -4545,28 +4551,40 @@
                             "max": 8
                         },
                         "playtime": {
-                            "min": 20,
+                            "min": 15,
                             "max": 20
                         },
                         "family_friendly": "OPTIONAL",
                         "audience": true,
+                        "audience_description": "The audience can vote for their favorite answers.",
                         "stream_friendly": "PLAYABLE",
                         "moderation": "FULL_MODERATION",
+                        "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. They can also kick players off the game. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
                         "subtitles": true,
                         "type": "VERSUS",
                         "translation": "ENGLISH",
                         "tagline": "Can you complete it?",
                         "small_description": "Can you complete it?",
-                        "description": "In this game, you create ridiculous greeting cards for bizarre occasions—and if you like, you can even order physical copies to have in your hands. You’re running late for a big event and have stumbled upon a shop with a very limited selection. Time to get creative!",
+                        "description": "A game where you craft ridiculous greeting cards for weird occasions with the option to purchase them IRL. You’re running late to your big event and you stumbled upon a shop with limited options. Time to get creative!",
                         "images": [
-                            "game_images/WeforgotaCard/WeforgotaCard-0001.jpg",
-                            "game_images/WeforgotaCard/WeforgotaCard-0002.jpg",
-                            "game_images/WeforgotaCard/WeforgotaCard-0003.jpg"
+                            "game_images/WeForgotaCard/weforgotacard.mp4",
+                            "game_images/WeForgotaCard/weforgotacard_1.webp",
+                            "game_images/WeForgotaCard/weforgotacard_2.webp",
+                            "game_images/WeForgotaCard/weforgotacard_3.webp"
                         ],
                         "tags": [
                             "writing",
                             "drawing"
                         ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjpp12/weforgotacard.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders":{
+                        "steam":false,
+                        "epic_games":true,
+                        "native":true
                     },
                     "patchs": []
                 },
@@ -4574,7 +4592,7 @@
                     "id": "megapals",
                     "internal_name": "MegaFriends",
                     "name": "MegaPals",
-                    "background": "game_backgrounds/MegaPals.png",
+                    "background": "game_backgrounds/MegaPals.webp",
                     "path": "games/MegaFriends",
                     "game_info": {
                         "players": {
@@ -4583,25 +4601,39 @@
                         },
                         "playtime": {
                             "min": 15,
-                            "max": 15
+                            "max": 20
                         },
-                        "family_friendly": "OPTIONAL",
+                        "family_friendly": "FAMILY_FRIENDLY",
                         "audience": true,
+                        "audience_description": "The audience can vote on who makes the best match and award points to that duo. They can also guess who wrote certain words, which makes that person earn points if they are correct.",
                         "stream_friendly": "PLAYABLE",
                         "moderation": "FULL_MODERATION",
+                        "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. They can also kick players off the game. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
                         "subtitles": true,
                         "type": "VERSUS",
                         "translation": "ENGLISH",
                         "tagline": "Find your match",
                         "small_description": "Find your match",
-                        "description": "A mind-melding game that celebrates both old and new friendships! Discover just how close you are to your friends through spontaneous word games and explosive duels. How well do you know what your fellow players are thinking?",
+                        "description": "A mind-melding game that celebrates friends both old and new! See how connected you are with your pals through impulsive wordsmithing and explosive match-ups. How well do you know how your fellow players think?",
                         "images": [
-                            "game_images/MegaPals/MegaPals.jpg"
+                            "game_images/MegaPals/megapals.mp4",
+                            "game_images/MegaPals/megapals_1.webp",
+                            "game_images/MegaPals/megapals_2.webp",
+                            "game_images/MegaPals/megapals_3.webp",
+                            "game_images/MegaPals/megapals_4.webp"
                         ],
                         "tags": [
-                            "writing",
-                            "deduction"
+                            "writing"
                         ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjpp12/megapals.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders":{
+                        "steam":false,
+                        "epic_games":true,
+                        "native":true
                     },
                     "patchs": []
                 },
@@ -4609,7 +4641,7 @@
                     "id": "debateandswitch",
                     "internal_name": "Debate",
                     "name": "Debate and Switch",
-                    "background": "game_backgrounds/DebateandSwitch.png",
+                    "background": "game_backgrounds/DebateandSwitch.webp",
                     "path": "games/Debate",
                     "game_info": {
                         "players": {
@@ -4617,26 +4649,40 @@
                             "max": 8
                         },
                         "playtime": {
-                            "min": 15,
-                            "max": 15
+                            "min": 10,
+                            "max": 20
                         },
                         "family_friendly": "OPTIONAL",
                         "audience": true,
-                        "stream_friendly": "PLAYABLE",
+                        "audience_description": "The audience can vote alongside the other players during the debates. They can also vote on the next debate twist that a player should choose (though the final decision still rests with that player). They also take part in the \"Audience Debate\"—essentially just lighthearted, nonsensical polls that the audience answers for fun before the actual debates begin.",
+                        "stream_friendly": "MIDLY_PLAYABLE",
+                        "stream_friendly_description":"Being a discussion game, it's recommended for players to be able to at least hear each other.",
                         "moderation": "FULL_MODERATION",
+                        "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. They can also kick players off the game. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
                         "subtitles": true,
                         "type": "VERSUS",
                         "translation": "ENGLISH",
                         "tagline": "Which side are you on?",
                         "small_description": "Which side are you on?",
-                        "description": "Debate and Switch is all about bold opinions on bizarre scenarios. Players take part in a town hall meeting and begin by submitting a silly opinion for debate. For example, you might debate topics like Every menu should feature photos of the food or The school mascot should be truly, genuinely terrifying. Players go head-to-head, arguing for or against their assigned topic. Meanwhile, the other players move in real-time from one side of the town hall to the other, signaling which position they support. After the first round of debate, any player can shift the discussion by selecting and editing a single word within the topic. For instance, We need more spiders! could suddenly become We need hotter spiders! The debaters must think on their feet, adjust their arguments, and win over the crowd. When you aren't debating, you can also submit comments that appear in speech bubbles for all the spectators to see. The debaters can choose to ignore your barbs—or use them as ammunition for their own arguments.",
+                        "description": "A game of dispute and discussion where light-hearted topics meet lively debate. Persuade your fellow players to side with your silly and strongly held opinions in this town hall talk-’em-up tourney!",
                         "images": [
-                            "game_images/DebateandSwitch/DebateandSwitch-0001.jpg"
+                            "game_images/DebateandSwitch/debateandswitch.mp4",
+                            "game_images/DebateandSwitch/debateandswitch_1.webp",
+                            "game_images/DebateandSwitch/debateandswitch_2.webp"
                         ],
                         "tags": [
                             "talking",
                             "writing"
                         ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjpp12/debateandswitch.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders":{
+                        "steam":false,
+                        "epic_games":true,
+                        "native":true
                     },
                     "patchs": []
                 },
@@ -4644,7 +4690,7 @@
                     "id": "hyperface",
                     "internal_name": "ReactionGame",
                     "name": "Hyperface",
-                    "background": "game_backgrounds/Hyperface.png",
+                    "background": "game_backgrounds/Hyperface.webp",
                     "path": "games/ReactionGame",
                     "game_info": {
                         "players": {
@@ -4653,24 +4699,37 @@
                         },
                         "playtime": {
                             "min": 15,
-                            "max": 15
+                            "max": 20
                         },
                         "family_friendly": "OPTIONAL",
                         "audience": true,
+                        "audience_description": "The audience can vote for their favorite answers.",
                         "stream_friendly": "PLAYABLE",
                         "moderation": "FULL_MODERATION",
+                        "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. They can also kick players off the game.",
                         "subtitles": true,
                         "type": "VERSUS",
                         "translation": "ENGLISH",
                         "tagline": "It's morphing time",
                         "small_description": "It's morphing time",
-                        "description": "In this game, you take selfies—or use stock photos—and distort them in wild ways to respond to bizarre prompts like Your face when you’ve just seen a bear. Smear, stretch, and squash the photos, or draw on them, to create unique masterpieces that are just begging to be shared!",
+                        "description": "A game where you take selfies or use stock photos and warp them in wild ways in order to respond to bizarre prompts like “your face when you’ve just seen a bear.” Smudge, yank, squash, and draw on photos to create one-of-a-kind masterpieces meant to be shared!",
                         "images": [
-                            "game_images/Hyperface/Hyperface-0001.jpg"
+                            "game_images/Hyperface/hyperface.mp4",
+                            "game_images/Hyperface/hyperface_1.webp",
+                            "game_images/Hyperface/hyperface_2.webp"
                         ],
                         "tags": [
                             "drawing"
                         ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjpp12/hyperface.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders":{
+                        "steam":false,
+                        "epic_games":true,
+                        "native":true
                     },
                     "patchs": []
                 },
@@ -4678,7 +4737,7 @@
                     "id": "idolfactions",
                     "internal_name": "WordProcessing",
                     "name": "Idol Factions",
-                    "background": "game_backgrounds/IdolFactions.png",
+                    "background": "game_backgrounds/IdolFactions.webp",
                     "path": "games/WordProcessing",
                     "game_info": {
                         "players": {
@@ -4686,26 +4745,323 @@
                             "max": 8
                         },
                         "playtime": {
-                            "min": 15,
+                            "min": 10,
                             "max": 15
                         },
                         "family_friendly": "OPTIONAL",
                         "audience": true,
-                        "stream_friendly": "PLAYABLE",
+                        "audience_description": "The audience can play along with the possible answers given by one of the two teams and compete for their own personal score (each member has an individual score).",
+                        "stream_friendly": "MIDLY_PLAYABLE",
+                        "stream_friendly_description": "Being a trivia team game, it's recommended for players to be able to at least hear each other in order to discuss the possible answers. Considering the real-time factor of the game, it'd be best that each team is in separate voice channels/video calls for proper hearing.",
                         "moderation": "FULL_MODERATION",
+                        "moderation_description": "This game doesn't require moderation. However, with the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to kick players off the game if necessary.",
                         "subtitles": true,
                         "type": "TEAM",
                         "translation": "ENGLISH",
                         "tagline": "Multiple choice madness",
                         "small_description": "Multiple choice madness",
-                        "description": "An action-packed battle of facts where two teams compete to assign answers to the correct categories. You’ll need to think fast and shout out loud to sort the answers that come flying your way, one after another!",
+                        "description": "An action-packed battle of facts where two teams race to sort answers into the right categories. You'll need to think fast and yell loudly to sort the answers that just keep coming!",
                         "images": [
-                            "game_images/IdolFactions/IdolFactions-0001.jpg"
+                            "game_images/IdolFactions/idolfactions.mp4",
+                            "game_images/IdolFactions/idolfactions_1.webp",
+                            "game_images/IdolFactions/idolfactions_2.webp",
+                            "game_images/IdolFactions/idolfactions_3.webp"
                         ],
                         "tags": [
                             "knowledge",
                             "talking"
                         ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjpp12/idolfactions.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders":{
+                        "steam":false,
+                        "epic_games":true,
+                        "native":true
+                    },
+                    "patchs": []
+                }
+            ],
+            "icon": "jpp12.ico",
+            "background": "backgrounds/jpp12.jpg"
+        },
+        {
+            "id": "jpp12_ms",
+            "name": "The Jackbox Party Pack 12 [Microsoft Store]",
+            "description": "Year of release: 2026",
+            "launchers_id": {
+                "steam": "TJPP12"
+            },
+            "executables": {
+                "windows": "TJPP12.exe",
+                "mac": "The Jackbox Party Pack 12.app/Contents/MacOS/The Jackbox Party Pack 12",
+                "linux": "Launcher.sh"
+            },
+            "loader": {
+                "path": "loaders/tjpp12_ms/default.zip",
+                "version": "1.0.0"
+            },
+            "configuration": {
+                "version_origin": "game_file",
+                "version_file": "jbg.config.jet",
+                "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "jbg.config.jet",
+                    "native": "jbg.config.jet"
+                }
+            },
+            "resource_location": {
+                "mac": "The Jackbox Party Pack 12.app/Contents/Resources/macos"
+            },
+            "store_links": {
+                "jackbox_games_store": "https://www.xbox.com/games/store/the-jackbox-party-pack-12/9nsl3hh3h023"
+            },
+            "patchs": [],
+            "games": [
+                {
+                    "id": "weforgotacard_ms",
+                    "internal_name": "GratingCards",
+                    "name": "We Forgot a Card",
+                    "background": "game_backgrounds/WeForgotaCard.webp",
+                    "path": "games/GratingCards",
+                    "game_info": {
+                        "players": {
+                            "min": 3,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 15,
+                            "max": 20
+                        },
+                        "family_friendly": "OPTIONAL",
+                        "audience": true,
+                        "audience_description": "The audience can vote for their favorite answers.",
+                        "stream_friendly": "PLAYABLE",
+                        "moderation": "FULL_MODERATION",
+                        "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. They can also kick players off the game. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                        "subtitles": true,
+                        "type": "VERSUS",
+                        "translation": "ENGLISH",
+                        "tagline": "Can you complete it?",
+                        "small_description": "Can you complete it?",
+                        "description": "A game where you craft ridiculous greeting cards for weird occasions with the option to purchase them IRL. You’re running late to your big event and you stumbled upon a shop with limited options. Time to get creative!",
+                        "images": [
+                            "game_images/WeForgotaCard/weforgotacard.mp4",
+                            "game_images/WeForgotaCard/weforgotacard_1.webp",
+                            "game_images/WeForgotaCard/weforgotacard_2.webp",
+                            "game_images/WeForgotaCard/weforgotacard_3.webp"
+                        ],
+                        "tags": [
+                            "writing",
+                            "drawing"
+                        ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjpp12_ms/weforgotacard.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders":{
+                        "steam":false,
+                        "epic_games":true,
+                        "native":true
+                    },
+                    "patchs": []
+                },
+                {
+                    "id": "megapals_ms",
+                    "internal_name": "MegaFriends",
+                    "name": "MegaPals",
+                    "background": "game_backgrounds/MegaPals.webp",
+                    "path": "games/MegaFriends",
+                    "game_info": {
+                        "players": {
+                            "min": 3,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 15,
+                            "max": 20
+                        },
+                        "family_friendly": "FAMILY_FRIENDLY",
+                        "audience": true,
+                        "audience_description": "The audience can vote on who makes the best match and award points to that duo. They can also guess who wrote certain words, which makes that person earn points if they are correct.",
+                        "stream_friendly": "PLAYABLE",
+                        "moderation": "FULL_MODERATION",
+                        "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. They can also kick players off the game. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                        "subtitles": true,
+                        "type": "VERSUS",
+                        "translation": "ENGLISH",
+                        "tagline": "Find your match",
+                        "small_description": "Find your match",
+                        "description": "A mind-melding game that celebrates friends both old and new! See how connected you are with your pals through impulsive wordsmithing and explosive match-ups. How well do you know how your fellow players think?",
+                        "images": [
+                            "game_images/MegaPals/megapals.mp4",
+                            "game_images/MegaPals/megapals_1.webp",
+                            "game_images/MegaPals/megapals_2.webp",
+                            "game_images/MegaPals/megapals_3.webp",
+                            "game_images/MegaPals/megapals_4.webp"
+                        ],
+                        "tags": [
+                            "writing"
+                        ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjpp12_ms/megapals.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders":{
+                        "steam":false,
+                        "epic_games":true,
+                        "native":true
+                    },
+                    "patchs": []
+                },
+                {
+                    "id": "debateandswitch_ms",
+                    "internal_name": "Debate",
+                    "name": "Debate and Switch",
+                    "background": "game_backgrounds/DebateandSwitch.webp",
+                    "path": "games/Debate",
+                    "game_info": {
+                        "players": {
+                            "min": 2,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 10,
+                            "max": 20
+                        },
+                        "family_friendly": "OPTIONAL",
+                        "audience": true,
+                        "audience_description": "The audience can vote alongside the other players during the debates. They can also vote on the next debate twist that a player should choose (though the final decision still rests with that player). They also take part in the \"Audience Debate\"—essentially just lighthearted, nonsensical polls that the audience answers for fun before the actual debates begin.",
+                        "stream_friendly": "MIDLY_PLAYABLE",
+                        "stream_friendly_description":"Being a discussion game, it's recommended for players to be able to at least hear each other.",
+                        "moderation": "FULL_MODERATION",
+                        "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. They can also kick players off the game. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                        "subtitles": true,
+                        "type": "VERSUS",
+                        "translation": "ENGLISH",
+                        "tagline": "Which side are you on?",
+                        "small_description": "Which side are you on?",
+                        "description": "A game of dispute and discussion where light-hearted topics meet lively debate. Persuade your fellow players to side with your silly and strongly held opinions in this town hall talk-’em-up tourney!",
+                        "images": [
+                            "game_images/DebateandSwitch/debateandswitch.mp4",
+                            "game_images/DebateandSwitch/debateandswitch_1.webp",
+                            "game_images/DebateandSwitch/debateandswitch_2.webp"
+                        ],
+                        "tags": [
+                            "talking",
+                            "writing"
+                        ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjpp12_ms/debateandswitch.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders":{
+                        "steam":false,
+                        "epic_games":true,
+                        "native":true
+                    },
+                    "patchs": []
+                },
+                {
+                    "id": "hyperface_ms",
+                    "internal_name": "ReactionGame",
+                    "name": "Hyperface",
+                    "background": "game_backgrounds/Hyperface.webp",
+                    "path": "games/ReactionGame",
+                    "game_info": {
+                        "players": {
+                            "min": 3,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 15,
+                            "max": 20
+                        },
+                        "family_friendly": "OPTIONAL",
+                        "audience": true,
+                        "audience_description": "The audience can vote for their favorite answers.",
+                        "stream_friendly": "PLAYABLE",
+                        "moderation": "FULL_MODERATION",
+                        "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. They can also kick players off the game.",
+                        "subtitles": true,
+                        "type": "VERSUS",
+                        "translation": "ENGLISH",
+                        "tagline": "It's morphing time",
+                        "small_description": "It's morphing time",
+                        "description": "A game where you take selfies or use stock photos and warp them in wild ways in order to respond to bizarre prompts like “your face when you’ve just seen a bear.” Smudge, yank, squash, and draw on photos to create one-of-a-kind masterpieces meant to be shared!",
+                        "images": [
+                            "game_images/Hyperface/hyperface.mp4",
+                            "game_images/Hyperface/hyperface_1.webp",
+                            "game_images/Hyperface/hyperface_2.webp"
+                        ],
+                        "tags": [
+                            "drawing"
+                        ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjpp12_ms/hyperface.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders":{
+                        "steam":false,
+                        "epic_games":true,
+                        "native":true
+                    },
+                    "patchs": []
+                },
+                                {
+                    "id": "idolfactions_ms",
+                    "internal_name": "WordProcessing",
+                    "name": "Idol Factions",
+                    "background": "game_backgrounds/IdolFactions.webp",
+                    "path": "games/WordProcessing",
+                    "game_info": {
+                        "players": {
+                            "min": 2,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 10,
+                            "max": 15
+                        },
+                        "family_friendly": "OPTIONAL",
+                        "audience": true,
+                        "audience_description": "The audience can play along with the possible answers given by one of the two teams and compete for their own personal score (each member has an individual score).",
+                        "stream_friendly": "MIDLY_PLAYABLE",
+                        "stream_friendly_description": "Being a trivia team game, it's recommended for players to be able to at least hear each other in order to discuss the possible answers. Considering the real-time factor of the game, it'd be best that each team is in separate voice channels/video calls for proper hearing.",
+                        "moderation": "FULL_MODERATION",
+                        "moderation_description": "This game doesn't require moderation. However, with the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to kick players off the game if necessary.",
+                        "subtitles": true,
+                        "type": "TEAM",
+                        "translation": "ENGLISH",
+                        "tagline": "Multiple choice madness",
+                        "small_description": "Multiple choice madness",
+                        "description": "An action-packed battle of facts where two teams race to sort answers into the right categories. You'll need to think fast and yell loudly to sort the answers that just keep coming!",
+                        "images": [
+                            "game_images/IdolFactions/idolfactions.mp4",
+                            "game_images/IdolFactions/idolfactions_1.webp",
+                            "game_images/IdolFactions/idolfactions_2.webp",
+                            "game_images/IdolFactions/idolfactions_3.webp"
+                        ],
+                        "tags": [
+                            "knowledge",
+                            "talking"
+                        ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjpp12_ms/idolfactions.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders":{
+                        "steam":false,
+                        "epic_games":true,
+                        "native":true
                     },
                     "patchs": []
                 }
@@ -6004,14 +6360,15 @@
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/3048060/Trivia_Murder_Party_3/",
-                "epic": "https://store.epicgames.com/en-US/p/trivia-murder-party-518ad2"
+                "epic": "https://store.epicgames.com/en-US/p/trivia-murder-party-518ad2",
+                "jackbox_games_store":"https://www.jackboxgames.com/es/games/trivia-murder-party-3"
             },
             "patchs": [],
             "games": [
                 {
                     "id": "trivia_murder_party_3",
                     "name": "Trivia Murder Party 3",
-                    "background": "game_backgrounds/TriviaMurderParty3.png",
+                    "background": "game_backgrounds/TriviaMurderParty3.webp",
                     "path": "",
                     "game_info": {
                         "players": {
@@ -6023,7 +6380,7 @@
                             "max": 20
                         },
                         "family_friendly": "NOT_FAMILY_FRIENDLY",
-                        "audience": true,
+                        "audience": false,
                         "stream_friendly": "PLAYABLE",
                         "moderation": "NO_MODERATION",
                         "subtitles": true,
@@ -6031,13 +6388,16 @@
                         "translation": "ENGLISH",
                         "tagline": "Survive in Mass Acres!",
                         "small_description": "Survive in Mass Acres!",
-                        "description": "our favorite trivia-obsessed serial killer is heading to summer camp to put you through a sinister new set of minigames and murder. Take a stab at answering questions correctly, engage in luck and skill-based activities, and sabotage your fellow campers in order to survive the summer.",
+                        "description": "Our favorite trivia-obsessed serial killer is heading to summer camp to put you through a sinister new set of minigames and murder. Take a stab at answering questions correctly, engage in luck and skill-based activities, and sabotage your fellow campers in order to survive the summer.",
                         "images": [
-                            "game_images/TriviaMurderParty3/TMP3-0001.jpg",
-                            "game_images/TriviaMurderParty3/TMP3-0002.jpg",
-                            "game_images/TriviaMurderParty3/TMP3-0003.jpg",
-                            "game_images/TriviaMurderParty3/TMP3-0004.jpg",
-                            "game_images/TriviaMurderParty3/TMP3-0005.jpg"
+                            "game_images/TriviaMurderParty3/triviamurderparty3.mp4",
+                            "game_images/TriviaMurderParty3/triviamurderparty3_1.webp",
+                            "game_images/TriviaMurderParty3/triviamurderparty3_2.webp",
+                            "game_images/TriviaMurderParty3/triviamurderparty3_3.webp",
+                            "game_images/TriviaMurderParty3/triviamurderparty3_4.webp",
+                            "game_images/TriviaMurderParty3/triviamurderparty3_5.webp",
+                            "game_images/TriviaMurderParty3/triviamurderparty3_6.webp",
+                            "game_images/TriviaMurderParty3/triviamurderparty3_7.webp"
                         ],
                         "tags": [
                             "knowledge"
@@ -6048,6 +6408,91 @@
             ],
             "icon": "tmp3.ico",
             "background": "backgrounds/tmp3.jpg"
+        },
+        {
+            "id": "fixl",
+            "name": "Fakin’ It! XL",
+            "description": "Year of release: 2026",
+            "launchers_id": {
+                "steam": "5054700"
+            },
+            "executables": {
+                "windows": "Fakin It XL.exe",
+                "linux": "Launcher.sh"
+            },
+            "loader": {
+                "path": "loaders/fixl/default.zip",
+                "version": "1.0.0"
+            },
+            "configuration": {
+                "version_property": "buildVersion",
+                "version_origin": "game_file",
+                "version_file": "jbg.config.jet"
+            },
+            "store_links": {
+                "steam": "https://store.steampowered.com/app/5054700/Fakin_It_XL/",
+                "epic":"https://store.epicgames.com/p/fakin-it-xl-568932",
+                "jackbox_games_store":"https://www.jackboxgames.com/games/fakin-it-xl"
+            },
+            "patchs": [],
+            "games": [
+                {
+                    "id": "fakinitxl",
+                    "internal_name": "FakinItXL",
+                    "name": "Fakin' It! XL",
+                    "background": "game_backgrounds/FakinItXL.webp",
+                    "path": "games/FakinItXL",
+                    "game_info": {
+                        "players": {
+                            "min": 3,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 15,
+                            "max": 20
+                        },
+                        "family_friendly": "OPTIONAL",
+                        "audience": true,
+                        "audience_description": "The audience tries to guess who the faker is along with the players.",
+                        "stream_friendly": "PLAYABLE",
+                        "stream_friendly_description": "This game works perfectly on streams with the Remote mode. The categories are adapted for play via stream or video call.",
+                        "moderation": "FULL_MODERATION",
+                        "moderation_description": "With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                        "subtitles": true,
+                        "type": "VERSUS",
+                        "translation": "ENGLISH",
+                        "tagline": "Catch the Sneaky Trickster!",
+                        "small_description": "Catch the Sneaky Trickster!",
+                        "description": "In Fakin' It XL, one player, the Faker, never gets the prompt and has to bluff their way through. Choose in-room or remote play up front, and get round types built for either. New content, new question types, same lying and grilling you love.",
+                        "images": [
+                            "game_images/FakinItXL/fakinitxl.mp4",
+                            "game_images/FakinItXL/fakinitxl_1.webp",
+                            "game_images/FakinItXL/fakinitxl_2.webp",
+                            "game_images/FakinItXL/fakinitxl_3.webp",
+                            "game_images/FakinItXL/fakinitxl_4.webp",
+                            "game_images/FakinItXL/fakinitxl_5.webp",
+                            "game_images/FakinItXL/fakinitxl_6.webp",
+                            "game_images/FakinItXL/fakinitxl_7.webp",
+                            "game_images/FakinItXL/fakinitxl_8.webp"
+                        ],
+                        "tags": [
+                            "deduction"
+                        ]
+                    },
+                    "loader":{
+                    "path":"loaders/fixl/fakinitxl.zip",
+                    "version":"1.0.0"
+                },
+                "launch_with_loaders":{
+                    "steam":true,
+                    "epic_games":true,
+                    "native":true
+                },
+                    "patchs": []
+                }
+            ],
+            "icon": "fixl.ico",
+            "background": "backgrounds/fixl.jpg"
         },
         {
         "id":"ydkjvol1",
@@ -7504,10 +7949,10 @@
                     "description":"After starting your adventure, all players will join the game with their mobile device. Then the hunt begins as all players receive words on their devices and try to quickly think of a single clue word that connects them together.",
                     "images":[
 						"game_images/Wordabeasts/wordabeasts.mp4",
-                        "game_images/Wordabeasts/wordabeasts_1.jpg",
-                        "game_images/Wordabeasts/wordabeasts_2.jpg",
-                        "game_images/Wordabeasts/wordabeasts_3.jpg",
-                        "game_images/Wordabeasts/wordabeasts_4.jpg"
+                        "game_images/Wordabeasts/wordabeasts_1.webp",
+                        "game_images/Wordabeasts/wordabeasts_2.webp",
+                        "game_images/Wordabeasts/wordabeasts_3.webp",
+                        "game_images/Wordabeasts/wordabeasts_4.webp"
                     ],
                     "tags":[
                     	"writing"
@@ -7571,10 +8016,10 @@
                     "description":"At the beginning of a game, players will choose a music playlist. They will then listen to a sample from one of the songs in the playlist and will choose a fake lyric to fool other players and fit the snippet. People will vote for their favorite lyric, you get bonus points if your answer is the real lyrics.",
                     "images":[
 						"game_images/VerseSurf/versesurf.mp4",
-                        "game_images/VerseSurf/versesurf_1.jpg",
-                        "game_images/VerseSurf/versesurf_2.jpg",
-                        "game_images/VerseSurf/versesurf_3.jpg",
-                        "game_images/VerseSurf/versesurf_4.jpg"
+                        "game_images/VerseSurf/versesurf_1.webp",
+                        "game_images/VerseSurf/versesurf_2.webp",
+                        "game_images/VerseSurf/versesurf_3.webp",
+                        "game_images/VerseSurf/versesurf_4.webp"
                     ],
                     "tags":[
                     	"knowledge"
@@ -7636,10 +8081,10 @@
                     "description":"Every round, all moves are placed on the board at the same time. If X's and O's are placed in the same space, teams have to duke it out on a smaller board to claim it.",
                     "images":[
 						"game_images/TicTacTogether/tictactogether.mp4",
-                        "game_images/TicTacTogether/tictactogether_1.jpg",
-                        "game_images/TicTacTogether/tictactogether_2.jpg",
-                        "game_images/TicTacTogether/tictactogether_3.jpg",
-                        "game_images/TicTacTogether/tictactogether_4.jpg"
+                        "game_images/TicTacTogether/tictactogether_1.webp",
+                        "game_images/TicTacTogether/tictactogether_2.webp",
+                        "game_images/TicTacTogether/tictactogether_3.webp",
+                        "game_images/TicTacTogether/tictactogether_4.webp"
                     ],
                     "tags":[
                     	"deduction"

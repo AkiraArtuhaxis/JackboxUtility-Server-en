@@ -6303,6 +6303,10 @@
                 "mac": "Trivia Murder Party 3.app/Contents/MacOS/TMP3",
                 "linux": "Launcher.sh"
             },
+            "loader": {
+                "path": "loaders/tmp3/default.zip",
+                "version": "1.0.0"
+            },
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.dat",
@@ -6353,6 +6357,15 @@
                             "knowledge"
                         ]
                     },
+                "loader":{
+                    "path":"loaders/tmp3/triviamurderparty3.zip",
+                    "version":"1.0.0"
+                },
+                "launch_with_loaders":{
+                    "steam":true,
+                    "epic_games":true,
+                    "native":true
+                },
                     "patchs": []
                 }
             ],
@@ -6431,7 +6444,7 @@
                             "talking"
                         ]
                     },
-                    "loader":{
+                "loader":{
                     "path":"loaders/fixl/fakinitxl.zip",
                     "version":"1.0.1"
                 },

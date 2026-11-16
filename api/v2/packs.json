@@ -6482,7 +6482,7 @@
                     },
                     "loader":{
                     "path":"loaders/fixl/fakinitxl.zip",
-                    "version":"1.0.0"
+                    "version":"1.0.1"
                 },
                 "launch_with_loaders":{
                     "steam":true,

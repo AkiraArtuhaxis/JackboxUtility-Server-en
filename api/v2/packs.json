@@ -6446,7 +6446,7 @@
                     },
                 "loader":{
                     "path":"loaders/fixl/fakinitxl.zip",
-                    "version":"1.0.1"
+                    "version":"1.0.2"
                 },
                 "launch_with_loaders":{
                     "steam":true,
@@ -6531,7 +6531,7 @@
                     },
                     "loader":{
                     "path":"loaders/fixl/fakinitxl.zip",
-                    "version":"1.0.1"
+                    "version":"1.0.2"
                 },
                 "launch_with_loaders":{
                     "steam":true,

@@ -6451,12 +6451,12 @@
             "name": "Fakin' It! XL [Microsoft Store]",
             "description": "Year of release: 2026",
             "launchers_id": {
-                "steam": "FIXL",
-                "mac":"Fakin It XL.app/Contents/MacOS/Fakin It XL",
-                "linux": "Launcher.sh"
+                "steam": "FIXL"
             },
             "executables": {
-                "windows": "FIXL.exe"
+                "windows": "FIXL.exe",
+                "mac":"Fakin It XL.app/Contents/MacOS/Fakin It XL",
+                "linux": "Launcher.sh"
             },
             "loader": {
                 "path": "loaders/fixl/default.zip",

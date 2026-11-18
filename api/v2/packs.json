@@ -6529,7 +6529,7 @@
                             "talking"
                         ]
                     },
-                    "loader":{
+                "loader":{
                     "path":"loaders/fixl/fakinitxl.zip",
                     "version":"1.0.2"
                 },
